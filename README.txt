@@ -1,14 +1,18 @@
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Documentation status: stub
-Data source: manual
 Data available since: UD v2.1
 License: CC BY-SA 3.0
+Includes text: yes
 Genre: news wiki
+Lemmas: not available
+UPOS: converted from manual
+XPOS: not available
+Features: converted from manual
+Relations: converted from manual
 Contributors: Uszkoreit, Hans; Macketanz, Vivien; Burchardt, Aljoscha; Rehm, Georg; Harris, Kim; Marheinecke, Katrin; Petrov, Slav; Kayadelen, Tolga; Attia, Mohammed; Elkahky, Ali; Yu, Zhuoran; Pitler, Emily; Lertpradit, Saran; Mandl, Michael; Bank, Sebastian; Popel, Martin; Zeman, Daniel
+Contributing: here
 Contact: zeman@ufal.mff.cuni.cz
+Paragraphs to web: 1
 ===============================================================================
-
-
 
 This is a part of the Parallel Universal Dependencies (PUD) treebanks created
 for the CoNLL 2017 shared task on Multilingual Parsing from Raw Text to
