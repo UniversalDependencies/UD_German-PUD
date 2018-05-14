@@ -25506,9 +25506,9 @@
 18	den	_	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3	19	det	_	_
 19	Leuchtturm	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	30	obj	_	_
 20	von	_	ADP	IN	_	23	case	_	_
-21	Punta	_	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing|Person=3	23	flat:name	_	_
+21	Punta	_	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing|Person=3	19	nmod	_	_
 22	des	_	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing|Person=3	21	flat:name	_	_
-23	Este	_	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing|Person=3	19	nmod	_	_
+23	Este	_	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing|Person=3	21	flat:name	_	_
 24	mit	_	ADP	IN	_	26	case	_	_
 25	dem	_	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	26	det	_	_
 26	Leuchtturm	_	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	30	obl	_	_
