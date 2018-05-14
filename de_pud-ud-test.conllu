@@ -4023,9 +4023,9 @@
 16	Trump	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	flat:name	_	SpaceAfter=No
 17	-	_	PUNCT	-	_	15	punct	_	SpaceAfter=No
 18	Imitator	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
-19	John	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	flat:name	_	_
+19	John	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	appos	_	_
 20	Di	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	flat:name	_	_
-21	Domenico	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	appos	_	_
+21	Domenico	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	flat:name	_	_
 22	dem	_	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	25	det	_	_
 23	Online	_	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	25	compound	_	SpaceAfter=No
 24	-	_	PUNCT	-	_	23	punct	_	SpaceAfter=No
@@ -8641,9 +8641,9 @@
 3	von	_	ADP	IN	_	11	case	_	_
 4	Negans	_	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nmod:poss	_	_
 5	(	_	PUNCT	(	_	8	punct	_	SpaceAfter=No
-6	Jeffrey	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	flat:name	_	_
+6	Jeffrey	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	appos	_	_
 7	Dean	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	flat:name	_	_
-8	Morgan	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	appos	_	SpaceAfter=No
+8	Morgan	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	flat:name	_	SpaceAfter=No
 9	)	_	PUNCT	)	_	8	punct	_	_
 10	wichtigsten	_	ADJ	JJ	Case=Dat|Degree=Sup|Number=Plur|Person=3	11	amod	_	InflectionType=Strong
 11	Gefolgsleuten	_	NOUN	NN	Case=Dat|Number=Plur|Person=3	2	nmod	_	_
@@ -9148,9 +9148,9 @@
 # sent_id = n01145015
 # text = Alejandra González Anaya, eine der kreativen Leiterinnen der Parade, erläuterte gegenüber CNN, warum die Mexikaner den Zeitpunkt für diese Art von Veranstaltung gekommen sahen.
 # english_text = Alejandra González Anaya, one of the parade's creative directors, explained to CNN why Mexico have decided now is the time to put on such a show.
-1	Alejandra	_	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	flat:name	_	_
+1	Alejandra	_	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
 2	González	_	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	1	flat:name	_	_
-3	Anaya	_	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	SpaceAfter=No
+3	Anaya	_	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	1	flat:name	_	SpaceAfter=No
 4	,	_	PUNCT	,	_	5	punct	_	_
 5	eine	_	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	appos	_	_
 6	der	_	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|Person=3	8	det	_	_
@@ -14587,9 +14587,9 @@
 # sent_id = w01074088
 # text = Jin Ping Mei, das zwar erst 1610 veröffentlicht worden war, doch auf älterem Material basierte, markierte die Entwicklung hin zu einer unabhängigen Dichtung und zum Interesse an Psychologie.
 # english_text = Jin Ping Mei, published in 1610, although incorporating earlier material, marks the trend toward independent composition and concern with psychology.
-1	Jin	_	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing|Person=3	3	flat:name	_	_
+1	Jin	_	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing|Person=3	19	nsubj	_	_
 2	Ping	_	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing|Person=3	1	flat:name	_	_
-3	Mei	_	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing|Person=3	19	nsubj	_	SpaceAfter=No
+3	Mei	_	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing|Person=3	1	flat:name	_	SpaceAfter=No
 4	,	_	PUNCT	,	_	9	punct	_	_
 5	das	_	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|Person=3	9	nsubj:pass	_	_
 6	zwar	_	ADV	RB	Degree=Pos	9	advmod	_	_
@@ -18451,9 +18451,9 @@
 6	neuen	_	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Person=3	7	amod	_	InflectionType=Weak
 7	Dufts	_	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
 8	von	_	ADP	IN	_	11	case	_	_
-9	Yves	_	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	11	flat:name	_	_
+9	Yves	_	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
 10	Saint	_	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	9	flat:name	_	_
-11	Laurent	_	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
+11	Laurent	_	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	9	flat:name	_	_
 12	Opium	_	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing|Person=3	7	appos	_	SpaceAfter=No
 13	.	_	PUNCT	.	_	4	punct	_	_
 
@@ -18489,9 +18489,9 @@
 26	Ewan	_	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	24	nmod	_	_
 27	McGregor	_	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	26	flat:name	_	_
 28	und	_	CCONJ	CC	_	31	cc	_	_
-29	Kristin	_	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing|Person=3	31	flat:name	_	_
+29	Kristin	_	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing|Person=3	26	conj	_	_
 30	Scott	_	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing|Person=3	29	flat:name	_	_
-31	Thomas	_	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing|Person=3	26	conj	_	SpaceAfter=No
+31	Thomas	_	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing|Person=3	29	flat:name	_	SpaceAfter=No
 32	.	_	PUNCT	.	_	2	punct	_	_
 
 # sent_id = w01135036
@@ -20492,9 +20492,9 @@
 16	denn	_	ADV	RB	Degree=Pos	22	advmod	_	_
 17	den	_	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3	18	det	_	_
 18	Schriftsteller	_	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	22	obj	_	_
-19	Günter	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	flat:name	_	_
+19	Günter	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	appos	_	_
 20	de	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	flat:name	_	_
-21	Bruyn	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	appos	_	_
+21	Bruyn	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	flat:name	_	_
 22	kenne	_	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	12	ccomp	_	SpaceAfter=No
 23	,	_	PUNCT	,	_	27	punct	_	_
 24	ob	_	SCONJ	CC	_	27	mark	_	_
@@ -20710,9 +20710,9 @@
 # sent_id = n02076003
 # text = Adnan Z. Amin, der Generaldirektor der Internationalen Organisation für Erneuerbare Energien (IRENA), ist sich sicher: „Offshore-Windkraft kann die Nummer Eins bei der Stromerzeugung in einer Kohlestrom-freien Weltwirtschaft werden.“
 # english_text = Adnan Z. Amin, General Director of the International Organization for Renewable Energies (IRENA) is certain: "Offshore wind power can become the top power generator in a global economy that is free of coal-based energy."
-1	Adnan	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	flat:name	_	_
+1	Adnan	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
 2	Z.	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	flat:name	_	_
-3	Amin	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	SpaceAfter=No
+3	Amin	_	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	flat:name	_	SpaceAfter=No
 4	,	_	PUNCT	,	_	6	punct	_	_
 5	der	_	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	6	det	_	_
 6	Generaldirektor	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	appos	_	_
@@ -23079,9 +23079,9 @@
 3	ein	_	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Person=3	4	det	_	_
 4	Denkmal	_	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	2	obj	_	_
 5	für	_	ADP	IN	_	8	case	_	_
-6	Martin	_	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	flat:name	_	_
+6	Martin	_	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
 7	Luther	_	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	flat:name	_	_
-8	King	_	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	nmod	_	SpaceAfter=No
+8	King	_	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	flat:name	_	SpaceAfter=No
 9	,	_	PUNCT	,	_	10	punct	_	_
 10	jr	_	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	appos	_	Proper=True|SpaceAfter=No
 11	.	_	PUNCT	.	_	2	punct	_	_
