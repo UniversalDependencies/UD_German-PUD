@@ -1,15 +1,11 @@
-Sun Feb 11 20:42:21 CET 2018
-perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_German-PUD
 Running the following version of tools/evaluate_treebank.pl:
-commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Feb 11 20:27:50 2018 +0100
-Switched to branch 'master'
-Your branch is up-to-date with 'origin/master'.
+Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_German-PUD:
-commit eaa22f723f44458ee0f97ac63f3ac36f871b3aab
+commit d6c65d0f37f82620d43e27b563fc9652dc9ddc68
+Merge: d9112f7 d84a895
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 11 13:58:22 2017 +0100
 Size: counted 21325 of 21325 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.11976018675549.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,19 +19,20 @@ Features: 14693 out of 21325 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 5678 bugs.
+Udapi: found 5669 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 21325 words.
-Genres: found 2 out of 14 known.
+Genres: found 2 out of 17 known.
+validate.py --lang de --max-err=10 UD_German-PUD/de_pud-ud-test.conllu
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.142857142857143) = 0.010989010989011
+(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
 (weight=0.256410256410256) * (score{size}=0.442963013279854) = 0.113580259815347
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.318530788883523) * (availability=1) * (validity=1) = 0.318530788883523
+(TOTAL score=0.316591551650168) * (availability=1) * (validity=1) = 0.316591551650168
 STARS = 1.5
-UD_German-PUD	0.318530788883523	1.5
-Switched to branch 'dev'
-Your branch is up-to-date with 'origin/dev'.
+UD_German-PUD	0.316591551650168	1.5
