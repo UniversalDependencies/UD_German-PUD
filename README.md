@@ -36,6 +36,8 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2018-11-15 v2.3
+  * Added lemmas (output of UDPipe manually checked and fixed).
 * 2018-07-01 v2.2
   * Fixed direction of flat:name relations.
 * 2017-11-15 v2.1
@@ -109,7 +111,7 @@ Data available since: UD v2.1
 License: CC BY-SA 3.0
 Includes text: yes
 Genre: news wiki
-Lemmas: not available
+Lemmas: manual native
 UPOS: converted from manual
 XPOS: not available
 Features: converted from manual
