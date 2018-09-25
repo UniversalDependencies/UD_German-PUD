@@ -22037,7 +22037,7 @@
 6	angewandte	angewandt	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	7	amod	_	InflectionType=Weak
 7	Forschung	Forschung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
 8	bei	bei	ADP	APPR	_	9	case	_	_
-9	Sicherheitsmaßnahmen	Sicherheitsmaßnahmen	PROPN	NN	Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	_
+9	Sicherheitsmaßnahmen	Sicherheitsmaßnahme	PROPN	NN	Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	_
 10	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 11	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 12	humanoider	humanoider	ADJ	NE	Case=Acc|Number=Sing	13	amod	_	InflectionType=Mixed
@@ -22173,7 +22173,7 @@
 11	repräsentiert	repräsentieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	die	der	PRON	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	besonders	besonders	ADV	ADV	_	14	amod	_	InflectionType=Weak
-14	Konvervativen	Konvervative	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	InflectionType=Weak|SpaceAfter=No
+14	Konvervativen	Konservative	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	InflectionType=Weak|SpaceAfter=No
 15	,	,	PUNCT	$,	_	25	punct	_	_
 16	während	während	SCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	25	mark	_	_
 17	Parteiführer	Parteiführer	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
@@ -22183,7 +22183,7 @@
 21	Javier	Javier	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	20	appos	_	_
 22	Maroto	Maroto	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	21	flat:name	_	_
 23	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
-24	Progressivsten	Progressivst	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	25	obj	_	InflectionType=Weak
+24	Progressivsten	Progressivste	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	25	obj	_	InflectionType=Weak
 25	vertreten	vertreten	VERB	VVPP	VerbForm=Part	11	advcl	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	11	punct	_	_
 
@@ -22251,7 +22251,7 @@
 6	nicht	nicht	PART	CARD	NumType=Card	7	advmod	_	_
 7	frei	frei	ADJ	ADJD	_	0	root	_	_
 8	von	von	ADP	NN	Case=Acc|Gender=Neut|Number=Plur	9	case	_	_
-9	Kritik	kritik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+9	Kritik	Kritik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	7	punct	_	_
 
 # sent_id = n05002017
@@ -22323,7 +22323,7 @@
 2	Verteidigungsminister	Verteidigungsminister	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
-5	gestattet	gestatten|statten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+5	gestattet	gestatten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	12	punct	_	_
 7	vorerst	vorerst	ADV	FM	Foreign=Yes	12	advmod	_	_
 8	Generalsekretärin	Generalsekretärin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	xcomp	_	_
@@ -22437,7 +22437,7 @@
 9	,	,	PUNCT	$,	_	12	punct	_	_
 10	in	in	ADP	APPR	_	12	case	_	_
 11	historischen	historisch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	12	amod	_	InflectionType=Strong
-12	Rechten	Recht|Rechte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+12	Rechten	Recht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
 13	?	?	PUNCT	$.	_	3	punct	_	_
 
 # newdoc id = n05005
@@ -22465,7 +22465,7 @@
 19	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 20	einzelnen	einzeln	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	21	amod	_	InflectionType=Weak
 21	Mann	Mann	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	_
-22	ist.	ist.	X	NE	Case=Gen|Gender=Neut|Number=Sing	15	cop	_	SpaceAfter=No
+22	ist.	sein.	X	NE	Case=Gen|Gender=Neut|Number=Sing	15	cop	_	SpaceAfter=No
 23	“	“	PUNCT	$.	_	10	punct	_	_
 
 # sent_id = n05005016
@@ -22511,7 +22511,7 @@
 3	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	4	cc	_	_
 4	Western	Western	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	conj	_	_
 5	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
-6	Schlachten	Schlacht|Schlachten	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	nsubj	_	SpaceAfter=No
+6	Schlachten	Schlacht	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	8	punct	_	_
 8	Kämpfe	Kampf	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
 9	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	10	cc	_	_
@@ -22581,7 +22581,7 @@
 6	,	,	PUNCT	$,	_	13	punct	_	_
 7	wieso	wieso	SCONJ	PWAV	PronType=Int	13	advmod	_	_
 8	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
-9	Tränen	Träne|Tränen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	nsubj	_	_
+9	Tränen	Träne	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	nsubj	_	_
 10	in	in	ADP	APPR	_	12	case	_	_
 11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	det	_	_
 12	Augen	Auge	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	nmod	_	_
@@ -22649,7 +22649,7 @@
 8	Bezug	Bezug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
 9	auf	auf	ADP	APPR	_	11	case	_	_
 10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
-11	Stimmen	Stimme|Stimmen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	nmod	_	_
+11	Stimmen	Stimme	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	nmod	_	_
 12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Hispanics	Hispanic	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
 14	auf	auf	ADP	APPR	_	16	case	_	_
@@ -22738,7 +22738,7 @@
 11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Plaza	Plaza	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 13	de	de	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	15	case	_	Proper=True
-14	las	lesen	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	15	det	_	Proper=True
+14	las	las	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	15	det	_	Proper=True
 15	Victorias	Victorias	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	Proper=True|SpaceAfter=No
 16	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -22793,7 +22793,7 @@
 13	vor	vor	ADP	NE	Case=Dat|Gender=Neut|Number=Sing	15	case	_	_
 14	St.	St.	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	15	amod	_	Proper=True
 15	Michael	Michael	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	_
-16	ziehen	zeihen|ziehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	ziehen	ziehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	bis	bis	ADP	APPR	_	18	case	_	_
 18	heute	heute	ADV	ADV	_	16	obl	_	_
 19	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
@@ -22812,7 +22812,7 @@
 5-6	am	_	_	_	_	_	_	_	_
 5	an	an	ADP	APPR	_	7	case	_	_
 6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	30.	30	NUM	CARD	NumType=Card	4	obl	_	InflectionType=Weak
+7	30.	30.	NUM	CARD	NumType=Card	4	obl	_	InflectionType=Weak
 8	April	April	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl:tmod	_	_
 9	1955	1955	NUM	CARD	NumType=Card	8	obl:tmod	_	_
 10	statt	statt	ADP	NE	Case=Gen|Gender=Masc|Number=Sing	4	compound:prt	_	SpaceAfter=No
@@ -22827,7 +22827,7 @@
 3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 4	mit	mit	ADP	APPR	_	6	case	_	_
 5	34	34	NUM	CARD	NumType=Card	6	nummod	_	_
-6	Feuermeldern	Feuermeld	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	_
+6	Feuermeldern	Feuermelder	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	_
 7	ausgestattetes	ausgestattet	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	10	amod	_	InflectionType=Mixed
 8	Telegraphie	Telegraphie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	compound	_	SpaceAfter=No
 9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
@@ -22926,7 +22926,7 @@
 # text = Die muslimischen Mitbürger, die sich seit Anfang der 1960er Jahre angesiedelt haben, stammen überwiegend aus der Türkei.
 # text_en = The Islamic citizens who have settled since the beginning of the 1960s emigrated primarily from Turkey.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-2	muslimischen	muslimischen	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	InflectionType=Weak
+2	muslimischen	muslimisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	InflectionType=Weak
 3	Mitbürger	Mitbürger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	12	punct	_	_
 5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	12	nsubj	_	_
@@ -22976,7 +22976,7 @@
 7	ursprünglich	ursprünglich	ADJ	ADJD	_	6	advmod	_	_
 8	aus	aus	ADP	APPR	_	11	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
-10	13.	13	NUM	CARD	NumType=Card	11	amod	_	InflectionType=Weak
+10	13.	13.	NUM	CARD	NumType=Card	11	amod	_	InflectionType=Weak
 11	Jahrhundert	Jahrhundert	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
 12	und	und	CCONJ	NN	Case=Dat|Gender=Fem|Number=Sing	18	cc	_	_
 13	wurde	werden	AUX	NE	Case=Dat|Gender=Neut|Number=Sing	18	aux:pass	_	_
@@ -22995,7 +22995,7 @@
 3	Gründe	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obl	_	_
 4	für	für	ADP	APPR	_	6	case	_	_
 5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
-6	Verlassen	verlassen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
+6	Verlassen	Verlassen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
 7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Ortes	Ort	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 9	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -23013,7 +23013,7 @@
 3	vier	vier	NUM	NN	Case=Gen|Gender=Masc|Number=Sing	4	nummod	_	_
 4	Kilometer	Kilometer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	advmod	_	_
 5	lange	lang	ADJ	NE	Case=Gen|Gender=Masc|Number=Sing	8	amod	_	InflectionType=Weak
-6	Golden	Golde	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	7	compound	_	Proper=True
+6	Golden	Golden	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	7	compound	_	Proper=True
 7	Gate	Gate	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	8	compound	_	Proper=True
 8	Park	Park	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	9	nsubj	_	Proper=True
 9	bietet	bieten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -23026,7 +23026,7 @@
 16	,	,	PUNCT	$,	_	19	punct	_	_
 17	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 18	japanischen	japanisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	19	amod	_	InflectionType=Mixed|Proper=True
-19	Teegarten	Teegart	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	conj	_	_
+19	Teegarten	Teegarten	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	conj	_	_
 20	und	und	CCONJ	NE	Case=Nom|Number=Sing	22	cc	_	_
 21	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
 22	Aquarium	Aquarium	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No
@@ -23039,7 +23039,7 @@
 2	dient	dienen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	San	San	PROPN	NE	Case=Gen|Number=Sing	8	iobj	_	_
-5	Franciscans	Franciscans	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	4	flat:name	_	_
+5	Franciscans	Franciscan	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	4	flat:name	_	_
 6	als	als	ADP	KOKOM	_	8	cc	_	_
 7	städtisches	städtisch	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	8	amod	_	InflectionType=Strong
 8	Naherholungsgebiet	Naherholungsgebiet	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
@@ -23064,7 +23064,7 @@
 14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
 15	Dach	Dach	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	_
 16	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
-17	Moscone	Moscon	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	18	compound	_	_
+17	Moscone	Moscone	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	18	compound	_	_
 18	North	North	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	19	compound	_	Proper=True
 19	Convention	Convention	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	20	compound	_	Proper=True
 20	Center	Center	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	Proper=True
@@ -23102,7 +23102,7 @@
 10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 12	steil	steil	ADV	ADJD	_	5	advmod	_	_
-13	bergab	bergeben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advmod	_	SpaceAfter=No
+13	bergab	bergab	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advmod	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	5	punct	_	_
 
 # sent_id = w02006081
@@ -23162,7 +23162,7 @@
 17	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 18	parallel	parallel	ADJ	NE	Foreign=Yes	20	advmod	_	_
 19	zu	zu	ADP	NE	Foreign=Yes	20	mark	_	_
-20	bauenden	bauenden	PROPN	VVINF	VerbForm=Inf	23	amod	_	InflectionType=Weak
+20	bauenden	bauend	PROPN	VVINF	VerbForm=Inf	23	amod	_	InflectionType=Weak
 21	Istanbul	Istanbul	PROPN	FM	Foreign=Yes	23	compound	_	SpaceAfter=No
 22	-	-	PUNCT	$(	_	21	punct	_	Proper=True|SpaceAfter=No
 23	Kanal	Kanal	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	obl	_	Proper=True
@@ -23198,13 +23198,13 @@
 # text = Dem Osmanischen Reich und Russland war das Unterhalten einer Kriegsflotte im Schwarzen Meer untersagt.
 # text_en = The Ottoman Empire and Russia were denied permission to keep their war fleet in the Black Sea.
 1	Dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
-2	Osmanischen	Osmanische	PROPN	ADJA	Case=Dat|Gender=Neut|Number=Sing	3	amod	_	InflectionType=Weak|Proper=True
+2	Osmanischen	osmanisch	PROPN	ADJA	Case=Dat|Gender=Neut|Number=Sing	3	amod	_	InflectionType=Weak|Proper=True
 3	Reich	Reich	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	15	iobj	_	Proper=True
 4	und	und	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	5	cc	_	_
 5	Russland	Rußland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	conj	_	_
 6	war	sein	AUX	ADV	_	15	cop	_	_
 7	das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	det	_	_
-8	Unterhalten	unterhalten	NOUN	VVPP	VerbForm=Inf	15	nsubj	_	_
+8	Unterhalten	Unterhalten	NOUN	VVPP	VerbForm=Inf	15	nsubj	_	_
 9	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Kriegsflotte	Kriegsflotte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
 11-12	im	_	_	_	_	_	_	_	_
@@ -23250,7 +23250,7 @@
 5	auf	auf	ADP	APPR	_	10	case	_	_
 6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 7	frühe	früh	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	InflectionType=Weak
-8	5.	5	NUM	CARD	NumType=Card	7	conj	_	InflectionType=Weak
+8	5.	5.	NUM	CARD	NumType=Card	7	conj	_	InflectionType=Weak
 9	vorchristliche	vorchristlich	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	7	conj	_	InflectionType=Weak
 10	Jahrhundert	Jahrhundert	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	16	punct	_	_
@@ -23258,7 +23258,7 @@
 13	wie	wie	ADP	ADV	_	16	cc	_	_
 14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det:predet	_	_
 15	meisten	meist	ADJ	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
-16	Fundplätze	Fundplätze	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	_
+16	Fundplätze	Fundplatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	_
 17	Südosteuropas	Südosteuropa	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -23300,7 +23300,7 @@
 # sent_id = w02008065
 # text = Technologisch bemerkenswert ist überdies ihr Verfahren, Kupfer zu vergolden.
 # text_en = In addition, its process of gilding copper is technologically noteworthy.
-1	Technologisch	Technologisch	ADJ	ADJD	_	2	advmod	_	_
+1	Technologisch	technologisch	ADJ	ADJD	_	2	advmod	_	_
 2	bemerkenswert	bemerkenswert	ADJ	ADJD	_	0	root	_	_
 3	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	2	cop	_	_
 4	überdies	überdies	ADV	NE	Case=Dat|Gender=Masc|Number=Sing|PronType=Rel	2	advmod	_	_
@@ -23404,7 +23404,7 @@
 # text = Ich erkläre die ersten internationalen Olympischen Spiele für beendet.
 # text_en = I declare the first international Olympic games over.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
-2	erkläre	erklär	ADJ	NN	Case=Nom|Gender=Fem|Number=Sing	9	cop	_	_
+2	erkläre	erklären	ADJ	NN	Case=Nom|Gender=Fem|Number=Sing	9	cop	_	_
 3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 4	ersten	erst	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	7	amod	_	InflectionType=Weak
 5	internationalen	international	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	4	conj	_	InflectionType=Weak|Proper=True
@@ -23439,7 +23439,7 @@
 # text = Die Industrielle Revolution fand in Großbritannien früher als in jedem anderen Staat der Erde statt.
 # text_en = The Industrial Revolution took place in Great Britain earlier than in any other country.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	Industrielle	Industrielle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	InflectionType=Weak
+2	Industrielle	industriell	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	InflectionType=Weak
 3	Revolution	Revolution	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 4	fand	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	in	in	ADP	APPR	_	6	case	_	_
@@ -23466,7 +23466,7 @@
 6	Grenzen	Grenze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	obj	_	_
 7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	alten	alt	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	9	amod	_	InflectionType=Weak
-9	Kolonialmächte	Kolonialmächte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+9	Kolonialmächte	Kolonialmacht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
 10	Großbritannien	Großbritannien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	appos	_	_
 11	und	und	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	12	cc	_	_
 12	Frankreich	Frankreich	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	conj	_	_
@@ -23565,7 +23565,7 @@
 10	Ausgleich	Ausgleich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	_
 11	penibel	penibel	ADJ	ADJD	_	13	advmod	_	_
 12	darauf	darauf	ADV	PAV	_	13	advmod	_	_
-13	bedacht	bedachen|bedenken	VERB	ADJD	_	0	root	_	SpaceAfter=No
+13	bedacht	bedenken	VERB	ADJD	_	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	20	punct	_	_
 15	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes	17	nmod:poss	_	_
 16	beiden	beide	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
@@ -23631,7 +23631,7 @@
 1	Die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	3	det	_	_
 2	vertriebenen	vertrieben	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	InflectionType=Weak
 3	Ordensschwestern	Ordensschwester	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-4	übersiedelten	übersiedelten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	übersiedelten	übersiedeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	in	in	ADP	APPR	_	7	case	_	_
 6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	Kloster	Kloster	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
@@ -23688,7 +23688,7 @@
 1	Bei	bei	ADP	APPR	_	4	case	_	_
 2	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
 3	Olympischen	olympisch	PROPN	NN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	amod	_	InflectionType=Weak|Proper=True
-4	Spielen	Spiel|Spielen	PROPN	NN	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	Proper=True
+4	Spielen	Spiel	PROPN	NN	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	Proper=True
 5	2004	2004	NUM	CARD	NumType=Card	4	obl:tmod	_	_
 6	in	in	ADP	APPR	_	7	case	_	_
 7	Athen	Athen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
@@ -23767,7 +23767,7 @@
 # sent_id = w02018030
 # text = Weiss wurde mit den Literaturpreisen der Städte Köln und Bremen geehrt.
 # text_en = Weiss was honored with the literature prizes from the cities of Cologne and Bremen.
-1	Weiss	weiß	PROPN	NN	Case=Gen|Number=Sing	11	nsubj:pass	_	_
+1	Weiss	Weiss	PROPN	NN	Case=Gen|Number=Sing	11	nsubj:pass	_	_
 2	wurde	werden	AUX	NN	Case=Gen|Gender=Neut|Number=Sing	11	aux:pass	_	_
 3	mit	mit	ADP	APPR	_	5	case	_	_
 4	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
@@ -23801,7 +23801,7 @@
 15	ein	ein	ADV	PTKVZ	_	4	compound:prt	_	_
 16	und	und	CCONJ	NE	Case=Nom|Number=Sing	17	cc	_	_
 17	unternahm	unternehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
-18	mehrere	mehrere	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	19	det	_	_
+18	mehrere	mehr	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	19	det	_	_
 19	Reisen	reisen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
 20	nach	nach	ADP	CARD	NumType=Card	21	case	_	_
 21	Israel	Israel	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
@@ -23875,7 +23875,7 @@
 21	Einwanderern	Einwanderer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	25	obl	_	_
 22	und	und	CCONJ	NN	Case=Dat|Gender=Fem|Number=Sing	24	cc	_	_
 23	deren	der	DET	PDAT	Case=Gen|Number=Plur|PronType=Dem	24	nmod:poss	_	_
-24	Nachfahren	Nachfahren	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	conj	_	_
+24	Nachfahren	Nachfahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	conj	_	_
 25	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	7	punct	_	_
 
@@ -23903,7 +23903,7 @@
 1	In	in	ADP	APPR	_	4	case	_	_
 2	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
 3	frühen	früh	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	4	amod	_	InflectionType=Weak
-4	2000ern	2000ern	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	_
+4	2000ern	2000er	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	_
 5	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
 7	fünf	fünf	NUM	CARD	NumType=Card	8	nummod	_	_
@@ -23953,7 +23953,7 @@
 6-7	am	_	_	_	_	_	_	_	_
 6	an	an	ADP	APPR	_	8	case	_	_
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	27.	27	NUM	CARD	NumType=Card	3	obl	_	InflectionType=Weak
+8	27.	27.	NUM	CARD	NumType=Card	3	obl	_	InflectionType=Weak
 9	Januar	Januar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl:tmod	_	_
 10	1820	1820	NUM	CARD	NumType=Card	9	obl:tmod	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	13	punct	_	_
@@ -24006,7 +24006,7 @@
 21	28	28	NUM	CARD	NumType=Card	22	nummod	_	_
 22	Männern	Mann	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_
 23	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	24	det	_	_
-24	Segel	segel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No
+24	Segel	Segel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	30	punct	_	_
 26	um	um	ADP	KOUI	_	30	mark	_	_
 27	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -24055,7 +24055,7 @@
 11	um	um	ADP	KOUI	_	15	mark	_	_
 12	Geschäfte	Geschäft	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	15	obj	_	_
 13	in	in	ADP	APPR	_	14	case	_	_
-14	Süditalien	Süditalie	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	_
+14	Süditalien	Süditalien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	_
 15	abzuwickeln	abwickeln	VERB	VVINF	VerbForm=Inf	9	advcl	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -24066,7 +24066,7 @@
 1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	4	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
-3	8.	8	NUM	CARD	NumType=Card	4	amod	_	InflectionType=Weak
+3	8.	8.	NUM	CARD	NumType=Card	4	amod	_	InflectionType=Weak
 4	Jahrhundert	Jahrhundert	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
 5	n.	n.	ADJ	NN	Case=Dat|Gender=Neut|Number=Sing	6	case	_	_
 6	Chr.	Chr.	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nmod	_	_
@@ -24077,14 +24077,14 @@
 11	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 12	Dunklen	dunkel	ADJ	NN	Case=Dat|Gender=Fem|Number=Plur	13	amod	_	InflectionType=Weak
 13	Jahrhunderten	Jahrhundert	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obl	_	_
-14	emporzusteigen	emporzusteigen	VERB	VVINF	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+14	emporzusteigen	emporsteigen	VERB	VVINF	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	23	punct	_	_
 16	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	23	nsubj	_	_
 17	auf	auf	ADP	APPR	_	19	case	_	_
 18	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Fall	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	obl	_	_
 20	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-21	Mykenischen	Mykenisch	PROPN	ADJA	Case=Gen|Gender=Fem|Number=Sing	22	amod	_	InflectionType=Weak|Proper=True
+21	Mykenischen	mykenisch	PROPN	ADJA	Case=Gen|Gender=Fem|Number=Sing	22	amod	_	InflectionType=Weak|Proper=True
 22	Kultur	Kultur	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
 23	gefolgt	folgen	VERB	VVPP	VerbForm=Part	13	acl:relcl	_	_
 24	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	SpaceAfter=No
@@ -24111,10 +24111,10 @@
 16	Griechen	Grieche	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	Proper=True
 17	übernahmen	übernehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
 18	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
-19	Phoenizische	Phoenizische	NOUN	ADJA	Case=Nom|Gender=Fem|Number=Sing	20	amod	_	InflectionType=Weak|Proper=True
+19	Phoenizische	phoenizisch	NOUN	ADJA	Case=Nom|Gender=Fem|Number=Sing	20	amod	_	InflectionType=Weak|Proper=True
 20	Alphabet	Alphabet	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
 21	und	und	CCONJ	NE	Case=Nom|Gender=Neut|Number=Sing	22	cc	_	_
-22	modifizierten	modifiziert	ADJ	CARD	NumType=Card	17	conj	_	_
+22	modifizierten	modifizieren	ADJ	CARD	NumType=Card	17	conj	_	_
 23	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
 24	,	,	PUNCT	$,	_	31	punct	_	_
 25	um	um	ADP	KOUI	_	31	mark	_	_
@@ -24132,7 +24132,7 @@
 1-2	Vom	_	_	_	_	_	_	_	_
 1	Von	von	ADP	APPR	_	4	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-3	9.	9	ADJ	CARD	NumType=Card	4	amod	_	InflectionType=Weak
+3	9.	9.	ADJ	CARD	NumType=Card	4	amod	_	InflectionType=Weak
 4	Jahrhundert	Jahrhundert	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
 5	n.	n.	ADP	NN	Case=Dat|Gender=Neut|Number=Sing	6	case	_	_
 6	Chr.	Chr.	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nmod	_	_
@@ -24193,7 +24193,7 @@
 1	Etwa	etwa	ADV	ADV	_	5	advmod	_	_
 2	seit	seit	ADP	ADJA	Case=Dat|Gender=Masc|Number=Plur	5	case	_	_
 3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-4	8.	8	NUM	CARD	NumType=Card	5	amod	_	InflectionType=Weak
+4	8.	8.	NUM	CARD	NumType=Card	5	amod	_	InflectionType=Weak
 5	Jahrhundert	Jahrhundert	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
 6	n.	n.	ADJ	NN	Case=Dat|Gender=Neut|Number=Sing	7	case	_	_
 7	Chr.	Chr.	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nmod	_	_
@@ -24272,7 +24272,7 @@
 5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Errichtung	Errichtung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
 7	gewerbsmäßiger	gewerbsmäßig	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	8	amod	_	InflectionType=Strong
-8	Außenposten	Außenpost	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	Außenposten	Außenposten	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 9-10	im	_	_	_	_	_	_	_	_
 9	in	in	ADP	APPR	_	12	case	_	_
 10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -24304,7 +24304,7 @@
 9	als	als	ADP	KOKOM	_	11	cc	_	_
 10	radikaler	radikal	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	InflectionType=Strong
 11	Revolutionär	Revolutionär	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
-12	vestanden	vestanden	VERB	VVINF	VerbForm=Inf	5	cop	_	_
+12	vestanden	vestehen	VERB	VVINF	VerbForm=Inf	5	cop	_	_
 13	werden	werden	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	5	punct	_	_
 
@@ -24413,7 +24413,7 @@
 9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Großteil	Großteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
 11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
-12	Sommers	Sommers	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	Sommers	Sommer	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
 13	1947	1947	NUM	CARD	NumType=Card	12	obl:tmod	_	_
 14	in	in	ADP	APPR	_	16	case	_	_
 15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -24540,7 +24540,7 @@
 15	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 16	wenig	wenig	ADV	NN	Case=Acc|Gender=Fem|Number=Plur	17	advmod	_	_
 17	später	spät	ADJ	ADJD	_	18	advmod	_	_
-18	gestand	gestand	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+18	gestand	gestehen	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	4	punct	_	_
 
 # newdoc id = w04001
@@ -24554,7 +24554,7 @@
 4	Teil	Teil	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
 5	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
-7	Palmen	Palmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	obj	_	SpaceAfter=No
+7	Palmen	Palme	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	obj	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	12	punct	_	_
 9	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	12	nsubj	_	_
 10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -24580,7 +24580,7 @@
 4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	Auftreten	Auftreten	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
 6	von	von	ADP	NE	Case=Gen|Number=Sing	7	case	_	_
-7	Hurricanes	Hurricanes	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Hurricanes	Hurricane	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 8-9	im	_	_	_	_	_	_	_	_
 8	in	in	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -24800,12 +24800,12 @@
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	viele	viel	PRON	NE	Case=Acc|Gender=Fem|Number=Sing	5	det	_	_
-4	prähistorische	prähistorische	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	InflectionType=Strong
+4	prähistorische	prähistorisch	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	InflectionType=Strong
 5	Artefakte	Artefakt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	9	punct	_	_
 7	darunter	darunter	ADV	PAV	_	9	advmod	_	_
 8	verschiedene	verschieden	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	9	amod	_	InflectionType=Strong
-9	Menhire	Menhire	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+9	Menhire	Menhir	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
 10	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	11	cc	_	_
 11	Dolmen	Dolmen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	2	punct	_	_
@@ -24845,7 +24845,7 @@
 1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	4	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
-3	13.	13	NUM	CARD	NumType=Card	4	amod	_	InflectionType=Weak
+3	13.	13.	NUM	CARD	NumType=Card	4	amod	_	InflectionType=Weak
 4	Jahrhundert	Jahrhundert	NOUN	VVPP	VerbForm=Part	12	obl	_	_
 5	wurde	werden	AUX	TRUNC	_	12	aux:pass	_	_
 6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -24935,12 +24935,12 @@
 5	geriet	geraten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 7	junger	jung	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	9	amod	_	InflectionType=Mixed
-8	korsicher	korsich	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	InflectionType=Mixed|Proper=True
+8	korsicher	korsisch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	InflectionType=Mixed|Proper=True
 9	Artillerieoffizier	Artillerieoffizier	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 10	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	11	cc	_	_
 11	Anhänger	Anhänger	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
 12	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-13	Französichen	Französichen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	14	amod	_	InflectionType=Weak|Proper=True
+13	Französichen	französisch	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	14	amod	_	InflectionType=Weak|Proper=True
 14	Revolution	Revolution	PROPN	FM	Foreign=Yes	11	nmod	_	Proper=True
 15	schnell	schnell	ADV	NE	Case=Dat|Gender=Neut|Number=Sing	5	advmod	_	_
 16	in	in	ADP	APPR	_	18	case	_	_
@@ -25034,7 +25034,7 @@
 12	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	allgemeinen	allgemein	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	14	amod	_	InflectionType=Mixed
 14	Friedensvertrag	Friedensvertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
-15	führen	fahren|führen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	_
+15	führen	führen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	_
 16	würde	werden	AUX	NN	Case=Acc|Gender=Masc|Number=Sing	15	aux	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	23	punct	_	_
 18	aber	aber	CCONJ	KON	_	23	cc	_	_
@@ -25074,7 +25074,7 @@
 8	Fiorello	Fiorello	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 9	in	in	ADP	APPR	_	12	case	_	_
 10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-11	Episkopalen	Episkopal	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	12	amod	_	InflectionType=Weak|Proper=True
+11	Episkopalen	episkopal	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	12	amod	_	InflectionType=Weak|Proper=True
 12	Kirche	Kirche	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
 13	ausgebildet	ausbilden	VERB	VVPP	VerbForm=Part	0	root	_	_
 14	und	und	CCONJ	NE	Case=Nom|Number=Sing	21	cc	_	_
@@ -25105,7 +25105,7 @@
 9	zwischen	zwischen	ADP	ADJA	Case=Acc|Gender=Neut|Number=Sing	12	case	_	_
 10	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det:predet	_	_
 11	beiden	beide	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	12	det	_	_
-12	Reichen	reichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	13	obl	_	_
+12	Reichen	Reich	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	13	obl	_	_
 13	ausbrechen	ausbrechen	VERB	ADJA	Case=Gen|Gender=Fem|Number=Sing	3	ccomp	_	_
 14	würde	werden	AUX	NN	Case=Gen|Gender=Fem|Number=Sing	13	aux	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	21	punct	_	_
@@ -25245,7 +25245,7 @@
 8	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes	11	nmod:poss	_	_
 9	zahlreichen	zahlreich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	11	amod	_	InflectionType=Mixed
 10	gemeinsamen	gemeinsam	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	9	conj	_	InflectionType=Mixed
-11	Arbeiten	Arbeit|Arbeiten	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	18	obl	_	_
+11	Arbeiten	Arbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	18	obl	_	_
 12	welche	welch	PRON	NN	Case=Acc|Gender=Masc|Number=Plur	14	det	_	_
 13	stilistischen	stilistischen	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	14	amod	_	InflectionType=Weak
 14	Beträge	Betrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
@@ -25275,7 +25275,7 @@
 1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	4	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
-3	20.	20	NUM	CARD	NumType=Card	4	amod	_	InflectionType=Weak
+3	20.	20.	NUM	CARD	NumType=Card	4	amod	_	InflectionType=Weak
 4	Jahrhundert	Jahrhundert	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	_
 5	zwischen	zwischen	ADP	ADJA	Case=Dat|Gender=Fem|Number=Sing	6	case	_	_
 6	1904	1904	NUM	CARD	NumType=Card	4	nmod	_	_
@@ -25335,7 +25335,7 @@
 15	,	,	PUNCT	$,	_	19	punct	_	_
 16	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	19	nsubj	_	_
 17	in	in	ADP	APPR	_	18	case	_	_
-18	Palma	Palmum	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	_
+18	Palma	Palma	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	_
 19	lebten	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	8	punct	_	_
 
@@ -25374,7 +25374,7 @@
 6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 7	sogenannten	sogenannt	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	InflectionType=Weak
 8	„	„	PUNCT	$.	_	9	punct	_	SpaceAfter=No
-9	Andes	And	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
+9	Andes	Andes	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
 10	de	de	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	_
 11	tipo	tipo	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	flat	_	_
 12	andino	andino	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	Proper=True|SpaceAfter=No
@@ -25461,7 +25461,7 @@
 4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	Interventionen	Intervention	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	conj	_	_
 6	bei	bei	ADP	APPR	_	7	case	_	_
-7	Dutzenden	Dutzenden	PROPN	ADJA	Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	_
+7	Dutzenden	Dutzend	PROPN	ADJA	Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	_
 8	von	von	ADP	NN	Case=Acc|Gender=Neut|Number=Plur	9	case	_	_
 9	Banken	Bank	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nmod	_	_
 10	führten	führen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -25507,8 +25507,8 @@
 19	Leuchtturm	Leuchtturm	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
 20	von	von	ADP	NE	Case=Gen|Number=Sing	23	case	_	_
 21	Punta	Punta	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
-22	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	flat:name	_	_
-23	Este	Est	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	flat:name	_	_
+22	des	des	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	flat:name	_	_
+23	Este	Este	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	flat:name	_	_
 24	mit	mit	ADP	APPR	_	26	case	_	_
 25	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	Leuchtturm	Leuchtturm	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	30	obl	_	_
@@ -25636,7 +25636,7 @@
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj:pass	_	_
 2	wurden	werden	AUX	ADJD	Case=Nom|Gender=Masc|Number=Sing	4	aux:pass	_	_
 3	jedoch	jedoch	ADV	ADV	_	4	advmod	_	_
-4	abgefangen	abgefangen	VERB	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+4	abgefangen	abfangen	VERB	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
 5	und	und	CCONJ	NE	Case=Nom|Number=Sing	9	cc	_	_
 6	mussten	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 7	in	in	ADP	APPR	_	8	case	_	_
@@ -25700,7 +25700,7 @@
 10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Geschichte	Geschichte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
 12	von	von	ADP	NN	Case=Acc|Gender=Neut|Number=Sing	13	case	_	_
-13	Spanischsprechern	Spanischsprechern	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	Spanischsprechern	Spanischsprecher	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	17	punct	_	_
 15	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	17	nmod:poss	_	_
 16	historische	historisch	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	17	amod	_	InflectionType=Mixed
@@ -25826,7 +25826,7 @@
 4	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
 5	mit	mit	ADP	APPR	_	6	case	_	_
 6	Kiki	Kiki	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
-7	Dee	de	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No
+7	Dee	Dee	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	10	punct	_	_
 9	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Freundin	Freundin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No
@@ -25872,7 +25872,7 @@
 2	übernahm	übernehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Führung	Führung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
-5	zweier	zweier	NUM	NN	Case=Dat|Gender=Fem|Number=Sing	6	det	_	_
+5	zweier	zwei	NUM	NN	Case=Dat|Gender=Fem|Number=Sing	6	det	_	_
 6	Legionen	Legion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	_
 7	in	in	ADP	APPR	_	8	case	_	_
 8	Capua	Capua	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
@@ -25893,7 +25893,7 @@
 23	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 24	Anhänger	Anhänger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	26	nsubj:pass	_	_
 25	Cäsars	Cäsar	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
-26	ausgenutzt	ausgenutzen	VERB	VVPP	VerbForm=Part	18	acl:relcl	_	_
+26	ausgenutzt	ausnutzen	VERB	VVPP	VerbForm=Part	18	acl:relcl	_	_
 27	wurden	werden	AUX	ADJD	Case=Nom|Gender=Masc|Number=Sing	26	aux:pass	_	SpaceAfter=No
 28	,	,	PUNCT	$,	_	33	punct	_	_
 29	in	in	ADP	APPR	_	31	case	_	_
@@ -25922,7 +25922,7 @@
 14	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	5	punct	_	_
 16	über	über	ADP	ADJD	_	18	case	_	_
-17	Pompeius'	Pompeius'	PROPN	$(	_	18	nmod:poss	_	_
+17	Pompeius'	Pompeius	PROPN	$(	_	18	nmod:poss	_	_
 18	Aktivitäten	Aktivität	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obl	_	_
 19	informiert	informieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	19	punct	_	_
@@ -25943,7 +25943,7 @@
 10	von	von	ADP	NE	Case=Dat|Gender=Neut|Number=Sing	11	case	_	_
 11	Marcus	Marcus	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	_
 12	Antonius	Antonius	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	11	flat:name	_	_
-13	eingenommen	eingenommen	VERB	VVPP	VerbForm=Part	0	root	_	_
+13	eingenommen	einnehmen	VERB	VVPP	VerbForm=Part	0	root	_	_
 14	worden	werden	AUX	ADV	_	13	aux:pass	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	21	punct	_	_
 16	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	21	nsubj	_	_
@@ -25951,7 +25951,7 @@
 18	Position	Position	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
 19	bis	bis	ADP	APPR	_	20	case	_	_
 20	Dezember	Dezember	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	21	obl	_	_
-21	innehatte	innehatte	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
+21	innehatte	innehaben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	13	punct	_	_
 
 # sent_id = w05010026
@@ -26020,7 +26020,7 @@
 1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	1.	1	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	InflectionType=Weak
+3	1.	1.	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	InflectionType=Weak
 4	Januar	Januar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl:tmod	_	_
 5	49	49	NUM	CARD	NumType=Card	4	obl:tmod	_	_
 6	v.	von	ADP	ADV	_	7	case	_	_
