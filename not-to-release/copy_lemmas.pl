@@ -11,7 +11,7 @@ binmode(STDERR, ':utf8');
 
 if(scalar(@ARGV) != 2)
 {
-    die("Expected two arguments.");
+    die("Expected two arguments");
 }
 open(TGT, $ARGV[0]) or die("Cannot read $ARGV[0]: $!");
 open(LEM, $ARGV[1]) or die("Cannot read $ARGV[1]: $!");
