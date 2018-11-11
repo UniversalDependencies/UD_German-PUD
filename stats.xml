@@ -7,27 +7,27 @@
   <size>
     <total><sentences>1000</sentences><tokens>20997</tokens><words>21325</words><fused>328</fused></total>
   </size>
-  <lemmas unique="6" /><!-- der, in, zu, an, von, bei -->
+  <lemmas unique="5349" /><!-- der, ,, ., in, und, sein, ein, werden, zu, von, -, haben, er, es, an -->
   <forms unique="6490" /><!-- ,, ., die, der, in, und, dem, zu, von, das, den, -, es, an, ist -->
   <fusions unique="8" /><!-- im, am, zum, zur, vom, beim, ins, ans -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">1387</tag><!-- _ -->
-    <tag name="ADP">2043</tag><!-- _, in, zu, an, von, bei -->
-    <tag name="ADV">1139</tag><!-- _ -->
-    <tag name="AUX">950</tag><!-- _ -->
-    <tag name="CCONJ">743</tag><!-- _ -->
-    <tag name="DET">2843</tag><!-- _, der -->
-    <tag name="NOUN">4261</tag><!-- _ -->
-    <tag name="NUM">352</tag><!-- _ -->
-    <tag name="PART">144</tag><!-- _ -->
-    <tag name="PRON">1185</tag><!-- _ -->
-    <tag name="PROPN">1219</tag><!-- _ -->
-    <tag name="PUNCT">2767</tag><!-- _ -->
-    <tag name="SCONJ">326</tag><!-- _ -->
-    <tag name="SYM">22</tag><!-- _ -->
-    <tag name="VERB">1913</tag><!-- _ -->
-    <tag name="X">31</tag><!-- _ -->
+    <tag name="ADJ">1387</tag><!-- neu, groß, erst, letzt, gut, hoch, eigen, britisch, politisch, klein -->
+    <tag name="ADP">2043</tag><!-- in, von, zu, mit, für, an, auf, nach, bei, über -->
+    <tag name="ADV">1139</tag><!-- nicht, auch, so, noch, nur, sehr, mehr, jedoch, wie, davon -->
+    <tag name="AUX">950</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, bleiben, lassen, mögen -->
+    <tag name="CCONJ">743</tag><!-- und, als, aber, wie, oder, doch, sowie, bis, bzw., sowohl -->
+    <tag name="DET">2843</tag><!-- der, ein, dies, viel, kein, ander, jed, einige, mehr, beide -->
+    <tag name="NOUN">4261</tag><!-- Jahr, Land, Teil, Zeit, ein, Mensch, Stadt, Jahrhundert, Geschichte, Film -->
+    <tag name="NUM">352</tag><!-- zwei, drei, vier, 3, sechs, zehn, 1, 10, 50, 100 -->
+    <tag name="PART">144</tag><!-- zu, wohl -->
+    <tag name="PRON">1185</tag><!-- der, er, es, er|es|sie, sie, sein, ihr, ich, wir, was -->
+    <tag name="PROPN">1219</tag><!-- Chr., China, Trump, USA, Frankreich, Albanien, Clinton, Joseph, US, Disney -->
+    <tag name="PUNCT">2767</tag><!-- ,, ., -, „, “, (, ), :, –, ; -->
+    <tag name="SCONJ">326</tag><!-- dass, als, um, wenn, nachdem, weil, ob, indem, wie, bevor -->
+    <tag name="SYM">22</tag><!-- %, €, $, ° -->
+    <tag name="VERB">1913</tag><!-- haben, sein, sagen, geben, beginnen, führen, an, finden, kommen, nehmen -->
+    <tag name="X">31</tag><!-- E, Multi, Bundes, Demografie, Druck, Einzel, Ex, Fjögur, Handel, Hey -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="38">
