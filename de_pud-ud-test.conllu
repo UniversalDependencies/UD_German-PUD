@@ -2127,14 +2127,14 @@
 # text_en = However, they could not find this same pattern in tissues such as the bladder, which are not directly exposed.
 1	Das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	3	det	_	_
 2	gleiche	gleich	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Person=3	3	amod	_	InflectionType=Weak
-3	Muster	Muster	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	10	nsubj	_	_
-4	ließ	lassen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	aux	_	_
+3	Muster	Muster	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	4	nsubj	_	_
+4	ließ	lassen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 5	sich	er|es|sie	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Rcp	10	obj	_	_
-6	jedoch	jedoch	ADV	RB	Degree=Pos	10	advmod	_	_
-7	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	10	advmod	_	_
+6	jedoch	jedoch	ADV	RB	Degree=Pos	4	advmod	_	_
+7	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	4	advmod	_	_
 8	in	in	ADP	IN	_	9	case	_	_
-9	Gewebe	Gewebe	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	10	obl	_	_
-10	finden	finden	VERB	VB	_	0	root	_	SpaceAfter=No
+9	Gewebe	Gewebe	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	4	obl	_	_
+10	finden	finden	VERB	VB	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	17	punct	_	_
 12	das	der	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|Person=3	17	nsubj	_	_
 13	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	14	det	_	_
@@ -2150,7 +2150,7 @@
 23	B.	B.	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	25	nmod	_	_
 24	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	25	det	_	_
 25	Blase	Blase	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	conj	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	10	punct	_	_
+26	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01033028
 # text = Ms Pugh wurde im Papworth- und im Addenbrooke's-Krankenhaus in Cambridgeshire behandelt.
@@ -3202,8 +3202,8 @@
 17	landen	landen	VERB	VB	_	8	acl:relcl	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	19	punct	_	_
 19	überein	überein	VERB	DC	_	3	compound:prt	_	SpaceAfter=No
-20	,	,	PUNCT	,	_	38	punct	_	_
-21	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|Person=3	38	nsubj	_	_
+20	,	,	PUNCT	,	_	39	punct	_	_
+21	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|Person=3	39	nsubj	_	_
 22	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	24	det	_	_
 23	wichtige	wichtig	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Person=3	24	amod	_	InflectionType=Weak
 24	Rolle	Rolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	38	obj	_	_
@@ -3220,8 +3220,8 @@
 35	Metropolregion	Metropolregion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	32	nmod	_	_
 36	um	um	ADP	IN	_	37	case	_	_
 37	Toronto	Toronto	PROPN	NNP	Case=Acc|Gender=Neut|Number=Sing|Person=3	35	nmod	_	_
-38	erkennen	erkennen	VERB	VB	_	3	acl:relcl	_	_
-39	lässt	lassen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	38	aux	_	SpaceAfter=No
+38	erkennen	erkennen	VERB	VB	VerbForm=Inf	39	xcomp	_	_
+39	lässt	lassen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	acl:relcl	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	3	punct	_	_
 
 # newdoc id = n01049
@@ -5160,13 +5160,13 @@
 # sent_id = n01081022
 # text = Wir können Trump nicht Präsident werden lassen, jemanden, der so rassistisch, sexistisch und unglaublich unqualifiziert dafür ist.
 # text_en = We can’t let the presidency go to Donald Trump, someone so racist, sexist and incredibly unqualified to be commander-in-chief.
-1	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	6	nsubj	_	_
-2	können	können	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	6	aux	_	_
+1	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	7	nsubj	_	_
+2	können	können	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	7	aux	_	_
 3	Trump	Trump	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	obj	_	_
-4	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	6	advmod	_	_
+4	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	7	advmod	_	_
 5	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	xcomp	_	_
-6	werden	werden	VERB	VB	_	0	root	_	_
-7	lassen	lassen	AUX	VB	_	6	aux	_	SpaceAfter=No
+6	werden	werden	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+7	lassen	lassen	VERB	VB	_	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
 9	jemanden	jemand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	parataxis	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	_	_
@@ -5180,7 +5180,7 @@
 18	unqualifiziert	unqualifiziert	ADJ	JJ	Degree=Pos	13	conj	_	_
 19	dafür	dafür	ADV	RB	Degree=Pos	13	advmod	_	_
 20	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	cop	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	6	punct	_	_
+21	.	.	PUNCT	.	_	7	punct	_	_
 
 # newdoc id = n01082
 # sent_id = n01082014
@@ -14524,16 +14524,16 @@
 # sent_id = w01073054
 # text = Stephen Wheeler, der Herausgeber, ließ Kipling hart arbeiten, aber Kiplings Drang zu schreiben war ungebrochen.
 # text_en = Stephen Wheeler, the editor, worked Kipling hard, but Kipling's need to write was unstoppable.
-1	Stephen	Stephen	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+1	Stephen	Stephen	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
 2	Wheeler	Wheeler	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	flat:name	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	_	_
 4	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	5	det	_	_
 5	Herausgeber	Herausgeber	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	appos	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	1	punct	_	_
-7	ließ	lassen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	aux	_	_
+7	ließ	lassen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 8	Kipling	Kipling	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obj	_	_
-9	hart	hart	ADV	RB	Degree=Pos	10	advmod	_	_
-10	arbeiten	arbeiten	VERB	VB	_	0	root	_	SpaceAfter=No
+9	hart	hart	ADV	RB	Degree=Pos	7	advmod	_	_
+10	arbeiten	arbeiten	VERB	VB	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	18	punct	_	_
 12	aber	aber	CCONJ	CC	_	18	cc	_	_
 13	Kiplings	Kipling	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing|Person=3	14	nmod:poss	_	_
@@ -14542,7 +14542,7 @@
 16	schreiben	schreiben	VERB	VB	VerbForm=Inf	14	xcomp	_	_
 17	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	18	cop	_	_
 18	ungebrochen	ungebrochen	ADJ	JJ	Degree=Pos	10	conj	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	10	punct	_	_
+19	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = w01073067
 # text = Nach Lahore zurückgekehrt, erschienen zwischen November 1886 und Juni 1887 ca. 39 Geschichten in der Gazette.
@@ -18740,15 +18740,15 @@
 19	Tschechoslowakai	Tschechoslowakei	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	16	nmod	_	_
 20	zu	zu	PART	RP	_	21	mark	_	_
 21	übertreten	übertreten	VERB	VB	_	12	xcomp	_	SpaceAfter=No
-22	,	,	PUNCT	,	_	28	punct	_	_
-23	ohne	ohne	SCONJ	CC	_	28	mark	_	_
+22	,	,	PUNCT	,	_	30	punct	_	_
+23	ohne	ohne	SCONJ	CC	_	30	mark	_	_
 24	sich	er|es|sie	PRON	PRP	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Rcp	28	obj	_	_
 25	von	von	ADP	IN	_	27	case	_	_
 26	den	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|Person=3	27	det	_	_
-27	Grenzkontrollen	Grenzkontrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur|Person=3	28	obl	_	_
-28	überprüfen	überprüfen	VERB	VB	_	21	advcl	_	_
-29	zu	zu	PART	RP	_	28	mark	_	_
-30	lassen	lassen	AUX	VB	_	28	aux	_	SpaceAfter=No
+27	Grenzkontrollen	Grenzkontrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur|Person=3	30	obl	_	_
+28	überprüfen	überprüfen	VERB	VB	VerbForm=Inf	30	xcomp	_	_
+29	zu	zu	PART	RP	_	30	mark	_	_
+30	lassen	lassen	VERB	VB	_	21	advcl	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = w01138

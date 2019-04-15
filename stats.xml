@@ -18,7 +18,7 @@
     <tag name="ADJ">1387</tag><!-- neu, groß, erst, letzt, gut, hoch, eigen, britisch, politisch, klein -->
     <tag name="ADP">2043</tag><!-- in, von, zu, mit, für, an, auf, nach, bei, über -->
     <tag name="ADV">1139</tag><!-- nicht, auch, so, noch, nur, sehr, mehr, jedoch, wie, davon -->
-    <tag name="AUX">894</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, lassen, mögen, dürfen -->
+    <tag name="AUX">889</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, mögen, dürfen, betrachten -->
     <tag name="CCONJ">743</tag><!-- und, als, aber, wie, oder, doch, sowie, bis, bzw., sowohl -->
     <tag name="DET">2843</tag><!-- der, ein, dies, viel, kein, ander, jed, einige, mehr, beide -->
     <tag name="NOUN">4261</tag><!-- Jahr, Land, Teil, Zeit, ein, Mensch, Stadt, Jahrhundert, Geschichte, Film -->
@@ -29,7 +29,7 @@
     <tag name="PUNCT">2767</tag><!-- ,, ., -, „, “, (, ), :, –, ; -->
     <tag name="SCONJ">326</tag><!-- dass, als, um, wenn, nachdem, weil, ob, indem, wie, bevor -->
     <tag name="SYM">22</tag><!-- %, €, $, ° -->
-    <tag name="VERB">1969</tag><!-- haben, sein, sagen, geben, werden, beginnen, finden, führen, an, kommen -->
+    <tag name="VERB">1974</tag><!-- haben, sein, sagen, geben, werden, beginnen, finden, führen, an, kommen -->
     <tag name="X">31</tag><!-- E, Multi, Bundes, Demografie, Druck, Einzel, Ex, Fjögur, Handel, Hey -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -70,7 +70,7 @@
     <feat name="PronType" value="Rcp" upos="PRON">144</feat><!-- sich, mich, uns, dich, mir -->
     <feat name="Tense" value="Past" upos="AUX,VERB">1449</feat><!-- wurde, war, hatte, wurden, waren, sagte, hatten, worden, würde, begann -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">879</feat><!-- ist, hat, wird, sind, kann, werden, haben, gibt, sagt, können -->
-    <feat name="VerbForm" value="Inf" upos="AUX,VERB">41</feat><!-- abzuschreiben, aufrechtzuerhalten, aufzutreten, begrenzen, behandeln, bekommen, beschäftigen, besuchen, bewegen, durchzuführen -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">46</feat><!-- finden, abzuschreiben, arbeiten, aufrechtzuerhalten, aufzutreten, begrenzen, behandeln, bekommen, beschäftigen, besuchen -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">21</feat><!-- abgesehen, basierend, gefolgt, gesagt, Breaking, Geformt, abgehärtet, angeklagt, begründet, bekannt -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
@@ -81,7 +81,7 @@
     <dep name="advmod">1108</dep>
     <dep name="amod">1078</dep>
     <dep name="appos">264</dep>
-    <dep name="aux">375</dep>
+    <dep name="aux">370</dep>
     <dep name="aux:pass">230</dep>
     <dep name="case">2050</dep>
     <dep name="cc">723</dep>
@@ -118,6 +118,6 @@
     <dep name="punct">2767</dep>
     <dep name="root">1000</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">177</dep>
+    <dep name="xcomp">182</dep>
   </deps>
 </treebank>
