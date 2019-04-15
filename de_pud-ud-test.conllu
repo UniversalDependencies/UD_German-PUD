@@ -712,7 +712,7 @@
 16	zu	zu	PART	RP	_	17	mark	_	_
 17	sichern	sichern	VERB	VB	VerbForm=Inf	12	xcomp	_	_
 18	und	und	CCONJ	CC	_	25	cc	_	_
-19	hunderte	hundert	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Person=3	21	nummod	_	InflectionType=Strong
+19	hunderte	hundert	NUM	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Person=3	21	nummod	_	InflectionType=Strong
 20	qualifizierte	qualifiziert	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Person=3	21	amod	_	InflectionType=Strong
 21	Arbeitsplätze	Arbeitsplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	25	obj	_	_
 22	bis	bis	ADP	IN	_	23	case	_	_
@@ -3977,8 +3977,9 @@
 30	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	32	nsubj	_	_
 31	Bedauern	Bedauer	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	32	obj	_	_
 32	ausgesprochen	aussprechen	VERB	VBN	Tense=Past	14	conj	_	_
-33	hat.	hat.	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	32	aux	_	SpaceAfter=No
-34	“	“	PUNCT	''	_	7	punct	_	_
+33	hat	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	32	aux	_	SpaceAfter=No
+34	.	.	PUNCT	VBC	_	7	punct	_	SpaceAfter=No
+35	“	“	PUNCT	''	_	7	punct	_	_
 
 # newdoc id = n01061
 # sent_id = n01061016
@@ -4587,15 +4588,15 @@
 # sent_id = n01070016
 # text = Über 330 Besatzungsmitglieder sind an Bord des Schiffes.
 # text_en = More than 330 crew are onboard the ship.
-1	Über	über	ADP	IN	_	2	advmod	_	_
+1	Über	über	ADP	IN	_	3	case	_	_
 2	330	330	NUM	CD	NumType=Card	3	nummod	_	_
-3	Besatzungsmitglieder	Besatzungsmitglieder	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur|Person=3	4	nsubj	_	_
-4	sind	sein	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+3	Besatzungsmitglieder	Besatzungsmitglieder	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur|Person=3	6	nsubj	_	_
+4	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	6	cop	_	_
 5	an	an	ADP	IN	_	6	case	_	_
-6	Bord	Bord	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	4	obl	_	_
+6	Bord	Bord	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 7	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|Person=3	8	det	_	_
 8	Schiffes	Schiff	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	6	nmod	_	SpaceAfter=No
-9	.	.	PUNCT	.	_	4	punct	_	_
+9	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = n01070017
 # text = Vega wies darauf hin, dass dessen Geschichte vielen aufgrund ihres Alters nicht bewusst sei.
@@ -5796,8 +5797,9 @@
 24	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	25	det	_	_
 25	Lizenzvergabe	Lizenzvergabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	22	conj	_	_
 26	eingeführt	einführen	VERB	VBN	Tense=Past	16	advcl	_	_
-27	würden.	werden.	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	26	aux	_	SpaceAfter=No
-28	“	“	PUNCT	''	_	16	punct	_	_
+27	würden	werden	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	26	aux	_	SpaceAfter=No
+28	.	.	PUNCT	VBC	_	16	punct	_	SpaceAfter=No
+29	“	“	PUNCT	''	_	16	punct	_	_
 
 # sent_id = n01091019
 # text = Der Standpunkt der RSPB hat sie auch mit vielen führenden Umweltschützern in Konflikt gebracht, von dem Initiator der Petition, Mark Avery, bis zu dem TV-Moderator Chris Packham.
@@ -7486,11 +7488,11 @@
 # sent_id = n01118003
 # text = Lass das Mikro fallen.
 # text_en = Drop the mic.
-1	Lass	lass	AUX	VBC	Mood=Imp|Number=Sing|Person=2|Tense=Pres	4	aux	_	_
+1	Lass	lassen	VERB	VBC	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	_
 2	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	3	det	_	_
-3	Mikro	Mikro	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	4	obj	_	_
-4	fallen	fallen	VERB	VB	_	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	.	_	4	punct	_	_
+3	Mikro	Mikro	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	1	obj	_	_
+4	fallen	fallen	VERB	VB	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = n01118010
 # text = Nach persönlicher Zählung des Regisseurs hat er bisher acht Spielfilme produziert.
@@ -10753,23 +10755,23 @@
 # sent_id = w01020020
 # text = Später, als Augustus das Römische Reich gegründet hatte, bezeichneten die Römer das Mittelmeer als Mare Nostrum („Unser Meer“).
 # text_en = Later, when Augustus founded the Roman Empire, the Romans referred to the Mediterranean as Mare Nostrum ("Our Sea").
-1	Später	spät	ADV	RB	Degree=Cmp	17	advmod	_	SpaceAfter=No
+1	Später	spät	ADV	RB	Degree=Cmp	11	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
 3	als	als	SCONJ	CC	_	8	mark	_	_
 4	Augustus	Augustus	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
 5	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	7	det	_	_
 6	Römische	römisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Person=3	7	amod	_	InflectionType=Weak|Proper=True
 7	Reich	Reich	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	8	obj	_	Proper=True
-8	gegründet	gründen	VERB	VBN	Tense=Past	17	advcl	_	_
+8	gegründet	gründen	VERB	VBN	Tense=Past	11	advcl	_	_
 9	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	aux	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	8	punct	_	_
-11	bezeichneten	bezeichneten	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	17	cop	_	_
+11	bezeichneten	bezeichnen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 12	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|Person=3	13	det	_	_
-13	Römer	Römer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	17	nsubj	_	Proper=True
+13	Römer	Römer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	11	nsubj	_	Proper=True
 14	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	15	det	_	_
-15	Mittelmeer	Mittelmeer	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	17	obj	_	Proper=True
+15	Mittelmeer	Mittelmeer	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	11	obj	_	Proper=True
 16	als	als	CCONJ	CC	_	17	cc	_	_
-17	Mare	Mare	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	0	root	_	Proper=True
+17	Mare	Mare	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	11	xcomp	_	Proper=True
 18	Nostrum	Nostrum	PRON	DTP$	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	17	nmod:poss	_	Proper=True
 19	(	(	PUNCT	(	_	22	punct	_	SpaceAfter=No
 20	„	„	PUNCT	``	_	22	punct	_	SpaceAfter=No
@@ -10777,7 +10779,7 @@
 22	Meer	Meer	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	17	appos	_	SpaceAfter=No
 23	“	“	PUNCT	``	_	22	punct	_	SpaceAfter=No
 24	)	)	PUNCT	)	_	22	punct	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	17	punct	_	_
+25	.	.	PUNCT	.	_	11	punct	_	_
 
 # newdoc id = w01022
 # sent_id = w01022033
@@ -11988,23 +11990,23 @@
 9	Zustand	Zustand	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 10	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3	11	det	_	_
 11	Flusses	Fluß	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing|Person=3	9	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	,	_	28	punct	_	_
-13	bis	bis	SCONJ	CC	_	28	mark	_	_
-14	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
-15	in	in	ADP	IN	_	20	case	_	_
-16	seiner	sein	PRON	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	20	nmod:poss	_	_
-17	schlimmsten	schlimm	ADJ	JJ	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing|Person=3	20	amod	_	InflectionType=Mixed
-18	Zeit	Zeit	AUX	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	20	cop	_	_
-19	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	20	advmod	_	_
-20	mehr	mehr	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	28	obl	_	_
+12	,	,	PUNCT	,	_	20	punct	_	_
+13	bis	bis	CCONJ	CC	_	20	cc	_	_
+14	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
+15	in	in	ADP	IN	_	18	case	_	_
+16	seiner	sein	PRON	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	18	nmod:poss	_	_
+17	schlimmsten	schlimm	ADJ	JJ	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing|Person=3	18	amod	_	InflectionType=Mixed
+18	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	20	obl	_	_
+19	nicht	nicht	PART	RB	Degree=Pos|Polarity=Neg	20	advmod	_	_
+20	mehr	mehr	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	6	conj	_	_
 21	als	als	CCONJ	CC	_	24	cc	_	_
 22	ein	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Person=3	24	det	_	_
 23	öffentlicher	öffentlich	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Person=3	24	amod	_	InflectionType=Mixed
-24	Abwasserkanal	Abwasserkanal	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	conj	_	_
+24	Abwasserkanal	Abwasserkanal	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	obl	_	_
 25	und	und	CCONJ	CC	_	27	cc	_	_
 26	eine	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Person=3	27	det	_	_
 27	Müllhalde	Müllhalde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	24	conj	_	_
-28	war	sein	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	advcl	_	SpaceAfter=No
+28	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	20	cop	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = w01039065
@@ -12380,7 +12382,7 @@
 # text_en = From the 16th century, Europeans visiting the Caribbean region identified the "South Sea" (the Pacific Ocean, to the south of the isthmus of Panama) as opposed to the "North Sea" (the Caribbean Sea, to the north of the same isthmus).
 1	Ab	ab	ADP	IN	_	5	case	_	_
 2	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	5	det	_	_
-3	16	16	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing|Person=3	5	nummod	_	SpaceAfter=No|InflectionType=Weak
+3	16	16	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord|Person=3	5	amod	_	SpaceAfter=No|InflectionType=Weak
 4	.	.	PUNCT	.	_	3	punct	_	_
 5	Jahrhundert	Jahrhundert	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	6	obl	_	_
 6	bezeichneten	bezeichnen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
@@ -17403,13 +17405,14 @@
 17	hat	haben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	parataxis	_	_
 18	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	19	det	_	_
 19	Lernkurve	Lernkurve	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	17	obj	_	SpaceAfter=No
-20	,	,	PUNCT	,	_	24	punct	_	_
-21	und	und	CCONJ	CC	_	24	cc	_	_
-22	man	man	PRON	EX	_	24	nsubj	_	_
-23	muss	müssen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	24	aux	_	_
-24	aufgeschlossen	aufschließen	ADJ	JJ	Degree=Pos	17	conj	_	_
-25	bleiben.	bleiben.	AUX	VB	_	24	cop	_	SpaceAfter=No
-26	“	“	PUNCT	''	_	17	punct	_	_
+20	,	,	PUNCT	,	_	25	punct	_	_
+21	und	und	CCONJ	CC	_	25	cc	_	_
+22	man	man	PRON	EX	_	25	nsubj	_	_
+23	muss	müssen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	25	aux	_	_
+24	aufgeschlossen	aufschließen	ADJ	JJ	Degree=Pos	25	xcomp	_	_
+25	bleiben	bleiben	VERB	VB	VerbForm=Fin	17	conj	_	SpaceAfter=No
+26	.	.	PUNCT	VB	_	17	punct	_	SpaceAfter=No
+27	“	“	PUNCT	''	_	17	punct	_	_
 
 # newdoc id = w01119
 # sent_id = w01119059
@@ -18114,15 +18117,15 @@
 17	Humblebums	Humblebums	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing|Person=3	19	compound	_	SpaceAfter=No
 18	-	-	PUNCT	-	_	17	punct	_	SpaceAfter=No
 19	Songs	Song	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
-20	„	„	PUNCT	``	_	25	punct	_	SpaceAfter=No
-21	Her	Her	PRON	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	22	nmod:poss	_	Proper=True
-22	fahter	father	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	nsubj	_	Proper=True
-23	didn'	didn'	AUX	''	Mood=Ind|Number=Sing|Person=3|Tense=Past	25	aux	_	SpaceAfter=No|Proper=True
-24	t	t	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	25	aux	_	Proper=True
-25	like	like	VERB	VB	_	19	dep	_	Proper=True
-26	me	me	PRON	PRP	Case=Acc|Number=Sing|Person=1	25	obj	_	Proper=True
-27	anyway	anyway	ADV	RB	Degree=Pos	25	advmod	_	SpaceAfter=No|Proper=True
-28	“	“	PUNCT	''	_	25	punct	_	_
+20	„	„	PUNCT	``	_	21	punct	_	SpaceAfter=No
+21	Her	her	PRON	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	19	appos	_	Proper=True
+22	fahter	father	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	flat	_	Proper=True
+23	didn'	didn'	X	''	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	flat	_	SpaceAfter=No|Proper=True
+24	t	t	X	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	flat	_	Proper=True
+25	like	like	VERB	VB	_	21	flat	_	Proper=True
+26	me	me	PRON	PRP	Case=Acc|Number=Sing|Person=1	21	flat	_	Proper=True
+27	anyway	anyway	ADV	RB	Degree=Pos	21	flat	_	SpaceAfter=No|Proper=True
+28	“	“	PUNCT	''	_	21	punct	_	_
 29	auf	auf	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -21078,7 +21081,7 @@
 5	benötigt	benötigen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	10	punct	_	_
 7	genau	genau	ADV	RB	Degree=Pos	8	advmod	_	_
-8	genommen	nehmen	VERB	VBN	Tense=Past	10	advmod	_	_
+8	genommen	nehmen	VERB	VBN	Tense=Past	10	advcl	_	_
 9	367	367	NUM	CD	NumType=Card	10	nummod	_	_
 10	Abgeordnetenstimmen	Abgeordnetenstimme	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	4	appos	_	_
 11	(	(	PUNCT	(	_	13	punct	_	SpaceAfter=No
@@ -21449,7 +21452,7 @@
 19	aber	aber	CCONJ	CC	_	21	cc	_	_
 20	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	21	advmod	_	_
 21	akzeptabel	akzeptabel	ADJ	JJ	Degree=Pos	17	conj	_	SpaceAfter=No
-22	“	“	PUNCT	``	_	13	punct	_	_
+22	“	“	PUNCT	``	_	17	punct	_	_
 23	seien	sein	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Pres	17	cop	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -22218,7 +22221,7 @@
 10	Arbeitslosigkeit	Arbeitslosigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	16	nsubj	_	_
 11	wieder	wieder	ADV	RB	Degree=Pos	16	advmod	_	_
 12	auf	auf	ADP	IN	_	15	case	_	_
-13	unter	unter	ADP	IN	_	15	advmod	_	_
+13	unter	unter	ADP	IN	_	15	case	_	_
 14	20	20	NUM	CD	NumType=Card	15	nummod	_	_
 15	%	%	SYM	SYM	_	16	obl	_	_
 16	gesunken	sinken	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
@@ -22465,8 +22468,9 @@
 19	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3	21	det	_	_
 20	einzelnen	einzeln	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Person=3	21	amod	_	InflectionType=Weak
 21	Mann	Mann	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	obl	_	_
-22	ist.	sein.	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	cop	_	SpaceAfter=No
-23	“	“	PUNCT	''	_	10	punct	_	_
+22	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	cop	_	SpaceAfter=No
+23	.	.	PUNCT	VBC	_	10	punct	_	SpaceAfter=No
+24	“	“	PUNCT	''	_	10	punct	_	_
 
 # sent_id = n05005016
 # text = Er steht allein vor dem Publikum, und am Ende muss er das Beste aus sich herausholen, um die Zuschauer zum Lachen zu bringen.
@@ -23009,7 +23013,7 @@
 # text = Der über vier Kilometer lange Golden Gate Park bietet einen Botanischen Garten, ein Planetarium, einen japanischen Teegarten und ein Aquarium.
 # text_en = Golden Gate Park, which is over four kilometers in length, offers a botanical garden, planetarium, Japanese garden and an aquarium.
 1	Der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	8	det	_	_
-2	über	über	ADP	IN	_	3	advmod	_	_
+2	über	über	ADP	IN	_	4	case	_	_
 3	vier	vier	NUM	CD	NumType=Card	4	nummod	_	_
 4	Kilometer	Kilometer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	5	obl	_	_
 5	lange	lang	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Person=3	8	amod	_	InflectionType=Weak
@@ -25853,15 +25857,15 @@
 31	Erfolg	Erfolg	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	32	xcomp	_	_
 32	werden	werden	VERB	VB	_	25	acl:relcl	_	_
 33	sollte	sollen	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	32	aux	_	SpaceAfter=No
-34	:	:	PUNCT	:	_	38	punct	_	_
-35	„	„	PUNCT	``	_	38	punct	_	SpaceAfter=No
-36	Don'	Don'	AUX	''	Mood=Imp|Number=Sing|Person=2|Tense=Pres	38	aux	_	SpaceAfter=No|Proper=True
-37	t	t	X	AFX	_	38	aux	_	Proper=True
-38	Go	Go	VERB	VB	_	25	parataxis	_	Proper=True
-39	Breaking	Breaking	VERB	VBN	Tense=Pres|VerbForm=Part	38	ccomp	_	Proper=True
+34	:	:	PUNCT	:	_	36	punct	_	_
+35	„	„	PUNCT	``	_	36	punct	_	SpaceAfter=No
+36	Don'	Don'	X	''	Mood=Imp|Number=Sing|Person=2|Tense=Pres	25	parataxis	_	SpaceAfter=No|Proper=True
+37	t	t	X	AFX	_	36	flat	_	Proper=True
+38	Go	Go	X	VB	_	36	flat	_	Proper=True
+39	Breaking	Breaking	X	VBN	Tense=Pres|VerbForm=Part	36	flat	_	Proper=True
 40	My	My	PRON	DTP$	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	41	nmod:poss	_	Proper=True
-41	Heart	Heart	NOUN	NN	Number=Sing|Person=3	39	obj	_	SpaceAfter=No|Proper=True
-42	“	“	PUNCT	''	_	38	punct	_	SpaceAfter=No
+41	Heart	Heart	NOUN	NN	Number=Sing|Person=3	36	flat	_	SpaceAfter=No|Proper=True
+42	“	“	PUNCT	''	_	36	punct	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = w05010
