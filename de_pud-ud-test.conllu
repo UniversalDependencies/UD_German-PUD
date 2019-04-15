@@ -1782,12 +1782,12 @@
 2	sorgte	sorgen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	für	für	ADP	IN	_	4	case	_	_
 4	Schlagzeilen	Schlagzeile	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	2	obl	_	SpaceAfter=No
-5	,	,	PUNCT	,	_	23	punct	_	_
-6	als	als	SCONJ	CC	_	23	mark	_	_
-7	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	nsubj	_	_
+5	,	,	PUNCT	,	_	25	punct	_	_
+6	als	als	SCONJ	CC	_	25	mark	_	_
+7	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
 8	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	10	det	_	_
 9	russische	russisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Person=3	10	amod	_	InflectionType=Weak|Proper=True
-10	Vorgehen	Vorgehen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	23	obj	_	_
+10	Vorgehen	Vorgehen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	25	obj	_	_
 11	auf	auf	ADP	IN	_	13	case	_	_
 12	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	13	det	_	_
 13	Krim	Krim	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing|Person=3	10	nmod	_	SpaceAfter=No
@@ -1797,12 +1797,12 @@
 17	2014	2014	NUM	CD	NumType=Card	18	obl:tmod	_	_
 18	annektierte	annektieren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	acl:relcl	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	10	punct	_	_
-20	als	als	CCONJ	CC	_	23	cc	_	_
-21	„	„	PUNCT	``	_	23	punct	_	SpaceAfter=No
-22	sehr	sehr	ADV	RB	Degree=Pos	23	advmod	_	_
-23	vernünftig	vernünftig	ADJ	JJ	Degree=Pos	2	advcl	_	SpaceAfter=No
-24	“	“	PUNCT	''	_	23	punct	_	_
-25	beschrieb	beschreiben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	23	cop	_	SpaceAfter=No
+20	als	als	CCONJ	CC	_	25	cc	_	_
+21	„	„	PUNCT	``	_	25	punct	_	SpaceAfter=No
+22	sehr	sehr	ADV	RB	Degree=Pos	25	advmod	_	_
+23	vernünftig	vernünftig	ADJ	JJ	Degree=Pos	25	xcomp	_	SpaceAfter=No
+24	“	“	PUNCT	''	_	25	punct	_	_
+25	beschrieb	beschreiben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	advcl	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01029007
@@ -3482,9 +3482,9 @@
 # sent_id = n01052006
 # text = Er beschrieb sie als „bemerkenswerte“ und „liebevolle und wunderbare“ Frau, die die literarische Welt mit ihren Geschichten prägte.
 # text_en = He described her as a "remarkable" and "loving and wonderful" woman who left her mark in the literary world with her stories.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
-2	beschrieb	beschreiben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	14	cop	_	_
-3	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	14	obj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	beschrieb	beschreiben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	2	obj	_	_
 4	als	als	CCONJ	CC	_	6	cc	_	_
 5	„	„	PUNCT	``	_	6	punct	_	SpaceAfter=No
 6	bemerkenswerte	bemerkenswert	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Person=3	14	amod	_	SpaceAfter=No|InflectionType=Strong
@@ -3495,7 +3495,7 @@
 11	und	und	CCONJ	CC	_	12	cc	_	_
 12	wunderbare	wunderbar	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Person=3	10	conj	_	SpaceAfter=No|InflectionType=Strong
 13	“	“	PUNCT	''	_	10	punct	_	_
-14	Frau	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+14	Frau	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	2	xcomp	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	23	punct	_	_
 16	die	der	PRON	REL	Case=Nom|Gender=Fem|Number=Sing|Person=3	23	nsubj	_	_
 17	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	19	det	_	_
@@ -3505,7 +3505,7 @@
 21	ihren	ihr	PRON	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	22	nmod:poss	_	_
 22	Geschichten	Geschichte	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur|Person=3	23	obl	_	_
 23	prägte	prägen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	14	acl:relcl	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	14	punct	_	_
+24	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n01053
 # sent_id = n01053008
