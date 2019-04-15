@@ -18,7 +18,7 @@
     <tag name="ADJ">1387</tag><!-- neu, groß, erst, letzt, gut, hoch, eigen, britisch, politisch, klein -->
     <tag name="ADP">2043</tag><!-- in, von, zu, mit, für, an, auf, nach, bei, über -->
     <tag name="ADV">1139</tag><!-- nicht, auch, so, noch, nur, sehr, mehr, jedoch, wie, davon -->
-    <tag name="AUX">897</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, lassen, mögen, dürfen -->
+    <tag name="AUX">896</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, lassen, mögen, dürfen -->
     <tag name="CCONJ">743</tag><!-- und, als, aber, wie, oder, doch, sowie, bis, bzw., sowohl -->
     <tag name="DET">2843</tag><!-- der, ein, dies, viel, kein, ander, jed, einige, mehr, beide -->
     <tag name="NOUN">4261</tag><!-- Jahr, Land, Teil, Zeit, ein, Mensch, Stadt, Jahrhundert, Geschichte, Film -->
@@ -29,7 +29,7 @@
     <tag name="PUNCT">2767</tag><!-- ,, ., -, „, “, (, ), :, –, ; -->
     <tag name="SCONJ">326</tag><!-- dass, als, um, wenn, nachdem, weil, ob, indem, wie, bevor -->
     <tag name="SYM">22</tag><!-- %, €, $, ° -->
-    <tag name="VERB">1966</tag><!-- haben, sein, sagen, geben, werden, beginnen, finden, führen, an, kommen -->
+    <tag name="VERB">1967</tag><!-- haben, sein, sagen, geben, werden, beginnen, finden, führen, an, kommen -->
     <tag name="X">31</tag><!-- E, Multi, Bundes, Demografie, Druck, Einzel, Ex, Fjögur, Handel, Hey -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->

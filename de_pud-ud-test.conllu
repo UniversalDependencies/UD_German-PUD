@@ -807,7 +807,7 @@
 32	Keira	Keira	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	35	xcomp	_	_
 33	statt	statt	ADP	IN	_	34	case	_	_
 34	Kiera	Kiera	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing|Person=3	35	obl	_	_
-35	genannt	nennen	AUX	VBN	Tense=Past	18	conj	_	SpaceAfter=No
+35	genannt	nennen	VERB	VBN	Tense=Past	18	conj	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	18	punct	_	_
 
 # newdoc id = n01016
