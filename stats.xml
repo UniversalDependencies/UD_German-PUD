@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>1000</sentences><tokens>20997</tokens><words>21325</words><fused>328</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>1000</sentences><tokens>20997</tokens><words>21325</words><fused>328</fused></test>
   </size>
   <lemmas unique="5349" /><!-- der, ,, ., in, und, sein, ein, werden, zu, von, -, haben, er, es, an -->
   <forms unique="6490" /><!-- ,, ., die, der, in, und, dem, zu, von, das, den, -, es, an, ist -->
@@ -15,7 +18,7 @@
     <tag name="ADJ">1387</tag><!-- neu, groß, erst, letzt, gut, hoch, eigen, britisch, politisch, klein -->
     <tag name="ADP">2043</tag><!-- in, von, zu, mit, für, an, auf, nach, bei, über -->
     <tag name="ADV">1139</tag><!-- nicht, auch, so, noch, nur, sehr, mehr, jedoch, wie, davon -->
-    <tag name="AUX">950</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, bleiben, lassen, mögen -->
+    <tag name="AUX">897</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, lassen, mögen, dürfen -->
     <tag name="CCONJ">743</tag><!-- und, als, aber, wie, oder, doch, sowie, bis, bzw., sowohl -->
     <tag name="DET">2843</tag><!-- der, ein, dies, viel, kein, ander, jed, einige, mehr, beide -->
     <tag name="NOUN">4261</tag><!-- Jahr, Land, Teil, Zeit, ein, Mensch, Stadt, Jahrhundert, Geschichte, Film -->
@@ -26,7 +29,7 @@
     <tag name="PUNCT">2767</tag><!-- ,, ., -, „, “, (, ), :, –, ; -->
     <tag name="SCONJ">326</tag><!-- dass, als, um, wenn, nachdem, weil, ob, indem, wie, bevor -->
     <tag name="SYM">22</tag><!-- %, €, $, ° -->
-    <tag name="VERB">1913</tag><!-- haben, sein, sagen, geben, beginnen, führen, an, finden, kommen, nehmen -->
+    <tag name="VERB">1966</tag><!-- haben, sein, sagen, geben, werden, beginnen, finden, führen, an, kommen -->
     <tag name="X">31</tag><!-- E, Multi, Bundes, Demografie, Druck, Einzel, Ex, Fjögur, Handel, Hey -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -75,9 +78,9 @@
     <dep name="acl">20</dep>
     <dep name="acl:relcl">271</dep>
     <dep name="advcl">220</dep>
-    <dep name="advmod">1148</dep>
+    <dep name="advmod">1139</dep>
     <dep name="amod">1078</dep>
-    <dep name="appos">265</dep>
+    <dep name="appos">264</dep>
     <dep name="aux">375</dep>
     <dep name="aux:pass">230</dep>
     <dep name="case">2050</dep>
@@ -87,7 +90,7 @@
     <dep name="compound">251</dep>
     <dep name="compound:prt">119</dep>
     <dep name="conj">842</dep>
-    <dep name="cop">335</dep>
+    <dep name="cop">282</dep>
     <dep name="csubj">28</dep>
     <dep name="csubj:pass">7</dep>
     <dep name="dep">4</dep>
@@ -101,12 +104,12 @@
     <dep name="flat:name">164</dep>
     <dep name="iobj">95</dep>
     <dep name="mark">460</dep>
-    <dep name="nmod">1073</dep>
+    <dep name="nmod">1099</dep>
     <dep name="nmod:gmod">1</dep>
     <dep name="nmod:poss">272</dep>
     <dep name="nsubj">1482</dep>
     <dep name="nsubj:pass">207</dep>
-    <dep name="nummod">192</dep>
+    <dep name="nummod">176</dep>
     <dep name="obj">897</dep>
     <dep name="obl">1323</dep>
     <dep name="obl:tmod">173</dep>
@@ -115,6 +118,6 @@
     <dep name="punct">2767</dep>
     <dep name="root">1000</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">122</dep>
+    <dep name="xcomp">175</dep>
   </deps>
 </treebank>
