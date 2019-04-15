@@ -58,7 +58,7 @@
 17	dieser	dies	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	18	det	_	_
 18	Übergang	Übergang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
 19	ein	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Person=3	20	det	_	_
-20	wenig	wenig	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	21	advmod	_	_
+20	wenig	wenig	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	21	obl	_	_
 21	anders	ander	ADJ	JJ	Degree=Pos	0	root	_	_
 22	sein	sein	AUX	VB	_	21	cop	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	21	punct	_	_
@@ -238,7 +238,7 @@
 4	ursprünglich	ursprünglich	ADV	RB	Degree=Pos	21	advmod	_	_
 5	nur	nur	ADV	RB	Degree=Pos	7	advmod	_	_
 6	ein	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Person=3	7	det	_	_
-7	paar	paar	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	9	advmod	_	_
+7	paar	paar	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	9	obl	_	_
 8	Blocks	Block	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	7	nmod	_	_
 9	entfernt	entfernt	ADV	RB	Degree=Pos	21	advmod	_	_
 10-11	im	_	_	_	_	_	_	_	_
@@ -1486,7 +1486,7 @@
 20	–	–	PUNCT	-	_	23	punct	_	OrigForm=--
 21	nur	nur	ADV	RB	Degree=Pos	22	advmod	_	_
 22	wenige	wenig	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	23	nmod	_	_
-23	mehr	mehr	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	12	advmod	_	_
+23	mehr	mehr	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	12	obl	_	_
 24	als	als	CCONJ	CC	_	26	cc	_	_
 25	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	26	det	_	_
 26	Pflanzen	Pflanze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	23	conj	_	_
@@ -2928,7 +2928,7 @@
 28	und	und	CCONJ	CC	_	32	cc	_	_
 29	damit	damit	ADV	RB	Degree=Pos	32	advmod	_	_
 30	zwei	zwei	NUM	CD	NumType=Card	31	nummod	_	_
-31	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur|Person=3	32	advmod	_	_
+31	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur|Person=3	32	obl	_	_
 32	alt	alt	ADJ	JJ	Degree=Pos	27	conj	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -3475,7 +3475,7 @@
 1	Sie	Sie|sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
 2	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	cop	_	_
 3	84	84	NUM	CD	NumType=Card	4	nummod	_	_
-4	Jahre	Jahr	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur|Person=3	5	advmod	_	_
+4	Jahre	Jahr	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur|Person=3	5	obl	_	_
 5	alt	alt	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -5293,7 +5293,7 @@
 6	erhalten	erhalten	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 7	3	3	NUM	CD	NumType=Card	8	nummod	_	_
 8	%	%	SYM	SYM	_	6	obj	_	_
-9	Zinsen	Zinse	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	8	advmod	_	_
+9	Zinsen	Zinse	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	8	obl	_	_
 10	auf	auf	ADP	IN	_	11	case	_	_
 11	Guthaben	Guthabe	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur|Person=3	6	obl	_	_
 12	von	von	ADP	IN	_	16	case	_	_
@@ -5502,7 +5502,7 @@
 5	dass	dass	SCONJ	CC	_	9	mark	_	_
 6	Rocco	Rocco	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 7	Catalano	Catalano	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	flat:name	_	_
-8	Retro	Retro	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	advmod	_	_
+8	Retro	Retro	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	obl	_	_
 9	arbeitet	arbeiten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	ccomp	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	_	_
 11	lebt	leben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	conj	_	_
@@ -6265,7 +6265,7 @@
 7	fahren	fahren	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	_
 8	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	7	nsubj	_	_
 9	weiter	weit	ADV	RB	Degree=Pos	7	advmod	_	_
-10	Richtung	Richtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	advmod	_	_
+10	Richtung	Richtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	obl	_	_
 11	Süden	Süden	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	appos	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -7694,7 +7694,7 @@
 11	damit	damit	ADV	RB	Degree=Pos	21	advmod	_	_
 12	auch	auch	ADV	RB	Degree=Pos	21	advmod	_	_
 13	unseren	unser	PRON	DTP$	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	16	nmod:poss	_	_
-14	etwas	etwas	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	15	advmod	_	_
+14	etwas	etwas	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	15	obl	_	_
 15	störanfälligen	störanfällig	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Person=3	16	amod	_	InflectionType=Mixed
 16	Odi	Odi	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	21	obj	_	_
 17-18	zum	_	_	_	_	_	_	_	_
@@ -8116,7 +8116,7 @@
 17	aber	aber	CCONJ	CC	_	19	cc	_	_
 18	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	19	nsubj	_	_
 19	nützt	nützen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	conj	_	_
-20	alles	all	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	18	advmod	_	_
+20	alles	all	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	18	obl	_	_
 21	nichts	nichts	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	19	obj	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	31	punct	_	_
 23	wenn	wenn	SCONJ	CC	_	31	mark	_	_
@@ -9230,7 +9230,7 @@
 # text = Meines Erachtens erhofft sich die Regierung durch den Ausbau der Maglev-Strecke eine verstärkte wirtschaftliche Entwicklung in Japan.
 # text_en = By completing this maglev line, I think the government is expecting bigger economical development in Japan.
 1	Meines	mein	PRON	DTP$	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	2	nmod:poss	_	_
-2	Erachtens	Erachten	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	3	advmod	_	_
+2	Erachtens	Erachten	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	3	obl	_	_
 3	erhofft	erhoffen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	sich	er|es|sie	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Rcp	3	iobj	_	_
 5	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	6	det	_	_
@@ -10095,7 +10095,7 @@
 # sent_id = w01010045
 # text = Ende des 8. Jahrhunderts entstand das Mährische Fürstentum im heutigen südöstlichen Mähren, Záhorie in der südwestlichen Slowakei sowie in Teilen Niederösterreichs.
 # text_en = At the end of the 8th century, the Moravian Principality came into being in present-day south-eastern Moravia, Záhorie in south-western Slovakia and parts of Lower Austria.
-1	Ende	Ende	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	5	advmod	_	_
+1	Ende	Ende	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	5	obl	_	_
 2	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|Person=3	4	det	_	_
 3	8.	8.	ADJ	.	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Person=3	4	amod	_	InflectionType=Weak
 4	Jahrhunderts	Jahrhundert	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	1	nmod	_	_
@@ -11616,7 +11616,7 @@
 9	,	,	PUNCT	,	_	14	punct	_	_
 10	als	als	SCONJ	CC	_	14	mark	_	_
 11	Ostmelanesier	Ostmelanesier	PROPN	NNP	Case=Nom|Gender=Masc|Number=Plur|Person=3	14	nsubj	_	_
-12	Richtung	Richtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	14	advmod	_	_
+12	Richtung	Richtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	14	obl	_	_
 13	Norden	Norden	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	appos	_	_
 14	reisten	reisen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	3	advcl	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	_	_
@@ -13007,7 +13007,7 @@
 # text = Dieses Mal beanspruchte er für sich, den Kampf gekämpft zu haben, obwohl er seine Rüstung erst zwei Stunden nach Beginn des Kampfes angelegt hatte.
 # text_en = This time he claimed to have fought the battle without even bothering to put on his corslet until two hours after the fighting began.
 1	Dieses	dies	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	2	det	_	_
-2	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	3	advmod	_	_
+2	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	3	obl	_	_
 3	beanspruchte	beanspruchen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 5	für	für	ADP	IN	_	6	case	_	_
@@ -13569,7 +13569,7 @@
 19	verweigerte	verweigern	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	conj	_	_
 20	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	19	iobj	_	_
 21	jedes	jed	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Person=3	22	det	_	_
-22	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	19	advmod	_	_
+22	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	19	obl	_	_
 23	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	24	nmod:poss	_	_
 24	Bitte	Bitte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	19	obj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
@@ -13716,7 +13716,7 @@
 38	von	von	ADP	IN	_	39	case	_	_
 39	ihnen	sie	PRON	PRP	Case=Dat|Number=Plur|Person=3	37	nmod	_	_
 40	drei	drei	NUM	CD	NumType=Card	41	nummod	_	_
-41	Meter	Meter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	42	advmod	_	_
+41	Meter	Meter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	42	obl	_	_
 42	hoch	hoch	ADV	RB	Degree=Pos	37	advmod	_	_
 43	-	-	PUNCT	-	_	50	punct	_	_
 44	und	und	CCONJ	CC	_	50	cc	_	_
@@ -15027,7 +15027,7 @@
 # text = Als nächstes rückte Philipp gegen seine Feinde im Süden vor.
 # text_en = Philip next marched against his southern enemies.
 1	Als	als	CCONJ	CC	_	3	cc	_	_
-2	nächstes	nah	NOUN	NNA	Case=Nom|Gender=Neut|Number=Sing|Person=3	3	advmod	_	InflectionType=Strong
+2	nächstes	nah	NOUN	NNA	Case=Nom|Gender=Neut|Number=Sing|Person=3	3	obl	_	InflectionType=Strong
 3	rückte	rücken	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	Philipp	Philipp	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 5	gegen	gegen	ADP	IN	_	7	case	_	_
@@ -15555,7 +15555,7 @@
 2	Griechenlands	Griechenland	PROPN	NNP	Case=Gen|Gender=Neut|Number=Sing|Person=3	3	nmod:poss	_	_
 3	Kolonien	Kolonie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	16	nsubj	_	_
 4	sich	er|es|sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Rcp	16	obj	_	_
-5	Richtung	Richtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	16	advmod	_	_
+5	Richtung	Richtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	16	obl	_	_
 6	Westen	Westen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	appos	_	_
 7	nach	nach	ADP	IN	_	8	case	_	_
 8	Italien	Italien	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing|Person=3	16	obl	_	_
@@ -17689,7 +17689,7 @@
 2	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	aux:pass	_	_
 3	zwei	zwei	NUM	CD	NumType=Card	5	nummod	_	_
 4	weitere	weit	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|Person=3	5	det	_	_
-5	Male	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur|Person=3	6	advmod	_	_
+5	Male	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur|Person=3	6	obl	_	_
 6	wiedergewählt	wiederwählen	VERB	VBN	Tense=Past	0	root	_	_
 7	und	und	CCONJ	CC	_	9	cc	_	_
 8	wieder	wieder	ADV	RB	Degree=Pos	9	advmod	_	_
@@ -18347,7 +18347,7 @@
 1	Gleichzeitig	gleichzeitig	ADV	RB	Degree=Pos	2	advmod	_	_
 2	erschuf	erschaffen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	Starlin	Starlin	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
-4	Mitte	Mitte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	advmod	_	_
+4	Mitte	Mitte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	obl	_	_
 5	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|Person=3	7	det	_	_
 6	70er	70er	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Person=3	7	amod	_	_
 7	Jahre	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur|Person=3	4	nmod	_	_
@@ -19009,7 +19009,7 @@
 # text = Als Nächstes traf sie auf die Titelverteidigerin und Top-Favoritin Sara Errani, wurde aber geschlagen.
 # text_en = She next faced defending champion and top seed Sara Errani, but was defeated.
 1	Als	als	CCONJ	CC	_	3	cc	_	_
-2	Nächstes	nah	NOUN	NNA	Case=Nom|Gender=Neut|Number=Sing|Person=3	3	advmod	_	InflectionType=Strong
+2	Nächstes	nah	NOUN	NNA	Case=Nom|Gender=Neut|Number=Sing|Person=3	3	obl	_	InflectionType=Strong
 3	traf	treffen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 5	auf	auf	ADP	IN	_	7	case	_	_
@@ -19182,7 +19182,7 @@
 10	noch	noch	ADV	RB	Degree=Pos	13	advmod	_	_
 11	ein	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Person=3	13	det	_	_
 12	drittes	dritt	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Person=3	13	amod	_	_
-13	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	14	advmod	_	_
+13	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	14	obl	_	_
 14	anzutreten	antreten	VERB	VB	_	2	xcomp	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -19466,7 +19466,7 @@
 # text = Dieses Mal erreichte es ihn, doch er weigerte sich zu glauben, dass sie nicht mehr mit ihm verheiratet sein wollte.
 # text_en = This time it reached him, but he refused to believe that she no longer wanted to be married to him.
 1	Dieses	dies	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	2	det	_	_
-2	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	3	advmod	_	_
+2	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	3	obl	_	_
 3	erreichte	erreichen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	3	nsubj	_	_
 5	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	obj	_	SpaceAfter=No
@@ -19994,7 +19994,7 @@
 4	Aussetzung	Aussetzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	obj	_	_
 5	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|Person=3	6	det	_	_
 6	Abkommens	Abkommen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	4	nmod	_	_
-7	Anfang	Anfang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	advmod	_	_
+7	Anfang	Anfang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	obl	_	_
 8	Oktober	Oktober	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	obl:tmod	_	_
 9	angekündigt	ankündigen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	9	punct	_	_
@@ -23011,7 +23011,7 @@
 1	Der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	8	det	_	_
 2	über	über	ADP	IN	_	3	advmod	_	_
 3	vier	vier	NUM	CD	NumType=Card	4	nummod	_	_
-4	Kilometer	Kilometer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	5	advmod	_	_
+4	Kilometer	Kilometer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	5	obl	_	_
 5	lange	lang	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Person=3	8	amod	_	InflectionType=Weak
 6	Golden	Golden	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Person=3	7	compound	_	Proper=True
 7	Gate	Gate	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	compound	_	Proper=True
@@ -23519,7 +23519,7 @@
 10	Unabhängigkeit	Unabhängigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	obj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	_	_
 12	so	so	ADV	RB	Degree=Pos	13	advmod	_	_
-13	Finnland	Finnland	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing|Person=3	6	advmod	_	SpaceAfter=No
+13	Finnland	Finnland	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing|Person=3	6	obl	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	15	punct	_	_
 15	Polen	Polen	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing|Person=3	13	conj	_	_
 16	und	und	CCONJ	CC	_	19	cc	_	_
@@ -24157,7 +24157,7 @@
 8	unterteilt	unterteilen	ADJ	JJ	Degree=Pos	0	root	_	_
 9	-	-	PUNCT	-	_	11	punct	_	_
 10	eine	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Person=3	11	det	_	_
-11	Form	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	advmod	_	SpaceAfter=No
+11	Form	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	obl	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	19	punct	_	_
 13	die	der	PRON	REL	Case=Nom|Gender=Fem|Number=Sing|Person=3	19	nsubj	_	_
 14	weitgehend	weitgehend	ADV	RB	Degree=Pos	19	advmod	_	_
@@ -24330,7 +24330,7 @@
 16	Druck	Druck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nsubj:pass	_	_
 17	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	18	det	_	_
 18	Terrorherrschaft	Terrorherrschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing|Person=3	16	nmod	_	_
-19	etwas	etwas	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	20	advmod	_	_
+19	etwas	etwas	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	20	obl	_	_
 20	gelockert	lockern	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	24	punct	_	_
 22	und	und	CCONJ	CC	_	24	cc	_	_
@@ -24666,7 +24666,7 @@
 8	Parks	Park	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
 9	ein	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Person=3	13	det	_	_
 10	90	90	NUM	CD	NumType=Card	11	nummod	_	_
-11	Hektar	Hektar	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	12	advmod	_	_
+11	Hektar	Hektar	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	12	obl	_	_
 12	großer	groß	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Person=3	13	amod	_	InflectionType=Mixed
 13	Golfplatz	Golfplatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj:pass	_	_
 14	gebaut	bauen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
@@ -25081,7 +25081,7 @@
 15	blieb	bleiben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	conj	_	_
 16	sein	sein	PRON	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	18	nmod:poss	_	_
 17	ganzes	ganz	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Person=3	18	amod	_	InflectionType=Mixed
-18	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	15	advmod	_	_
+18	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	15	obl	_	_
 19	lang	lang	ADV	RB	Degree=Pos	18	advmod	_	_
 20	ein	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Person=3	21	det	_	_
 21	Mitglied	Mitglied	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	15	xcomp	_	_
@@ -25885,7 +25885,7 @@
 15	erheben	erheben	VERB	VB	_	10	xcomp	_	SpaceAfter=No
 16	;	;	PUNCT	:	_	18	punct	_	_
 17	eine	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Person=3	18	det	_	_
-18	Handlung	Handlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	advmod	_	SpaceAfter=No
+18	Handlung	Handlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	obl	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	26	punct	_	_
 20	mit	mit	ADP	IN	_	21	case	_	_
 21	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	26	obl	_	_

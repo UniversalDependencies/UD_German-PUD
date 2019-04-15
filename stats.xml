@@ -78,7 +78,7 @@
     <dep name="acl">20</dep>
     <dep name="acl:relcl">271</dep>
     <dep name="advcl">220</dep>
-    <dep name="advmod">1139</dep>
+    <dep name="advmod">1108</dep>
     <dep name="amod">1078</dep>
     <dep name="appos">264</dep>
     <dep name="aux">375</dep>
@@ -111,7 +111,7 @@
     <dep name="nsubj:pass">207</dep>
     <dep name="nummod">176</dep>
     <dep name="obj">897</dep>
-    <dep name="obl">1323</dep>
+    <dep name="obl">1354</dep>
     <dep name="obl:tmod">173</dep>
     <dep name="orphan">10</dep>
     <dep name="parataxis">68</dep>
