@@ -12788,7 +12788,7 @@
 6	Republik	Republik	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing|Person=3	4	nmod	_	Proper=True
 7	China	China	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing|Person=3	6	appos	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	4	punct	_	_
-9	sah	sehen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+9	sah	sehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 10	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	12	det	_	_
 11	neue	neu	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Person=3	12	amod	_	InflectionType=Weak
 12	Republik	Republik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	obj	_	_
@@ -14124,7 +14124,7 @@
 6	Karl	Karl	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj:pass	_	_
 7	als	als	CCONJ	CC	_	8	mark	_	_
 8	Herrscher	Herrscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	acl	_	_
-9	angesehen	ansehen	AUX	VBN	Tense=Past	0	root	_	SpaceAfter=No
+9	angesehen	ansehen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	18	punct	_	_
 11	der	der	PRON	REL	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
 12	Einfühlungsvermögen	Einfühlungsvermögen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Person=3	18	obj	_	_
@@ -16806,7 +16806,7 @@
 18	als	als	SCONJ	CC	_	20	mark	_	_
 19	öffentliche	öffentlich	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Person=3	20	amod	_	InflectionType=Strong
 20	Figur	Figur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	21	advcl	_	_
-21	aufzutreten	auftreten	AUX	VB	VerbForm=Inf	16	acl	_	SpaceAfter=No
+21	aufzutreten	auftreten	VERB	VB	VerbForm=Inf	16	acl	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	21	punct	_	_
 23	hin	hin	X	RED	_	2	advcl	_	SpaceAfter=No
 24	-	-	PUNCT	-	_	23	punct	_	_
@@ -18219,7 +18219,7 @@
 16	Uaxactun	Uaxactun	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing|Person=3	13	conj	_	_
 17	finden	finden	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	2	acl:relcl	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	17	punct	_	_
-19	lassen	lassen	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+19	lassen	lassen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 20	diese	dies	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|Person=3	21	det	_	_
 21	Stätten	Stätte	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	19	obj	_	_
 22	als	als	SCONJ	CC	_	23	mark	_	_
@@ -22330,7 +22330,7 @@
 9	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	10	det	_	_
 10	Partei	Partei	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing|Person=3	8	nmod	_	_
 11	zu	zu	PART	RP	_	12	mark	_	_
-12	bleiben	bleiben	AUX	VB	_	5	xcomp	_	SpaceAfter=No
+12	bleiben	bleiben	VERB	VB	_	5	xcomp	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = n05003010
@@ -24294,19 +24294,19 @@
 # text = Diese Affäre kann als Startpunkt für seine Karriere als radikaler Revolutionär vestanden werden.
 # text_en = This affair can be seen as the starting point for his career as a radical revolutionary.
 1	Diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	2	det	_	_
-2	Affäre	Affäre	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj:pass	_	_
-3	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux	_	_
-4	als	als	CCONJ	CC	_	5	cc	_	_
-5	Startpunkt	Startpunkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+2	Affäre	Affäre	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	nsubj:pass	_	_
+3	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	aux	_	_
+4	als	als	CCONJ	CC	_	12	cc	_	_
+5	Startpunkt	Startpunkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	xcomp	_	_
 6	für	für	ADP	IN	_	8	case	_	_
 7	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	8	nmod:poss	_	_
 8	Karriere	Karriere	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	5	nmod	_	_
 9	als	als	CCONJ	CC	_	11	cc	_	_
 10	radikaler	radikal	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Person=3	11	amod	_	InflectionType=Strong
 11	Revolutionär	Revolutionär	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	conj	_	_
-12	vestanden	vestehen	AUX	VBN	Tense=Past	5	cop	_	_
-13	werden	werden	AUX	VB	_	5	aux:pass	_	SpaceAfter=No
-14	.	.	PUNCT	.	_	5	punct	_	_
+12	vestanden	vestehen	VERB	VBN	Tense=Past	0	root	_	_
+13	werden	werden	AUX	VB	_	12	aux:pass	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = w03008029
 # text = Im Monat Pluvoise des Jahres III (Januar - Februar 1794) wurde der Druck der Terrorherrschaft etwas gelockert, und er unternahm verschiedene Maßnahmen, um die Verdächtigen zu befreien.
