@@ -7557,7 +7557,7 @@
 1	Auf	auf	ADP	IN	_	3	case	_	_
 2	einer	ein	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|Person=3	3	det	_	_
 3	Ebene	Ebene	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	4	obl	_	_
-4	funktioniert	funktionieren	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	funktioniert	funktionieren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 5	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	6	det	_	_
 6	Film	Film	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
 7	als	als	CCONJ	CC	_	11	cc	_	_
@@ -10269,10 +10269,10 @@
 12	gesondert	gesondert	ADV	RB	Degree=Pos	13	advmod	_	_
 13	entwickelt	entwickeln	VERB	VBN	Tense=Past	9	conj	_	_
 14	haben	haben	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	13	aux	_	SpaceAfter=No
-15	,	,	PUNCT	,	_	18	punct	_	_
-16	bekannt	bekannt	AUX	VBN	Tense=Past|VerbForm=Part	18	cop	_	_
-17	als	als	CCONJ	CC	_	18	cc	_	_
-18	Meänkili	Meänkili	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing|Person=3	4	ccomp	_	_
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	bekannt	bekannt	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	_
+17	als	als	CCONJ	CC	_	16	cc	_	_
+18	Meänkili	Meänkili	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing|Person=3	16	xcomp	_	_
 19	in	in	ADP	IN	_	20	case	_	_
 20	Schweden	Schweden	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing|Person=3	18	nmod	_	_
 21	und	und	CCONJ	CC	_	22	cc	_	_
@@ -11482,11 +11482,11 @@
 6	Vulkanologie	Vulkanologie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	xcomp	_	_
 7	(	(	PUNCT	(	_	8	punct	_	SpaceAfter=No
 8	manchmal	manchmal	ADV	RB	Degree=Pos	5	advmod	_	_
-9	„	„	PUNCT	``	_	10	punct	_	SpaceAfter=No
-10	Vulkanologie	Vulkanologie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	ccomp	_	SpaceAfter=No
-11	“	“	PUNCT	``	_	10	punct	_	_
-12	geschrieben	schreiben	AUX	VBN	Tense=Past|VerbForm=Part	10	cop	_	SpaceAfter=No
-13	)	)	PUNCT	)	_	10	punct	_	SpaceAfter=No
+9	„	„	PUNCT	``	_	12	punct	_	SpaceAfter=No
+10	Vulkanologie	Vulkanologie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	xcomp	_	SpaceAfter=No
+11	“	“	PUNCT	``	_	12	punct	_	_
+12	geschrieben	schreiben	VERB	VBN	Tense=Past|VerbForm=Part	6	ccomp	_	SpaceAfter=No
+13	)	)	PUNCT	)	_	12	punct	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = w01031015
@@ -11787,7 +11787,7 @@
 10	Ort	Ort	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	acl	_	_
 11	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	12	det	_	_
 12	Welt	Welt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing|Person=3	9	nmod	_	_
-13	bezeichnet	bezeichnen	AUX	VBN	Tense=Past	0	root	_	SpaceAfter=No
+13	bezeichnet	bezeichnen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	19	punct	_	_
 15	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|Person=3	19	nsubj	_	_
 16	Gewalt	Gewalt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	19	obj	_	_
@@ -11830,7 +11830,7 @@
 12	als	als	CCONJ	CC	_	14	mark	_	_
 13	eigenständige	eigenständig	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Person=3	14	amod	_	InflectionType=Strong
 14	Kontinente	Kontinent	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	1	acl	_	_
-15	betrachtet	betrachten	AUX	VBN	Tense=Past	0	root	_	SpaceAfter=No
+15	betrachtet	betrachten	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = w01037080
@@ -12383,7 +12383,7 @@
 3	16	16	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing|Person=3	5	nummod	_	SpaceAfter=No|InflectionType=Weak
 4	.	.	PUNCT	.	_	3	punct	_	_
 5	Jahrhundert	Jahrhundert	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	6	obl	_	_
-6	bezeichneten	bezeichnen	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
+6	bezeichneten	bezeichnen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 7	Europäer	Europäer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	6	nsubj	_	SpaceAfter=No|Proper=True
 8	,	,	PUNCT	,	_	12	punct	_	_
 9	die	der	PRON	REL	Case=Nom|Gender=Masc|Number=Plur|Person=3	12	nsubj	_	_
@@ -12767,7 +12767,7 @@
 3	neugegründete	neugegründet	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Person=3	4	amod	_	InflectionType=Weak
 4	Republik	Republik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	Proper=True
 5	China	China	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing|Person=3	4	appos	_	_
-6	betrachtete	betrachten	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+6	betrachtete	betrachten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 7	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	8	det	_	_
 8	Mongolei	Mongolei	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	obj	_	_
 9	als	als	CCONJ	CC	_	10	cc	_	_
@@ -14717,13 +14717,13 @@
 # text = Die Studie interpretierte diese drei Faktoren als Stellvertreter für durch Revolten entstandene Verdienstausfälle, daher müssten niedrigere Verdienstausfälle Rebellionen begünstigen.
 # text_en = The study interpreted these three factors as proxies for earnings forgone by rebellion, and therefore that lower forgone earnings encourage rebellion.
 1	Die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	2	det	_	_
-2	Studie	Studie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
-3	interpretierte	interpretieren	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	cop	_	_
+2	Studie	Studie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+3	interpretierte	interpretieren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	diese	dies	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|Person=3	6	det	_	_
 5	drei	drei	NUM	CD	NumType=Card	6	nummod	_	_
-6	Faktoren	Faktor	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	8	obj	_	_
-7	als	als	CCONJ	CC	_	8	cc	_	_
-8	Stellvertreter	Stellvertreter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	0	root	_	_
+6	Faktoren	Faktor	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	3	obj	_	_
+7	als	als	CCONJ	CC	_	3	cc	_	_
+8	Stellvertreter	Stellvertreter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	3	xcomp	_	_
 9	für	für	ADP	IN	_	13	case	_	_
 10	durch	durch	ADP	IN	_	11	case	_	_
 11	Revolten	Revolte	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	12	obl	_	_
@@ -14736,7 +14736,7 @@
 18	Verdienstausfälle	Verdienstausfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	20	nsubj	_	_
 19	Rebellionen	Rebellion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	20	obj	_	_
 20	begünstigen	begünstigen	VERB	VB	_	8	parataxis	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	8	punct	_	_
+21	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = w01075039
 # text = Anders ausgedrückt: Junge Männer (die den Großteil der Kämpfer in Bürgerkriegen stellen) beteiligen sich weniger häufig an Revolten, wenn sie höhere Bildung oder eine angemessene Bezahlung erhalten und wenn sie davon ausgehen können, einer sicheren Zukunft entgegenzublicken.
@@ -14794,20 +14794,20 @@
 4	-	-	PUNCT	-	_	3	punct	_	SpaceAfter=No
 5	Kopf	Kopf	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	7	compound	_	SpaceAfter=No
 6	-	-	PUNCT	-	_	5	punct	_	SpaceAfter=No
-7	Einkommen	Einkommen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	10	nsubj:pass	_	_
-8	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	aux:pass	_	_
-9	als	als	CCONJ	CC	_	10	cc	_	_
-10	Ursache	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	root	_	_
+7	Einkommen	Einkommen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	13	nsubj:pass	_	_
+8	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	aux:pass	_	_
+9	als	als	CCONJ	CC	_	13	cc	_	_
+10	Ursache	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	13	xcomp	_	_
 11	für	für	ADP	IN	_	12	case	_	_
 12	Unzufriedenheit	Unzufriedenheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	10	nmod	_	_
-13	ausgemacht	ausmachen	AUX	VBN	Tense=Past	10	cop	_	SpaceAfter=No
+13	ausgemacht	ausmachen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	19	punct	_	_
 15	die	der	PRON	REL	Case=Nom|Gender=Fem|Number=Sing|Person=3	19	nsubj	_	_
 16	zu	zu	ADP	IN	_	18	case	_	_
 17	bewaffneten	bewaffnet	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Person=3	18	amod	_	InflectionType=Strong
 18	Aufständen	Aufstand	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	19	obl	_	_
 19	führt	führen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	acl:relcl	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	10	punct	_	_
+20	.	.	PUNCT	.	_	13	punct	_	_
 
 # newdoc id = w01076
 # sent_id = w01076039
