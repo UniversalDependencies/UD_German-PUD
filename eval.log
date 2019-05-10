@@ -3,11 +3,11 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_German-PUD:
-commit ad767e381ff6e3940976035728fc29de89a582b7
-Merge: 684eaec 629a856
+commit b476979acad9a5bce6efcedaad1f08321cfd2a4b
+Merge: 44c5993 cb963a2
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 21325 of 21325 words (nodes).
-Size: min(0, log((N/1000)**2)) = 6.11976018675549.
+Size: counted 21329 of 21329 words (nodes).
+Size: min(0, log((N/1000)**2)) = 6.12013529811777.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -15,12 +15,12 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 14693 out of 21325 total words have one or more features.
+Features: 14700 out of 21329 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 5553 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 21325 words.
+Udapi: found 5583 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 21329 words.
 Genres: found 2 out of 17 known.
 validate.py --lang de --max-err=10 UD_German-PUD/de_pud-ud-test.conllu
 *** PASSED ***
@@ -28,11 +28,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.442963013279854) = 0.113580259815347
+(weight=0.256410256410256) * (score{size}=0.442990164745644) = 0.113587221729652
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.392745397804015) * (availability=1) * (validity=1) = 0.392745397804015
+(TOTAL score=0.39275235971832) * (availability=1) * (validity=1) = 0.39275235971832
 STARS = 2
-UD_German-PUD	0.392745397804015	2
+UD_German-PUD	0.39275235971832	2
