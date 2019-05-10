@@ -36,6 +36,9 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2019-05-15 v2.4
+  * Some pseudo-auxiliary verbs reanalyzed as normal verbs.
+  * Fixed some errors found by the new validator.
 * 2018-11-15 v2.3
   * Added lemmas (output of UDPipe manually checked and fixed).
 * 2018-07-01 v2.2
