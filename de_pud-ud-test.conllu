@@ -195,7 +195,7 @@
 # text = Anfang Oktober nutzte das Übergangsteam denselben Veranstaltungsort für ein Treffen mit Technologielobbyisten, zu dem u.a. Vertreter von Uber, der Motion Picture Association of America und der Consumer Technology Association eingeladen waren.
 # text_en = In early October, the transition team used the same venue to meet with technology lobbyists, inviting representatives from Uber, the Motion Picture Association of America, the Consumer Technology Association and other groups.
 1	Anfang	Anfang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	obl:tmod	_	_
-2	Oktober	Oktober	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	1	obl:tmod	_	_
+2	Oktober	Oktober	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	1	nmod	_	_
 3	nutzte	nutzen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	5	det	_	_
 5	Übergangsteam	Übergangsteam	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	3	nsubj	_	_
@@ -1191,8 +1191,8 @@
 10-11	vom	_	_	_	_	_	_	_	_
 10	von	von	ADP	APPR	_	13	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	13	det	_	_
-12	21.	21	NOUN	.	Case=Dat|Gender=Masc|Number=Sing|Person=3	13	amod	_	InflectionType=Weak
-13	Oktober	Oktober	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	obl:tmod	_	SpaceAfter=No
+12	21.	21	ADJ	.	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	InflectionType=Weak
+13	Oktober	Oktober	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	28	punct	_	_
 15	die	der	PRON	REL	Case=Nom|Gender=Masc|Number=Plur|Person=3	28	nsubj	_	_
 16	kurzzeitig	kurzzeitig	ADV	RB	Degree=Pos	28	advmod	_	_
@@ -4508,8 +4508,8 @@
 16-17	am	_	_	_	_	_	_	_	_
 16	an	an	ADP	APPR	_	18	case	_	_
 17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	18	det	_	_
-18	1.	1	NOUN	.	Case=Dat|Gender=Masc|Number=Sing|Person=3	23	obl	_	InflectionType=Weak
-19	Dezember	Dezember	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	obl:tmod	_	_
+18	1.	1	ADJ	.	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	InflectionType=Weak
+19	Dezember	Dezember	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	obl:tmod	_	_
 20-21	zur	_	_	_	_	_	_	_	_
 20	zu	zu	ADP	APPR	_	22	case	_	_
 21	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	22	det	_	_
@@ -5404,8 +5404,8 @@
 2-3	im	_	_	_	_	_	_	_	_
 2	in	in	ADP	APPR	_	4	case	_	_
 3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	4	det	_	_
-4	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	6	obl	_	_
-5	2016	2016	NUM	CD	NumType=Card	4	obl:tmod	_	_
+4	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	6	obl:tmod	_	_
+5	2016	2016	NUM	CD	NumType=Card	4	nummod	_	_
 6	verdient	verdienen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 7	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	6	nsubj	_	_
 8	immer	immer	ADV	RB	Degree=Pos	9	advmod	_	_
