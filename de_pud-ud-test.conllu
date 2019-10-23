@@ -1191,8 +1191,8 @@
 10-11	vom	_	_	_	_	_	_	_	_
 10	von	von	ADP	APPR	_	13	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	13	det	_	_
-12	21.	21	ADJ	.	Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	InflectionType=Weak
-13	Oktober	Oktober	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	obl:tmod	_	SpaceAfter=No
+12	21.	21	ADJ	.	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	InflectionType=Weak
+13	Oktober	Oktober	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	9	obl:tmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	28	punct	_	_
 15	die	der	PRON	REL	Case=Nom|Gender=Masc|Number=Plur|Person=3	28	nsubj	_	_
 16	kurzzeitig	kurzzeitig	ADV	RB	Degree=Pos	28	advmod	_	_
