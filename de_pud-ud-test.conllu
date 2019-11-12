@@ -195,7 +195,7 @@
 # text = Anfang Oktober nutzte das Übergangsteam denselben Veranstaltungsort für ein Treffen mit Technologielobbyisten, zu dem u.a. Vertreter von Uber, der Motion Picture Association of America und der Consumer Technology Association eingeladen waren.
 # text_en = In early October, the transition team used the same venue to meet with technology lobbyists, inviting representatives from Uber, the Motion Picture Association of America, the Consumer Technology Association and other groups.
 1	Anfang	Anfang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	obl:tmod	_	_
-2	Oktober	Oktober	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	1	obl:tmod	_	_
+2	Oktober	Oktober	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	1	nmod	_	_
 3	nutzte	nutzen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	5	det	_	_
 5	Übergangsteam	Übergangsteam	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	3	nsubj	_	_
@@ -465,7 +465,7 @@
 10	vor	vor	ADP	IN	_	12	case	_	_
 11	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	12	det	_	_
 12	Wahltag	Wahltag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	25	obl	_	_
-13	1996	1996	NUM	CD	NumType=Card	12	obl:tmod	_	_
+13	1996	1996	NUM	CD	NumType=Card	12	nummod	_	_
 14	wurden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	25	aux:pass	_	_
 15	laut	laut	ADP	IN	_	19	case	_	_
 16	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	19	det	_	_
@@ -744,7 +744,7 @@
 16	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	18	det	_	_
 17	schottischen	schottisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing|Person=3	18	amod	_	InflectionType=Weak|Proper=True
 18	Unabhängigkeitsreferendum	Unabhängigkeitsreferendum	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	20	obl	_	_
-19	2014	2014	NUM	CD	NumType=Card	18	obl:tmod	_	_
+19	2014	2014	NUM	CD	NumType=Card	18	nummod	_	_
 20	versprochen	versprechen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	20	punct	_	_
 
@@ -1191,8 +1191,8 @@
 10-11	vom	_	_	_	_	_	_	_	_
 10	von	von	ADP	APPR	_	13	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	13	det	_	_
-12	21.	21	NOUN	.	Case=Dat|Gender=Masc|Number=Sing|Person=3	13	amod	_	InflectionType=Weak
-13	Oktober	Oktober	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	obl:tmod	_	SpaceAfter=No
+12	21.	21	ADJ	.	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	InflectionType=Weak
+13	Oktober	Oktober	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	9	obl:tmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	28	punct	_	_
 15	die	der	PRON	REL	Case=Nom|Gender=Masc|Number=Plur|Person=3	28	nsubj	_	_
 16	kurzzeitig	kurzzeitig	ADV	RB	Degree=Pos	28	advmod	_	_
@@ -4045,7 +4045,7 @@
 4	um	um	ADP	IN	_	6	case	_	_
 5	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|Person=3	6	det	_	_
 6	Präsidentschaftswahlen	Präsidentschaftswahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	8	obl	_	_
-7	2016	2016	NUM	CD	NumType=Card	6	obl:tmod	_	_
+7	2016	2016	NUM	CD	NumType=Card	6	nummod	_	_
 8	zunimmt	zunehmen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	advcl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
 10	beschäftigt	beschäftigen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -4508,8 +4508,8 @@
 16-17	am	_	_	_	_	_	_	_	_
 16	an	an	ADP	APPR	_	18	case	_	_
 17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	18	det	_	_
-18	1.	1	NOUN	.	Case=Dat|Gender=Masc|Number=Sing|Person=3	23	obl	_	InflectionType=Weak
-19	Dezember	Dezember	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	obl:tmod	_	_
+18	1.	1	ADJ	.	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	InflectionType=Weak
+19	Dezember	Dezember	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	obl:tmod	_	_
 20-21	zur	_	_	_	_	_	_	_	_
 20	zu	zu	ADP	APPR	_	22	case	_	_
 21	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	22	det	_	_
@@ -5405,7 +5405,7 @@
 2	in	in	ADP	APPR	_	4	case	_	_
 3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	4	det	_	_
 4	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	6	obl	_	_
-5	2016	2016	NUM	CD	NumType=Card	4	obl:tmod	_	_
+5	2016	2016	NUM	CD	NumType=Card	4	nummod	_	_
 6	verdient	verdienen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 7	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	6	nsubj	_	_
 8	immer	immer	ADV	RB	Degree=Pos	9	advmod	_	_
@@ -6797,7 +6797,7 @@
 3	in	in	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	5	det	_	_
 5	Oktober	Oktober	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	23	obl	_	_
-6	2015	2015	NUM	CD	NumType=Card	5	obl:tmod	_	SpaceAfter=No
+6	2015	2015	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	_	_
 8	einen	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Person=3	9	det	_	_
 9	Monat	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	appos	_	SpaceAfter=No
@@ -7186,7 +7186,7 @@
 11	in	in	ADP	APPR	_	13	case	_	_
 12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	13	det	_	_
 13	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	8	obl	_	_
-14	2050	2050	NUM	CD	NumType=Card	13	obl:tmod	_	_
+14	2050	2050	NUM	CD	NumType=Card	13	nummod	_	_
 15	mehr	mehr	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Person=3	16	det	_	_
 16	Plastikmüll	Plastikmüll	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	obj	_	_
 17	als	als	CCONJ	CC	_	18	cc	_	_
@@ -7341,7 +7341,7 @@
 16	in	in	ADP	APPR	_	18	case	_	_
 17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	18	det	_	_
 18	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	22	obl	_	_
-19	2017	2017	NUM	CD	NumType=Card	18	obl:tmod	_	_
+19	2017	2017	NUM	CD	NumType=Card	18	nummod	_	_
 20	noch	noch	ADV	RB	Degree=Pos	21	advmod	_	_
 21	weiter	weit	ADV	RB	Degree=Cmp	22	advmod	_	_
 22	verbessern	verbessern	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	9	advcl	_	SpaceAfter=No
@@ -7782,7 +7782,7 @@
 5	31	31	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	17	obl	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	5	punct	_	_
 7	Oktober	Oktober	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obl:tmod	_	_
-8	1832	1832	NUM	CD	NumType=Card	7	obl:tmod	_	_
+8	1832	1832	NUM	CD	NumType=Card	7	nummod	_	_
 9	in	in	ADP	IN	_	11	case	_	_
 10	einem	ein	DET	DT	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|Person=3	11	det	_	_
 11	Dorf	Dorf	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	17	obl	_	_
@@ -9847,7 +9847,7 @@
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	3	det	_	_
 3	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	13	obl	_	_
-4	1912	1912	NUM	CD	NumType=Card	3	obl:tmod	_	_
+4	1912	1912	NUM	CD	NumType=Card	3	nummod	_	_
 5	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	aux:pass	_	_
 6	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	8	det	_	_
 7	erste	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Person=3	8	amod	_	InflectionType=Weak
@@ -9894,7 +9894,7 @@
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	3	det	_	_
 3	Juli	Juli	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	11	obl	_	_
-4	1918	1918	NUM	CD	NumType=Card	3	obl:tmod	_	_
+4	1918	1918	NUM	CD	NumType=Card	3	nummod	_	_
 5	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	11	aux:pass	_	_
 6	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	10	det	_	_
 7	franco	franco	X	AFX	_	9	compound	_	SpaceAfter=No|Proper=True
@@ -10025,7 +10025,7 @@
 16	in	in	ADP	APPR	_	18	case	_	_
 17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	18	det	_	_
 18	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	14	obl	_	_
-19	1973	1973	NUM	CD	NumType=Card	18	obl:tmod	_	_
+19	1973	1973	NUM	CD	NumType=Card	18	nummod	_	_
 20	auf	auf	ADP	IN	_	22	case	_	_
 21	dieser	dies	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	22	det	_	_
 22	Idee	Idee	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	23	obl	_	_
@@ -10132,7 +10132,7 @@
 3	in	in	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	5	det	_	_
 5	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	2	obl	_	_
-6	833	833	NUM	CD	NumType=Card	5	obl:tmod	_	_
+6	833	833	NUM	CD	NumType=Card	5	nummod	_	_
 7	n	n	ADP	IN	_	9	case	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	7	punct	_	_
 9	Chr.	Chr.	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
@@ -10504,9 +10504,9 @@
 1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	3	det	_	_
-3	1.	1.	NOUN	.	Case=Dat|Gender=Masc|Number=Sing|Person=3	6	obl	_	_
-4	Oktober	Oktober	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	obl:tmod	_	_
-5	1961	1961	NUM	CD	NumType=Card	4	obl:tmod	_	_
+3	1.	1.	ADJ	.	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	Oktober	Oktober	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	obl:tmod	_	_
+5	1961	1961	NUM	CD	NumType=Card	4	nummod	_	_
 6	schloss	schließen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 7	sich	er|es|sie	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Rcp	6	obj	_	_
 8	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	11	det	_	_
@@ -11063,7 +11063,7 @@
 10	in	in	ADP	APPR	_	12	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	12	det	_	_
 12	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	9	obl	_	_
-13	1987	1987	NUM	CD	NumType=Card	12	obl:tmod	_	_
+13	1987	1987	NUM	CD	NumType=Card	12	nummod	_	_
 14	auf	auf	ADP	IN	_	18	case	_	_
 15	ungefähr	ungefähr	ADV	RB	Degree=Pos	16	advmod	_	_
 16	100	100	NUM	CD	NumType=Card	17	nummod	_	_
@@ -11578,7 +11578,7 @@
 3	in	in	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	5	det	_	_
 5	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	13	obl	_	_
-6	1975	1975	NUM	CD	NumType=Card	5	obl:tmod	_	_
+6	1975	1975	NUM	CD	NumType=Card	5	nummod	_	_
 7-8	zum	_	_	_	_	_	_	_	_
 7	zu	zu	ADP	APPR	_	10	case	_	_
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	10	det	_	_
@@ -11845,7 +11845,7 @@
 4	in	in	ADP	APPR	_	6	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	6	det	_	_
 6	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	3	obl	_	_
-7	1492	1492	NUM	CD	NumType=Card	6	obl:tmod	_	_
+7	1492	1492	NUM	CD	NumType=Card	6	nummod	_	_
 8	über	über	ADP	IN	_	11	case	_	_
 9	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3	11	det	_	_
 10	Atlantischen	Atlantisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Person=3	11	amod	_	InflectionType=Weak|Proper=True
@@ -12201,7 +12201,7 @@
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	3	det	_	_
 3	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	5	obl	_	_
-4	1340	1340	NUM	CD	NumType=Card	3	obl:tmod	_	_
+4	1340	1340	NUM	CD	NumType=Card	3	nummod	_	_
 5	hatte	haben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 6	Kairo	Kairo	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing|Person=3	5	nsubj	_	_
 7	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	8	det	_	_
@@ -12921,7 +12921,7 @@
 13	in	in	ADP	APPR	_	15	case	_	_
 14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	15	det	_	_
 15	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	2	obl	_	_
-16	1903	1903	NUM	CD	NumType=Card	15	obl:tmod	_	_
+16	1903	1903	NUM	CD	NumType=Card	15	nummod	_	_
 17	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|Person=3	18	det	_	_
 18	Quellen	Quelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	2	obj	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	26	punct	_	_
@@ -13331,7 +13331,7 @@
 8	in	in	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	10	det	_	_
 10	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	15	obl	_	_
-11	363	363	NUM	CD	NumType=Card	10	obl:tmod	_	_
+11	363	363	NUM	CD	NumType=Card	10	nummod	_	_
 12-13	im	_	_	_	_	_	_	_	_
 12	in	in	ADP	APPR	_	14	case	_	_
 13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	14	det	_	_
@@ -13356,7 +13356,7 @@
 10	in	in	ADP	APPR	_	12	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	12	det	_	_
 12	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	14	obl	_	_
-13	393	393	NUM	CD	NumType=Card	12	obl:tmod	_	_
+13	393	393	NUM	CD	NumType=Card	12	nummod	_	_
 14	abgehalten	abhalten	VERB	VBN	Tense=Past	3	csubj:pass	_	_
 15	wurden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	14	aux:pass	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	_	_
@@ -13392,7 +13392,7 @@
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	3	det	_	_
 3	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	7	obl	_	_
-4	1072	1072	NUM	CD	NumType=Card	3	obl:tmod	_	_
+4	1072	1072	NUM	CD	NumType=Card	3	nummod	_	_
 5	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	aux:pass	_	_
 6	Shen	Shen	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj:pass	_	_
 7	losgeschickt	losschicken	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
@@ -13468,7 +13468,7 @@
 14	in	in	ADP	APPR	_	16	case	_	_
 15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	16	det	_	_
 16	Sommer	Sommer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	27	obl	_	_
-17	1075	1075	NUM	CD	NumType=Card	16	obl:tmod	_	_
+17	1075	1075	NUM	CD	NumType=Card	16	nummod	_	_
 18	als	als	CCONJ	CC	_	19	cc	_	_
 19	Gesandter	Gesandte	NOUN	NNA	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	conj	_	InflectionType=Strong
 20-21	zur	_	_	_	_	_	_	_	_
@@ -14045,9 +14045,9 @@
 1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	3	det	_	_
-3	9.	9.	NOUN	.	Case=Dat|Gender=Masc|Number=Sing|Person=3	33	obl	_	_
-4	September	September	NOUN	NNA	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	obl:tmod	_	InflectionType=Weak
-5	2002	2002	NUM	CD	NumType=Card	4	obl:tmod	_	_
+3	9.	9.	ADJ	.	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	September	September	NOUN	NNA	Case=Nom|Gender=Masc|Number=Sing|Person=3	33	obl:tmod	_	InflectionType=Weak
+5	2002	2002	NUM	CD	NumType=Card	4	nummod	_	_
 6	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	33	aux:pass	_	_
 7	Aldrin	Aldrin	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	33	nsubj:pass	_	_
 8	unter	unter	ADP	IN	_	10	case	_	_
@@ -14556,7 +14556,7 @@
 5	erschienen	erscheinen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 6	zwischen	zwischen	ADP	IN	_	7	case	_	_
 7	November	November	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	5	obl	_	_
-8	1886	1886	NUM	CD	NumType=Card	7	obl:tmod	_	_
+8	1886	1886	NUM	CD	NumType=Card	7	nummod	_	_
 9	und	und	CCONJ	CC	_	10	cc	_	_
 10	Juni	Juni	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	7	conj	_	_
 11	1887	1887	NUM	CD	NumType=Card	10	obl:tmod	_	_
@@ -16379,7 +16379,7 @@
 24	in	in	ADP	APPR	_	26	case	_	_
 25	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	26	det	_	_
 26	Oktober	Oktober	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	28	obl	_	_
-27	1945	1945	NUM	CD	NumType=Card	26	obl:tmod	_	_
+27	1945	1945	NUM	CD	NumType=Card	26	nummod	_	_
 28	hingerichtet	hinrichten	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	28	punct	_	_
 
@@ -16675,7 +16675,7 @@
 13	in	in	ADP	APPR	_	15	case	_	_
 14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	15	det	_	_
 15	April	April	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	11	obl	_	_
-16	1997	1997	NUM	CD	NumType=Card	15	obl:tmod	_	SpaceAfter=No
+16	1997	1997	NUM	CD	NumType=Card	15	nummod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = w01106073
@@ -16823,9 +16823,9 @@
 1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	3	det	_	_
-3	10.	10.	NOUN	.	Case=Dat|Gender=Masc|Number=Sing|Person=3	6	obl	_	_
-4	März	März	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	obl:tmod	_	_
-5	1896	1896	NUM	CD	NumType=Card	4	obl:tmod	_	_
+3	10.	10.	ADJ	.	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	März	März	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	obl:tmod	_	_
+5	1896	1896	NUM	CD	NumType=Card	4	nummod	_	_
 6	bekam	bekommen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 7	Herzl	Herzl	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 8	Besuch	Besuch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	obj	_	_
@@ -16955,7 +16955,7 @@
 3-4	am	_	_	_	_	_	_	_	_
 3	an	an	ADP	APPR	_	6	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	6	det	_	_
-5	4.	4.	NOUN	.	Case=Dat|Gender=Masc|Number=Sing|Person=3	6	amod	_	_
+5	4.	4.	ADJ	.	Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
 6	Oktober	Oktober	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	obl:tmod	_	_
 7	1988	1988	NUM	CD	NumType=Card	6	nummod	_	_
 8	und	und	CCONJ	CC	_	13	cc	_	_
@@ -16963,7 +16963,7 @@
 10-11	am	_	_	_	_	_	_	_	_
 10	an	an	ADP	APPR	_	13	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	13	det	_	_
-12	19.	19.	NOUN	.	Case=Dat|Gender=Masc|Number=Sing|Person=3	13	amod	_	_
+12	19.	19.	ADJ	.	Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
 13	März	März	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	obl:tmod	_	_
 14	1993	1993	NUM	CD	NumType=Card	13	nummod	_	_
 15	für	für	ADP	IN	_	16	case	_	_
@@ -17055,7 +17055,7 @@
 4	in	in	ADP	APPR	_	6	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	6	det	_	_
 6	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	2	obl	_	_
-7	2013	2013	NUM	CD	NumType=Card	6	obl:tmod	_	_
+7	2013	2013	NUM	CD	NumType=Card	6	nummod	_	_
 8	fünf	fünf	NUM	CD	NumType=Card	10	nummod	_	_
 9	traditionelle	traditionell	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Person=3	10	amod	_	InflectionType=Strong
 10	Märkte	Markt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	2	obj	_	_
@@ -17234,7 +17234,7 @@
 10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	11	det	_	_
 11	21.	21	NUM	.	NumType=Card	6	obl	_	_
 12	April	April	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	obl:tmod	_	_
-13	1882	1882	NUM	CD	NumType=Card	12	obl:tmod	_	SpaceAfter=No
+13	1882	1882	NUM	CD	NumType=Card	12	nummod	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = w01115025
@@ -17878,7 +17878,7 @@
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	3	det	_	_
 3	Juni	Juni	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	5	obl	_	_
-4	2012	2012	NUM	CD	NumType=Card	3	obl:tmod	_	_
+4	2012	2012	NUM	CD	NumType=Card	3	nummod	_	_
 5	veröffentlichte	veröffentlichen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 6	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	8	det	_	_
 7	isländische	isländisch	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Person=3	8	amod	_	InflectionType=Weak|Proper=True
@@ -18563,7 +18563,7 @@
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	3	det	_	_
 3	Januar	Januar	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	5	obl	_	_
-4	2011	2011	NUM	CD	NumType=Card	3	obl:tmod	_	_
+4	2011	2011	NUM	CD	NumType=Card	3	nummod	_	_
 5	begann	beginnen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 6	Blunt	Blunt	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	27	punct	_	_
@@ -18602,7 +18602,7 @@
 39	in	in	ADP	APPR	_	41	case	_	_
 40	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	41	det	_	_
 41	September	September	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	43	obl	_	_
-42	2012	2012	NUM	CD	NumType=Card	41	obl:tmod	_	_
+42	2012	2012	NUM	CD	NumType=Card	41	nummod	_	_
 43	kam	kommen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	parataxis	_	_
 44	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	45	det	_	_
 45	Film	Film	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	43	nsubj	_	_
@@ -18994,7 +18994,7 @@
 2	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	4	det	_	_
 3	spielfreien	spielfreien	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Person=3	4	amod	_	InflectionType=Weak
 4	Zeit	Zeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing|Person=3	6	obl	_	_
-5	2013	2013	NUM	CD	NumType=Card	4	obl:tmod	_	_
+5	2013	2013	NUM	CD	NumType=Card	4	nummod	_	_
 6	erschien	erscheinen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 7	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
 8	auf	auf	ADP	IN	_	9	case	_	_
@@ -19264,8 +19264,8 @@
 6-7	am	_	_	_	_	_	_	_	_
 6	an	an	ADP	APPR	_	8	case	_	_
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	8	det	_	_
-8	11.	11.	NOUN	.	Case=Dat|Gender=Masc|Number=Sing|Person=3	13	obl	_	InflectionType=Weak
-9	April	April	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	obl:tmod	_	_
+8	11.	11.	ADJ	.	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	InflectionType=Weak
+9	April	April	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	obl:tmod	_	_
 10	aus	aus	ADP	IN	_	12	case	_	_
 11	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	12	det	_	_
 12	Krankenhaus	Krankenhaus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	13	obl	_	_
@@ -19449,7 +19449,7 @@
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	3	det	_	_
 3	August	August	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	5	obl	_	_
-4	2015	2015	NUM	CD	NumType=Card	3	obl:tmod	_	_
+4	2015	2015	NUM	CD	NumType=Card	3	nummod	_	_
 5	veröffentlichte	veröffentlichen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 6	Kesha	Kesha	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
 7	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	9	det	_	_
@@ -19704,9 +19704,9 @@
 7-8	am	_	_	_	_	_	_	_	_
 7	an	an	ADP	APPR	_	9	case	_	_
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	9	det	_	_
-9	30.	30.	NOUN	.	Case=Dat|Gender=Masc|Number=Sing|Person=3	12	obl	_	InflectionType=Weak
-10	Mai	Mai	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	obl:tmod	_	_
-11	1913	1913	NUM	CD	NumType=Card	10	obl:tmod	_	_
+9	30.	30.	ADJ	.	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	InflectionType=Weak
+10	Mai	Mai	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	obl:tmod	_	_
+11	1913	1913	NUM	CD	NumType=Card	10	nummod	_	_
 12	unterzeichnet	unterzeichnen	VERB	VBN	Tense=Past	2	acl:relcl	_	_
 13	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	aux:pass	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	2	punct	_	_
@@ -19998,7 +19998,7 @@
 5	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|Person=3	6	det	_	_
 6	Abkommens	Abkommen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	4	nmod	_	_
 7	Anfang	Anfang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	obl	_	_
-8	Oktober	Oktober	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	obl:tmod	_	_
+8	Oktober	Oktober	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
 9	angekündigt	ankündigen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	9	punct	_	_
 
@@ -20284,7 +20284,7 @@
 3	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	4	det	_	_
 4	30.	30.	NOUN	.	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	InflectionType=Weak
 5	August	August	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	obl:tmod	_	_
-6	2015	2015	NUM	CD	NumType=Card	5	obl:tmod	_	SpaceAfter=No
+6	2015	2015	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	13	punct	_	_
 8	als	als	SCONJ	CC	_	13	mark	_	_
 9	eine	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Person=3	10	det	_	_
@@ -20679,7 +20679,7 @@
 24	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	25	det	_	_
 25	20.	20.	NOUN	.	Case=Dat|Gender=Masc|Number=Sing|Person=3	18	appos	_	InflectionType=Weak
 26	Januar	Januar	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	obl:tmod	_	_
-27	2001	2001	NUM	CD	NumType=Card	26	obl:tmod	_	SpaceAfter=No
+27	2001	2001	NUM	CD	NumType=Card	26	nummod	_	SpaceAfter=No
 28	,	,	PUNCT	,	_	18	punct	_	_
 29	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	30	det	_	_
 30	Reihe	Reihe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	33	obj	_	_
@@ -21345,8 +21345,8 @@
 9-10	am	_	_	_	_	_	_	_	_
 9	an	an	ADP	APPR	_	11	case	_	_
 10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	11	det	_	_
-11	12.	12.	NOUN	.	Case=Dat|Gender=Masc|Number=Sing|Person=3	16	obl	_	InflectionType=Weak
-12	Oktober	Oktober	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	obl:tmod	_	_
+11	12.	12.	ADJ	.	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	InflectionType=Weak
+12	Oktober	Oktober	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	obl:tmod	_	_
 13-14	vom	_	_	_	_	_	_	_	_
 13	von	von	ADP	APPR	_	15	case	_	_
 14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	15	det	_	_
@@ -22816,9 +22816,9 @@
 5-6	am	_	_	_	_	_	_	_	_
 5	an	an	ADP	APPR	_	7	case	_	_
 6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	7	det	_	_
-7	30.	30.	NOUN	.	Case=Dat|Gender=Masc|Number=Sing|Person=3	4	obl	_	InflectionType=Weak
-8	April	April	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	obl:tmod	_	_
-9	1955	1955	NUM	CD	NumType=Card	8	obl:tmod	_	_
+7	30.	30.	ADJ	.	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	InflectionType=Weak
+8	April	April	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	obl:tmod	_	_
+9	1955	1955	NUM	CD	NumType=Card	8	nummod	_	_
 10	statt	statt	VERB	DC	_	4	compound:prt	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -23115,7 +23115,7 @@
 1	Bei	bei	ADP	IN	_	3	case	_	_
 2	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	3	det	_	_
 3	Unterhauswahl	Unterhauswahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	12	obl	_	Proper=True
-4	2010	2010	NUM	CD	NumType=Card	3	obl:tmod	_	_
+4	2010	2010	NUM	CD	NumType=Card	3	nummod	_	_
 5	konnte	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	aux	_	_
 6	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	8	det	_	_
 7	Labour	Labour	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	compound	_	Proper=True
@@ -23150,7 +23150,7 @@
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	3	det	_	_
 3	April	April	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	5	obl	_	_
-4	2012	2012	NUM	CD	NumType=Card	3	obl:tmod	_	_
+4	2012	2012	NUM	CD	NumType=Card	3	nummod	_	_
 5	äußerte	äußern	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 6	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	8	det	_	_
 7	türkische	türkisch	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Person=3	8	amod	_	InflectionType=Weak|Proper=True
@@ -23515,7 +23515,7 @@
 2	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	4	det	_	_
 3	Russischen	russisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Person=3	4	amod	_	InflectionType=Weak|Proper=True
 4	Revolution	Revolution	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	6	obl	_	Proper=True
-5	1917	1917	NUM	CD	NumType=Card	4	obl:tmod	_	_
+5	1917	1917	NUM	CD	NumType=Card	4	nummod	_	_
 6	erlangten	erlangen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 7	einige	einige	DET	DT	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|Person=3	8	det	_	_
 8	Länder	Land	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur|Person=3	6	nsubj	_	_
@@ -23622,7 +23622,7 @@
 9	in	in	ADP	APPR	_	11	case	_	_
 10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	11	det	_	_
 11	Jahre	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	16	obl	_	_
-12	1632	1632	NUM	CD	NumType=Card	11	obl:tmod	_	_
+12	1632	1632	NUM	CD	NumType=Card	11	nummod	_	_
 13	von	von	ADP	IN	_	15	case	_	_
 14	schwedischen	schwedisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur|Person=3	15	amod	_	InflectionType=Strong|Proper=True
 15	Truppen	Truppe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur|Person=3	16	obl	_	_
@@ -23693,7 +23693,7 @@
 2	den	der	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|Person=3	4	det	_	_
 3	Olympischen	olympisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur|Person=3	4	amod	_	InflectionType=Weak|Proper=True
 4	Spielen	Spiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur|Person=3	8	obl	_	Proper=True
-5	2004	2004	NUM	CD	NumType=Card	4	obl:tmod	_	_
+5	2004	2004	NUM	CD	NumType=Card	4	nummod	_	_
 6	in	in	ADP	IN	_	7	case	_	_
 7	Athen	Athen	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing|Person=3	4	nmod	_	_
 8	trat	treten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -23957,9 +23957,9 @@
 6-7	am	_	_	_	_	_	_	_	_
 6	an	an	ADP	APPR	_	8	case	_	_
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	8	det	_	_
-8	27.	27.	NOUN	.	Case=Dat|Gender=Masc|Number=Sing|Person=3	3	obl	_	InflectionType=Weak
-9	Januar	Januar	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	obl:tmod	_	_
-10	1820	1820	NUM	CD	NumType=Card	9	obl:tmod	_	SpaceAfter=No
+8	27.	27.	ADJ	.	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	InflectionType=Weak
+9	Januar	Januar	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	obl:tmod	_	_
+10	1820	1820	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	_	_
 12	drei	drei	NUM	CD	NumType=Card	13	nummod	_	_
 13	Tage	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	3	obl:tmod	_	SpaceAfter=No
@@ -23981,7 +23981,7 @@
 28	in	in	ADP	APPR	_	30	case	_	_
 29	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	30	det	_	_
 30	November	November	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	26	obl	_	_
-31	1820	1820	NUM	CD	NumType=Card	30	obl:tmod	_	SpaceAfter=No
+31	1820	1820	NUM	CD	NumType=Card	30	nummod	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = w03003039
@@ -23992,7 +23992,7 @@
 3	Endurance	Endurance	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing|Person=3	5	compound	_	SpaceAfter=No
 4	-	-	PUNCT	-	_	3	punct	_	SpaceAfter=No
 5	Expedition	Expedition	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	7	obl	_	_
-6	1914	1914	NUM	CD	NumType=Card	5	obl:tmod	_	_
+6	1914	1914	NUM	CD	NumType=Card	5	nummod	_	_
 7	setzte	setzen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 8	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	10	det	_	_
 9	britische	britisch	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Person=3	10	amod	_	InflectionType=Weak|Proper=True
@@ -24457,7 +24457,7 @@
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	3	det	_	_
 3	Frühjahr	Frühjahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	5	obl	_	_
-4	1948	1948	NUM	CD	NumType=Card	3	obl:tmod	_	_
+4	1948	1948	NUM	CD	NumType=Card	3	nummod	_	_
 5	hoffte	hoffen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 6	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	8	det	_	_
 7	belgische	belgisch	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Person=3	8	amod	_	InflectionType=Weak|Proper=True
@@ -24722,7 +24722,7 @@
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	3	det	_	_
 3	August	August	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	5	obl	_	_
-4	1969	1969	NUM	CD	NumType=Card	3	obl:tmod	_	_
+4	1969	1969	NUM	CD	NumType=Card	3	nummod	_	_
 5	schaffte	schaffen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 6	Papst	Papst	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 7	Paul	Paul	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	appos	_	_
@@ -25533,7 +25533,7 @@
 5	ab	ab	ADP	IN	_	7	case	_	_
 6	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	7	det	_	_
 7	Oktober	Oktober	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	3	obl	_	_
-8	1777	1777	NUM	CD	NumType=Card	7	obl:tmod	_	SpaceAfter=No
+8	1777	1777	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	29	punct	_	_
 10	als	als	SCONJ	CC	_	29	mark	_	_
 11	britische	britisch	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Person=3	12	amod	_	InflectionType=Strong|Proper=True
@@ -25774,7 +25774,7 @@
 10	in	in	ADP	APPR	_	12	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	12	det	_	_
 12	Frühjahr	Frühjahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	8	obl	_	_
-13	1415	1415	NUM	CD	NumType=Card	12	obl:tmod	_	SpaceAfter=No
+13	1415	1415	NUM	CD	NumType=Card	12	nummod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	17	punct	_	_
 15	und	und	CCONJ	CC	_	17	cc	_	_
 16	Enrique	Enrique	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
@@ -26024,9 +26024,9 @@
 1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	3	det	_	_
-3	1.	1.	NOUN	.	Case=Dat|Gender=Masc|Number=Sing|Person=3	8	obl	_	InflectionType=Weak
-4	Januar	Januar	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	3	obl:tmod	_	_
-5	49	49	NUM	CD	NumType=Card	4	obl:tmod	_	_
+3	1.	1.	ADJ	.	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	InflectionType=Weak
+4	Januar	Januar	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	8	obl:tmod	_	_
+5	49	49	NUM	CD	NumType=Card	4	nummod	_	_
 6	v.	von	ADP	IN	_	7	case	_	_
 7	Chr.	Chr.	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
 8	verlas	verlas	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
