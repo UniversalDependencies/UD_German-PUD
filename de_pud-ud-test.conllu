@@ -22024,7 +22024,7 @@
 19	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|Person=3	20	det	_	_
 20	Handlungen	Handlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	23	obj	_	_
 21	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3	22	det	_	_
-22	Fahrer	Fahrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nmod:gmod	_	_
+22	Fahrer	Fahrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nmod	_	_
 23	vorhersehen	vorhersehen	VERB	VB	_	16	conj	_	_
 24	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	aux	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	11	punct	_	_
