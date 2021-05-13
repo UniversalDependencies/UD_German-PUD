@@ -832,7 +832,7 @@
 16	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	17	det	_	_
 17	Batterie	Batterie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	11	obl	_	_
 18	von	von	ADP	IN	_	21	case	_	_
-19	einem	ein	DET	PDT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|Person=3	21	det:predet	_	_
+19	einem	ein	DET	PDT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|Person=3	21	det	_	_
 20	anderen	ander	DET	DT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|Person=3	21	det	_	_
 21	Hersteller	Hersteller	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	17	nmod	_	_
 22	aus	aus	VERB	DC	_	11	compound:prt	_	SpaceAfter=No
@@ -967,7 +967,7 @@
 # sent_id = n01017013
 # text = Die meisten Leute würden WLAN am Flughafen nützlicher finden als die Möglichkeit, E-Mails vom Flugzeug aus zu verschicken.
 # text_en = "Most people would find airport wi-fi more useful than being able to send emails on a plane."
-1	Die	der	DET	PDT	Case=Nom|Definite=Def|Number=Plur|Person=3	3	det:predet	_	_
+1	Die	der	DET	PDT	Case=Nom|Definite=Def|Number=Plur|Person=3	3	det	_	_
 2	meisten	meist	DET	DT	Case=Nom|Definite=Ind|Number=Plur|Person=3	3	det	_	_
 3	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur|Person=3	10	nsubj	_	_
 4	würden	werden	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	10	aux	_	_
@@ -5055,7 +5055,7 @@
 20	,	,	PUNCT	,	_	25	punct	_	_
 21	dass	dass	SCONJ	CC	_	25	mark	_	_
 22	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	25	nsubj	_	_
-23	eine	ein	DET	PDT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Person=3	25	det:predet	_	_
+23	eine	ein	DET	PDT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Person=3	25	det	_	_
 24	andere	ander	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Person=3	25	det	_	_
 25	Assistentin	Assistentin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	19	ccomp	_	_
 26	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	25	cop	_	SpaceAfter=No
@@ -5681,7 +5681,7 @@
 7	und	und	CCONJ	CC	_	13	cc	_	_
 8	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	9	det	_	_
 9	Gesicht	Gesicht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	13	nsubj	_	_
-10	dieser	dies	DET	PDT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	12	det:predet	_	_
+10	dieser	dies	DET	PDT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	12	det	_	_
 11	einen	ein	DET	DT	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|Person=3	12	det	_	_
 12	Frau	Frau	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing|Person=3	9	nmod	_	_
 13	tauchte	tauchen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	conj	_	_
@@ -6072,7 +6072,7 @@
 14	mit	mit	ADP	IN	_	16	case	_	_
 15	ihrer	ihr	PRON	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3|PronType=Prs	16	nmod:poss	_	_
 16	Missbilligung	Mißbilligung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	13	obl	_	_
-17	all	all	DET	PDT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Person=3	19	det:predet	_	_
+17	all	all	DET	PDT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Person=3	19	det	_	_
 18	ihren	ihr	PRON	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3|PronType=Prs	19	nmod:poss	_	_
 19	Hass	Haß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	obj	_	_
 20	auf	auf	ADP	IN	_	22	case	_	_
@@ -7436,7 +7436,7 @@
 4	Glenda	Glenda	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing|Person=3	11	iobj	_	_
 5	Gelegenheit	Gelegenheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	11	obj	_	_
 6	zu	zu	ADP	IN	_	10	case	_	_
-7	solch	solch	DET	PDT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	10	det:predet	_	_
+7	solch	solch	DET	PDT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	10	det	_	_
 8	einer	ein	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|Person=3	10	det	_	_
 9	überragenden	überragend	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Person=3	10	amod	_	InflectionType=Mixed
 10	Darbietung	Darbietung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	11	obl	_	_
@@ -7760,7 +7760,7 @@
 6	gehen	gehen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 7	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	6	advmod	_	_
 8	auf	auf	ADP	IN	_	11	case	_	_
-9	eine	ein	DET	PDT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	11	det:predet	_	_
+9	eine	ein	DET	PDT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	11	det	_	_
 10	irgendeine	irgendein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	11	det	_	_
 11	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	obl	_	_
 12	Zwang	zwang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	appos	_	_
@@ -9018,7 +9018,7 @@
 6	Zaun	Zaun	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	obl	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	12	punct	_	_
 8	der	der	PRON	REL	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
-9	die	der	DET	PDT	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|Person=3	11	det:predet	_	_
+9	die	der	DET	PDT	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|Person=3	11	det	_	_
 10	beiden	beide	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|Person=3	11	det	_	_
 11	Grundstücke	Grundstück	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur|Person=3	12	obj	_	_
 12	trennte	trennen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	acl:relcl	_	SpaceAfter=No
@@ -10308,7 +10308,7 @@
 20	finden	finden	VERB	VB	_	5	conj	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	26	punct	_	_
 22	die	der	PRON	REL	Case=Nom|Gender=Fem|Number=Sing|Person=3	26	nsubj	_	_
-23	eine	ein	DET	PDT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	25	det:predet	_	_
+23	eine	ein	DET	PDT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	25	det	_	_
 24	andere	ander	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	25	det	_	_
 25	Sprachgeschichte	Sprachgeschichte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	26	obj	_	_
 26	aufweist	aufweisen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	18	acl:relcl	_	SpaceAfter=No
@@ -10448,7 +10448,7 @@
 8	Gürtel	Gürtel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	2	obl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	14	punct	_	_
 10	doch	doch	CCONJ	CC	_	14	cc	_	_
-11	die	der	DET	PDT	Case=Nom|Definite=Def|Number=Plur|Person=3	13	det:predet	_	_
+11	die	der	DET	PDT	Case=Nom|Definite=Def|Number=Plur|Person=3	13	det	_	_
 12	meisten	meist	DET	DT	Case=Nom|Definite=Ind|Number=Plur|Person=3	13	det	_	_
 13	Bantu	Bantu	PROPN	NNP	Case=Nom|Number=Plur|Person=3	14	nsubj	_	_
 14	kamen	kommen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	2	conj	_	_
@@ -14277,7 +14277,7 @@
 12	Wintersonnenwende	Wintersonnenwende	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	8	conj	_	_
 13	sowie	sowie	CCONJ	CC	_	23	cc	_	_
 14	zu	zu	ADP	IN	_	23	case	_	_
-15	den	der	DET	PDT	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|Person=3	23	det:predet	_	_
+15	den	der	DET	PDT	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|Person=3	23	det	_	_
 16	beiden	beide	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur|Person=3	23	det	_	_
 17	Tag	Tag	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur|Person=3	19	compound	_	SpaceAfter=No
 18	-	-	PUNCT	-	_	17	punct	_	SpaceAfter=No
@@ -15506,7 +15506,7 @@
 # sent_id = w01089017
 # text = Die meisten Informationen über die Zeit stammen von Grabstätten und den Grabbeigaben, die sich darin befanden.
 # text_en = Most of the information about the period comes from burial sites and the grave goods contained within them.
-1	Die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	3	det:predet	_	_
+1	Die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	3	det	_	_
 2	meisten	meist	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Person=3	3	det	_	_
 3	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	7	nsubj	_	_
 4	über	über	ADP	IN	_	6	case	_	_
@@ -15885,7 +15885,7 @@
 17	Kaiser	Kaiser	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur|Person=3	15	nmod	_	_
 18	wurden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	23	aux:pass	_	_
 19	nach	nach	ADP	IN	_	22	case	_	_
-20	einem	ein	DET	PDT	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|Person=3	22	det:predet	_	_
+20	einem	ein	DET	PDT	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|Person=3	22	det	_	_
 21	anderen	ander	DET	DT	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|Person=3	22	det	_	_
 22	System	System	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	23	obl	_	_
 23	gewählt	wählen	VERB	VBN	Tense=Past	10	conj	_	SpaceAfter=No
@@ -16711,7 +16711,7 @@
 6	Hitchcocks	Hitchcock	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing|Person=3	7	nmod:poss	_	_
 7	Schaffensleistung	Schaffensleistung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	5	obj	_	_
 8	in	in	ADP	IN	_	12	case	_	_
-9	den	der	DET	PDT	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|Person=3	12	det:predet	_	_
+9	den	der	DET	PDT	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|Person=3	12	det	_	_
 10	letzten	letzt	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur|Person=3	12	amod	_	InflectionType=Weak
 11	beiden	beide	DET	DT	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur|Person=3	12	det	_	_
 12	Jahrzehnten	Jahrzehnt	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur|Person=3	5	obl	_	_
@@ -16999,7 +16999,7 @@
 # text_en = Disney won another Honorary Academy Award, which consisted of one full-sized and seven miniature Oscar statuettes.
 1	Disney	Disney	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	erhielt	erhalten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	einen	ein	DET	PDT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Person=3	5	det:predet	_	_
+3	einen	ein	DET	PDT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Person=3	5	det	_	_
 4	weiteren	weit	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Person=3	5	det	_	_
 5	Ehrenoscar	Ehrenoscar	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	obj	_	SpaceAfter=No|Proper=True
 6	,	,	PUNCT	,	_	18	punct	_	_
@@ -17123,7 +17123,7 @@
 19	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	20	det	_	_
 20	Entscheidung	Entscheidung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	17	nmod	_	_
 21	über	über	ADP	IN	_	24	case	_	_
-22	eine	ein	DET	PDT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	24	det:predet	_	_
+22	eine	ein	DET	PDT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	24	det	_	_
 23	weitere	weit	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	24	det	_	_
 24	Erhöhung	Erhöhung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	20	nmod	_	_
 25	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3	26	det	_	_
@@ -17514,7 +17514,7 @@
 10	in	in	ADP	IN	_	11	case	_	_
 11	Polen	Polen	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing|Person=3	9	nmod	_	_
 12	jedoch	jedoch	ADV	RB	Degree=Pos	2	advmod	_	_
-13	keine	kein	DET	PDT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	16	det:predet	_	_
+13	keine	kein	DET	PDT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	16	det	_	_
 14	weitere	weit	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	16	det	_	_
 15	öffentliche	öffentlich	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Person=3	16	amod	_	InflectionType=Mixed
 16	Anerkennung	Anerkennung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	2	obj	_	_
@@ -18134,7 +18134,7 @@
 # text_en = These were the last two records Rafferty produced with Hugh Murphy, who died in 1998.
 1	Dies	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	6	nsubj	_	_
 2	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	6	cop	_	_
-3	die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	6	det:predet	_	_
+3	die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	6	det	_	_
 4	letzten	letzt	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Person=3	6	amod	_	InflectionType=Weak
 5	beiden	beide	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Person=3	4	conj	_	InflectionType=Weak
 6	Aufzeichnungen	Aufzeichnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	0	root	_	SpaceAfter=No
@@ -18551,7 +18551,7 @@
 24	Jason	Jason	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	18	conj	_	_
 25	Segel	Segel	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	24	flat:name	_	_
 26	in	in	ADP	IN	_	29	case	_	_
-27	einer	ein	DET	PDT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|Person=3	29	det:predet	_	_
+27	einer	ein	DET	PDT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|Person=3	29	det	_	_
 28	weiteren	weit	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|Person=3	29	det	_	_
 29	Hauptrolle	Hauptrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	24	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	2	punct	_	_
@@ -18808,7 +18808,7 @@
 # sent_id = w01139090
 # text = Ein anderes Thema der Skylark-Romane sind die Vorboten moderner Informationstechnologie.
 # text_en = Another theme of the Skylark novels involves precursors of modern information technology.
-1	Ein	ein	DET	PDT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Person=3	3	det:predet	_	_
+1	Ein	ein	DET	PDT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Person=3	3	det	_	_
 2	anderes	ander	DET	DT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Person=3	3	det	_	_
 3	Thema	Thema	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	0	root	_	_
 4	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3	7	det	_	_
@@ -19942,7 +19942,7 @@
 7	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	13	obl	_	_
 8	und	und	CCONJ	CC	_	9	cc	_	_
 9	Weise	Weise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	conj	_	_
-10	die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|Person=3	12	det:predet	_	_
+10	die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|Person=3	12	det	_	_
 11	beiden	beide	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	12	det	_	_
 12	Dramatiker	Dramatiker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	13	nsubj	_	_
 13	zusammengearbeitet	zusammenarbeiten	VERB	VBN	Tense=Past	2	ccomp	_	_
@@ -20638,7 +20638,7 @@
 7	Hariri	Hariri	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	5	conj	_	_
 8	kommen	kommen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 9	sich	er|es|sie	PRON	PRP	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Rcp	8	obj	_	_
-10	die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|Person=3	13	det:predet	_	_
+10	die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|Person=3	13	det	_	_
 11	beiden	beide	DET	DT	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|Person=3	13	det	_	_
 12	verfeindeten	verfeindet	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Person=3	13	amod	_	InflectionType=Weak
 13	Bündnisse	Bündnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur|Person=3	8	nsubj	_	_
@@ -20795,7 +20795,7 @@
 1	Besondere	besonder	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Person=3	2	amod	_	InflectionType=Strong
 2	Hingucker	Hingucker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	7	nsubj	_	_
 3	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	7	cop	_	_
-4	die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|Person=3	7	det:predet	_	_
+4	die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|Person=3	7	det	_	_
 5	beiden	beide	DET	DT	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|Person=3	7	det	_	_
 6	ausgestellten	ausgestellt	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Person=3	7	amod	_	InflectionType=Weak
 7	Gemälde	Gemälde	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur|Person=3	0	root	_	_
@@ -21334,7 +21334,7 @@
 # sent_id = n03007006
 # text = Die beiden Organisationen veröffentlichten einen Appell, der am 12. Oktober vom Kassationshof zurückgewiesen wurde.
 # text_en = The two organisations launched an appeal which was thrown out by the Court of Cassation on the 12th of October.
-1	Die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	3	det:predet	_	_
+1	Die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	3	det	_	_
 2	beiden	beide	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Person=3	3	det	_	_
 3	Organisationen	Organisation	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	4	nsubj	_	_
 4	veröffentlichten	veröffentlichen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
@@ -21439,7 +21439,7 @@
 6	„	„	PUNCT	``	_	13	punct	_	SpaceAfter=No
 7	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	8	det	_	_
 8	Existenz	Existenz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
-9	eines	ein	DET	PDT	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|Person=3	11	det:predet	_	_
+9	eines	ein	DET	PDT	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|Person=3	11	det	_	_
 10	solchen	solch	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|Person=3	11	det	_	_
 11	Dokuments	Dokument	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	8	nmod	_	_
 12	Konsequenzen	Konsequenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	13	obj	_	_
@@ -22024,7 +22024,7 @@
 19	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|Person=3	20	det	_	_
 20	Handlungen	Handlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	23	obj	_	_
 21	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3	22	det	_	_
-22	Fahrer	Fahrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nmod:gmod	_	_
+22	Fahrer	Fahrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nmod	_	_
 23	vorhersehen	vorhersehen	VERB	VB	_	16	conj	_	_
 24	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	aux	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	11	punct	_	_
@@ -22311,7 +22311,7 @@
 5	sich	er|es|sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Rcp	12	obj	_	_
 6	noch	noch	ADV	RB	Degree=Pos	12	advmod	_	_
 7	mit	mit	ADP	IN	_	11	case	_	_
-8	einem	ein	DET	PDT	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|Person=3	11	det:predet	_	_
+8	einem	ein	DET	PDT	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|Person=3	11	det	_	_
 9	anderen	ander	DET	DT	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|Person=3	11	det	_	_
 10	heißen	heißen	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing|Person=3	11	amod	_	InflectionType=Mixed
 11	Eisen	Eisen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	12	obl	_	_
@@ -22408,7 +22408,7 @@
 3	sagte	sagen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	8	punct	_	_
 5	wie	wie	CCONJ	CC	_	8	cc	_	_
-6	viele	viel	DET	PDT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	8	det:predet	_	_
+6	viele	viel	DET	PDT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	8	det	_	_
 7	andere	ander	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	8	det	_	_
 8	Sozialisten	Sozialist	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	1	conj	_	_
 9-10	im	_	_	_	_	_	_	_	_
@@ -23237,7 +23237,7 @@
 12	,	,	PUNCT	,	_	18	punct	_	_
 13	von	von	ADP	IN	_	14	case	_	_
 14	der	der	PRON	REL	Case=Dat|Gender=Fem|Number=Sing|Person=3	18	obl	_	_
-15	viele	viel	DET	PDT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Person=3	17	det:predet	_	_
+15	viele	viel	DET	PDT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Person=3	17	det	_	_
 16	weitere	weit	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Person=3	17	det	_	_
 17	Fundstätten	Fundstätte	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	18	nsubj	_	_
 18	bekannt	bekennen	ADJ	JJ	Degree=Pos	11	acl:relcl	_	_
@@ -23260,7 +23260,7 @@
 11	,	,	PUNCT	,	_	16	punct	_	_
 12	ebenso	ebenso	ADV	RB	Degree=Pos	16	advmod	_	_
 13	wie	wie	CCONJ	CC	_	16	cc	_	_
-14	die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|Person=3	16	det:predet	_	_
+14	die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|Person=3	16	det	_	_
 15	meisten	meist	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	16	det	_	_
 16	Fundplätze	Fundplatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	3	conj	_	_
 17	Südosteuropas	Südosteuropa	PROPN	NNP	Case=Gen|Gender=Neut|Number=Sing|Person=3	16	nmod	_	SpaceAfter=No
@@ -23451,7 +23451,7 @@
 7	früher	früher	ADV	RB	Degree=Cmp	4	advmod	_	_
 8	als	als	CCONJ	CC	_	12	cc	_	_
 9	in	in	ADP	IN	_	12	case	_	_
-10	jedem	jed	DET	PDT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|Person=3	12	det:predet	_	_
+10	jedem	jed	DET	PDT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|Person=3	12	det	_	_
 11	anderen	ander	DET	DT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|Person=3	12	det	_	_
 12	Staat	Staat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	7	conj	_	_
 13	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	14	det	_	_
@@ -24226,7 +24226,7 @@
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	3	det	_	_
 3	Mittelalter	Mittelalter	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	4	obl	_	_
 4	hatten	haben	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
-5	die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|Person=3	7	det:predet	_	_
+5	die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|Person=3	7	det	_	_
 6	meisten	meist	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	7	det	_	_
 7	Christen	Christ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	4	nsubj	_	Proper=True
 8	keinen	kein	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Person=3	9	det	_	_
@@ -25107,7 +25107,7 @@
 7	ein	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Person=3	8	det	_	_
 8	Krieg	Krieg	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
 9	zwischen	zwischen	ADP	IN	_	12	case	_	_
-10	den	der	DET	PDT	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|Person=3	12	det:predet	_	_
+10	den	der	DET	PDT	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|Person=3	12	det	_	_
 11	beiden	beide	DET	DT	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur|Person=3	12	det	_	_
 12	Reichen	Reich	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur|Person=3	13	obl	_	_
 13	ausbrechen	ausbrechen	VERB	VB	_	3	ccomp	_	_
