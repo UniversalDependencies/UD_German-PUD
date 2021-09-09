@@ -2145,8 +2145,9 @@
 18	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	cop	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	25	punct	_	_
 20	wie	wie	CCONJ	CC	_	25	cc	_	_
-21	z	z	ADP	INDT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3|PronType=Art	23	case	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	21	punct	_	_
+21-22	z.	_	_	_	_	_	_	_	_
+21	zu	zu	ADP	APPR	AdpType=Prep|Case=Dat	23	case	_	_
+22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	23	det	_	_
 23	B.	B.	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	25	nmod	_	_
 24	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	25	det	_	_
 25	Blase	Blase	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	conj	_	SpaceAfter=No
