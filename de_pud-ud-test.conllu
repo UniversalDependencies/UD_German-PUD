@@ -2145,7 +2145,7 @@
 18	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	cop	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	25	punct	_	_
 20	wie	wie	CCONJ	CC	_	25	cc	_	_
-21	z	z	ADP	INDT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	23	case	_	SpaceAfter=No
+21	z	z	ADP	INDT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3|PronType=Art	23	case	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	21	punct	_	_
 23	B.	B.	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	25	nmod	_	_
 24	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	25	det	_	_
@@ -16758,7 +16758,7 @@
 11	Zeit	Zeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing|Person=3	9	nmod	_	_
 12	gearbeitet	arbeiten	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	19	punct	_	_
-14	z.	z.	ADP	.	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	15	case	_	_
+14	z.	z.	ADP	.	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3|PronType=Art	15	case	_	_
 15	B.	B.	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	19	nmod	_	_
 16	mit	mit	ADP	IN	_	19	case	_	_
 17	Filmposter	Filmposter	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	19	compound	_	SpaceAfter=No
@@ -25191,7 +25191,7 @@
 7	Morricone	Morricone	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	2	obl	_	_
 8	zusammen	zusammen	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	14	punct	_	_
-10	z.	z.	ADP	.	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	11	case	_	_
+10	z.	z.	ADP	.	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3|PronType=Art	11	case	_	_
 11	B.	B.	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	14	obl	_	_
 12	in	in	ADP	IN	_	14	case	_	_
 13	„	„	PUNCT	``	_	14	punct	_	SpaceAfter=No
