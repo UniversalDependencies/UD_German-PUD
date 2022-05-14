@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_German-PUD:
-commit 29f5590ff87e511614d22d7edd8ed1e16c0d1c02
-Merge: e57f983 7772c2f
+commit c15c25f49f9830816328f78d20f512a3afe0bfa4
+Merge: f1b010e 633a1f7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 21331 of 21331 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.12032282741936.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       5583
-Udapi: found 5583 bugs.
+               TOTAL       5578
+Udapi: found 5578 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 21331 words.
 Genres: found 2 out of 17 known.
 validate.py --lang de --max-err=10 UD_German-PUD/de_pud-ud-test.conllu
