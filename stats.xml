@@ -105,7 +105,7 @@
     <dep name="fixed">7</dep>
     <dep name="flat">14</dep>
     <dep name="flat:name">164</dep>
-    <dep name="iobj">95</dep>
+    <dep name="iobj">94</dep>
     <dep name="mark">459</dep>
     <dep name="nmod">1102</dep>
     <dep name="nmod:poss">271</dep>
@@ -113,7 +113,7 @@
     <dep name="nsubj:pass">207</dep>
     <dep name="nummod">226</dep>
     <dep name="obj">895</dep>
-    <dep name="obl">1344</dep>
+    <dep name="obl">1345</dep>
     <dep name="obl:tmod">120</dep>
     <dep name="orphan">10</dep>
     <dep name="parataxis">68</dep>

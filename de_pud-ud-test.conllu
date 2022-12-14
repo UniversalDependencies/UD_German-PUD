@@ -23045,9 +23045,9 @@
 1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	dient	dienen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	den	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|Person=3	4	det	_	_
-4	San	San	PROPN	NNP	Case=Dat|Gender=Masc|Number=Plur|Person=3	8	iobj	_	_
+4	San	San	PROPN	NNP	Case=Dat|Gender=Masc|Number=Plur|Person=3	2	obl	_	_
 5	Franciscans	Franciscan	PROPN	NNP	Case=Dat|Gender=Masc|Number=Plur|Person=3	4	flat:name	_	_
-6	als	als	CCONJ	CC	_	2	cc	_	_
+6	als	als	CCONJ	CC	_	8	cc	_	_
 7	städtisches	städtisch	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Person=3	8	amod	_	InflectionType=Strong
 8	Naherholungsgebiet	Naherholungsgebiet	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	xcomp	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	_	_
