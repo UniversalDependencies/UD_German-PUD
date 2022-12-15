@@ -1721,7 +1721,7 @@
 # text_en = I asked her afterwards if she understood why people might vote for Trump.
 1	Ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
 2	fragte	fragen	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	_
-3	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	2	iobj	_	_
+3	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	2	obj	_	_
 4	hinterher	hinterher	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	8	punct	_	_
 6	ob	ob	SCONJ	CC	_	8	mark	_	_
@@ -6633,7 +6633,7 @@
 # text_en = I also wonder whether the Davis Cup played a part.
 1	Ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
 2	frage	fragen	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
-3	mich	ich	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Rcp	2	iobj	_	_
+3	mich	ich	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Rcp	2	obj	_	_
 4	auch	auch	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	12	punct	_	_
 6	ob	ob	SCONJ	CC	_	12	mark	_	_
