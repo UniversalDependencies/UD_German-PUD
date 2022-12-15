@@ -14984,7 +14984,7 @@
 5	sephardische	sephardisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Person=3	6	amod	_	InflectionType=Mixed|Proper=True
 6	Bevölkerung	Bevölkerung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	obj	_	_
 7	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|Person=3	8	det	_	_
-8	Landes	Land	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	9	iobj	_	_
+8	Landes	Land	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	9	obl	_	_
 9	verwiesen	verweisen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 10	;	;	PUNCT	:	_	15	punct	_	_
 11	viele	viel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	15	nsubj	_	_
