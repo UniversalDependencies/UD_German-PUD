@@ -21790,18 +21790,18 @@
 # text_en = The latest figures relate to the 24th of October last year, and tell us that our diesel costs 1,335 euros per litre, compared with the eurozone average of 1,165 euros.
 1	Die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	3	det	_	_
 2	neuesten	neu	ADJ	JJ	Case=Nom|Degree=Sup|Gender=Fem|Number=Plur|Person=3	3	amod	_	InflectionType=Weak
-3	Zahlen	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	4	nsubj	_	_
-4	sind	sein	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+3	Zahlen	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	9	nsubj	_	_
+4	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	9	cop	_	_
 5-6	vom	_	_	_	_	_	_	_	_
-5	von	von	ADP	APPR	_	7	case	_	_
-6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	7	det	_	_
-7	24	24	NOUN	NNA	Case=Dat|Gender=Masc|Number=Sing|Person=3	4	obl	_	SpaceAfter=No|InflectionType=Weak
+5	von	von	ADP	APPR	_	9	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	9	det	_	_
+7	24	24	NUM	NNA	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	SpaceAfter=No|InflectionType=Weak
 8	.	.	PUNCT	.	_	7	punct	_	_
-9	Oktober	Oktober	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	7	obl:tmod	_	_
+9	Oktober	Oktober	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	0	root	_	_
 10	letzten	letzt	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Person=3	11	amod	_	InflectionType=Strong
 11	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	9	nmod	_	_
 12	und	und	CCONJ	CC	_	13	cc	_	_
-13	geben	geben	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	conj	_	_
+13	geben	geben	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	9	conj	_	_
 14	einen	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Person=3	15	det	_	_
 15	Dieselpreis	Dieselpreis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	obj	_	_
 16	von	von	ADP	IN	_	18	case	_	_
@@ -21827,7 +21827,7 @@
 34	1,165	1,165	NUM	CD	NumType=Card	35	nummod	_	_
 35	€	€	SYM	SYM	_	36	obj	_	_
 36	beträgt	betragen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	28	acl:relcl	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	4	punct	_	_
+37	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = n04006016
 # text = Die Kosten sind signifikant höher und übersteigen eindeutig den Durchchnittswert der Länder, die die Einheitswährung übernommen haben; er entspricht 1,335 Euro pro Liter.
@@ -23045,7 +23045,7 @@
 1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	dient	dienen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	den	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|Person=3	4	det	_	_
-4	San	San	PROPN	NNP	Case=Dat|Gender=Masc|Number=Plur|Person=3	2	obl	_	_
+4	San	San	PROPN	NNP	Case=Dat|Gender=Masc|Number=Plur|Person=3	2	obl:arg	_	_
 5	Franciscans	Franciscan	PROPN	NNP	Case=Dat|Gender=Masc|Number=Plur|Person=3	4	flat:name	_	_
 6	als	als	CCONJ	CC	_	8	cc	_	_
 7	städtisches	städtisch	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Person=3	8	amod	_	InflectionType=Strong
@@ -26027,8 +26027,8 @@
 # text = Am 1. Januar 49 v. Chr. verlas Marcus Antionius die Erklärung von Cäsar, in der der Statthalter sich selbst zum Freund des Friedens erklärte.
 # text_en = On the 1st January 49 BC, Marco Antonio read a declaration from Caesar in which the proconsul declared himself a friend of peace.
 1-2	Am	_	_	_	_	_	_	_	_
-1	An	an	ADP	APPR	_	3	case	_	_
-2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	3	det	_	_
+1	An	an	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	4	det	_	_
 3	1.	1.	ADJ	.	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	InflectionType=Weak
 4	Januar	Januar	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	8	obl:tmod	_	_
 5	49	49	NUM	CD	NumType=Card	4	nummod	_	_
