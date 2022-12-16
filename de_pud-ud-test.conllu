@@ -1032,7 +1032,7 @@
 7	von	von	ADP	IN	_	10	case	_	_
 8	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	10	det	_	_
 9	britischen	britisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Person=3	10	amod	_	InflectionType=Weak|Proper=True
-10	Geheimdienst	Geheimdienst	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	13	obl	_	_
+10	Geheimdienst	Geheimdienst	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	13	obl:agent	_	_
 11	GCHQ	GCHQ	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing|Person=3	10	appos	_	_
 12	„	„	PUNCT	``	_	13	punct	_	SpaceAfter=No
 13	zertifiziert	zertifizieren	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
@@ -5024,7 +5024,7 @@
 10	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	13	det	_	_
 11	Nazi	Nazi	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	13	compound	_	SpaceAfter=No
 12	-	-	PUNCT	-	_	11	punct	_	SpaceAfter=No
-13	Regime	Regime	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	14	obl	_	_
+13	Regime	Regime	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	14	obl:agent	_	_
 14	getrennt	trennen	VERB	VBN	Tense=Past	2	ccomp	_	_
 15	werden	werden	AUX	VB	_	14	aux:pass	_	_
 16	muss	müssen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	aux	_	SpaceAfter=No
@@ -6419,7 +6419,7 @@
 10	-	-	PUNCT	-	_	9	punct	_	SpaceAfter=No
 11	Peking	Peking	PROPN	NNP	Case=Dat|Gender=Masc|Number=Plur|Person=3	13	compound	_	SpaceAfter=No
 12	-	-	PUNCT	-	_	11	punct	_	SpaceAfter=No
-13	Abgeordneten	Abgeordnete	NOUN	NNA	Case=Dat|Gender=Masc|Number=Plur|Person=3	14	obl	_	InflectionType=Strong
+13	Abgeordneten	Abgeordnete	NOUN	NNA	Case=Dat|Gender=Masc|Number=Plur|Person=3	14	obl:agent	_	InflectionType=Strong
 14	geleitet	leiten	VERB	VBN	Tense=Past	2	acl:relcl	_	_
 15	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	aux:pass	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	2	punct	_	_
@@ -7068,7 +7068,7 @@
 3	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	1	nsubj:pass	_	_
 4	von	von	ADP	IN	_	6	case	_	_
 5	den	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|Person=3	6	det	_	_
-6	Fonds	Fond	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	1	obl	_	_
+6	Fonds	Fond	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	1	obl:agent	_	_
 7	Aviva	Aviva	PROPN	NNP	Case=Nom|Number=Sing|Person=3	8	compound	_	_
 8	Investors	Investor	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	compound	_	Proper=True
 9	Multi	Multi	X	AFX	_	10	compound	_	Proper=True
@@ -8247,7 +8247,7 @@
 6	von	von	ADP	IN	_	9	case	_	_
 7	einer	ein	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|Person=3	9	det	_	_
 8	großen	groß	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Person=3	9	amod	_	InflectionType=Mixed
-9	Anzahl	Anzahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	12	obl	_	_
+9	Anzahl	Anzahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	12	obl:agent	_	_
 10	von	von	ADP	IN	_	11	case	_	_
 11	Briefwählern	Briefwähler	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	9	nmod	_	_
 12	gestützt	stützen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
@@ -9549,7 +9549,7 @@
 9	die	der	PRON	REL	Case=Nom|Gender=Fem|Number=Sing|Person=3	15	nsubj:pass	_	_
 10	von	von	ADP	IN	_	12	case	_	_
 11	den	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|Person=3	12	det	_	_
-12	Bürgern	Bürger	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	15	obl	_	_
+12	Bürgern	Bürger	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	15	obl:agent	_	_
 13	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	14	det	_	_
 14	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing|Person=3	12	nmod	_	_
 15	geführt	führen	VERB	VBN	Tense=Past	7	acl:relcl	_	_
@@ -9629,7 +9629,7 @@
 3	2019	2019	NUM	CD	NumType=Card	2	obl:tmod	_	Proper=True
 4	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:pass	_	_
 5	von	von	ADP	IN	_	6	case	_	_
-6	Krasnojarsk	Krasnojarsk	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing|Person=3	7	obl	_	_
+6	Krasnojarsk	Krasnojarsk	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing|Person=3	7	obl:agent	_	_
 7	ausgerichtet	ausrichten	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -10928,7 +10928,7 @@
 32	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	35	det	_	_
 33	anrückenden	anrückend	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Person=3	35	amod	_	InflectionType=Weak
 34	deutschen	deutsch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Person=3	33	conj	_	InflectionType=Weak|Proper=True
-35	Armee	Armee	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	36	obl	_	_
+35	Armee	Armee	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	36	obl:agent	_	_
 36	erobert	erobern	VERB	VBN	Tense=Past	20	conj	_	_
 37	worden	werden	AUX	VBN	Tense=Past	36	aux:pass	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	20	punct	_	_
@@ -12018,7 +12018,7 @@
 3	von	von	ADP	IN	_	6	case	_	_
 4	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	6	det	_	_
 5	damaligen	damalig	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Person=3	6	amod	_	InflectionType=Weak
-6	Oberbürgermeisterin	Oberbürgermeisterin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	20	obl	_	_
+6	Oberbürgermeisterin	Oberbürgermeisterin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	20	obl:agent	_	_
 7	von	von	ADP	IN	_	8	case	_	_
 8	Brisbane	Brisbane	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing|Person=3	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	_	_
@@ -12824,7 +12824,7 @@
 16	Dynastie	Dynastie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing|Person=3	20	obl	_	Proper=True
 17	von	von	ADP	IN	_	19	case	_	_
 18	den	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|Person=3	19	det	_	_
-19	Mandschu	Mandschu	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	20	obl	_	Proper=True
+19	Mandschu	Mandschu	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	20	obl:agent	_	Proper=True
 20	verwaltet	verwalten	VERB	VBN	Tense=Past	3	ccomp	_	_
 21	worden	werden	AUX	VBN	Tense=Past	20	aux:pass	_	_
 22	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	20	aux	_	SpaceAfter=No
@@ -14225,7 +14225,7 @@
 16	von	von	ADP	IN	_	19	case	_	_
 17	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	19	det	_	_
 18	ansässigen	ansässig	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Person=3	19	amod	_	InflectionType=Weak
-19	Gemeinde	Gemeinde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	20	obl	_	_
+19	Gemeinde	Gemeinde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	20	obl:agent	_	_
 20	genutzt	nutzen	VERB	VBN	Tense=Past	13	conj	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	29	punct	_	_
 22	die	der	PRON	REL	Case=Nom|Gender=Fem|Number=Sing|Person=3	29	nsubj	_	_
@@ -14427,7 +14427,7 @@
 9	Halbinsel	Halbinsel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	19	nsubj:pass	_	_
 10	von	von	ADP	IN	_	12	case	_	_
 11	den	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|Person=3	12	det	_	_
-12	Römern	Römer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	19	obl	_	Proper=True
+12	Römern	Römer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	19	obl:agent	_	Proper=True
 13	aus	aus	ADP	IN	_	15	case	_	_
 14	verwaltungstechnischen	verwaltungstechnisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Person=3	15	amod	_	InflectionType=Strong
 15	Gründen	Grund	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	19	obl	_	_
@@ -15408,7 +15408,7 @@
 7	,	,	PUNCT	,	_	11	punct	_	_
 8	die	der	PRON	REL	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	nsubj:pass	_	_
 9	von	von	ADP	IN	_	10	case	_	_
-10	Venedig	Venedig	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing|Person=3	11	obl	_	_
+10	Venedig	Venedig	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing|Person=3	11	obl:agent	_	_
 11	verpflichtet	verpflichten	VERB	VBN	Tense=Past	6	acl:relcl	_	_
 12	worden	werden	AUX	VBN	Tense=Past	11	aux:pass	_	_
 13	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	11	aux	_	SpaceAfter=No
@@ -15940,7 +15940,7 @@
 16	von	von	ADP	IN	_	19	case	_	_
 17	den	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|Person=3	19	det	_	_
 18	japanischen	japanisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Person=3	19	amod	_	InflectionType=Weak|Proper=True
-19	Besatzern	Besatzer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	20	obl	_	_
+19	Besatzern	Besatzer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	20	obl:agent	_	_
 20	getötet	töten	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	25	punct	_	_
 22	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|Person=3	23	det	_	_
@@ -16638,7 +16638,7 @@
 27	noch	noch	ADV	RB	Degree=Pos	30	advmod	_	_
 28	von	von	ADP	IN	_	30	case	_	_
 29	einigen	einige	DET	DT	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur|Person=3	30	det	_	_
-30	Ländern	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur|Person=3	31	obl	_	_
+30	Ländern	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur|Person=3	31	obl:agent	_	_
 31	verwendet	verwenden	VERB	VBN	Tense=Past	4	conj	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -17032,7 +17032,7 @@
 6	,	,	PUNCT	,	_	19	punct	_	_
 7	der	der	PRON	REL	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj:pass	_	_
 8	von	von	ADP	IN	_	9	case	_	_
-9	Geldautomaten	Geldautomat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	19	obl	_	_
+9	Geldautomaten	Geldautomat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	19	obl:agent	_	_
 10-11	zum	_	_	_	_	_	_	_	_
 10	zu	zu	ADP	APPR	_	12	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	12	det	_	_
@@ -17294,7 +17294,7 @@
 1	Von	von	ADP	IN	_	4	case	_	_
 2	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	4	det	_	_
 3	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Person=3	4	amod	_	InflectionType=Weak
-4	Edition	Edition	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	9	obl	_	_
+4	Edition	Edition	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	9	obl:agent	_	_
 5	wurden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	9	aux:pass	_	_
 6	lediglich	lediglich	ADV	RB	Degree=Pos	7	advmod	_	_
 7	3000	3000	NUM	CD	NumType=Card	8	nummod	_	_
@@ -17770,7 +17770,7 @@
 16	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	aux:pass	_	_
 17	von	von	ADP	IN	_	19	case	_	_
 18	seinen	sein	PRON	DTP$	Case=Dat|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	19	nmod:poss	_	_
-19	Brüdern	Bruder	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	21	obl	_	_
+19	Brüdern	Bruder	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	21	obl:agent	_	_
 20	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	21	advmod	_	_
 21	geteilt	teilen	VERB	VBN	Tense=Past	4	conj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	4	punct	_	_
@@ -19126,7 +19126,7 @@
 5	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj:pass	_	_
 6	von	von	ADP	IN	_	8	case	_	_
 7	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	8	det	_	_
-8	Schauspielerin	Schauspielerin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	11	obl	_	_
+8	Schauspielerin	Schauspielerin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing|Person=3	11	obl:agent	_	_
 9	Gloria	Gloria	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	appos	_	_
 10	Holden	Holden	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	flat:name	_	_
 11	geschieden	scheiden	VERB	VBN	Tense=Past	0	root	_	_
@@ -19165,7 +19165,7 @@
 19	,	,	PUNCT	,	_	24	punct	_	_
 20	die	der	PRON	REL	Case=Nom|Gender=Fem|Number=Sing|Person=3	24	nsubj:pass	_	_
 21	von	von	ADP	IN	_	22	case	_	_
-22	Audrey	Audrey	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing|Person=3	24	obl	_	_
+22	Audrey	Audrey	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing|Person=3	24	obl:agent	_	_
 23	Hepburn	Hepburn	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing|Person=3	22	flat:name	_	_
 24	dargestellt	darstellen	VERB	VBN	Tense=Past	14	acl:relcl	_	_
 25	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	24	aux:pass	_	SpaceAfter=No
@@ -21353,7 +21353,7 @@
 13-14	vom	_	_	_	_	_	_	_	_
 13	von	von	ADP	APPR	_	15	case	_	_
 14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	15	det	_	_
-15	Kassationshof	Kassationshof	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	16	obl	_	_
+15	Kassationshof	Kassationshof	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	16	obl:agent	_	_
 16	zurückgewiesen	zurückweisen	VERB	VBN	Tense=Past	6	acl:relcl	_	_
 17	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	16	aux:pass	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
@@ -21504,7 +21504,7 @@
 15	werden	werden	VERB	VB	_	0	root	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	24	punct	_	_
 17	von	von	ADP	IN	_	18	case	_	_
-18	denen	der	PRON	REL	Case=Dat|Gender=Fem|Number=Plur|Person=3	24	obl	_	_
+18	denen	der	PRON	REL	Case=Dat|Gender=Fem|Number=Plur|Person=3	24	obl:agent	_	_
 19	15,5	15,5	NUM	CD	NumType=Card	20	nummod	_	_
 20	Mio.	Mio.	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	24	nsubj:pass	_	_
 21	für	für	ADP	IN	_	23	case	_	_
@@ -22863,7 +22863,7 @@
 13	ehemaligen	ehemalig	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Person=3	14	amod	_	InflectionType=Weak
 14	Puppentheaters	Puppentheater	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	11	nmod	_	_
 15	von	von	ADP	IN	_	16	case	_	_
-16	Spielern	Spieler	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	19	obl	_	_
+16	Spielern	Spieler	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	19	obl:agent	_	_
 17	und	und	CCONJ	CC	_	18	cc	_	_
 18	Mitarbeitern	Mitarbeiter	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	16	conj	_	_
 19	übernommen	übernehmen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
@@ -23628,7 +23628,7 @@
 12	1632	1632	NUM	CD	NumType=Card	11	nummod	_	_
 13	von	von	ADP	IN	_	15	case	_	_
 14	schwedischen	schwedisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur|Person=3	15	amod	_	InflectionType=Strong|Proper=True
-15	Truppen	Truppe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur|Person=3	16	obl	_	_
+15	Truppen	Truppe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur|Person=3	16	obl:agent	_	_
 16	zerstört	zerstören	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	16	punct	_	_
 
@@ -23667,7 +23667,7 @@
 6-7	vom	_	_	_	_	_	_	_	_
 6	von	von	ADP	APPR	_	8	case	_	_
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	8	det	_	_
-8	Team	Team	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	12	obl	_	Proper=True
+8	Team	Team	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	12	obl:agent	_	Proper=True
 9	Telekom	Telekom	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	appos	_	_
 10	unter	unter	ADP	IN	_	11	case	_	_
 11	Vertrag	Vertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	obl	_	_
@@ -24860,7 +24860,7 @@
 8	Apulien	Apulien	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing|Person=3	7	appos	_	_
 9	von	von	ADP	IN	_	11	case	_	_
 10	einigen	einige	DET	DT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|Person=3	11	det	_	_
-11	Autoren	Autor	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	12	obl	_	_
+11	Autoren	Autor	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur|Person=3	12	obl:agent	_	_
 12	verwendet	verwenden	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	24	punct	_	_
 14	um	um	SCONJ	CC	_	24	mark	_	_
@@ -25629,7 +25629,7 @@
 3	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	aux:pass	_	_
 4	angeführt	anführen	VERB	VBN	Tense=Past	0	root	_	_
 5	von	von	ADP	IN	_	6	case	_	_
-6	General	General	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	4	obl	_	_
+6	General	General	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	4	obl:agent	_	_
 7	Joseph	Joseph	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	appos	_	_
 8	Burgoyne	Burgoyne	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	_	_
@@ -25919,7 +25919,7 @@
 2	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	19	aux:pass	_	_
 3	persönlich	persönlich	ADV	RB	Degree=Pos	19	advmod	_	_
 4	von	von	ADP	IN	_	5	case	_	_
-5	Curio	Curio	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	19	obl	_	SpaceAfter=No
+5	Curio	Curio	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	19	obl:agent	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	13	punct	_	_
 7	der	der	PRON	REL	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
 8	zu	zu	ADP	IN	_	10	case	_	_
@@ -25950,7 +25950,7 @@
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	9	det	_	_
 9	Tribunat	Tribunat	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	6	nmod	_	_
 10	von	von	ADP	IN	_	11	case	_	_
-11	Marcus	Marcus	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	13	obl	_	_
+11	Marcus	Marcus	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	13	obl:agent	_	_
 12	Antonius	Antonius	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing|Person=3	11	flat:name	_	_
 13	eingenommen	einnehmen	VERB	VBN	Tense=Past	0	root	_	_
 14	worden	werden	AUX	VBN	Tense=Past	13	aux:pass	_	SpaceAfter=No

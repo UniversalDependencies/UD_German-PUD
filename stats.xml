@@ -79,7 +79,7 @@
     <feat name="VerbForm" value="Part" upos="VERB,X">21</feat><!-- abgesehen, basierend, gefolgt, gesagt, Breaking, Geformt, abgehärtet, angeklagt, begründet, bekannt -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="43">
+  <deps unique="44">
     <dep name="acl">20</dep>
     <dep name="acl:relcl">271</dep>
     <dep name="advcl">220</dep>
@@ -114,7 +114,8 @@
     <dep name="nsubj:pass">207</dep>
     <dep name="nummod">226</dep>
     <dep name="obj">897</dep>
-    <dep name="obl">1344</dep>
+    <dep name="obl">1315</dep>
+    <dep name="obl:agent">29</dep>
     <dep name="obl:arg">91</dep>
     <dep name="obl:tmod">119</dep>
     <dep name="orphan">10</dep>
