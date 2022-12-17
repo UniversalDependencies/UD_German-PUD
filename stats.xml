@@ -63,12 +63,12 @@
     <feat name="NumType" value="Ord" upos="ADJ,NUM">16</feat><!-- 1., 30., 10., 11., 12., 16, 19., 21., 24, 27. -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">179</feat><!-- ich, wir, mich, uns, habe, bin, müssen, haben, kenne, können -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB,X">14</feat><!-- Don', Du, Knew, Knuck, Lass, Metti, Ya, dich, du., euch -->
-    <feat name="Person" value="3" upos="ADJ,AUX,DET,PRON,VERB,X">6887</feat><!-- die, der, dem, das, den, es, ist, sich, des, er -->
+    <feat name="Person" value="3" upos="ADJ,AUX,DET,PRON,VERB,X">6478</feat><!-- die, der, dem, das, den, es, ist, sich, des, er -->
     <feat name="Person[psor]" value="1" upos="PRON">20</feat><!-- unsere, My, mein, meinem, unserem, unserer, Meines, Nostrum, Unser, meine -->
     <feat name="Person[psor]" value="2" upos="PRON">1</feat><!-- euren -->
     <feat name="Person[psor]" value="3" upos="PRON">205</feat><!-- seine, ihre, ihrer, seiner, ihr, sein, ihren, seinen, seines, ihrem -->
     <feat name="Polarity" value="Neg" upos="ADV,PART">87</feat><!-- nicht -->
-    <feat name="PronType" value="Art" upos="DET">5</feat><!-- dem, ein, eine -->
+    <feat name="PronType" value="Art" upos="DET">414</feat><!-- eine, ein, einer, einem, einen, eines, dem -->
     <feat name="PronType" value="Prs" upos="PRON">360</feat><!-- sich, seine, ihre, ihrer, seiner, ihr, sein, ihren, seinen, seines -->
     <feat name="PronType" value="Rcp" upos="PRON">10</feat><!-- mich, uns, dich, mir -->
     <feat name="Reflex" value="Yes" upos="PRON">134</feat><!-- sich -->
