@@ -18120,15 +18120,15 @@
 17	Humblebums	Humblebums	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	19	compound	_	SpaceAfter=No
 18	-	-	PUNCT	-	_	17	punct	_	SpaceAfter=No
 19	Songs	Song	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
-20	„	„	PUNCT	``	_	21	punct	_	SpaceAfter=No
-21	Her	her	PRON	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	19	appos	_	Proper=True
-22	fahter	father	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	flat	_	Proper=True
-23	didn'	didn'	X	''	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	flat	_	SpaceAfter=No|Proper=True
-24	t	t	X	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	flat	_	Proper=True
-25	like	like	VERB	VB	_	21	flat	_	Proper=True
-26	me	me	PRON	PRP	Case=Acc|Number=Sing|Person=1	21	flat	_	Proper=True
-27	anyway	anyway	ADV	RB	Degree=Pos	21	flat	_	SpaceAfter=No|Proper=True
-28	“	“	PUNCT	''	_	21	punct	_	_
+20	„	„	PUNCT	``	_	25	punct	_	SpaceAfter=No
+21	Her	her	PRON	DTP$	Case=Nom|Foreign=Yes|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	22	nmod:poss	_	Lang=en|Proper=True
+22	fahter	father	NOUN	NN	Foreign=Yes|Number=Sing	25	nsubj	_	Lang=en|Proper=True
+23	did	do	AUX	''	Foreign=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Past	25	aux	_	SpaceAfter=No|Lang=en|Proper=True
+24	n't	not	PART	VBC	Foreign=Yes	25	advmod	_	Lang=en|Proper=True
+25	like	like	VERB	VB	Foreign=Yes	19	appos	_	Lang=en|Proper=True
+26	me	I	PRON	PRP	Case=Acc|Foreign=Yes|Number=Sing|Person=1|PronType=Prs	25	obj	_	Lang=en|Proper=True
+27	anyway	anyway	ADV	RB	Foreign=Yes	25	advmod	_	SpaceAfter=No|Lang=en|Proper=True
+28	“	“	PUNCT	''	_	25	punct	_	_
 29	auf	auf	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -25862,15 +25862,15 @@
 31	Erfolg	Erfolg	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	32	xcomp	_	_
 32	werden	werden	VERB	VB	_	25	acl:relcl	_	_
 33	sollte	sollen	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	32	aux	_	SpaceAfter=No
-34	:	:	PUNCT	:	_	36	punct	_	_
-35	„	„	PUNCT	``	_	36	punct	_	SpaceAfter=No
-36	Don'	Don'	X	''	Mood=Imp|Number=Sing|Person=2|Tense=Pres	25	parataxis	_	SpaceAfter=No|Proper=True
-37	t	t	X	AFX	_	36	flat	_	Proper=True
-38	Go	Go	X	VB	_	36	flat	_	Proper=True
-39	Breaking	Breaking	X	VBN	Tense=Pres|VerbForm=Part	36	flat	_	Proper=True
-40	My	My	PRON	DTP$	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	41	nmod:poss	_	Proper=True
-41	Heart	Heart	NOUN	NN	Number=Sing	36	flat	_	SpaceAfter=No|Proper=True
-42	“	“	PUNCT	''	_	36	punct	_	SpaceAfter=No
+34	:	:	PUNCT	:	_	38	punct	_	_
+35	„	„	PUNCT	``	_	38	punct	_	SpaceAfter=No
+36	Do	do	AUX	''	Foreign=Yes|Mood=Imp|Number=Sing|Person=2|Tense=Pres	38	aux	_	Lang=en|SpaceAfter=No|Proper=True
+37	n't	not	PART	AFX	Foreign=Yes	38	advmod	_	Lang=en|Proper=True
+38	Go	go	VERB	VB	Foreign=Yes|VerbForm=Inf	25	parataxis	_	Lang=en|Proper=True
+39	Breaking	break	VERB	VBN	Foreign=Yes|Tense=Pres|VerbForm=Part	38	advcl	_	Lang=en|Proper=True
+40	My	my	PRON	DTP$	Foreign=Yes|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	41	nmod:poss	_	Lang=en|Proper=True
+41	Heart	heart	NOUN	NN	Foreign=Yes|Number=Sing	39	obj	_	SpaceAfter=No|Lang=en|Proper=True
+42	“	“	PUNCT	''	_	38	punct	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = w05010
