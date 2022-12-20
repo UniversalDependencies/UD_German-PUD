@@ -18121,7 +18121,7 @@
 18	-	-	PUNCT	-	_	17	punct	_	SpaceAfter=No
 19	Songs	Song	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
 20	„	„	PUNCT	``	_	25	punct	_	SpaceAfter=No
-21	Her	her	PRON	DTP$	Case=Nom|Foreign=Yes|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	22	nmod:poss	_	Lang=en|Proper=True
+21	Her	her	PRON	DTP$	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nmod:poss	_	Lang=en|Proper=True
 22	fahter	father	NOUN	NN	Foreign=Yes|Number=Sing	25	nsubj	_	Lang=en|Proper=True
 23	did	do	AUX	''	Foreign=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Past	25	aux	_	SpaceAfter=No|Lang=en|Proper=True
 24	n't	not	PART	VBC	Foreign=Yes	25	advmod	_	Lang=en|Proper=True
@@ -25868,7 +25868,7 @@
 37	n't	not	PART	AFX	Foreign=Yes	38	advmod	_	Lang=en|Proper=True
 38	Go	go	VERB	VB	Foreign=Yes|VerbForm=Inf	25	parataxis	_	Lang=en|Proper=True
 39	Breaking	break	VERB	VBN	Foreign=Yes|Tense=Pres|VerbForm=Part	38	advcl	_	Lang=en|Proper=True
-40	My	my	PRON	DTP$	Foreign=Yes|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	41	nmod:poss	_	Lang=en|Proper=True
+40	My	my	PRON	DTP$	Foreign=Yes|Number=Sing|Person=3|PronType=Prs	41	nmod:poss	_	Lang=en|Proper=True
 41	Heart	heart	NOUN	NN	Foreign=Yes|Number=Sing	39	obj	_	SpaceAfter=No|Lang=en|Proper=True
 42	“	“	PUNCT	''	_	38	punct	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	2	punct	_	_
