@@ -40,7 +40,7 @@
 # text = Für alle, die Social-Media-Übergänge auf dem Capitol Hill verfolgen, wird dieser Übergang ein wenig anders sein.
 # text_en = For those who follow social media transitions on Capitol Hill, this will be a little different.
 1	Für	für	ADP	IN	_	2	case	_	_
-2	alle	alle	NOUN	NN	Case=Acc|Number=Plur	21	obl	_	SpaceAfter=No
+2	alle	alle	DET	NN	Case=Acc|Number=Plur|PronType=Tot	21	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	14	punct	_	_
 4	die	der	PRON	REL	Case=Nom|Number=Plur|Person=3	14	nsubj	_	_
 5	Social	Social	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	compound	_	SpaceAfter=No
@@ -1147,7 +1147,7 @@
 11	paar	paar	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
 12	wenige	wenig	NOUN	NNA	Case=Nom|Gender=Masc|Number=Plur	11	nmod	_	InflectionType=Strong
 13	für	für	ADP	IN	_	14	case	_	_
-14	alle	alle	NOUN	NN	Case=Acc|Number=Plur	15	obl	_	_
+14	alle	alle	DET	NN	Case=Acc|Number=Plur|PronType=Tot	15	obl	_	_
 15	ruinieren	ruinieren	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	3	ccomp	_	SpaceAfter=No
 16	“	“	PUNCT	``	_	3	punct	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	3	punct	_	_
@@ -2542,7 +2542,7 @@
 8	,	,	PUNCT	,	_	14	punct	_	_
 9	und	und	CCONJ	CC	_	14	cc	_	_
 10	vor	vor	ADP	IN	_	11	case	_	_
-11	allem	alle	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	_
+11	allem	alle	DET	NN	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	14	det	_	_
 12	große	groß	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	InflectionType=Strong
 13	neue	neu	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	12	conj	_	InflectionType=Strong
 14	Emittenten	Emittent	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	conj	_	_
@@ -3094,7 +3094,7 @@
 24	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	29	nsubj	_	_
 25	Duffy	Duffy	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	29	obj	_	_
 26	von	von	ADP	IN	_	28	case	_	_
-27	allen	alle	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur|Person=3	28	det	_	_
+27	allen	alle	DET	DT	Case=Dat|Gender=Fem|Number=Plur|PronType=Tot	28	det	_	_
 28	Anschuldigungen	Anschuldigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	29	obl	_	_
 29	freisprach	freisprechen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	advcl	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	3	punct	_	_
@@ -3603,7 +3603,7 @@
 16	und	und	CCONJ	CC	_	20	cc	_	_
 17	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	20	nsubj	_	_
 18	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	20	cop	_	_
-19	alles	alle	DET	DT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Person=3	20	det	_	_
+19	alles	alle	DET	DT	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	20	det	_	_
 20	andere	ander	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	conj	_	_
 21	als	als	CCONJ	CC	_	22	cc	_	_
 22	positiv	positiv	ADJ	JJ	Degree=Pos	20	conj	_	SpaceAfter=No
@@ -4398,7 +4398,7 @@
 9	Geschichte	Geschichte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	_	_
 11	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	12	advmod	_	_
-12	alle	alle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+12	alle	alle	DET	NN	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	13	nsubj	_	_
 13	beruhen	beruhen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	6	parataxis	_	_
 14	auf	auf	ADP	IN	_	15	case	_	_
 15	Tatsachen	Tatsache	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
@@ -6222,7 +6222,7 @@
 19	und	und	CCONJ	CC	_	20	cc	_	_
 20	deckte	decken	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	18	conj	_	_
 21	fast	fast	ADV	RB	Degree=Pos	22	advmod	_	_
-22	alle	alle	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Person=3	23	det	_	_
+22	alle	alle	DET	DT	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	23	det	_	_
 23	Bundesstaaten	Bundesstaat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
 24	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3	25	det	_	_
 25	USA	USA	PROPN	NNP	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
@@ -6612,7 +6612,7 @@
 3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	4	det	_	_
 4	Moment	Moment	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
 5	ist	sein	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-6	alles	alle	NOUN	NNA	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	InflectionType=Strong
+6	alles	alle	DET	NNA	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	5	nsubj	_	InflectionType=Strong
 7	aus	aus	ADP	IN	_	9	case	_	_
 8	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	9	det	_	_
 9	Gleichgewicht	Gleichgewicht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
@@ -9301,7 +9301,7 @@
 # text = Für alle, die die Hauptstadt in ihrer ganzen Pracht sehen wollen, ist November eine großartige Zeit, sie zu besuchen.
 # text_en = For anyone who wants to see the capital in all its glory, November's a great time to go.
 1	Für	für	ADP	IN	_	2	case	_	_
-2	alle	alle	NOUN	NN	Case=Acc|Number=Plur	18	obl	_	SpaceAfter=No
+2	alle	alle	DET	NN	Case=Acc|Number=Plur|PronType=Tot	18	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	11	punct	_	_
 4	die	der	PRON	REL	Case=Nom|Number=Plur|Person=3	11	nsubj	_	_
 5	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	6	det	_	_
@@ -10950,7 +10950,7 @@
 12	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	13	nsubj	_	_
 13	gelang	gelingen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	conj	_	_
 14	fast	fast	ADV	RB	Degree=Pos	13	advmod	_	_
-15	allen	alle	NOUN	NN	Case=Dat|Number=Plur	13	obl:arg	_	_
+15	allen	alle	DET	NN	Case=Dat|Number=Plur|PronType=Tot	13	obl:arg	_	_
 16	in	in	ADP	IN	_	19	case	_	_
 17	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	19	det	_	_
 18	dänischen	dänisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	InflectionType=Weak|Proper=True
@@ -11443,7 +11443,7 @@
 25	Po	Po	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	32	punct	_	_
 27	die	der	PRON	REL	Case=Nom|Number=Plur|Person=3	32	nsubj	_	_
-28	alle	alle	NOUN	NN	Case=Nom|Number=Plur	27	appos	_	_
+28	alle	alle	DET	NN	Case=Nom|Number=Plur|PronType=Tot	27	appos	_	_
 29	in	in	ADP	IN	_	31	case	_	_
 30	den	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|Person=3	31	det	_	_
 31	Alpen	Alpen	PROPN	NNP	Case=Dat|Gender=Fem|Number=Plur	32	obl	_	_
@@ -14928,7 +14928,7 @@
 7	Mitglieder	Mitglied	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
 8	davor	davor	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	_	_
-10	alles	alle	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+10	alles	alle	DET	NN	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	12	obj	_	_
 11	zu	zu	PART	RP	_	12	mark	_	_
 12	glauben	glauben	VERB	VB	_	2	xcomp	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	17	punct	_	_
@@ -16130,7 +16130,7 @@
 19	Musizieren	Musizieren	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	_
 20	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	25	cop	_	_
 21	vor	vor	ADP	IN	_	22	case	_	_
-22	allem	alle	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	25	nmod	_	_
+22	allem	alle	DET	NN	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	25	det	_	_
 23	eine	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 24	gemeinschaftliche	gemeinschaftlich	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	InflectionType=Mixed
 25	Aktivität	Aktivität	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
@@ -16511,7 +16511,7 @@
 18	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	17	aux	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	24	punct	_	_
 20	vor	vor	ADP	IN	_	21	case	_	_
-21	allem	alle	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	24	nmod	_	_
+21	allem	alle	DET	NN	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	24	det	_	_
 22	in	in	ADP	IN	_	24	case	_	_
 23	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	24	det	_	_
 24	Nachkriegszeit	Nachkriegszeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	_
@@ -19320,7 +19320,7 @@
 # text_en = Bloch is concerned to establish hope as the guiding principle of his Marxism and stresses the implied humanism inherent in mystical tradition.
 1	Bloch	Bloch	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	setzt	setzen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-3	alles	alle	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+3	alles	alle	DET	NN	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	2	obj	_	_
 4	daran	daran	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	14	punct	_	_
 6	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	7	det	_	_
@@ -19618,7 +19618,7 @@
 11	lehnten	lehnen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 12	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|Person=3	13	det	_	_
 13	Vertreter	Vertreter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
-14	aller	alle	DET	DT	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur|Person=3	16	det	_	_
+14	aller	alle	DET	DT	Case=Gen|Gender=Fem|Number=Plur|PronType=Tot	16	det	_	_
 15	sechs	sechs	NUM	CD	NumType=Card	16	nummod	_	_
 16	Großmächte	Großmacht	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
 17	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3	18	det	_	_
@@ -20030,7 +20030,7 @@
 20	müssten	müssen	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	27	aux	_	_
 21	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|Person=3	22	det	_	_
 22	USA	USA	PROPN	NNP	Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	_
-23	alle	alle	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	24	det	_	_
+23	alle	alle	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	24	det	_	_
 24	Truppen	Truppe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	27	obj	_	_
 25	aus	aus	ADP	IN	_	26	case	_	_
 26	Ländern	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	27	obl	_	_
@@ -20044,7 +20044,7 @@
 34	Mitglied	Mitglied	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	35	xcomp	_	_
 35	wurden	werden	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	26	acl:relcl	_	SpaceAfter=No
 36	,	,	PUNCT	,	_	41	punct	_	_
-37	alle	alle	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	38	det	_	_
+37	alle	alle	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	38	det	_	_
 38	Sanktionen	Sanktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	41	obj	_	_
 39	gegen	gegen	ADP	IN	_	40	case	_	_
 40	Russland	Rußland	PROPN	NNP	Case=Acc|Gender=Neut|Number=Sing	38	nmod	_	_
@@ -21299,7 +21299,7 @@
 2	Führer	Führer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 3	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
 4	vor	vor	ADP	IN	_	5	case	_	_
-5	allem	alle	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+5	allem	alle	DET	NN	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	6	obl	_	_
 6	problematisch	problematisch	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	16	punct	_	_
 8	weil	weil	SCONJ	CC	_	16	mark	_	_
@@ -21580,7 +21580,7 @@
 10	setzte	setzen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	conj	_	_
 11	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
 12	vor	vor	ADP	IN	_	13	case	_	_
-13	allem	alle	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	_
+13	allem	alle	DET	NN	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	10	obl	_	_
 14	für	für	ADP	IN	_	16	case	_	_
 15	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	16	det	_	_
 16	Rechte	Recht|Rechte	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	_
@@ -22715,7 +22715,7 @@
 8	,	,	PUNCT	,	_	13	punct	_	_
 9	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	13	expl	_	_
 10	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	cop	_	_
-11	alles	alle	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+11	alles	alle	DET	NN	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	13	nsubj	_	_
 12	schon	schon	ADV	RB	Degree=Pos	13	advmod	_	_
 13	geplant	planen	ADJ	JJ	Degree=Pos	7	parataxis	_	SpaceAfter=No
 14	“	“	PUNCT	``	_	7	punct	_	SpaceAfter=No
@@ -23123,7 +23123,7 @@
 6	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	8	det	_	_
 7	Labour	Labour	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	compound	_	Proper=True
 8	Party	Party	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	Proper=True
-9	alle	alle	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Person=3	11	det	_	_
+9	alle	alle	DET	DT	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	11	det	_	_
 10	sieben	sieben	NUM	CD	NumType=Card	11	nummod	_	_
 11	Wahlkreise	Wahlkreis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
 12	gewinnen	gewinnen	VERB	VB	_	0	root	_	SpaceAfter=No
@@ -23299,7 +23299,7 @@
 1	Sie	Sie|sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
 2	lagen	liegen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 3	vor	vor	ADP	IN	_	4	case	_	_
-4	allem	alle	NOUN	NNA	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	InflectionType=Strong
+4	allem	alle	DET	NNA	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	2	obl	_	InflectionType=Strong
 5	auf	auf	ADP	IN	_	6	case	_	_
 6	Anhöhen	Anhöhe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	_	_
@@ -23724,7 +23724,7 @@
 1	Die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	2	det	_	_
 2	Zensur	Zensur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	schaltete	schalten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	alle	alle	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	6	det	_	_
+4	alle	alle	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	6	det	_	_
 5	unerwünschten	unerwünscht	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	InflectionType=Weak
 6	Meinungsäußerungen	Meinungsäußerung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
 7	aus	aus	VERB	DC	_	3	compound:prt	_	SpaceAfter=No
@@ -24742,7 +24742,7 @@
 17	nahm	nehmen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	conj	_	_
 18	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	17	obj	_	_
 19	für	für	ADP	IN	_	21	case	_	_
-20	alle	alle	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	21	det	_	_
+20	alle	alle	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	21	det	_	_
 21	Straftaten	Straftat	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obl	_	_
 22	zurück	zurück	VERB	DC	_	17	compound:prt	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	5	punct	_	_
@@ -25447,7 +25447,7 @@
 11	wurden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	12	aux:pass	_	_
 12	legalisiert	legalisieren	VERB	VBN	Tense=Past	7	conj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	17	punct	_	_
-14	alle	alle	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	15	det	_	_
+14	alle	alle	DET	DT	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	15	det	_	_
 15	Exilanten	Exilant	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
 16	durften	dürfen	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	17	aux	_	_
 17	zurückkehren	zurückkehren	VERB	VB	_	7	conj	_	_

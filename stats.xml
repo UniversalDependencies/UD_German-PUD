@@ -20,8 +20,8 @@
     <tag name="ADV">1138</tag><!-- nicht, auch, so, noch, nur, sehr, mehr, jedoch, wie, davon -->
     <tag name="AUX">872</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, mögen, dürfen, do -->
     <tag name="CCONJ">743</tag><!-- und, als, aber, wie, oder, doch, sowie, bis, bzw., sowohl -->
-    <tag name="DET">2846</tag><!-- der, ein, dies, viel, kein, ander, jed, einige, mehr, beide -->
-    <tag name="NOUN">4248</tag><!-- Jahr, Zeit, Land, Teil, ein, Mensch, Stadt, Jahrhundert, Geschichte, Film -->
+    <tag name="DET">2862</tag><!-- der, ein, dies, viel, alle, kein, ander, jed, einige, mehr -->
+    <tag name="NOUN">4232</tag><!-- Jahr, Zeit, Land, Teil, ein, Mensch, Stadt, Jahrhundert, Geschichte, Film -->
     <tag name="NUM">354</tag><!-- zwei, drei, vier, 3, sechs, zehn, 1, 10, 50, 100 -->
     <tag name="PART">147</tag><!-- zu, not, nicht, wohl -->
     <tag name="PRON">1185</tag><!-- der, er, es, sich, sie, sein, ihr, ich, wir, was -->
@@ -33,14 +33,14 @@
     <tag name="X">30</tag><!-- E, Multi, Bundes, Demografie, Druck, Einzel, Ex, Fjögur, Handel, Hey -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="44">
+  <feats unique="45">
     <feat name="AdpType" value="Prep" upos="ADP">3</feat><!-- zu -->
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">2653</feat><!-- die, sich, den, eine, das, einen, ein, seine, es, ihre -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">3090</feat><!-- dem, der, den, einem, einer, Jahr, Jahren, ihrer, Chr., dieser -->
     <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PRON,PROPN">1175</feat><!-- der, des, eines, einer, seiner, dieser, ihrer, seines, ersten, Jahre -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">3730</feat><!-- die, der, er, das, es, sie, ein, eine, ich, wir -->
     <feat name="Definite" value="Def" upos="DET">2246</feat><!-- der, die, dem, den, das, des, diese, dieser, dies, dieses -->
-    <feat name="Definite" value="Ind" upos="DET">569</feat><!-- eine, ein, einer, einem, einen, viele, eines, einige, beiden, mehr -->
+    <feat name="Definite" value="Ind" upos="DET">559</feat><!-- eine, ein, einer, einem, einen, viele, eines, einige, beiden, mehr -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">58</feat><!-- mehr, später, besser, genauer, größere, höherer, lieber, späteren, weniger, Stranger -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">2384</feat><!-- nicht, auch, so, noch, nur, sehr, ersten, neue, jedoch, letzten -->
     <feat name="Degree" value="Sup" upos="ADJ">32</feat><!-- besten, größten, schlimmsten, höchsten, Oberste, Obersten, bekannteste, beknackteste, erfoglreichste, erfolgreichste -->
@@ -63,7 +63,7 @@
     <feat name="NumType" value="Ord" upos="ADJ,NUM">16</feat><!-- 1., 30., 10., 11., 12., 16, 19., 21., 24, 27. -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">179</feat><!-- ich, wir, mich, uns, habe, bin, müssen, haben, kenne, können -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">14</feat><!-- Do, Du, Knew, Knuck, Lass, Metti, Ya, dich, du., euch -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">5271</feat><!-- die, der, dem, das, den, es, ist, sich, des, er -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">5261</feat><!-- die, der, dem, das, den, es, ist, sich, des, er -->
     <feat name="Person[psor]" value="1" upos="PRON">19</feat><!-- unsere, mein, meinem, unserem, unserer, Meines, My, Nostrum, Unser, meine -->
     <feat name="Person[psor]" value="2" upos="PRON">1</feat><!-- euren -->
     <feat name="Person[psor]" value="3" upos="PRON">204</feat><!-- seine, ihre, ihrer, seiner, ihr, sein, ihren, seinen, seines, ihrem -->
@@ -72,6 +72,7 @@
     <feat name="PronType" value="Neg" upos="DET">25</feat><!-- keine, kein, keinen -->
     <feat name="PronType" value="Prs" upos="PRON">361</feat><!-- sich, seine, ihre, ihrer, seiner, ihr, sein, ihren, seinen, seines -->
     <feat name="PronType" value="Rcp" upos="PRON">10</feat><!-- mich, uns, dich, mir -->
+    <feat name="PronType" value="Tot" upos="DET">26</feat><!-- alle, allem, alles, allen, aller -->
     <feat name="Reflex" value="Yes" upos="PRON">134</feat><!-- sich -->
     <feat name="Tense" value="Past" upos="AUX,VERB">1448</feat><!-- wurde, war, hatte, wurden, waren, sagte, hatten, worden, würde, begann -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">879</feat><!-- ist, hat, wird, sind, kann, werden, haben, gibt, sagt, können -->
@@ -100,7 +101,7 @@
     <dep name="csubj">28</dep>
     <dep name="csubj:pass">7</dep>
     <dep name="dep">3</dep>
-    <dep name="det">2771</dep>
+    <dep name="det">2774</dep>
     <dep name="discourse">1</dep>
     <dep name="expl">90</dep>
     <dep name="expl:pv">1</dep>
@@ -109,7 +110,7 @@
     <dep name="flat:name">164</dep>
     <dep name="iobj">1</dep>
     <dep name="mark">459</dep>
-    <dep name="nmod">1102</dep>
+    <dep name="nmod">1099</dep>
     <dep name="nmod:poss">272</dep>
     <dep name="nsubj">1482</dep>
     <dep name="nsubj:pass">207</dep>
