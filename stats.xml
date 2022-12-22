@@ -17,13 +17,13 @@
   <tags unique="16">
     <tag name="ADJ">1399</tag><!-- neu, groß, erst, letzt, gut, hoch, eigen, britisch, politisch, klein -->
     <tag name="ADP">2043</tag><!-- in, von, zu, mit, für, an, auf, nach, bei, über -->
-    <tag name="ADV">1138</tag><!-- nicht, auch, so, noch, nur, sehr, mehr, jedoch, wie, davon -->
+    <tag name="ADV">1052</tag><!-- auch, so, noch, nur, sehr, mehr, jedoch, wie, davon, immer -->
     <tag name="AUX">872</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, mögen, dürfen, do -->
     <tag name="CCONJ">743</tag><!-- und, als, aber, wie, oder, doch, sowie, bis, bzw., sowohl -->
     <tag name="DET">2862</tag><!-- der, ein, dies, viel, alle, kein, ander, jed, einige, mehr -->
     <tag name="NOUN">4232</tag><!-- Jahr, Zeit, Land, Teil, ein, Mensch, Stadt, Jahrhundert, Geschichte, Film -->
     <tag name="NUM">354</tag><!-- zwei, drei, vier, 3, sechs, zehn, 1, 10, 50, 100 -->
-    <tag name="PART">147</tag><!-- zu, not, nicht, wohl -->
+    <tag name="PART">233</tag><!-- zu, nicht, not, wohl -->
     <tag name="PRON">1185</tag><!-- der, er, es, sich, sie, sein, ihr, ich, wir, was -->
     <tag name="PROPN">1219</tag><!-- Chr., China, Trump, USA, Frankreich, Albanien, Clinton, Joseph, US, Disney -->
     <tag name="PUNCT">2770</tag><!-- ,, ., -, „, “, (, ), :, –, ; -->
@@ -42,7 +42,7 @@
     <feat name="Definite" value="Def" upos="DET">2246</feat><!-- der, die, dem, den, das, des, diese, dieser, dies, dieses -->
     <feat name="Definite" value="Ind" upos="DET">559</feat><!-- eine, ein, einer, einem, einen, viele, eines, einige, beiden, mehr -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">58</feat><!-- mehr, später, besser, genauer, größere, höherer, lieber, späteren, weniger, Stranger -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">2384</feat><!-- nicht, auch, so, noch, nur, sehr, ersten, neue, jedoch, letzten -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">2298</feat><!-- auch, so, noch, nur, sehr, ersten, neue, jedoch, letzten, mehr -->
     <feat name="Degree" value="Sup" upos="ADJ">32</feat><!-- besten, größten, schlimmsten, höchsten, Oberste, Obersten, bekannteste, beknackteste, erfoglreichste, erfolgreichste -->
     <feat name="Foreign" value="Yes" upos="ADP,ADV,AUX,NOUN,PART,PRON,VERB,X">16</feat><!-- n't, Breaking, Do, Go, Heart, Her, My, anyway, de, did -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">3875</feat><!-- die, der, eine, sie, einer, seine, diese, den, Zeit, ihre -->
@@ -67,7 +67,7 @@
     <feat name="Person[psor]" value="1" upos="PRON">19</feat><!-- unsere, mein, meinem, unserem, unserer, Meines, My, Nostrum, Unser, meine -->
     <feat name="Person[psor]" value="2" upos="PRON">1</feat><!-- euren -->
     <feat name="Person[psor]" value="3" upos="PRON">204</feat><!-- seine, ihre, ihrer, seiner, ihr, sein, ihren, seinen, seines, ihrem -->
-    <feat name="Polarity" value="Neg" upos="ADV,PART">87</feat><!-- nicht -->
+    <feat name="Polarity" value="Neg" upos="PART">87</feat><!-- nicht -->
     <feat name="PronType" value="Art" upos="DET">414</feat><!-- eine, ein, einer, einem, einen, eines, dem -->
     <feat name="PronType" value="Neg" upos="DET">25</feat><!-- keine, kein, keinen -->
     <feat name="PronType" value="Prs" upos="PRON">361</feat><!-- sich, seine, ihre, ihrer, seiner, ihr, sein, ihren, seinen, seines -->

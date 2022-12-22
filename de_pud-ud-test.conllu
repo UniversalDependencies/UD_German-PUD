@@ -19,7 +19,7 @@
 15	friedlicher	friedlich	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	InflectionType=Mixed
 16	Machtwechsel	Machtwechsel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	orig_deprel=nsubj
 17	hingegen	hingegen	ADV	RB	Degree=Pos	12	advmod	_	_
-18	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	12	advmod	_	SpaceAfter=No
+18	nicht	nicht	PART	RB	Polarity=Neg	12	advmod	_	SpaceAfter=No
 19	“	“	PUNCT	''	_	12	punct	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	12	punct	_	_
 21	schrieb	schreiben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -504,7 +504,7 @@
 9	aber	aber	CCONJ	CC	_	14	cc	_	_
 10	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
 11	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	cop	_	_
-12	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	13	advmod	_	_
+12	nicht	nicht	PART	RB	Polarity=Neg	13	advmod	_	_
 13	immer	immer	ADV	RB	Degree=Pos	14	advmod	_	_
 14	alleine	alleine	ADJ	JJ	Degree=Pos	7	conj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	7	punct	_	_
@@ -909,7 +909,7 @@
 17	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	18	det	_	_
 18	Fluggesellschaft	Fluggesellschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
 19	wahrscheinlich	wahrscheinlich	ADV	RB	Degree=Pos	20	advmod	_	_
-20	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	21	advmod	_	_
+20	nicht	nicht	PART	RB	Polarity=Neg	21	advmod	_	_
 21	beeinflusse	beeinflussen	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres	12	conj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -1384,7 +1384,7 @@
 16	erreichen	erreichen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	3	conj	_	_
 17	ihre	ihr	PRON	DTP$	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|PronType=Prs	18	nmod:poss	_	_
 18	Beiträge	Beitrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
-19	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	20	advmod	_	_
+19	nicht	nicht	PART	RB	Polarity=Neg	20	advmod	_	_
 20	einmal	einmal	ADV	RB	Degree=Pos	16	advmod	_	_
 21	annähernd	annähernd	ADV	RB	Degree=Pos	16	advmod	_	_
 22	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	23	det	_	_
@@ -1433,7 +1433,7 @@
 16	viele	viel	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	17	det	_	_
 17	Spezies	Spezies	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	obj	_	_
 18	–	–	PUNCT	-	_	22	punct	_	OrigForm=--
-19	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	20	advmod	_	_
+19	nicht	nicht	PART	RB	Polarity=Neg	20	advmod	_	_
 20	nur	nur	ADV	RB	Degree=Pos	22	advmod	_	_
 21	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|Person=3	22	det	_	_
 22	Dinosaurier	Dinosaurier	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	appos	_	_
@@ -1738,7 +1738,7 @@
 # sent_id = n01027049
 # text = Nicht jeder kann darüber stehen.
 # text_en = Not everyone can rise above it.
-1	Nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	2	advmod	_	_
+1	Nicht	nicht	PART	RB	Polarity=Neg	2	advmod	_	_
 2	jeder	jed	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux	_	_
 4	darüber	darüber	ADV	RB	Degree=Pos	5	advmod	_	_
@@ -1945,7 +1945,7 @@
 17	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3	18	det	_	_
 18	Vorfalls	Vorfall	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
 19	angeblich	angeblich	ADV	RB	Degree=Pos	12	advmod	_	_
-20	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	12	advmod	_	_
+20	nicht	nicht	PART	RB	Polarity=Neg	12	advmod	_	_
 21-22	am	_	_	_	_	_	_	_	_
 21	an	an	ADP	APPR	_	23	case	_	_
 22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	23	det	_	_
@@ -2131,7 +2131,7 @@
 4	ließ	lassen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 5	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
 6	jedoch	jedoch	ADV	RB	Degree=Pos	4	advmod	_	_
-7	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	4	advmod	_	_
+7	nicht	nicht	PART	RB	Polarity=Neg	4	advmod	_	_
 8	in	in	ADP	IN	_	9	case	_	_
 9	Gewebe	Gewebe	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
 10	finden	finden	VERB	VB	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
@@ -2139,7 +2139,7 @@
 12	das	der	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|Person=3	17	nsubj	_	_
 13	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	14	det	_	_
 14	Rauch	Rauch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl:arg	_	_
-15	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	17	advmod	_	_
+15	nicht	nicht	PART	RB	Polarity=Neg	17	advmod	_	_
 16	direkt	direkt	ADV	RB	Degree=Pos	17	advmod	_	_
 17	ausgesetzt	aussetzen	ADJ	JJ	Degree=Pos	9	acl:relcl	_	_
 18	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	cop	_	SpaceAfter=No
@@ -2349,7 +2349,7 @@
 # text_en = "We do not believe the suspect has ties to this school, or to the two girls, or specifically to the Abbotsford area," she said.
 1	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
 2	glauben	glauben	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	24	ccomp	_	_
-3	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	2	advmod	_	SpaceAfter=No
+3	nicht	nicht	PART	RB	Polarity=Neg	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	13	punct	_	_
 5	dass	dass	SCONJ	CC	_	13	mark	_	_
 6	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	7	det	_	_
@@ -2387,7 +2387,7 @@
 8	,	,	PUNCT	,	_	9	punct	_	_
 9	unkooperativ	unkooperativ	ADJ	JJ	Degree=Pos	7	conj	_	_
 10	und	und	CCONJ	CC	_	12	cc	_	_
-11	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	12	advmod	_	_
+11	nicht	nicht	PART	RB	Polarity=Neg	12	advmod	_	_
 12	gewillt	gewillt	ADJ	JJ	Degree=Pos	7	conj	_	_
 13	sei	sein	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres	7	cop	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	27	punct	_	_
@@ -2655,7 +2655,7 @@
 4	in	in	ADP	IN	_	6	case	_	_
 5	unserem	unser	PRON	DTP$	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	6	nmod:poss	_	_
 6	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
-7	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	2	advmod	_	SpaceAfter=No
+7	nicht	nicht	PART	RB	Polarity=Neg	2	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
 9	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	2	vocative	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	_	_
@@ -2751,7 +2751,7 @@
 2	haben	haben	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	16	ccomp	_	_
 3	diese	dies	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|Person=3	4	det	_	_
 4	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
-5	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	2	advmod	_	SpaceAfter=No
+5	nicht	nicht	PART	RB	Polarity=Neg	2	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	_	_
 7	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
 8	haben	haben	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	2	parataxis	_	_
@@ -3664,7 +3664,7 @@
 # text_en = This would not only apply to entertainment content, but equally to education, to scientific research and, perhaps most importantly, to political discourse.
 1	Das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	6	nsubj	_	_
 2	würde	werden	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	6	aux	_	_
-3	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	5	advmod	_	_
+3	nicht	nicht	PART	RB	Polarity=Neg	5	advmod	_	_
 4	nur	nur	CCONJ	CC	_	5	cc:preconj	_	_
 5	Unterhaltungsangebote	Unterhaltungsangebot	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
 6	betreffen	betreffen	VERB	VB	_	0	root	_	SpaceAfter=No
@@ -3885,7 +3885,7 @@
 1	„	„	PUNCT	``	_	3	punct	_	SpaceAfter=No
 2	Ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
 3	weiß	wissen	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
-4	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	3	advmod	_	SpaceAfter=No
+4	nicht	nicht	PART	RB	Polarity=Neg	3	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	_	_
 6	wie	wie	ADV	WRB	_	7	advmod	_	_
 7	groß	groß	ADJ	JJ	Degree=Pos	3	ccomp	_	_
@@ -4274,7 +4274,7 @@
 27	wenn	wenn	SCONJ	CC	_	34	mark	_	_
 28	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	29	det	_	_
 29	Nil	Nil	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	_
-30	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	34	advmod	_	_
+30	nicht	nicht	PART	RB	Polarity=Neg	34	advmod	_	_
 31	über	über	ADP	IN	_	33	case	_	_
 32	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|Person=3	33	det	_	_
 33	Ufer	Ufer	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	34	obl	_	_
@@ -4397,7 +4397,7 @@
 8	eigene	eigen	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	InflectionType=Mixed
 9	Geschichte	Geschichte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	_	_
-11	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	12	advmod	_	_
+11	nicht	nicht	PART	RB	Polarity=Neg	12	advmod	_	_
 12	alle	alle	DET	NN	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	13	nsubj	_	_
 13	beruhen	beruhen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	6	parataxis	_	_
 14	auf	auf	ADP	IN	_	15	case	_	_
@@ -4614,7 +4614,7 @@
 10	aufgrund	aufgrund	ADP	IN	_	12	case	_	_
 11	ihres	ihr	PRON	DTP$	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3|PronType=Prs	12	nmod:poss	_	_
 12	Alters	Alter	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_
-13	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	14	advmod	_	_
+13	nicht	nicht	PART	RB	Polarity=Neg	14	advmod	_	_
 14	bewusst	bewusst	ADJ	JJ	Degree=Pos	2	ccomp	_	_
 15	sei	sein	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres	14	cop	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	2	punct	_	_
@@ -4747,7 +4747,7 @@
 7	Titel	Titel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
 8	als	als	CCONJ	CC	_	9	cc	_	_
 9	Weltbeste	Weltbeste	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	_
-10	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	11	advmod	_	_
+10	nicht	nicht	PART	RB	Polarity=Neg	11	advmod	_	_
 11	länger	lang	ADV	RB	Degree=Cmp	12	advmod	_	_
 12	gegeben	geben	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 13	?	?	PUNCT	.	_	12	punct	_	_
@@ -5165,7 +5165,7 @@
 1	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	7	nsubj	_	_
 2	können	können	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	7	aux	_	_
 3	Trump	Trump	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
-4	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	7	advmod	_	_
+4	nicht	nicht	PART	RB	Polarity=Neg	7	advmod	_	_
 5	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	xcomp	_	_
 6	werden	werden	VERB	VB	VerbForm=Inf	7	xcomp	_	_
 7	lassen	lassen	VERB	VB	_	0	root	_	SpaceAfter=No
@@ -5949,7 +5949,7 @@
 12	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	14	det	_	_
 13	vorgeschlagenen	vorgeschlagen	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	InflectionType=Weak
 14	Begrenzungen	Begrenzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj:pass	_	_
-15	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	16	advmod	_	_
+15	nicht	nicht	PART	RB	Polarity=Neg	16	advmod	_	_
 16	umgesetzt	umsetzen	VERB	VBN	Tense=Past	8	advcl	_	_
 17	würden	werden	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	16	aux:pass	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	8	punct	_	_
@@ -6063,7 +6063,7 @@
 4	gab	geben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 5	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	4	expl	_	_
 6	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	4	obj	_	_
-7	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	4	advmod	_	SpaceAfter=No
+7	nicht	nicht	PART	RB	Polarity=Neg	4	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	13	punct	_	_
 9	und	und	CCONJ	CC	_	13	cc	_	_
 10	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
@@ -6088,7 +6088,7 @@
 1	Ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
 2	nenne	nennen	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
 3	es	es	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3	2	obj	_	_
-4	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	5	advmod	_	_
+4	nicht	nicht	PART	RB	Polarity=Neg	5	advmod	_	_
 5	leichtfertig	leichtfertig	ADV	RB	Degree=Pos	2	advmod	_	_
 6	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Bestie	Bestie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	xcomp	_	SpaceAfter=No
@@ -6163,7 +6163,7 @@
 14	doch	doch	CCONJ	CC	_	16	cc	_	_
 15	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	16	nsubj	_	_
 16	funktioniert	funktionieren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	conj	_	_
-17	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	18	advmod	_	_
+17	nicht	nicht	PART	RB	Polarity=Neg	18	advmod	_	_
 18	immer	immer	ADV	RB	Degree=Pos	16	advmod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -6433,7 +6433,7 @@
 24	beiden	beide	NOUN	NNA	Case=Nom|Number=Plur	28	nsubj	_	InflectionType=Weak
 25	ihr	ihr	PRON	DTP$	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3|PronType=Prs	26	nmod:poss	_	_
 26	Amt	Amt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	28	obj	_	_
-27	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	28	advmod	_	_
+27	nicht	nicht	PART	RB	Polarity=Neg	28	advmod	_	_
 28	antreten	antreten	VERB	VB	_	19	advcl	_	_
 29	sollten	sollen	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	28	aux	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	20	punct	_	_
@@ -6692,7 +6692,7 @@
 11	politischen	politisch	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	InflectionType=Weak
 12	Risikos	Risiko	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
 13	sollte	sollen	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	16	aux	_	_
-14	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	16	advmod	_	_
+14	nicht	nicht	PART	RB	Polarity=Neg	16	advmod	_	_
 15	unbeachtet	beachten	ADJ	JJ	Degree=Pos	16	xcomp	_	_
 16	bleiben.	bleiben	VERB	VB	_	3	ccomp	_	SpaceAfter=No
 17	“	“	PUNCT	''	_	16	punct	_	_
@@ -6882,7 +6882,7 @@
 1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
 2	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux	_	_
 3	jedoch	jedoch	ADV	RB	Degree=Pos	7	advmod	_	_
-4	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	5	advmod	_	_
+4	nicht	nicht	PART	RB	Polarity=Neg	5	advmod	_	_
 5	unbegrenzt	unbegrenzt	ADV	RB	Degree=Pos	7	advmod	_	_
 6	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
 7	ausgeben	ausgeben	VERB	VB	_	0	root	_	SpaceAfter=No
@@ -7012,7 +7012,7 @@
 5	,	,	PUNCT	,	_	4	punct	_	_
 6	wären	sein	VERB	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	0	root	_	_
 7	Prämienanleihen	Prämienanleihe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
-8	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	14	advmod	_	_
+8	nicht	nicht	PART	RB	Polarity=Neg	14	advmod	_	_
 9	mehr	mehr	ADV	RB	Degree=Pos	8	advmod	_	_
 10	von	von	ADP	IN	_	12	case	_	_
 11	regulären	regulär	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	12	amod	_	InflectionType=Strong
@@ -7481,7 +7481,7 @@
 4	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	cop	_	_
 5	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	8	nsubj	_	_
 6	theoretisch	theoretisch	ADV	RB	Degree=Pos	8	advmod	_	_
-7	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	8	advmod	_	_
+7	nicht	nicht	PART	RB	Polarity=Neg	8	advmod	_	_
 8	nachweisbar	nachweisbar	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -7677,7 +7677,7 @@
 7	,	,	PUNCT	,	_	9	punct	_	_
 8	nur	nur	ADV	RB	Degree=Pos	9	advmod	_	_
 9	ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	conj	_	orig_deprel=nsubj
-10	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	6	advmod	_	SpaceAfter=No
+10	nicht	nicht	PART	RB	Polarity=Neg	6	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	6	punct	_	_
 
 # newdoc id = n01121
@@ -7759,7 +7759,7 @@
 4	von	von	ADP	IN	_	5	case	_	_
 5	Cotton	Cotton	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	_
 6	gehen	gehen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-7	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	6	advmod	_	_
+7	nicht	nicht	PART	RB	Polarity=Neg	6	advmod	_	_
 8	auf	auf	ADP	IN	_	11	case	_	_
 9	eine	ein	DET	PDT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 10	irgendeine	irgendein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	11	det	_	_
@@ -7808,7 +7808,7 @@
 8	ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	13	nsubj	_	_
 9	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	10	det	_	_
 10	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
-11	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	12	advmod	_	_
+11	nicht	nicht	PART	RB	Polarity=Neg	12	advmod	_	_
 12	lange	lange	ADV	RB	Degree=Pos	13	advmod	_	_
 13	haben	haben	VERB	VB	_	2	advcl	_	_
 14	werde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	13	aux	_	SpaceAfter=No
@@ -7831,7 +7831,7 @@
 11	Oberfläche	Oberfläche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
 12	–	–	PUNCT	-	_	2	punct	_	OrigForm=--
 13	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	21	aux:pass	_	_
-14	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	21	advmod	_	_
+14	nicht	nicht	PART	RB	Polarity=Neg	21	advmod	_	_
 15	mehr	mehr	ADV	RB	Degree=Pos	14	advmod	_	_
 16	mit	mit	ADP	IN	_	18	case	_	_
 17	den	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|Person=3	18	det	_	_
@@ -7932,7 +7932,7 @@
 # text_en = I don't know why I chose her ...
 1	Ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
 2	weiß	wissen	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
-3	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	2	advmod	_	SpaceAfter=No
+3	nicht	nicht	PART	RB	Polarity=Neg	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	8	punct	_	_
 5	warum	warum	ADV	WRB	_	8	mark	_	_
 6	ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	8	nsubj	_	_
@@ -8126,7 +8126,7 @@
 24	ein	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 25	registrierter	registriert	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	InflectionType=Mixed
 26	Wähler	Wähler	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
-27	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	31	advmod	_	_
+27	nicht	nicht	PART	RB	Polarity=Neg	31	advmod	_	_
 28	auf	auf	ADP	IN	_	30	case	_	_
 29	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	30	det	_	_
 30	Liste	Liste	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	31	obl	_	_
@@ -8272,7 +8272,7 @@
 4	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	5	det	_	_
 5	Wahl	Wahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	9	punct	_	_
-7	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	9	advmod	_	_
+7	nicht	nicht	PART	RB	Polarity=Neg	9	advmod	_	_
 8	„	„	PUNCT	``	_	9	punct	_	SpaceAfter=No
 9	Game	Game	NOUN	NN	Case=Nom|Number=Sing	5	parataxis	_	Proper=True
 10	of	of	ADP	IN	_	11	case	_	Proper=True
@@ -8360,7 +8360,7 @@
 18	bzw.	bzw.	CCONJ	CC	_	19	cc	_	_
 19	2020	2020	NUM	CD	NumType=Card	17	conj	_	_
 20	–	–	PUNCT	-	_	15	punct	_	OrigForm=--
-21	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	22	advmod	_	_
+21	nicht	nicht	PART	RB	Polarity=Neg	22	advmod	_	_
 22	richtig	richtig	ADJ	JJ	Degree=Pos	7	ccomp	_	_
 23	wären	sein	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	22	cop	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	7	punct	_	_
@@ -8618,7 +8618,7 @@
 # text_en = I hadn't seen a lot of the episodes and then my phone started lighting up.
 1	Ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	_
 2	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Past	6	aux	_	_
-3	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	4	advmod	_	_
+3	nicht	nicht	PART	RB	Polarity=Neg	4	advmod	_	_
 4	viele	viel	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	5	det	_	_
 5	Episoden	Episode	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 6	gesehen	sehen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
@@ -8628,7 +8628,7 @@
 10	hörte	hören	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	conj	_	_
 11	mein	mein	PRON	DTP$	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	12	nmod:poss	_	_
 12	Telefon	Telefon	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
-13	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	10	advmod	_	_
+13	nicht	nicht	PART	RB	Polarity=Neg	10	advmod	_	_
 14	mehr	mehr	ADV	RB	Degree=Pos	10	advmod	_	_
 15	auf	auf	VERB	DC	_	10	compound:prt	_	_
 16	zu	zu	PART	RP	_	17	mark	_	_
@@ -9062,7 +9062,7 @@
 19	dass	dass	SCONJ	CC	_	23	mark	_	_
 20	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	nsubj:pass	_	_
 21	offensichtlich	offensichtlich	ADV	RB	Degree=Pos	23	advmod	_	_
-22	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	23	advmod	_	_
+22	nicht	nicht	PART	RB	Polarity=Neg	23	advmod	_	_
 23	verkauft	verkaufen	VERB	VBN	Tense=Past	13	ccomp	_	_
 24	werden	werden	AUX	VB	_	23	aux:pass	_	_
 25	wollte	wollen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	23	aux	_	SpaceAfter=No
@@ -9354,7 +9354,7 @@
 # sent_id = n01148035
 # text = Nicht alle Veränderungen in der Region waren erfolgreich.
 # text_en = Not all transformations in the region have been successful.
-1	Nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	2	advmod	_	_
+1	Nicht	nicht	PART	RB	Polarity=Neg	2	advmod	_	_
 2	alle	all	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Person=3	3	det	_	_
 3	Veränderungen	Veränderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
 4	in	in	ADP	IN	_	6	case	_	_
@@ -10300,7 +10300,7 @@
 11	,	,	PUNCT	,	_	12	punct	_	_
 12	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	10	dep	_	_
 13	jedoch	jedoch	CCONJ	CC	_	20	cc	_	_
-14	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	20	advmod	_	_
+14	nicht	nicht	PART	RB	Polarity=Neg	20	advmod	_	_
 15	in	in	ADP	IN	_	18	case	_	_
 16	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	18	det	_	_
 17	Südsamischen	Südsamisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	InflectionType=Weak|Proper=True
@@ -10598,7 +10598,7 @@
 19	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	24	nsubj	_	_
 20	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	24	cop	_	_
 21	jedoch	jedoch	ADV	RB	Degree=Pos	24	advmod	_	_
-22	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	23	advmod	_	_
+22	nicht	nicht	PART	RB	Polarity=Neg	23	advmod	_	_
 23	so	so	ADV	RB	Degree=Pos	24	advmod	_	_
 24	extrem	extrem	ADJ	JJ	Degree=Pos	17	parataxis	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	17	punct	_	_
@@ -10991,7 +10991,7 @@
 25	Eisenbahnstrecke	Eisenbahnstrecke	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	33	nsubj:pass	_	_
 26	nach	nach	ADP	IN	_	27	case	_	_
 27	Flensburg	Flensburg	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	25	nmod	_	_
-28	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	29	advmod	_	_
+28	nicht	nicht	PART	RB	Polarity=Neg	29	advmod	_	_
 29	richtig	richtig	ADV	RB	Degree=Pos	33	advmod	_	_
 30	für	für	ADP	IN	_	32	case	_	_
 31	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	32	det	_	_
@@ -11154,7 +11154,7 @@
 14	bedeutenden	bedeutend	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	InflectionType=Mixed
 15	topographischen	topographisch	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	InflectionType=Mixed
 16	Besonderheiten	Besonderheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	_
-17	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	22	advmod	_	_
+17	nicht	nicht	PART	RB	Polarity=Neg	22	advmod	_	_
 18	parallel	parallel	ADV	RB	Degree=Pos	22	advmod	_	_
 19-20	zur	_	_	_	_	_	_	_	_
 19	zu	zu	ADP	APPR	_	21	case	_	_
@@ -11513,7 +11513,7 @@
 16	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	17	det	_	_
 17	Oberfläche	Oberfläche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
 18	häufig	häufig	ADV	RB	Degree=Pos	20	advmod	_	_
-19	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	20	advmod	_	_
+19	nicht	nicht	PART	RB	Polarity=Neg	20	advmod	_	_
 20	erreicht	erreichen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	advcl	_	_
 21	und	und	CCONJ	CC	_	26	cc	_	_
 22	stattdessen	stattdessen	ADV	RB	Degree=Pos	26	advmod	_	_
@@ -11879,7 +11879,7 @@
 8	und	und	CCONJ	CC	_	9	cc	_	_
 9	straßenlosen	straßenlos	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	7	conj	_	InflectionType=Weak
 10	Standorte	Standort	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	_
-11	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	12	advmod	_	_
+11	nicht	nicht	PART	RB	Polarity=Neg	12	advmod	_	_
 12	sehr	sehr	ADV	RB	Degree=Pos	13	advmod	_	_
 13	beliebt	beliebt	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	13	punct	_	_
@@ -12058,7 +12058,7 @@
 16	denen	der	PRON	REL	Case=Dat|Gender=Neut|Number=Plur|Person=3	23	obl	_	_
 17	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	18	det	_	_
 18	Land	Land	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
-19	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	23	advmod	_	_
+19	nicht	nicht	PART	RB	Polarity=Neg	23	advmod	_	_
 20	von	von	ADP	IN	_	22	case	_	_
 21	einer	ein	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Vegetationsbedeckung	Vegetationsbedeckung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	_
@@ -12943,7 +12943,7 @@
 2	,	,	PUNCT	,	_	10	punct	_	_
 3	der	der	PRON	REL	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
 4	logistisch	logistisch	ADV	RB	Degree=Pos	10	advmod	_	_
-5	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	10	advmod	_	_
+5	nicht	nicht	PART	RB	Polarity=Neg	10	advmod	_	_
 6	in	in	ADP	IN	_	8	case	_	_
 7	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	8	det	_	_
 8	Lage	Lage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
@@ -13168,7 +13168,7 @@
 17	ermitteln	ermitteln	VERB	VB	_	3	csubj	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	20	punct	_	_
 19	aber	aber	CCONJ	CC	_	20	cc	_	_
-20	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	3	conj	_	SpaceAfter=No
+20	nicht	nicht	PART	RB	Polarity=Neg	3	conj	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	28	punct	_	_
 22	ob	ob	SCONJ	CC	_	28	mark	_	_
 23	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
@@ -13193,7 +13193,7 @@
 7	,	,	PUNCT	,	_	11	punct	_	_
 8	die	der	PRON	REL	Case=Nom|Gender=Masc|Number=Plur|Person=3	11	nsubj:pass	_	_
 9	noch	noch	ADV	RB	Degree=Pos	10	advmod	_	_
-10	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	11	advmod	_	_
+10	nicht	nicht	PART	RB	Polarity=Neg	11	advmod	_	_
 11	besiedelt	besiedeln	VERB	VBN	Tense=Past	5	acl:relcl	_	_
 12	worden	werden	AUX	VBN	Tense=Past	11	aux:pass	_	_
 13	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	11	aux	_	SpaceAfter=No
@@ -15093,7 +15093,7 @@
 20	aber	aber	CCONJ	CC	_	22	cc	_	_
 21	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	22	nsubj	_	_
 22	versuchte	versuchen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	conj	_	_
-23	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	22	advmod	_	SpaceAfter=No
+23	nicht	nicht	PART	RB	Polarity=Neg	22	advmod	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	26	punct	_	_
 25	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	26	obj	_	_
 26	einzunehmen	einnehmen	VERB	VB	_	22	xcomp	_	SpaceAfter=No
@@ -15311,7 +15311,7 @@
 11	Westen	Westen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	_
 12	ausgerichtet	ausrichten	ADJ	JJ	Degree=Pos	0	root	_	_
 13	und	und	CCONJ	CC	_	20	cc	_	_
-14	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	15	advmod	_	_
+14	nicht	nicht	PART	RB	Polarity=Neg	15	advmod	_	_
 15	so	so	ADV	RB	Degree=Pos	16	advmod	_	_
 16	gut	gut	ADV	RB	Degree=Pos	20	advmod	_	_
 17	für	für	ADP	IN	_	19	case	_	_
@@ -15784,7 +15784,7 @@
 13	heute	heute	ADV	RB	Degree=Pos	17	advmod	_	_
 14	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	cop	_	_
 15	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	17	expl	_	_
-16	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	17	advmod	_	_
+16	nicht	nicht	PART	RB	Polarity=Neg	17	advmod	_	_
 17	ratsam	ratsam	ADJ	JJ	Degree=Pos	9	conj	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	24	punct	_	_
 19	unter	unter	ADP	IN	_	20	case	_	_
@@ -16601,7 +16601,7 @@
 12	mit	mit	ADP	IN	_	17	case	_	_
 13	bis	bis	ADP	IN	_	14	case	_	_
 14	dahin	dahin	ADV	RB	Degree=Pos	16	obl	_	_
-15	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	16	advmod	_	_
+15	nicht	nicht	PART	RB	Polarity=Neg	16	advmod	_	_
 16	ausgebildeten	ausgebildet	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	InflectionType=Strong
 17	Piloten	Pilot	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
@@ -17372,7 +17372,7 @@
 # text_en = Her latest non-fiction is about Margaret Douglas, Countess of Lennox.
 1	Ihr	Ihr|ihr	PRON	DTP$	Case=Nom|Gender=Neut|Number=Sing|Person=3|Person[psor]=3|PronType=Prs	5	nmod:poss	_	_
 2	neuestes	neu	ADJ	JJ	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	5	amod	_	InflectionType=Mixed
-3	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	4	advmod	_	_
+3	nicht	nicht	PART	RB	Polarity=Neg	4	advmod	_	_
 4	fiktionales	fiktional	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	conj	_	InflectionType=Mixed
 5	Buch	Buch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
 6	ist	sein	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -17426,7 +17426,7 @@
 3	ihnen	sie	PRON	PRP	Case=Dat|Gender=Masc|Number=Plur|Person=3	8	obl:arg	_	_
 4	mit	mit	ADP	IN	_	5	case	_	_
 5	Jasmine	Jasmine	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
-6	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	7	advmod	_	_
+6	nicht	nicht	PART	RB	Polarity=Neg	7	advmod	_	_
 7	genauso	genauso	ADV	RB	Degree=Pos	8	advmod	_	_
 8	erging	ergehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	advcl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
@@ -17459,7 +17459,7 @@
 7	Jasmine	Jasmine	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 8	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	12	det	_	_
 9	erste	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	InflectionType=Weak
-10	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	11	advmod	_	_
+10	nicht	nicht	PART	RB	Polarity=Neg	11	advmod	_	_
 11	weiße	weiß	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	InflectionType=Weak
 12	Prinzessin	Prinzessin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 13	bei	bei	ADP	IN	_	14	case	_	_
@@ -17468,7 +17468,7 @@
 16	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	cop	_	_
 17	damit	damit	ADV	RB	Degree=Pos	21	advmod	_	_
 18	offensichtlich	offensichtlich	ADV	RB	Degree=Pos	21	advmod	_	_
-19	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	20	advmod	_	_
+19	nicht	nicht	PART	RB	Polarity=Neg	20	advmod	_	_
 20	europäischer	europäisch	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	InflectionType=Strong|Proper=True
 21	Herkunft	Herkunft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	12	punct	_	_
@@ -17771,7 +17771,7 @@
 17	von	von	ADP	IN	_	19	case	_	_
 18	seinen	sein	PRON	DTP$	Case=Dat|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	19	nmod:poss	_	_
 19	Brüdern	Bruder	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	21	obl:agent	_	_
-20	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	21	advmod	_	_
+20	nicht	nicht	PART	RB	Polarity=Neg	21	advmod	_	_
 21	geteilt	teilen	VERB	VBN	Tense=Past	4	conj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -18423,7 +18423,7 @@
 20	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	24	obl:tmod	_	_
 21	seines	sein	PRON	DTP$	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	22	nmod:poss	_	_
 22	Lebens	Leben	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
-23	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	24	advmod	_	_
+23	nicht	nicht	PART	RB	Polarity=Neg	24	advmod	_	_
 24	ausgesetzt	aussetzen	VERB	VBN	Tense=Past	2	conj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -19184,7 +19184,7 @@
 6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	8	det	_	_
 7	folgenden	folgend	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	InflectionType=Weak
 8	Wahlkampf	Wahlkampf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_
-9	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	13	advmod	_	_
+9	nicht	nicht	PART	RB	Polarity=Neg	13	advmod	_	_
 10	noch	noch	ADV	RB	Degree=Pos	13	advmod	_	_
 11	ein	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
 12	drittes	dritt	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
@@ -19486,7 +19486,7 @@
 13	,	,	PUNCT	,	_	20	punct	_	_
 14	dass	dass	SCONJ	CC	_	20	mark	_	_
 15	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	20	nsubj	_	_
-16	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	20	advmod	_	_
+16	nicht	nicht	PART	RB	Polarity=Neg	20	advmod	_	_
 17	mehr	mehr	ADV	RB	Degree=Pos	16	advmod	_	_
 18	mit	mit	ADP	IN	_	19	case	_	_
 19	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	20	obl	_	_
@@ -19598,7 +19598,7 @@
 7	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	8	det	_	_
 8	Anerkennung	Anerkennung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
 9	Albaniens	Albanien	PROPN	NNP	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
-10	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	3	advmod	_	SpaceAfter=No
+10	nicht	nicht	PART	RB	Polarity=Neg	3	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = w01150045
@@ -19871,7 +19871,7 @@
 1	Der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	2	det	_	_
 2	Sprecher	Sprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	wollte	wollen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	aux	_	_
-4	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	5	advmod	_	_
+4	nicht	nicht	PART	RB	Polarity=Neg	5	advmod	_	_
 5	ausschließen	ausschließen	VERB	VB	_	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	13	punct	_	_
 7	dass	dass	SCONJ	CC	_	13	mark	_	_
@@ -19894,7 +19894,7 @@
 4	Series	Series	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	Proper=True
 5	1	1	NUM	CD	NumType=Card	4	nummod	_	Proper=True
 6	auch	auch	ADV	RB	Degree=Pos	10	advmod	_	_
-7	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	10	advmod	_	_
+7	nicht	nicht	PART	RB	Polarity=Neg	10	advmod	_	_
 8	mehr	mehr	ADV	RB	Degree=Pos	7	advmod	_	_
 9	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	10	det	_	_
 10	alte	alt	NOUN	NNA	Case=Nom|Gender=Fem|Number=Sing	19	advcl	_	InflectionType=Weak
@@ -19938,7 +19938,7 @@
 # text_en = One doesn't know in which way both dramatists would have worked together.
 1	Man	man	PRON	EX	_	2	nsubj	_	_
 2	wisse	wissen	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-3	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	2	advmod	_	SpaceAfter=No
+3	nicht	nicht	PART	RB	Polarity=Neg	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	13	punct	_	_
 5	auf	auf	ADP	IN	_	7	case	_	_
 6	welche	welch	DET	WDT	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	det	_	_
@@ -20073,7 +20073,7 @@
 8	habe	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	9	aux	_	_
 9	entschieden	entscheiden	VERB	VBN	Tense=Past	5	conj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	12	punct	_	_
-11	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	12	advmod	_	_
+11	nicht	nicht	PART	RB	Polarity=Neg	12	advmod	_	_
 12	anwesend	anwesend	ADJ	JJ	Degree=Pos	9	xcomp	_	_
 13	zu	zu	PART	RP	_	12	mark	_	_
 14	sein	sein	AUX	VB	_	12	cop	_	SpaceAfter=No
@@ -20590,7 +20590,7 @@
 5	Barroso	Barroso	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 6	womöglich	womöglich	ADV	RB	Degree=Pos	9	advmod	_	_
 7	noch	noch	ADV	RB	Degree=Pos	8	advmod	_	_
-8	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	9	advmod	_	_
+8	nicht	nicht	PART	RB	Polarity=Neg	9	advmod	_	_
 9	ausgestanden	ausstehen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	9	punct	_	_
 
@@ -20819,7 +20819,7 @@
 4	lästigen	lästig	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	InflectionType=Weak
 5	Sperrtafeln	Sperrtafel	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
 6	auch	auch	ADV	RB	Degree=Pos	7	advmod	_	_
-7	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	9	advmod	_	_
+7	nicht	nicht	PART	RB	Polarity=Neg	9	advmod	_	_
 8	komplett	komplett	ADV	RB	Degree=Pos	9	advmod	_	_
 9	verschwinden	verschwinden	VERB	VB	_	0	root	_	SpaceAfter=No
 10	:	:	PUNCT	:	_	20	punct	_	_
@@ -20860,7 +20860,7 @@
 1	Die	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|Person=3	2	det	_	_
 2	Schadstoffe	schadstoffe	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	attackieren	attackieren	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-4	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	2	advmod	_	_
+4	nicht	nicht	PART	RB	Polarity=Neg	2	advmod	_	_
 5	nur	nur	ADV	RB	Degree=Pos	2	cc:preconj	_	_
 6	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|Person=3	9	det	_	_
 7	noch	noch	ADV	RB	Degree=Pos	8	advmod	_	_
@@ -20889,7 +20889,7 @@
 1	Da	da	ADV	RB	Degree=Pos	2	advmod	_	_
 2	wundert	wundern	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	expl	_	_
-4	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	2	advmod	_	SpaceAfter=No
+4	nicht	nicht	PART	RB	Polarity=Neg	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	20	punct	_	_
 6	dass	dass	SCONJ	CC	_	20	mark	_	_
 7	Bundes	Bundes	X	RED	_	20	nsubj	_	SpaceAfter=No
@@ -20973,7 +20973,7 @@
 1	„	„	PUNCT	``	_	19	punct	_	SpaceAfter=No
 2	Wenn	wenn	SCONJ	CC	_	10	mark	_	_
 3	jemand	jemand	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
-4	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	10	advmod	_	_
+4	nicht	nicht	PART	RB	Polarity=Neg	10	advmod	_	_
 5	mit	mit	ADP	IN	_	9	case	_	_
 6	einem	ein	DET	DT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 7	Twitter	Twitter	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	9	compound	_	SpaceAfter=No
@@ -20985,7 +20985,7 @@
 13	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	19	aux	_	_
 14	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
 15	auch	auch	ADV	RB	Degree=Pos	16	advmod	_	_
-16	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	19	advmod	_	_
+16	nicht	nicht	PART	RB	Polarity=Neg	19	advmod	_	_
 17	mit	mit	ADP	IN	_	18	case	_	_
 18	Nuklearcodes	Nuklearcode	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	19	obl	_	_
 19	umgehen	umgehen	VERB	VB	_	22	ccomp	_	SpaceAfter=No
@@ -21275,7 +21275,7 @@
 12	Inhalt	Inhalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	_
 13	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3	14	det	_	_
 14	Führers	Führer	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
-15	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	17	advmod	_	_
+15	nicht	nicht	PART	RB	Polarity=Neg	17	advmod	_	_
 16	dabei	dabei	ADV	RB	Degree=Pos	17	advmod	_	_
 17	waren	sein	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	5	ccomp	_	SpaceAfter=No
 18	:	:	PUNCT	:	_	27	punct	_	_
@@ -21453,7 +21453,7 @@
 17	wahrscheinlich	wahrscheinlich	ADJ	JJ	Degree=Pos	12	acl:relcl	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	21	punct	_	_
 19	aber	aber	CCONJ	CC	_	21	cc	_	_
-20	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	21	advmod	_	_
+20	nicht	nicht	PART	RB	Polarity=Neg	21	advmod	_	_
 21	akzeptabel	akzeptabel	ADJ	JJ	Degree=Pos	17	conj	_	SpaceAfter=No
 22	“	“	PUNCT	``	_	17	punct	_	_
 23	seien	sein	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Pres	17	cop	_	SpaceAfter=No
@@ -21622,7 +21622,7 @@
 4	,	,	PUNCT	,	_	10	punct	_	_
 5	dass	dass	SCONJ	CC	_	10	mark	_	_
 6	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	10	nsubj	_	_
-7	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	10	advmod	_	_
+7	nicht	nicht	PART	RB	Polarity=Neg	10	advmod	_	_
 8	mit	mit	ADP	IN	_	9	case	_	_
 9	denen	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|Person=3	10	obl	_	_
 10	weiterarbeiten	weiterarbeiten	VERB	VB	_	3	csubj:pass	_	_
@@ -21763,7 +21763,7 @@
 15	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	aux	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	19	punct	_	_
 17	zumindest	zumindest	ADV	RB	Degree=Pos	19	advmod	_	_
-18	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	19	advmod	_	_
+18	nicht	nicht	PART	RB	Polarity=Neg	19	advmod	_	_
 19	2017	2017	NUM	CD	NumType=Card	14	obl:tmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -22254,7 +22254,7 @@
 3	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	cop	_	_
 4	jedoch	jedoch	ADV	RB	Degree=Pos	7	advmod	_	_
 5	auch	auch	ADV	RB	Degree=Pos	7	advmod	_	_
-6	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	7	advmod	_	_
+6	nicht	nicht	PART	RB	Polarity=Neg	7	advmod	_	_
 7	frei	frei	ADJ	JJ	Degree=Pos	0	root	_	_
 8	von	von	ADP	IN	_	9	case	_	_
 9	Kritik	Kritik	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
@@ -22367,7 +22367,7 @@
 2	abgesehen	absehen	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	hat	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	aux	_	_
-5	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	6	advmod	_	_
+5	nicht	nicht	PART	RB	Polarity=Neg	6	advmod	_	_
 6	jeder	jed	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 7	in	in	ADP	IN	_	9	case	_	_
 8	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	9	det	_	_
@@ -22556,7 +22556,7 @@
 24	und	und	CCONJ	CC	_	25	cc	_	_
 25	Slapstickeinlagen	Slapstickeinlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	23	conj	_	_
 26	passen	passen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	13	conj	_	_
-27	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	26	advmod	_	SpaceAfter=No
+27	nicht	nicht	PART	RB	Polarity=Neg	26	advmod	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	13	punct	_	_
 
 # newdoc id = n05007
@@ -22649,7 +22649,7 @@
 1	Deswegen	deswegen	ADV	RB	Degree=Pos	6	advmod	_	_
 2	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
 3	Trump	Trump	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-4	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	5	advmod	_	_
+4	nicht	nicht	PART	RB	Polarity=Neg	5	advmod	_	_
 5	sehr	sehr	ADV	RB	Degree=Pos	6	advmod	_	_
 6	besorgt	besorgt	ADJ	JJ	Degree=Pos	0	root	_	_
 7	in	in	ADP	IN	_	8	case	_	_
@@ -23378,7 +23378,7 @@
 6	während	während	ADP	IN	_	8	case	_	_
 7	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	8	det	_	_
 8	Flucht	Flucht	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
-9	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	3	advmod	_	_
+9	nicht	nicht	PART	RB	Polarity=Neg	3	advmod	_	_
 10	walten	walten	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	17	punct	_	_
 12	sodass	sodass	SCONJ	CC	_	17	mark	_	_
@@ -24691,7 +24691,7 @@
 2	war	sein	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	4	det	_	_
 4	Rennbahn	Rennbahn	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
-5	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	2	advmod	_	_
+5	nicht	nicht	PART	RB	Polarity=Neg	2	advmod	_	_
 6	mehr	mehr	ADV	RB	Degree=Pos	2	advmod	_	_
 7	in	in	ADP	IN	_	8	case	_	_
 8	Benutzung	Benutzung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
@@ -24966,7 +24966,7 @@
 3	Konflikt	Konflikt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 4	dadurch	dadurch	ADV	RB	Degree=Pos	7	advmod	_	_
 5	auch	auch	ADV	RB	Degree=Pos	6	advmod	_	_
-6	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	7	advmod	_	_
+6	nicht	nicht	PART	RB	Polarity=Neg	7	advmod	_	_
 7	gelöst	lösen	VERB	VBN	Tense=Past	10	advcl	_	_
 8	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	aux:pass	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	7	punct	_	_
@@ -25246,7 +25246,7 @@
 # text_en = During their various collaborations, it is not clear who between the two conceived of some stylistic solutions in the arrangements that later on characterised both artists' style.
 1	Es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	4	expl	_	_
 2	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
-3	nicht	nicht	ADV	RB	Degree=Pos|Polarity=Neg	4	advmod	_	_
+3	nicht	nicht	PART	RB	Polarity=Neg	4	advmod	_	_
 4	klar	klar	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	18	punct	_	_
 6	wer	wer	PRON	WP	Case=Nom|Person=3	18	nsubj	_	_
