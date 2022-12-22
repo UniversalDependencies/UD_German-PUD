@@ -68,7 +68,7 @@
 # text = Entgegen seinen bisherigen Äußerungen zur Begrenzung der Einwanderung verkündete der Nominierte der Republikanischen Partei, dass er als Präsident „enorm viele“ legale Einwanderer basierend auf einem Punktesystem akzeptieren würde.
 # text_en = But in a break from his past rhetoric about curtailing immigration, the GOP nominee proclaimed that as president he would allow “tremendous numbers” of legal immigrants based on a “merit system.”
 1	Entgegen	entgegen	ADP	IN	_	4	case	_	_
-2	seinen	sein	PRON	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	4	nmod:poss	_	_
+2	seinen	sein	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 3	bisherigen	bisherig	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	InflectionType=Mixed
 4	Äußerungen	Äußerung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	_
 5-6	zur	_	_	_	_	_	_	_	_
@@ -599,7 +599,7 @@
 6	,	,	PUNCT	,	_	17	punct	_	_
 7	indem	indem	SCONJ	CC	_	17	mark	_	_
 8	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
-9	sein	sein	PRON	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	10	nmod:poss	_	_
+9	sein	sein	DET	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Gesicht	Gesicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
 11	in	in	ADP	IN	_	13	case	_	_
 12	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -779,7 +779,7 @@
 4	auf	auf	ADP	IN	_	6	case	_	_
 5	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	6	det	_	_
 6	Höhe	Höhe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	_
-7	seiner	sein	PRON	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	8	nmod:poss	_	_
+7	seiner	sein	DET	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Popularität	Popularität	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
 9	(	(	PUNCT	(	_	13	punct	_	SpaceAfter=No
 10	und	und	CCONJ	CC	_	13	cc	_	_
@@ -1079,7 +1079,7 @@
 5	Woche	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl:tmod	_	_
 6	noch	noch	ADV	RB	Degree=Pos	7	advmod	_	_
 7	mehr	mehr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
-8	seiner	sein	PRON	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	9	nmod:poss	_	_
+8	seiner	sein	DET	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Militärausrüstung	Militärausrüstung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 10	vorstellen	vorstellen	VERB	VB	_	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	_	_
@@ -1116,7 +1116,7 @@
 21	für	für	ADP	IN	_	22	case	_	_
 22	Peking	Peking	PROPN	NNP	Case=Acc|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	35	punct	_	_
-24	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Neut|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	25	nmod:poss	_	_
+24	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
 25	Ambitionen	Ambition	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	35	obj	_	_
 26	sowohl	sowohl	CCONJ	CC	_	29	cc:preconj	_	_
 27	hinsichtlich	hinsichtlich	ADP	IN	_	29	case	_	_
@@ -2339,7 +2339,7 @@
 19	vage	vage	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	20	amod	_	InflectionType=Strong
 20	Details	Detail	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	_
 21	über	über	ADP	IN	_	24	case	_	_
-22	seine	sein	PRON	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	24	nmod:poss	_	_
+22	seine	sein	DET	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 23	letzten	letzt	ADJ	JJ	Case=Acc|Degree=Sup|Gender=Masc|Number=Plur	24	amod	_	InflectionType=Mixed
 24	Aufenthaltsorte	Aufenthaltsort	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	6	punct	_	_
@@ -2400,7 +2400,7 @@
 21	nach	nach	ADP	IN	_	22	case	_	_
 22	oben	oben	ADV	RB	Degree=Pos	27	obl	_	_
 23	zu	zu	ADP	IN	_	25	case	_	_
-24	seiner	sein	PRON	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	25	nmod:poss	_	_
+24	seiner	sein	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
 25	Anhörung	Anhörung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	27	obl	_	_
 26	zu	zu	PART	RP	_	27	mark	_	_
 27	gehen	gehen	VERB	VB	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
@@ -2582,7 +2582,7 @@
 5	zu	zu	ADP	APPR	_	7	case	_	_
 6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	7	det	_	_
 7	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
-8	seiner	sein	PRON	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	10	nmod:poss	_	_
+8	seiner	sein	DET	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 9	ersten	erst	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	InflectionType=Mixed
 10	Amtszeit	Amtszeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 11	warten	warten	VERB	VB	_	0	root	_	SpaceAfter=No
@@ -2628,7 +2628,7 @@
 17	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	18	obl:arg	_	_
 18	vorwerfen	vorwerfen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	13	advcl	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	35	punct	_	_
-20	seine	sein	PRON	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	22	nmod:poss	_	_
+20	seine	sein	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 21	abwertenden	abwertend	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	InflectionType=Mixed
 22	Kommentare	Kommentar	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	35	nsubj	_	_
 23	über	über	ADP	IN	_	24	case	_	_
@@ -2636,7 +2636,7 @@
 25	und	und	CCONJ	CC	_	26	cc	_	_
 26	Minderheiten	Minderheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	conj	_	_
 27	sowie	sowie	CCONJ	CC	_	29	cc	_	_
-28	sein	sein	PRON	DTP$	Case=Nom|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	29	nmod:poss	_	_
+28	sein	sein	DET	DTP$	Case=Nom|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	29	det:poss	_	_
 29	Temperament	Temperament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	22	conj	_	_
 30	würden	werden	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	35	aux	_	_
 31	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	35	obj	_	_
@@ -3775,7 +3775,7 @@
 2	North	North	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
 3	Carolina	Carolina	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing	2	flat:name	_	_
 4	2013	2013	NUM	CD	NumType=Card	11	obl:tmod	_	_
-5	sein	sein	PRON	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	7	nmod:poss	_	_
+5	sein	sein	DET	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 6	restriktives	restriktiv	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	InflectionType=Mixed
 7	Gesetz	Gesetz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
 8-9	zum	_	_	_	_	_	_	_	_
@@ -4372,13 +4372,13 @@
 1	„	„	PUNCT	``	_	3	punct	_	SpaceAfter=No
 2	Totale	total	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	InflectionType=Strong
 3	Vernachlässigung	Vernachlässigung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	ccomp	_	_
-4	seiner	sein	PRON	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	6	nmod:poss	_	_
+4	seiner	sein	DET	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 5	eigenen	eigen	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	InflectionType=Mixed
 6	Gesundheit	Gesundheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
 7	“	“	PUNCT	''	_	3	punct	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	3	punct	_	_
 9	berichtete	berichten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-10	seine	sein	PRON	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	11	nmod:poss	_	_
+10	seine	sein	DET	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Ehefrau	Ehefrau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 12	Alice	Alice	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	11	appos	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	9	punct	_	_
@@ -4471,7 +4471,7 @@
 # sent_id = n01068038
 # text = Seine Fähigkeit, Antworten für die Steuerzahler zu bekommen, wird schmerzlich vermisst werden.
 # text_en = His skill in getting answers for taxpayers will be sorely missed.
-1	Seine	sein	PRON	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	2	nmod:poss	_	_
+1	Seine	sein	DET	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Fähigkeit	Fähigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj:pass	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	9	punct	_	_
 4	Antworten	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
@@ -4799,7 +4799,7 @@
 # text_en = He has got that hard edge to his game but also the soft hands.
 1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	hat	haben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-3	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	5	nmod:poss	_	_
+3	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 4	harten	hart	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	InflectionType=Mixed
 5	Kanten	Kante	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
 6-7	im	_	_	_	_	_	_	_	_
@@ -4888,7 +4888,7 @@
 2	,	,	PUNCT	,	_	3	punct	_	_
 3	abgehärtet	abgehärten	VERB	VBN	Tense=Past|VerbForm=Part	1	ccomp	_	_
 4	durch	durch	ADP	IN	_	7	case	_	_
-5	seine	sein	PRON	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Neut|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	7	nmod:poss	_	_
+5	seine	sein	DET	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 6	letzten	letzt	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	InflectionType=Mixed
 7	Spiele	Spiel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	_
 8	bei	bei	ADP	IN	_	12	case	_	_
@@ -5095,7 +5095,7 @@
 # text = Zu seinen ungewöhnlicheren Auszeichnungen zählen weltweiter Botschafter für die New York City Health and Hospitals Corporation und ein Platz an der Harvard Business School.
 # text_en = His more unusual accolades include global ambassador for New York City Health and Hospitals Corporation, and a place at Harvard Business School.
 1	Zu	zu	ADP	IN	_	4	case	_	_
-2	seinen	sein	PRON	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	4	nmod:poss	_	_
+2	seinen	sein	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 3	ungewöhnlicheren	ungewöhnlich	ADJ	JJ	Case=Dat|Degree=Cmp|Gender=Fem|Number=Plur	4	amod	_	InflectionType=Mixed
 4	Auszeichnungen	Auszeichnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	_
 5	zählen	zählen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
@@ -5322,7 +5322,7 @@
 4	theoretisch	theoretisch	ADV	RB	Degree=Pos	5	advmod	_	_
 5	jederzeit	jederzeit	ADV	RB	Degree=Pos	9	advmod	_	_
 6	auf	auf	ADP	IN	_	8	case	_	_
-7	sein	sein	PRON	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	8	nmod:poss	_	_
+7	sein	sein	DET	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
 9	zugreifen	zugreifen	VERB	VB	_	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	9	punct	_	_
@@ -6508,10 +6508,10 @@
 # text_en = It is his dream to end his career here.
 1	Es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	4	expl	_	_
 2	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
-3	sein	sein	PRON	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	4	nmod:poss	_	_
+3	sein	sein	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Traum	Traum	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	10	punct	_	_
-6	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	7	nmod:poss	_	_
+6	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Laufbahn	Laufbahn	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
 8	hier	hier	ADV	RB	Degree=Pos	10	advmod	_	_
 9	zu	zu	PART	RP	_	10	mark	_	_
@@ -6731,7 +6731,7 @@
 28	Vorstandsvorsitzenden	Vorstandsvorsitzende	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	26	iobj	_	_
 29	Martin	Martin	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	28	appos	_	_
 30	Winterkorn	Winterkorn	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	29	flat:name	_	_
-31	seinen	sein	PRON	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	32	nmod:poss	_	_
+31	seinen	sein	DET	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	32	det:poss	_	_
 32	Job	Job	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	15	punct	_	_
 
@@ -8196,12 +8196,12 @@
 12	der	der	PRON	REL	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
 13	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	_
 14	um	um	ADP	IN	_	16	case	_	_
-15	seine	sein	PRON	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	16	nmod:poss	_	_
+15	seine	sein	DET	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Interessen	Interesse	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	17	obl	_	_
 17	kümmert	kümmern	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	acl:relcl	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	23	punct	_	_
 19	und	und	CCONJ	CC	_	23	cc	_	_
-20	sein	sein	PRON	DTP$	Case=Nom|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	21	nmod:poss	_	_
+20	sein	sein	DET	DTP$	Case=Nom|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 21	Naturell	Naturell	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
 22	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	23	cop	_	_
 23	Gift	Gift	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	conj	_	_
@@ -8291,7 +8291,7 @@
 6	ausstehenden	ausstehend	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	InflectionType=Weak
 7	Bücher	Buch	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
 8	in	in	ADP	IN	_	11	case	_	_
-9	seiner	sein	PRON	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	11	nmod:poss	_	_
+9	seiner	sein	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 10	vielgepriesenen	vielgepriesen	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	InflectionType=Mixed
 11	Reihe	Reihe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
 12	abschließen	abschließen	VERB	VB	_	0	root	_	SpaceAfter=No
@@ -8839,7 +8839,7 @@
 18	zu	zu	PART	RP	_	19	mark	_	_
 19	versenden	versenden	VERB	VB	VerbForm=Inf	5	xcomp	_	_
 20	sowie	sowie	CCONJ	CC	_	25	cc	_	_
-21	seinen	sein	PRON	DTP$	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	24	nmod:poss	_	_
+21	seinen	sein	DET	DTP$	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 22	Twitter	Twitter	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	24	compound	_	SpaceAfter=No
 23	-	-	PUNCT	-	_	22	punct	_	SpaceAfter=No
 24	Feed	Feed	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
@@ -8861,7 +8861,7 @@
 10	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|Person=3	11	det	_	_
 11	Anwender	Anwender	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
 12	in	in	ADP	IN	_	14	case	_	_
-13	seinen	sein	PRON	DTP$	Case=Dat|Gender=Neut|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	14	nmod:poss	_	_
+13	seinen	sein	DET	DTP$	Case=Dat|Gender=Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Produkten	Produkt	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	19	obl	_	_
 15	mehr	mehr	ADV	RB	Degree=Pos	18	advmod	_	_
 16	als	als	CCONJ	CC	_	15	fixed	_	_
@@ -8922,7 +8922,7 @@
 20	erzwang	erzwingen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	16	conj	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	2	punct	_	_
 22	zollte	zollen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-23	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	24	nmod:poss	_	_
+23	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Anerkennung	Anerkennung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	22	punct	_	_
 
@@ -9799,7 +9799,7 @@
 16	Vorherrschaft	Vorherrschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 17	und	und	CCONJ	CC	_	18	cc	_	_
 18	übergab	übergeben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	conj	_	_
-19	sein	sein	PRON	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	20	nmod:poss	_	_
+19	sein	sein	DET	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 20	Land	Land	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
 21	als	als	CCONJ	CC	_	22	cc	_	_
 22	Vasallenstaat	Vasallenstaat	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	conj	_	_
@@ -9935,7 +9935,7 @@
 # sent_id = w01007070
 # text = Seine Polizei umfasst eine Sondereinheit, die Streifen- und Überwachungsboote betreibt.
 # text_en = Its police includes a special unit which operates patrol and surveillance boats.
-1	Seine	sein	PRON	DTP$	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	2	nmod:poss	_	_
+1	Seine	sein	DET	DTP$	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	umfasst	umfassen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -11090,7 +11090,7 @@
 12	)	)	PUNCT	)	_	10	punct	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	6	punct	_	_
 14	während	während	SCONJ	CC	_	6	mark	_	_
-15	sein	sein	PRON	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	17	nmod:poss	_	_
+15	sein	sein	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 16	nördlicher	nördlich	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	InflectionType=Mixed
 17	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	17	punct	_	_
@@ -11150,7 +11150,7 @@
 10	insofern	insofern	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	22	punct	_	_
 12	dass	dass	SCONJ	CC	_	22	mark	_	_
-13	seine	sein	PRON	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Neut|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	16	nmod:poss	_	_
+13	seine	sein	DET	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 14	bedeutenden	bedeutend	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	InflectionType=Mixed
 15	topographischen	topographisch	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	InflectionType=Mixed
 16	Besonderheiten	Besonderheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	_
@@ -11499,7 +11499,7 @@
 2	Magma	Magma	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
 3	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	cop	_	_
 4	aufgrund	aufgrund	ADP	IN	_	7	case	_	_
-5	seines	sein	PRON	DTP$	Case=Gen|Gender=Masc|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	7	nmod:poss	_	_
+5	seines	sein	DET	DTP$	Case=Gen|Gender=Masc|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 6	hohen	hoch	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	InflectionType=Mixed
 7	Anteils	Anteil	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
 8	an	an	ADP	IN	_	9	case	_	_
@@ -11995,7 +11995,7 @@
 13	bis	bis	CCONJ	CC	_	20	cc	_	_
 14	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
 15	in	in	ADP	IN	_	18	case	_	_
-16	seiner	sein	PRON	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	18	nmod:poss	_	_
+16	seiner	sein	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 17	schlimmsten	schlimm	ADJ	JJ	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing	18	amod	_	InflectionType=Mixed
 18	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	_
 19	nicht	nicht	PART	RB	Polarity=Neg	20	advmod	_	_
@@ -12758,7 +12758,7 @@
 16	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	17	det	_	_
 17	Bogd	Bogd	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
 18	Khan	Khan	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	17	flat:name	_	_
-19	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	20	nmod:poss	_	_
+19	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 20	Unabhängigkeit	Unabhängigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	12	punct	_	_
 
@@ -12886,7 +12886,7 @@
 # text = In seiner Eile, Kadesh einzunehmen, unterlief Ramses II. ein grober taktischer Fehler.
 # text_en = In his haste to capture Kadesh, Ramesses II committed a major tactical error.
 1	In	in	ADP	IN	_	3	case	_	_
-2	seiner	sein	PRON	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	3	nmod:poss	_	_
+2	seiner	sein	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Eile	Eil	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	_	_
 5	Kadesh	Kadesh	PROPN	NNP	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
@@ -13024,7 +13024,7 @@
 13	,	,	PUNCT	,	_	25	punct	_	_
 14	obwohl	obwohl	SCONJ	CC	_	25	mark	_	_
 15	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
-16	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	17	nmod:poss	_	_
+16	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 17	Rüstung	Rüstung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
 18	erst	erst	ADV	RB	Degree=Pos	19	advmod	_	_
 19	zwei	zwei	NUM	CD	NumType=Card	20	nummod	_	_
@@ -13110,7 +13110,7 @@
 13	siebzehn	siebzehn	NUM	CD	NumType=Card	14	nummod	_	_
 14	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	17	nmod	_	_
 15	nach	nach	ADP	IN	_	17	case	_	_
-16	seiner	sein	PRON	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	17	nmod:poss	_	_
+16	seiner	sein	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 17	Konvertierung	Konvertierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -13374,10 +13374,10 @@
 6	schon	schon	ADV	RB	Degree=Pos	7	advmod	_	_
 7	bald	bald	ADV	RB	Degree=Pos	18	advmod	_	_
 8	mit	mit	ADP	IN	_	10	case	_	_
-9	seinen	sein	PRON	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	10	nmod:poss	_	_
+9	seinen	sein	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Fähigkeiten	Fähigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	18	obl	_	_
 11	und	und	CCONJ	CC	_	13	cc	_	_
-12	seinem	sein	PRON	DTP$	Case=Dat|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	13	nmod:poss	_	_
+12	seinem	sein	DET	DTP$	Case=Dat|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Geschick	Geschicken	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	conj	_	_
 14	als	als	CCONJ	CC	_	15	cc	_	_
 15	Verwalter	Verwalter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
@@ -13453,7 +13453,7 @@
 # text_en = He gained further reputation at court once he was dispatched as an envoy to the Khitan Liao Dynasty in the summer of 1075.
 1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
 2	konnte	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	aux	_	_
-3	seinen	sein	PRON	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	5	nmod:poss	_	_
+3	seinen	sein	DET	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 4	guten	gut	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	InflectionType=Mixed
 5	Ruf	Ruf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
 6-7	am	_	_	_	_	_	_	_	_
@@ -13555,7 +13555,7 @@
 2	zufolge	zufolge	ADP	IN	_	1	case	_	_
 3	bereute	bereuen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	Tiberius	Tiberius	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-5	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	6	nmod:poss	_	_
+5	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Abreise	Abreise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
 7	und	und	CCONJ	CC	_	8	cc	_	_
 8	bat	bitten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	conj	_	_
@@ -13573,7 +13573,7 @@
 20	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	19	obl:arg	_	_
 21	jedes	jed	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Person=3	22	det	_	_
 22	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	_
-23	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	24	nmod:poss	_	_
+23	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Bitte	Bitte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -13602,7 +13602,7 @@
 20	handelten	handeln	VERB	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	9	ccomp	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	28	punct	_	_
 22	und	und	CCONJ	CC	_	28	cc	_	_
-23	seine	sein	PRON	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	25	nmod:poss	_	_
+23	seine	sein	DET	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
 24	direkten	direkt	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	InflectionType=Mixed
 25	Anweisungen	Anweisung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	_
 26	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	28	cop	_	_
@@ -14019,7 +14019,7 @@
 11	unvollständige	unvollständig	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	InflectionType=Weak
 12	Bauweise	Bauweise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
 13	vieler	viel	NOUN	NNA	Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	InflectionType=Strong
-14	seiner	sein	PRON	DTP$	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	15	nmod:poss	_	_
+14	seiner	sein	DET	DTP$	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Bauwerke	Bauwerk	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
 16	belegt	belegen	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
@@ -14120,7 +14120,7 @@
 # text = Trotz seiner drastischen Aktivitäten wurde Karl als Herrscher angesehen, der Einfühlungsvermögen für die Bedürfnisse der Niederlande zeigte.
 # text_en = Charles, despite his harsh actions, had been seen as a ruler empathetic to the needs of the Netherlands.
 1	Trotz	trotz	ADP	IN	_	4	case	_	_
-2	seiner	sein	PRON	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	4	nmod:poss	_	_
+2	seiner	sein	DET	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 3	drastischen	drastisch	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	InflectionType=Mixed
 4	Aktivitäten	Aktivität	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_
 5	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	9	aux:pass	_	_
@@ -14178,7 +14178,7 @@
 # sent_id = w01069094
 # text = Sein Kampf gegen das Osmanische Reich im Mittelmeer schränkte die verfügbare militärische Macht gegen die Rebellen in den Niederlanden beträchlich ein.
 # text_en = Its struggle against the Ottoman Empire in the Mediterranean Sea put serious limits on the military power it could deploy against the rebels in the Netherlands.
-1	Sein	sein	PRON	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	2	nmod:poss	_	_
+1	Sein	sein	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Kampf	Kampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 3	gegen	gegen	ADP	IN	_	6	case	_	_
 4	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	6	det	_	_
@@ -14331,7 +14331,7 @@
 # sent_id = w01071036
 # text = Seine Bedeutung beruht auf zwei Fakten.
 # text_en = Its importance resides in two facts.
-1	Seine	sein	PRON	DTP$	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	2	nmod:poss	_	_
+1	Seine	sein	DET	DTP$	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Bedeutung	Bedeutung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	beruht	beruhen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	auf	auf	ADP	IN	_	6	case	_	_
@@ -14495,7 +14495,7 @@
 # text = Während seiner Zeit dort, lernte Kipling auch Florence Garrard kennen und lieben, die sich bei Trix in Southsea einquartiert hatte (Trix war hierher zurückgekehrt).
 # text_en = During his time there, Kipling also met and fell in love with Florence Garrard who was boarding with Trix at Southsea (to which Trix had returned).
 1	Während	während	ADP	IN	_	3	case	_	_
-2	seiner	sein	PRON	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	3	nmod:poss	_	_
+2	seiner	sein	DET	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Zeit	Zeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
 4	dort	dort	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	3	punct	_	_
@@ -14581,7 +14581,7 @@
 7	und	und	CCONJ	CC	_	8	cc	_	_
 8	mehr	mehr	ADV	RB	Degree=Cmp	6	conj	_	_
 9	über	über	ADP	IN	_	11	case	_	_
-10	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	11	nmod:poss	_	_
+10	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Zukunft	Zukunft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 12	nach	nach	VERB	DC	_	4	compound:prt	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	4	punct	_	_
@@ -14980,7 +14980,7 @@
 1	Spanien	Spanien	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
 2	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	9	aux	_	_
 3	1492	1492	NUM	CD	NumType=Card	9	obl:tmod	_	_
-4	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	6	nmod:poss	_	_
+4	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 5	sephardische	sephardisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	InflectionType=Mixed|Proper=True
 6	Bevölkerung	Bevölkerung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
 7	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|Person=3	8	det	_	_
@@ -15034,7 +15034,7 @@
 3	rückte	rücken	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	Philipp	Philipp	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 5	gegen	gegen	ADP	IN	_	7	case	_	_
-6	seine	sein	PRON	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	7	nmod:poss	_	_
+6	seine	sein	DET	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Feinde	Feind	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	_
 8-9	im	_	_	_	_	_	_	_	_
 8	in	in	ADP	APPR	_	10	case	_	_
@@ -15050,7 +15050,7 @@
 2	Thessalien	Thessalien	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
 3	besiegte	besiegen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-5	seine	sein	PRON	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	6	nmod:poss	_	_
+5	seine	sein	DET	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Feinde	Feind	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
 7	und	und	CCONJ	CC	_	19	cc	_	_
 8	bis	bis	ADP	IN	_	9	case	_	_
@@ -15200,7 +15200,7 @@
 12	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3	14	det	_	_
 13	tatsächlichen	tatsächlich	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	InflectionType=Weak
 14	Zustand	Zustand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
-15	seines	sein	PRON	DTP$	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	16	nmod:poss	_	_
+15	seines	sein	DET	DTP$	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Landes	Land	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -15384,7 +15384,7 @@
 6	den	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|Person=3	8	det	_	_
 7	Vereinigten	vereinigt	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	InflectionType=Weak|Proper=True
 8	Staaten	Staat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl:arg	_	Proper=True
-9	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Neut|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	10	nmod:poss	_	_
+9	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Kolonien	Kolonie	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
 11	Puerto	Puerto	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing	10	appos	_	_
 12	Rico	Rico	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing	11	flat:name	_	SpaceAfter=No
@@ -15846,7 +15846,7 @@
 16	jeden	jed	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Person=3	17	det	_	_
 17	Kaiser	Kaiser	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
 18	nach	nach	ADP	IN	_	20	case	_	_
-19	seinem	sein	PRON	DTP$	Case=Dat|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	20	nmod:poss	_	_
+19	seinem	sein	DET	DTP$	Case=Dat|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 20	Tod	Tod	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	_
 21	umzubenennen	umzubenennen	VERB	VB	_	14	conj	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	29	punct	_	_
@@ -16404,7 +16404,7 @@
 15	offiziellen	offiziell	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	InflectionType=Mixed
 16	Belobigungen	Belobigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	conj	_	_
 17	ohne	ohne	ADP	IN	_	20	case	_	_
-18	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	20	nmod:poss	_	_
+18	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 19	vorherige	vorherig	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	InflectionType=Mixed
 20	Zustimmung	Zustimmung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
 21	geben	geben	VERB	VB	_	4	ccomp	_	_
@@ -16716,7 +16716,7 @@
 10	letzten	letzt	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	12	amod	_	InflectionType=Weak
 11	beiden	beide	DET	DT	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur|Person=3	12	det	_	_
 12	Jahrzehnten	Jahrzehnt	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	_
-13	seines	sein	PRON	DTP$	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	14	nmod:poss	_	_
+13	seines	sein	DET	DTP$	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Lebens	Leben	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -16755,7 +16755,7 @@
 7	den	der	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|Person=3	9	det	_	_
 8	größten	groß	ADJ	JJ	Case=Dat|Degree=Sup|Gender=Neut|Number=Plur	9	amod	_	InflectionType=Weak
 9	Talenten	Talent	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	obl	_	_
-10	seiner	sein	PRON	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	11	nmod:poss	_	_
+10	seiner	sein	DET	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Zeit	Zeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 12	gearbeitet	arbeiten	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	20	punct	_	_
@@ -16781,7 +16781,7 @@
 32	in	in	ADP	IN	_	33	case	_	_
 33	denen	der	PRON	REL	Case=Dat|Gender=Neut|Number=Plur|Person=3	37	obl	_	_
 34	präzise	präzis	ADV	RB	Degree=Pos	37	advmod	_	_
-35	seine	sein	PRON	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	36	nmod:poss	_	_
+35	seine	sein	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	36	det:poss	_	_
 36	Filme	Film	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	37	nsubj	_	_
 37	dargestellt	darstellen	ADJ	JJ	Degree=Pos	29	acl:relcl	_	_
 38	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	37	cop	_	SpaceAfter=No
@@ -16932,7 +16932,7 @@
 # text_en = Winstone met his wife, Elaine, while filming That Summer in 1979.
 1	Winstone	Winstone	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	traf	treffen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	4	nmod:poss	_	_
+3	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Frau	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	_	_
 6	Elaine	Elaine	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	SpaceAfter=No
@@ -17079,7 +17079,7 @@
 # sent_id = w01113058
 # text = Sein Kontrahent Prabowo Subanto erklärte sich jedoch auch zum Sieger, was zu Verwirrung in der indonesischen Bevölkerung führte.
 # text_en = However, his rival Prabowo Subianto also declared victory, leaving Indonesian citizens confused.
-1	Sein	sein	PRON	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	2	nmod:poss	_	_
+1	Sein	sein	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Kontrahent	Kontrahent	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	Prabowo	Prabowo	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
 4	Subanto	Subanto	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_
@@ -17146,7 +17146,7 @@
 # text = In seiner offiziellen Biografie wird zudem verbreitet, dass Kim sechs Opern komponiert hat und gern elaborierte Musicals inszeniert.
 # text_en = His official biography also claims that Kim composed six operas and enjoys staging elaborate musicals.
 1	In	in	ADP	IN	_	4	case	_	_
-2	seiner	sein	PRON	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	4	nmod:poss	_	_
+2	seiner	sein	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 3	offiziellen	offiziell	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	InflectionType=Mixed
 4	Biografie	Biografie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
 5	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:pass	_	_
@@ -17226,11 +17226,11 @@
 # text_en = He graduated and obtained an M.A. on 21 April 1882.
 1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	machte	machen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	seinen	sein	PRON	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	4	nmod:poss	_	_
+3	seinen	sein	DET	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Abschluss	Abschluß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
 5	und	und	CCONJ	CC	_	6	cc	_	_
 6	erhielt	erhalten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	conj	_	_
-7	seinen	sein	PRON	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	8	nmod:poss	_	_
+7	seinen	sein	DET	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	M.A.	M.A.	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
 9-10	am	_	_	_	_	_	_	_	_
 9	an	an	ADP	APPR	_	11	case	_	_
@@ -17255,7 +17255,7 @@
 10	,	,	PUNCT	,	_	15	punct	_	_
 11	die	der	PRON	REL	Case=Acc|Gender=Fem|Number=Sing|Person=3	15	obj	_	_
 12	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	15	obl:arg	_	_
-13	seine	sein	PRON	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	14	nmod:poss	_	_
+13	seine	sein	DET	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Schwester	Schwester	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
 15	gesucht	suchen	VERB	VBN	Tense=Past	6	acl:relcl	_	_
 16	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	15	aux	_	SpaceAfter=No
@@ -17709,7 +17709,7 @@
 16	entschied	entscheiden	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	advcl	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	21	punct	_	_
 18	dass	dass	SCONJ	CC	_	21	mark	_	_
-19	seine	sein	PRON	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	20	nmod:poss	_	_
+19	seine	sein	DET	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 20	Kandidatur	Kandidatur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
 21	ungültig	ungültig	ADJ	JJ	Degree=Pos	16	ccomp	_	_
 22	sei	sein	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres	21	cop	_	_
@@ -17769,7 +17769,7 @@
 15	Gottesfürchtigkeit	Gottesfürchtigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj:pass	_	_
 16	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	aux:pass	_	_
 17	von	von	ADP	IN	_	19	case	_	_
-18	seinen	sein	PRON	DTP$	Case=Dat|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	19	nmod:poss	_	_
+18	seinen	sein	DET	DTP$	Case=Dat|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 19	Brüdern	Bruder	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	21	obl:agent	_	_
 20	nicht	nicht	PART	RB	Polarity=Neg	21	advmod	_	_
 21	geteilt	teilen	VERB	VBN	Tense=Past	4	conj	_	SpaceAfter=No
@@ -17801,7 +17801,7 @@
 4	geworden	werden	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	20	punct	_	_
 6	dass	dass	SCONJ	CC	_	20	mark	_	_
-7	sein	sein	PRON	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	8	nmod:poss	_	_
+7	sein	sein	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Bruder	Bruder	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	_	_
 10	Prinz	Prinz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
@@ -17956,7 +17956,7 @@
 7	Elliott	Elliott	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 8	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	9	det	_	_
 9	Beerdigung	Beerdigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl:arg	_	_
-10	seines	sein	PRON	DTP$	Case=Gen|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	11	nmod:poss	_	_
+10	seines	sein	DET	DTP$	Case=Gen|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Vaters	Vater	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 12	bei	bei	VERB	DC	_	6	compound:prt	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	6	punct	_	_
@@ -18054,7 +18054,7 @@
 18	Stücken	Stück	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	13	obl	_	_
 19	zusammen	zusammen	ADV	RB	Degree=Pos	13	advmod	_	_
 20	mit	mit	ADP	IN	_	22	case	_	_
-21	seinem	sein	PRON	DTP$	Case=Dat|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	22	nmod:poss	_	_
+21	seinem	sein	DET	DTP$	Case=Dat|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 22	Partner	Partner	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	_
 23	der	der	DET	DT	Case=Gen|Definite=Def|Number=Plur|Person=3	25	det	_	_
 24	Stealers	Stealers	NOUN	NN	Case=Gen|Number=Plur	25	nmod:poss	_	Proper=True
@@ -18182,7 +18182,7 @@
 6	zu	zu	ADP	APPR	_	8	case	_	_
 7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	8	det	_	_
 8	Bildung	Bildung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
-9	seines	sein	PRON	DTP$	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	11	nmod:poss	_	_
+9	seines	sein	DET	DTP$	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 10	eigenen	eigen	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	InflectionType=Mixed
 11	Netzwerkes	Netzwerk	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
 12	innerhalb	innerhalb	ADP	IN	_	14	case	_	_
@@ -18386,7 +18386,7 @@
 # text = Wegen seiner Großmutter war Mishima ein direkter Nachkomme von Tkugawa Ieyasu.
 # text_en = Through his grandmother, Mishima was a direct descendant of Tokugawa Ieyasu.
 1	Wegen	wegen	ADP	IN	_	3	case	_	_
-2	seiner	sein	PRON	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	3	nmod:poss	_	_
+2	seiner	sein	DET	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Großmutter	Großmutter	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
 4	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	cop	_	_
 5	Mishima	Mishima	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -18410,7 +18410,7 @@
 7	und	und	CCONJ	CC	_	24	cc	_	_
 8	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
 9	hat	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	24	aux	_	_
-10	seinen	sein	PRON	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	11	nmod:poss	_	_
+10	seinen	sein	DET	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Trainingsplan	Trainingsplan	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
 12	von	von	ADP	IN	_	14	case	_	_
 13	drei	drei	NUM	CD	NumType=Card	14	nummod	_	_
@@ -18421,7 +18421,7 @@
 18	letzten	letzt	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	20	amod	_	InflectionType=Weak
 19	15	15	NUM	CD	NumType=Card	20	nummod	_	_
 20	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	24	obl:tmod	_	_
-21	seines	sein	PRON	DTP$	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	22	nmod:poss	_	_
+21	seines	sein	DET	DTP$	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 22	Lebens	Leben	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
 23	nicht	nicht	PART	RB	Polarity=Neg	24	advmod	_	_
 24	ausgesetzt	aussetzen	VERB	VBN	Tense=Past	2	conj	_	SpaceAfter=No
@@ -18435,7 +18435,7 @@
 3	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	gegen	gegen	ADP	IN	_	5	case	_	_
 5	Ende	Ende	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
-6	seines	sein	PRON	DTP$	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	7	nmod:poss	_	_
+6	seines	sein	DET	DTP$	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Lebens	Leben	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
 8	einer	ein	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 9	sehr	sehr	ADV	RB	Degree=Pos	10	advmod	_	_
@@ -18642,7 +18642,7 @@
 4	Interesse	Interesse	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
 5	daran	daran	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	23	punct	_	_
-7	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	8	nmod:poss	_	_
+7	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Frau	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	_	_
 10	Norma	Norma	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	8	appos	_	_
@@ -18697,7 +18697,7 @@
 # text = In seiner Ansprache an das Kabinett, kurz nachdem deutsche Truppen die Grenze überschritten hatten, beschuldigte Chamberlain sowohl Deutschland als auch Österreich.
 # text_en = In addressing the Cabinet shortly after German forces crossed the border, Chamberlain placed blame on both Germany and Austria.
 1	In	in	ADP	IN	_	3	case	_	_
-2	seiner	sein	PRON	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	3	nmod:poss	_	_
+2	seiner	sein	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Ansprache	Ansprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	_
 4	an	an	ADP	IN	_	6	case	_	_
 5	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	6	det	_	_
@@ -18855,9 +18855,9 @@
 24	lernen	lernen	VERB	VB	_	19	advcl	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	34	punct	_	_
 26	wie	wie	ADV	WRB	_	34	advmod	_	_
-27	sein	sein	PRON	DTP$	Case=Nom|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	28	nmod:poss	_	_
+27	sein	sein	DET	DTP$	Case=Nom|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	28	det:poss	_	_
 28	Labor	Labor	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	34	nsubj	_	_
-29	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Neut|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	33	nmod:poss	_	_
+29	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	33	det:poss	_	_
 30	eigenen	eigen	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	InflectionType=Mixed
 31	Polonium	Polonium	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	33	compound	_	SpaceAfter=No
 32	-	-	PUNCT	-	_	31	punct	_	SpaceAfter=No
@@ -19106,7 +19106,7 @@
 4	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	aux:pass	_	_
 5	freigelassen	freilassen	VERB	VBN	Tense=Past	0	root	_	_
 6	und	und	CCONJ	CC	_	13	cc	_	_
-7	sein	sein	PRON	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	8	nmod:poss	_	_
+7	sein	sein	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Nachfolger	Nachfolger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 9	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	aux:pass	_	_
 10	in	in	ADP	IN	_	12	case	_	_
@@ -19300,7 +19300,7 @@
 4	,	,	PUNCT	,	_	9	punct	_	_
 5	dass	daß	SCONJ	CC	_	9	mark	_	_
 6	Gott	Gott	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-7	sein	sein	PRON	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	8	nmod:poss	_	_
+7	sein	sein	DET	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
 9	gerettet	retten	VERB	VBN	Tense=Past	3	ccomp	_	_
 10	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	9	aux	_	SpaceAfter=No
@@ -19329,7 +19329,7 @@
 8	zu	zu	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	10	det	_	_
 10	Leitmotiv	Leitmotiv	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
-11	seines	sein	PRON	DTP$	Case=Gen|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	12	nmod:poss	_	_
+11	seines	sein	DET	DTP$	Case=Gen|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Marxismus	Marxismus	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	Proper=True
 13	zu	zu	PART	RP	_	14	mark	_	_
 14	machen	machen	VERB	VB	_	2	xcomp	_	SpaceAfter=No
@@ -19674,7 +19674,7 @@
 11	Verlust	Verlust	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
 12	von	von	ADP	IN	_	13	case	_	_
 13	Mazedonien	Mazedonien	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	_
-14	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	16	nmod:poss	_	_
+14	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 15	territoriale	territorial	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	InflectionType=Mixed
 16	Verbindung	Verbindung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
 17	mit	mit	ADP	IN	_	18	case	_	_
@@ -19744,7 +19744,7 @@
 43	Territorium	Territorium	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	48	nsubj:pass	_	_
 44	Albaniens	Albanien	PROPN	NNP	Case=Gen|Gender=Neut|Number=Sing	43	nmod	_	_
 45	auf	auf	ADP	IN	_	47	case	_	_
-46	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	47	nmod:poss	_	_
+46	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	47	det:poss	_	_
 47	Zentralregion	Zentralregion	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	48	obl	_	_
 48	beschränkt	beschränken	VERB	VBN	Tense=Pres	15	parataxis	_	SpaceAfter=No
 49	.	.	PUNCT	.	_	15	punct	_	_
@@ -20674,7 +20674,7 @@
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	18	det	_	_
 17	letzten	letzt	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	InflectionType=Weak
 18	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	33	obl	_	_
-19	seiner	sein	PRON	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	22	nmod:poss	_	_
+19	seiner	sein	DET	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 20	US	US	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	22	compound	_	SpaceAfter=No
 21	-	-	PUNCT	-	_	20	punct	_	SpaceAfter=No
 22	Präsidentschaft	Präsidentschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
@@ -20945,7 +20945,7 @@
 # text = Wenn seine demokratische Gegnerin gewählt werden sollte, dann, so versicherte er, würde sie „jahrelang überprüft werden“.
 # text_en = If his Democrat opponent were to be elected, he assured that she would be 'under investigation for years'.
 1	Wenn	wenn	SCONJ	CC	_	5	mark	_	_
-2	seine	sein	PRON	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	4	nmod:poss	_	_
+2	seine	sein	DET	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 3	demokratische	demokratisch	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	InflectionType=Mixed|Proper=True
 4	Gegnerin	Gegnerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 5	gewählt	wählen	VERB	VBN	Tense=Past	19	advcl	_	_
@@ -21267,7 +21267,7 @@
 5	bedauert	bedauern	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	17	punct	_	_
 7	dass	dass	SCONJ	CC	_	17	mark	_	_
-8	seine	sein	PRON	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	9	nmod:poss	_	_
+8	seine	sein	DET	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Bemerkungen	Bemerkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
 10-11	zum	_	_	_	_	_	_	_	_
 10	zu	zu	ADP	APPR	_	12	case	_	_
@@ -22599,7 +22599,7 @@
 17	Zahn	Zahn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
 18	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	19	det	_	_
 19	Zeit	Zeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
-20	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	21	nmod:poss	_	_
+20	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 21	Ernte	Ernte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
 22-23	ans	_	_	_	_	_	_	_	_
 22	an	an	ADP	APPR	_	24	case	_	_
@@ -23160,7 +23160,7 @@
 8	Ministerpräsident	Ministerpräsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 9	Erdogan	Erdogan	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
 10	Pläne	Plan	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
-11	seiner	sein	PRON	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	12	nmod:poss	_	_
+11	seiner	sein	DET	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Regierung	Regierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	25	punct	_	_
 14	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3	15	det	_	_
@@ -23540,7 +23540,7 @@
 # text = Eines seiner letzten Druckmittel gegenüber den Ungarn blieb die Androhung der Einführung allgemeiner und freier Wahlen.
 # text_en = One of his last means of placing pressure on Hungary was the threat of imposing general and free elections.
 1	Eines	ein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
-2	seiner	sein	PRON	DTP$	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	4	nmod:poss	_	_
+2	seiner	sein	DET	DTP$	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 3	letzten	letzt	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	InflectionType=Mixed
 4	Druckmittel	Druckmittel	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
 5	gegenüber	gegenüber	ADP	IN	_	7	case	_	_
@@ -23574,7 +23574,7 @@
 12	darauf	darauf	ADV	RB	Degree=Pos	13	advmod	_	_
 13	bedacht	bedenken	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	20	punct	_	_
-15	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	17	nmod:poss	_	_
+15	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 16	beiden	beide	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	17	det	_	_
 17	Monarchien	Monarchie	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_
 18	gleich	gleich	ADV	RB	Degree=Pos	20	advmod	_	_
@@ -23675,7 +23675,7 @@
 13	und	und	CCONJ	CC	_	14	cc	_	_
 14	zog	ziehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	conj	_	_
 15	zu	zu	ADP	IN	_	17	case	_	_
-16	seiner	sein	PRON	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	17	nmod:poss	_	_
+16	seiner	sein	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 17	Freundin	Freundin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
 18	nach	nach	ADP	IN	_	19	case	_	_
 19	Merdingen	Merdingen	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
@@ -23710,7 +23710,7 @@
 16	Ziel	Ziel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
 17	an	an	VERB	DC	_	8	compound:prt	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	23	punct	_	_
-19	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	21	nmod:poss	_	_
+19	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 20	zweite	zweit	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	InflectionType=Mixed
 21	Goldmedaille	Goldmedaille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
 22	zu	zu	PART	RP	_	23	mark	_	_
@@ -23848,7 +23848,7 @@
 17	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	19	det	_	_
 18	freundschaftliche	freundschaftlich	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	InflectionType=Weak
 19	Position	Position	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
-20	seiner	sein	PRON	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	21	nmod:poss	_	_
+20	seiner	sein	DET	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 21	Presse	Presse	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
 22	zu	zu	ADP	IN	_	24	case	_	_
 23	den	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|Person=3	24	det	_	_
@@ -23896,7 +23896,7 @@
 5	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	cop	_	_
 6	direkt	direkt	ADV	RB	Degree=Pos	12	advmod	_	_
 7	mit	mit	ADP	IN	_	9	case	_	_
-8	seiner	sein	PRON	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	9	nmod:poss	_	_
+8	seiner	sein	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Geschichte	Geschichte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
 10	als	als	CCONJ	CC	_	11	cc	_	_
 11	Festungsstadt	Festungsstadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	_
@@ -24306,7 +24306,7 @@
 4	als	als	CCONJ	CC	_	12	cc	_	_
 5	Startpunkt	Startpunkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	xcomp	_	_
 6	für	für	ADP	IN	_	8	case	_	_
-7	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	8	nmod:poss	_	_
+7	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Karriere	Karriere	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
 9	als	als	CCONJ	CC	_	11	cc	_	_
 10	radikaler	radikal	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	InflectionType=Strong
@@ -24503,7 +24503,7 @@
 4	kehrten	kehren	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 5	Georges	George	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 6	und	und	CCONJ	CC	_	8	cc	_	_
-7	seine	sein	PRON	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	8	nmod:poss	_	_
+7	seine	sein	DET	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
 9	in	in	ADP	IN	_	11	case	_	_
 10	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	11	det	_	_
@@ -25045,7 +25045,7 @@
 16	würde	werden	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	15	aux	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	23	punct	_	_
 18	aber	aber	CCONJ	CC	_	23	cc	_	_
-19	seine	sein	PRON	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	20	nmod:poss	_	_
+19	seine	sein	DET	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 20	Hoffnungen	Hoffnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	23	nsubj:pass	_	_
 21	wurden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	23	aux:pass	_	_
 22	bald	bald	ADV	RB	Degree=Pos	23	advmod	_	_
@@ -25074,7 +25074,7 @@
 1	In	in	ADP	IN	_	2	case	_	_
 2	Bezug	Bezug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	_
 3	auf	auf	ADP	IN	_	6	case	_	_
-4	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	6	nmod:poss	_	_
+4	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 5	religiöse	religiös	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	InflectionType=Mixed
 6	Entwicklung	Entwicklung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
 7	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	aux:pass	_	_
@@ -25086,7 +25086,7 @@
 13	ausgebildet	ausbilden	VERB	VBN	Tense=Past	0	root	_	_
 14	und	und	CCONJ	CC	_	15	cc	_	_
 15	blieb	bleiben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	conj	_	_
-16	sein	sein	PRON	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	18	nmod:poss	_	_
+16	sein	sein	DET	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 17	ganzes	ganz	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	InflectionType=Mixed
 18	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	_
 19	lang	lang	ADV	RB	Degree=Pos	18	advmod	_	_
@@ -25435,7 +25435,7 @@
 # text = Unter seiner Regierung wurde das Frauenwahlrecht eingeführt, politische Parteien wurden legalisiert, alle Exilanten durften zurückkehren und die noch verbleibenden politischen Gefangenen wurden freigelassen.
 # text_en = Under his administration, the female vote was approved, political parties were legalised, all of the exiled were allowed to return and the remaining political prisoners were freed.
 1	Unter	unter	ADP	IN	_	3	case	_	_
-2	seiner	sein	PRON	DTP$	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	3	nmod:poss	_	_
+2	seiner	sein	DET	DTP$	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Regierung	Regierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
 4	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	aux:pass	_	_
 5	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	6	det	_	_
@@ -25785,7 +25785,7 @@
 16	Enrique	Enrique	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
 17	entschied	entscheiden	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	conj	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	21	punct	_	_
-19	seinen	sein	PRON	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	20	nmod:poss	_	_
+19	seinen	sein	DET	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 20	Plan	Plan	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
 21	umzusetzen	umsetzen	VERB	VB	_	17	xcomp	_	SpaceAfter=No
 22	:	:	PUNCT	:	_	24	punct	_	_
@@ -25843,7 +25843,7 @@
 12	die	der	PRON	REL	Case=Nom|Gender=Fem|Number=Sing|Person=3	21	nsubj	_	_
 13	auch	auch	ADV	RB	Degree=Pos	21	advmod	_	_
 14	mit	mit	ADP	IN	_	16	case	_	_
-15	seinem	sein	PRON	DTP$	Case=Dat|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	16	nmod:poss	_	_
+15	seinem	sein	DET	DTP$	Case=Dat|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Plattenlabel	Plattenlabel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	_
 17	The	The	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	20	det	_	Proper=True
 18	Rocket	Rocket	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	compound	_	Proper=True
@@ -25925,7 +25925,7 @@
 8	zu	zu	ADP	IN	_	10	case	_	_
 9	dieser	dies	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	10	det	_	_
 10	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
-11	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	12	nmod:poss	_	_
+11	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Amtsperiode	Amtsperiode	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
 13	beendet	beenden	VERB	VBN	Tense=Past	5	acl:relcl	_	_
 14	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	aux	_	SpaceAfter=No
@@ -25943,7 +25943,7 @@
 2	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	3	det	_	_
 3	Zwischenzeit	Zwischenzeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
 4	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	aux	_	_
-5	sein	sein	PRON	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	6	nmod:poss	_	_
+5	sein	sein	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Platz	Platz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 7-8	im	_	_	_	_	_	_	_	_
 7	in	in	ADP	APPR	_	9	case	_	_
@@ -25991,7 +25991,7 @@
 22	eröffnete	eröffnen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	conj	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	27	punct	_	_
 24	entweder	entweder	CCONJ	CC	_	27	cc:preconj	_	_
-25	seine	sein	PRON	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	26	nmod:poss	_	_
+25	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	26	det:poss	_	_
 26	Truppen	Truppe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	27	obj	_	_
 27	zurückzuziehen	zurückziehen	VERB	VB	VerbForm=Inf	21	xcomp	_	_
 28	oder	oder	CCONJ	CC	_	34	cc	_	_
@@ -26016,7 +26016,7 @@
 46	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	52	nsubj	_	_
 47	würde	werden	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	52	aux	_	_
 48	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	52	obj	_	_
-49	seinen	sein	PRON	DTP$	Case=Dat|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	50	nmod:poss	_	_
+49	seinen	sein	DET	DTP$	Case=Dat|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	50	det:poss	_	_
 50	Feinden	Feind	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	52	obl:arg	_	_
 51	unbewaffnet	unbewaffnet	ADV	RB	Degree=Pos	52	advmod	_	_
 52	ergeben	ergeben	VERB	VB	_	36	ccomp	_	_
