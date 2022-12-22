@@ -121,7 +121,7 @@
 14	Republik	Republik	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
 15	liegt	liegen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	conj	_	_
 16	in	in	ADP	IN	_	18	case	_	_
-17	euren	euer	PRON	DTP$	Case=Dat|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=2|PronType=Prs	18	nmod:poss	_	_
+17	euren	euer	DET	DTP$	Case=Dat|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Händen	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
 19	“	“	PUNCT	''	_	8	punct	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	8	punct	_	_
