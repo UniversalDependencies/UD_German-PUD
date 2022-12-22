@@ -4608,7 +4608,7 @@
 4	hin	hin	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	14	punct	_	_
 6	dass	dass	SCONJ	CC	_	14	mark	_	_
-7	dessen	der	DET	DT	Case=Gen|Definite=Def|Number=Sing|Person=3	8	nmod:poss	_	_
+7	dessen	der	DET	DT	Case=Gen|Definite=Def|Number=Sing|Person=3	8	det:poss	_	_
 8	Geschichte	Geschichte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
 9	vielen	viel	DET	DT	Case=Dat|Definite=Ind|Number=Plur|Person=3	14	obl:arg	_	_
 10	aufgrund	aufgrund	ADP	IN	_	12	case	_	_
@@ -5129,7 +5129,7 @@
 3	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	8	obj	_	_
 4	einfach	einfach	ADV	RB	Degree=Pos	8	advmod	_	_
 5	mit	mit	ADP	IN	_	7	case	_	_
-6	meinem	mein	DET	DTP$	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	7	nmod:poss	_	_
+6	meinem	mein	DET	DTP$	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	7	det:poss	_	_
 7	Leben	Leben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
 8	machen	machen	VERB	VB	_	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	8	punct	_	_
@@ -6215,7 +6215,7 @@
 12	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Past	11	aux	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	11	punct	_	_
 14	wurde	werden	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-15	meine	mein	DET	DTP$	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	16	nmod:poss	_	_
+15	meine	mein	DET	DTP$	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	16	det:poss	_	_
 16	Liste	Liste	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
 17	ungeheuer	ungeheu	ADV	RB	Degree=Pos	14	advmod	_	_
 18	lang	lang	ADJ	JJ	Degree=Pos	14	xcomp	_	_
@@ -6241,7 +6241,7 @@
 # sent_id = n01097098
 # text = Mein nächster Halt war Bellingham, unmittelbar an der kanadischen Grenze.
 # text_en = My next stop was Bellingham, right up near the Canadian border.
-1	Mein	mein	DET	DTP$	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	3	nmod:poss	_	_
+1	Mein	mein	DET	DTP$	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	3	det:poss	_	_
 2	nächster	nah	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	InflectionType=Mixed
 3	Halt	Halt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	cop	_	_
@@ -8256,7 +8256,7 @@
 15	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	16	det	_	_
 16	Woche	Woche	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
 17	lag	liegen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	parataxis	_	_
-18	deren	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3	19	nmod:poss	_	_
+18	deren	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3	19	det:poss	_	_
 19	Gesamtzahl	Gesamtzahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
 20	bei	bei	ADP	IN	_	21	case	_	_
 21	16.500	16.500	NUM	CD	NumType=Card	17	obl	_	SpaceAfter=No
@@ -8626,7 +8626,7 @@
 8	und	und	CCONJ	CC	_	10	cc	_	_
 9	dann	dann	ADV	RB	Degree=Pos	10	advmod	_	_
 10	hörte	hören	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	conj	_	_
-11	mein	mein	DET	DTP$	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	12	nmod:poss	_	_
+11	mein	mein	DET	DTP$	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	12	det:poss	_	_
 12	Telefon	Telefon	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
 13	nicht	nicht	PART	RB	Polarity=Neg	10	advmod	_	_
 14	mehr	mehr	ADV	RB	Degree=Pos	10	advmod	_	_
@@ -9047,7 +9047,7 @@
 4	und	und	CCONJ	CC	_	5	cc	_	_
 5	wieder	wieder	ADV	RB	Degree=Pos	3	conj	_	_
 6	in	in	ADP	IN	_	8	case	_	_
-7	meinem	mein	DET	DTP$	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	8	nmod:poss	_	_
+7	meinem	mein	DET	DTP$	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	8	det:poss	_	_
 8	Stall	Stall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
 9	auf	auf	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	_	_
@@ -9232,7 +9232,7 @@
 # sent_id = n01146046
 # text = Meines Erachtens erhofft sich die Regierung durch den Ausbau der Maglev-Strecke eine verstärkte wirtschaftliche Entwicklung in Japan.
 # text_en = By completing this maglev line, I think the government is expecting bigger economical development in Japan.
-1	Meines	mein	DET	DTP$	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
+1	Meines	mein	DET	DTP$	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	2	det:poss	_	_
 2	Erachtens	Erachten	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
 3	erhofft	erhoffen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	sich	sich	PRON	PRP	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obl:arg	_	_
@@ -10184,7 +10184,7 @@
 10	Mojmír	Mojmír	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
 11	I.	I.	NOUN	NNA	Case=Acc|Gender=Masc|Number=Sing	10	appos	_	InflectionType=Weak|Proper=True
 12	gegen	gegen	ADP	IN	_	14	case	_	_
-13	dessen	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3	14	nmod:poss	_	_
+13	dessen	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3	14	det:poss	_	_
 14	Neffen	Neffe	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 15	Rastiz	Rastiz	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
 16	aus	aus	VERB	DC	_	9	compound:prt	_	SpaceAfter=No
@@ -13724,7 +13724,7 @@
 43	-	-	PUNCT	-	_	50	punct	_	_
 44	und	und	CCONJ	CC	_	50	cc	_	_
 45	in	in	ADP	IN	_	47	case	_	_
-46	deren	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3	47	nmod:poss	_	_
+46	deren	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3	47	det:poss	_	_
 47	Mitte	Mitte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	50	nmod	_	_
 48	eine	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
 49	altarartige	altarartig	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	50	amod	_	InflectionType=Mixed
@@ -19567,7 +19567,7 @@
 12	hatte	haben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	conj	_	_
 13	Kurzauftritte	Kurzauftritte	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
 14	in	in	ADP	IN	_	16	case	_	_
-15	dessen	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3	16	nmod:poss	_	_
+15	dessen	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3	16	det:poss	_	_
 16	Filmen	Film	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	_
 17	„	„	PUNCT	``	_	22	punct	_	SpaceAfter=No
 18	Per	per	ADP	IN	_	19	case	_	Proper=True
@@ -21993,7 +21993,7 @@
 9	Mark	Mark	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
 10	Zuckerberg	Zuckerberg	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	9	flat:name	_	_
 11	und	und	CCONJ	CC	_	13	cc	_	_
-12	dessen	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3	13	nmod:poss	_	_
+12	dessen	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3	13	det:poss	_	_
 13	Frau	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	conj	_	_
 14	in	in	ADP	IN	_	16	case	_	_
 15	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	16	det	_	_
@@ -23881,7 +23881,7 @@
 20	aus	aus	ADP	IN	_	21	case	_	_
 21	Einwanderern	Einwanderer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	25	obl	_	_
 22	und	und	CCONJ	CC	_	24	cc	_	_
-23	deren	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3	24	nmod:poss	_	_
+23	deren	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3	24	det:poss	_	_
 24	Nachfahren	Nachfahr	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	21	conj	_	_
 25	besteht	bestehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	advcl	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	7	punct	_	_
