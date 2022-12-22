@@ -443,7 +443,7 @@
 5	zwischen	zwischen	ADP	IN	_	6	case	_	_
 6	Spielen	Spielen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	_
 7	und	und	CCONJ	CC	_	10	cc	_	_
-8	unserem	unser	PRON	DTP$	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	10	nmod:poss	_	_
+8	unserem	unser	DET	DTP$	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
 9	täglichen	täglich	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	InflectionType=Mixed
 10	Leben	Leben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	conj	_	_
 11	ziehen	ziehen	VERB	VB	_	0	root	_	SpaceAfter=No
@@ -1660,7 +1660,7 @@
 4	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
 5	Fernlicht	Fernlicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
 6	für	für	ADP	IN	_	8	case	_	_
-7	unsere	unser	PRON	DTP$	Case=Acc|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	8	nmod:poss	_	_
+7	unsere	unser	DET	DTP$	Case=Acc|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Strafmaßnahmen	Strafmaßnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	3	punct	_	_
 10	ist	sein	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -2653,7 +2653,7 @@
 2	brauchen	brauchen	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	_
 3	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
 4	in	in	ADP	IN	_	6	case	_	_
-5	unserem	unser	PRON	DTP$	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	6	nmod:poss	_	_
+5	unserem	unser	DET	DTP$	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
 7	nicht	nicht	PART	RB	Polarity=Neg	2	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
@@ -3103,7 +3103,7 @@
 # sent_id = n01046003
 # text = Unsere Handys sind heutzutage so viel mehr als Telefone.
 # text_en = Our cellphones are so much more than phones these days.
-1	Unsere	unser	PRON	DTP$	Case=Nom|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	2	nmod:poss	_	_
+1	Unsere	unser	DET	DTP$	Case=Nom|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Handys	Handy	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
 3	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	7	cop	_	_
 4	heutzutage	heutzutage	ADV	RB	Degree=Pos	7	advmod	_	_
@@ -5086,7 +5086,7 @@
 19	Ort	Ort	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	_
 20	treffen	treffen	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	9	ccomp	_	_
 21	und	und	CCONJ	CC	_	24	cc	_	_
-22	unsere	unser	PRON	DTP$	Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	23	nmod:poss	_	_
+22	unsere	unser	DET	DTP$	Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	23	det:poss	_	_
 23	Unterschiede	Unterschied	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	24	obj	_	_
 24	beiseitelegen	beiseitelegen	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	20	conj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	2	punct	_	_
@@ -6058,7 +6058,7 @@
 # text = Zu unserer Zeit gab es das nicht, und Menschen ohne Kinder drücken mit ihrer Missbilligung all ihren Hass auf moderne Erziehung aus.
 # text_en = They didn’t have them in our day, and people without children express through their disapproval all their hatred of modern parenting.
 1	Zu	zu	ADP	IN	_	3	case	_	_
-2	unserer	unser	PRON	DTP$	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	3	nmod:poss	_	_
+2	unserer	unser	DET	DTP$	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
 4	gab	geben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 5	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	4	expl	_	_
@@ -7696,7 +7696,7 @@
 10	hätten	haben	AUX	VBC	Mood=Sub|Number=Plur|Person=1|Tense=Past	21	aux	_	_
 11	damit	damit	ADV	RB	Degree=Pos	21	advmod	_	_
 12	auch	auch	ADV	RB	Degree=Pos	21	advmod	_	_
-13	unseren	unser	PRON	DTP$	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	16	nmod:poss	_	_
+13	unseren	unser	DET	DTP$	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	_
 14	etwas	etwas	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	_
 15	störanfälligen	störanfällig	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	InflectionType=Mixed
 16	Odi	Odi	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
@@ -7886,7 +7886,7 @@
 6	eng	eng	ADV	RB	Degree=Pos	2	advmod	_	_
 7	zusammen	zusammen	VERB	DC	_	2	compound:prt	_	_
 8	mit	mit	ADP	IN	_	11	case	_	_
-9	unserer	unser	PRON	DTP$	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	11	nmod:poss	_	_
+9	unserer	unser	DET	DTP$	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	11	det:poss	_	_
 10	wachsenden	wachsend	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	InflectionType=Mixed
 11	Leidenschaft	Leidenschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	14	punct	_	_
@@ -7969,7 +7969,7 @@
 # text_en = After all, our organizational performance is seldom measured in terms of how safe we are or how many rules we follow.
 1	Schließlich	schließlich	ADV	RB	Degree=Pos	8	advmod	_	_
 2	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	aux	_	_
-3	unsere	unser	PRON	DTP$	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	5	nmod:poss	_	_
+3	unsere	unser	DET	DTP$	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
 4	unternehmerische	unternehmerisch	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	InflectionType=Mixed
 5	Leistung	Leistung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 6	selten	selten	ADV	RB	Degree=Pos	8	advmod	_	_
@@ -8719,7 +8719,7 @@
 15	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	9	cop	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	3	punct	_	_
 17	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	20	aux:pass	_	_
-18	unsere	unser	PRON	DTP$	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	19	nmod:poss	_	_
+18	unsere	unser	DET	DTP$	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	19	det:poss	_	_
 19	Arbeit	Arbeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj:pass	_	_
 20	fortgesetzt	fortsetzen	VERB	VBN	Tense=Past	22	ccomp	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	20	punct	_	_
@@ -10776,7 +10776,7 @@
 18	Nostrum	Nostrum	PRON	DTP$	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	17	nmod:poss	_	Proper=True
 19	(	(	PUNCT	(	_	22	punct	_	SpaceAfter=No
 20	„	„	PUNCT	``	_	22	punct	_	SpaceAfter=No
-21	Unser	unser	PRON	DTP$	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	22	nmod:poss	_	_
+21	Unser	unser	DET	DTP$	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	22	det:poss	_	_
 22	Meer	Meer	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	17	appos	_	SpaceAfter=No
 23	“	“	PUNCT	``	_	22	punct	_	SpaceAfter=No
 24	)	)	PUNCT	)	_	22	punct	_	SpaceAfter=No
