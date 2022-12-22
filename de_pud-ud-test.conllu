@@ -2265,7 +2265,7 @@
 
 # newdoc id = n01035
 # sent_id = n01035004
-# text = Trotz der Veröffentlichung eines Fotos heute Morgen sagt die Polizei in British Columbia, dass sie mehr Fragen als Antworten hat, was einen anscheinend obdachlosen Mann betrifft, der angeklagt ist, weil er eine Jugendliche an Ihrer High School in Abbotsford erstochen haben soll.
+# text = Trotz der Veröffentlichung eines Fotos heute Morgen sagt die Polizei in British Columbia, dass sie mehr Fragen als Antworten hat, was einen anscheinend obdachlosen Mann betrifft, der angeklagt ist, weil er eine Jugendliche an ihrer High School in Abbotsford erstochen haben soll.
 # text_en = Despite the release of a photo this morning, police in B.C. say they have more questions than answers about an apparently homeless man charged in the fatal stabbing of a teen girl at her Abbotsford high school.
 1	Trotz	trotz	ADP	IN	_	3	case	_	_
 2	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	3	det	_	_
@@ -2305,7 +2305,7 @@
 36	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	Jugendliche	Jugendliche	NOUN	NNA	Case=Acc|Gender=Fem|Number=Sing	44	obj	_	InflectionType=Mixed
 38	an	an	ADP	IN	_	41	case	_	_
-39	Ihrer	Ihrer	PRON	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	41	nmod:poss	_	_
+39	ihrer	ihr	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	41	det:poss	_	_
 40	High	High	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_
 41	School	School	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	44	obl	_	_
 42	in	in	ADP	IN	_	43	case	_	_
@@ -3563,7 +3563,7 @@
 # sent_id = n01053041
 # text = Ihre Stimme ging im wahrsten Sinne des Wortes um die Welt, sagte Leive.
 # text_en = "Her voice literally went around the world," Leive said.
-1	Ihre	Ihr|ihr	PRON	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	2	nmod:poss	_	_
+1	Ihre	ihr	DET	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	2	det:poss	_	_
 2	Stimme	Stimme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	ging	gehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	14	ccomp	_	_
 4-5	im	_	_	_	_	_	_	_	_
@@ -5220,7 +5220,7 @@
 # sent_id = n01083013
 # text = Ihr Grund ist, dass es unzureichenden Schutz für amerikanische Arbeiter bietet, deren Jobs und Lebensstandards es schaden könnte.
 # text_en = Her reason is that it provides insufficient protection to American workers whose jobs and living standards it might harm.
-1	Ihr	Ihr|ihr	PRON	DTP$	Case=Nom|Gender=Masc|Number=Sing|Person=3|Person[psor]=3|PronType=Prs	2	nmod:poss	_	_
+1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	2	det:poss	_	_
 2	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	ist	sein	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	12	punct	_	_
@@ -7410,7 +7410,7 @@
 # sent_id = n01116021
 # text = Ihr Hals strebt nach vorn in Konfrontation, die Adern treten hervor, ihre Hände zittern.
 # text_en = Her neck pushes forward in vein-accentuating confrontation, her hands shake.
-1	Ihr	Ihr|ihr	PRON	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	2	nmod:poss	_	_
+1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	2	det:poss	_	_
 2	Hals	Hals	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	strebt	streben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	nach	nach	ADP	IN	_	5	case	_	_
@@ -10155,7 +10155,7 @@
 # sent_id = w01010047
 # text = Ihr erster König war Mojmír I. (herrschte 830 - 846).
 # text_en = Their first king was Mojmír I (ruled 830–846).
-1	Ihr	Ihr|ihr	PRON	DTP$	Case=Nom|Gender=Masc|Number=Sing|Person=3|Person[psor]=3|PronType=Prs	3	nmod:poss	_	_
+1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	3	det:poss	_	_
 2	erster	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	InflectionType=Mixed
 3	König	König	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	cop	_	_
@@ -10772,8 +10772,8 @@
 14	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	15	det	_	_
 15	Mittelmeer	Mittelmeer	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	Proper=True
 16	als	als	CCONJ	CC	_	17	cc	_	_
-17	Mare	Mare	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	xcomp	_	Proper=True
-18	Nostrum	Nostrum	PRON	DTP$	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	17	nmod:poss	_	Proper=True
+17	Mare	mare	NOUN	NN	Case=Acc|Foreign=Yes|Gender=Neut|Number=Sing	11	xcomp	_	Lang=la|Proper=True
+18	Nostrum	nostrum	DET	DTP$	Case=Acc|Foreign=Yes|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|PronType=Prs	17	det:poss	_	Lang=la|Proper=True
 19	(	(	PUNCT	(	_	22	punct	_	SpaceAfter=No
 20	„	„	PUNCT	``	_	22	punct	_	SpaceAfter=No
 21	Unser	unser	DET	DTP$	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	22	det:poss	_	_
@@ -13893,7 +13893,7 @@
 # sent_id = w01066006
 # text = Ihr Tierkreiszeichen ist der Affe, und ihr traditionell begangenes 60. Jubiläumsjahr war 1992.
 # text_en = Her zodiacal animal is the Monkey and her traditionally significant sixtieth anniversary year was 1992.
-1	Ihr	Ihr|ihr	PRON	DTP$	Case=Nom|Gender=Neut|Number=Sing|Person=3|Person[psor]=3|PronType=Prs	2	nmod:poss	_	_
+1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	2	det:poss	_	_
 2	Tierkreiszeichen	Tierkreiszeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
 3	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
 4	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	5	det	_	_
@@ -17370,7 +17370,7 @@
 # sent_id = w01117029
 # text = Ihr neuestes nicht fiktionales Buch ist über Margeret Douglas, die Gräfin von Lennox.
 # text_en = Her latest non-fiction is about Margaret Douglas, Countess of Lennox.
-1	Ihr	Ihr|ihr	PRON	DTP$	Case=Nom|Gender=Neut|Number=Sing|Person=3|Person[psor]=3|PronType=Prs	5	nmod:poss	_	_
+1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	5	det:poss	_	_
 2	neuestes	neu	ADJ	JJ	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	5	amod	_	InflectionType=Mixed
 3	nicht	nicht	PART	RB	Polarity=Neg	4	advmod	_	_
 4	fiktionales	fiktional	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	conj	_	InflectionType=Mixed
@@ -17836,7 +17836,7 @@
 # sent_id = w01127071
 # text = Ihr Album Wild West aus dem Jahr 1981 war einer ihrer größten Verkaufsschlager.
 # text_en = Her 1981 album Wild West was one of her biggest sellers.
-1	Ihr	Ihr|ihr	PRON	DTP$	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	2	nmod:poss	_	_
+1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	2	det:poss	_	_
 2	Album	Album	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
 3	Wild	Wild	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	Proper=True
 4	West	West	NOUN	NN	Case=Nom|Number=Sing	2	appos	_	Proper=True
@@ -18107,9 +18107,9 @@
 4	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	5	det	_	_
 5	Album	Album	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
 6	„	„	PUNCT	``	_	9	punct	_	SpaceAfter=No
-7	Over	Over	ADP	IN	_	9	case	_	Proper=True
-8	My	My	PRON	DTP$	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	9	nmod:poss	_	Proper=True
-9	Head	Head	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No|Proper=True
+7	Over	over	ADP	IN	Foreign=Yes	9	case	_	Lang=en|Proper=True
+8	My	my	PRON	DTP$	Foreign=Yes|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	9	det:poss	_	Lang=en|Proper=True
+9	Head	head	NOUN	NN	Foreign=Yes|Number=Sing	5	nmod	_	SpaceAfter=No|Lang=en|Proper=True
 10	“	“	PUNCT	''	_	9	punct	_	_
 11	von	von	ADP	IN	_	12	case	_	_
 12	1994	1994	NUM	CD	NumType=Card	5	nmod	_	_
@@ -20415,9 +20415,9 @@
 # text = Schimpfen Sie mit Ihrem Wecker?
 # text_en = Do you argue with your alarm clock?
 1	Schimpfen	schimpfen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-2	Sie	Sie|sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	1	nsubj	_	_
+2	Sie	Sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	1	nsubj	_	_
 3	mit	mit	ADP	IN	_	5	case	_	_
-4	Ihrem	ihrem	PRON	DTP$	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3|PronType=Prs	5	nmod:poss	_	_
+4	Ihrem	Ihr	DET	DTP$	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|PronType=Prs	5	det:poss	_	_
 5	Wecker	Wecker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
 6	?	?	PUNCT	.	_	1	punct	_	_
 
