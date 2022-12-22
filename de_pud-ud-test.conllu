@@ -5129,7 +5129,7 @@
 3	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	8	obj	_	_
 4	einfach	einfach	ADV	RB	Degree=Pos	8	advmod	_	_
 5	mit	mit	ADP	IN	_	7	case	_	_
-6	meinem	mein	DET	DTP$	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	7	det:poss	_	_
+6	meinem	mein	DET	DTP$	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Leben	Leben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
 8	machen	machen	VERB	VB	_	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	8	punct	_	_
@@ -6215,7 +6215,7 @@
 12	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Past	11	aux	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	11	punct	_	_
 14	wurde	werden	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-15	meine	mein	DET	DTP$	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	16	det:poss	_	_
+15	meine	mein	DET	DTP$	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Liste	Liste	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
 17	ungeheuer	ungeheu	ADV	RB	Degree=Pos	14	advmod	_	_
 18	lang	lang	ADJ	JJ	Degree=Pos	14	xcomp	_	_
@@ -6241,7 +6241,7 @@
 # sent_id = n01097098
 # text = Mein nächster Halt war Bellingham, unmittelbar an der kanadischen Grenze.
 # text_en = My next stop was Bellingham, right up near the Canadian border.
-1	Mein	mein	DET	DTP$	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	3	det:poss	_	_
+1	Mein	mein	DET	DTP$	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
 2	nächster	nah	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	InflectionType=Mixed
 3	Halt	Halt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	cop	_	_
@@ -8626,7 +8626,7 @@
 8	und	und	CCONJ	CC	_	10	cc	_	_
 9	dann	dann	ADV	RB	Degree=Pos	10	advmod	_	_
 10	hörte	hören	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	conj	_	_
-11	mein	mein	DET	DTP$	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	12	det:poss	_	_
+11	mein	mein	DET	DTP$	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Telefon	Telefon	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
 13	nicht	nicht	PART	RB	Polarity=Neg	10	advmod	_	_
 14	mehr	mehr	ADV	RB	Degree=Pos	10	advmod	_	_
@@ -9047,7 +9047,7 @@
 4	und	und	CCONJ	CC	_	5	cc	_	_
 5	wieder	wieder	ADV	RB	Degree=Pos	3	conj	_	_
 6	in	in	ADP	IN	_	8	case	_	_
-7	meinem	mein	DET	DTP$	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	8	det:poss	_	_
+7	meinem	mein	DET	DTP$	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Stall	Stall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
 9	auf	auf	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	_	_
@@ -9232,7 +9232,7 @@
 # sent_id = n01146046
 # text = Meines Erachtens erhofft sich die Regierung durch den Ausbau der Maglev-Strecke eine verstärkte wirtschaftliche Entwicklung in Japan.
 # text_en = By completing this maglev line, I think the government is expecting bigger economical development in Japan.
-1	Meines	mein	DET	DTP$	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	2	det:poss	_	_
+1	Meines	mein	DET	DTP$	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Erachtens	Erachten	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
 3	erhofft	erhoffen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	sich	sich	PRON	PRP	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obl:arg	_	_

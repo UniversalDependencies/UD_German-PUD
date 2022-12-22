@@ -33,7 +33,7 @@
     <tag name="X">30</tag><!-- E, Multi, Bundes, Demografie, Druck, Einzel, Ex, Fjögur, Handel, Hey -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="45">
+  <feats unique="46">
     <feat name="AdpType" value="Prep" upos="ADP">3</feat><!-- zu -->
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">2653</feat><!-- die, sich, den, eine, das, einen, ein, seine, es, ihre -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">3090</feat><!-- dem, der, den, einem, einer, Jahr, Jahren, ihrer, Chr., dieser -->
@@ -68,6 +68,7 @@
     <feat name="Person[psor]" value="2" upos="PRON">1</feat><!-- euren -->
     <feat name="Person[psor]" value="3" upos="PRON">204</feat><!-- seine, ihre, ihrer, seiner, ihr, sein, ihren, seinen, seines, ihrem -->
     <feat name="Polarity" value="Neg" upos="PART">87</feat><!-- nicht -->
+    <feat name="Poss" value="Yes" upos="DET">6</feat><!-- mein, meinem, Meines, meine -->
     <feat name="PronType" value="Art" upos="DET">414</feat><!-- eine, ein, einer, einem, einen, eines, dem -->
     <feat name="PronType" value="Neg" upos="DET">25</feat><!-- keine, kein, keinen -->
     <feat name="PronType" value="Prs" upos="DET,PRON">361</feat><!-- sich, seine, ihre, ihrer, seiner, ihr, sein, ihren, seinen, seines -->
