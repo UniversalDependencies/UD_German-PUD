@@ -13130,7 +13130,7 @@
 11	,	,	PUNCT	,	_	20	punct	_	_
 12	wenn	wenn	SCONJ	CC	_	20	mark	_	_
 13	in	in	ADP	IN	_	15	case	_	_
-14	jenem	jen	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	15	det	_	_
+14	jenem	jener	DET	DT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	15	det	_	_
 15	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	_
 16	ein	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 17	Ausnahme	Ausnahme	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	compound	_	SpaceAfter=No
