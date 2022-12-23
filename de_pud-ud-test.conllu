@@ -55,7 +55,7 @@
 14	verfolgen	verfolgen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	2	acl:relcl	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	2	punct	_	_
 16	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	21	aux	_	_
-17	dieser	dies	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	18	det	_	_
+17	dieser	dieser	DET	DT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
 18	Übergang	Übergang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
 19	ein	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
 20	wenig	wenig	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	obl	_	_
@@ -290,7 +290,7 @@
 17	,	,	PUNCT	,	_	21	punct	_	_
 18	indem	indem	SCONJ	CC	_	21	mark	_	_
 19	sie	er	PRON	PRP	Case=Nom|Gender=Fem|Number=Plur|Person=3	21	nsubj	_	_
-20	diese	dies	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|Person=3	21	obj	_	_
+20	diese	dieser	DET	DT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	21	obj	_	_
 21	anwenden	anwenden	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	12	advcl	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	12	punct	_	_
 
@@ -453,7 +453,7 @@
 # sent_id = n01008017
 # text = Dieser Anteil ist über die Jahre kontinuierlich gestiegen – vor dem Wahltag 1996 wurden laut der US-Statistikbehörde nur 11 Prozent der Gesamtstimmen abgegeben – und dürfte auch dieses Jahr wieder sprunghaft ansteigen.
 # text_en = That share has been rising steadily over the years — only 11 percent of the total vote was cast before Election Day in 1996, according to the Census Bureau  -- and seems likely to jump again this year.
-1	Dieser	dies	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	2	det	_	_
+1	Dieser	dieser	DET	DT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	Anteil	Anteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 3	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	aux	_	_
 4	über	über	ADP	IN	_	6	case	_	_
@@ -482,7 +482,7 @@
 27	und	und	CCONJ	CC	_	34	cc	_	_
 28	dürfte	dürfen	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	34	aux	_	_
 29	auch	auch	ADV	RB	Degree=Pos	31	advmod	_	_
-30	dieses	dies	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	31	det	_	_
+30	dieses	dieser	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	31	det	_	_
 31	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	34	obl:tmod	_	_
 32	wieder	wieder	ADV	RB	Degree=Pos	34	advmod	_	_
 33	sprunghaft	sprunghaft	ADV	RB	Degree=Pos	34	advmod	_	_
@@ -1075,7 +1075,7 @@
 1	Natürlich	natürlich	ADV	RB	Degree=Pos	10	advmod	_	_
 2	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	aux	_	_
 3	China	China	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
-4	diese	dies	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	5	det	_	_
+4	diese	dieser	DET	DT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	Woche	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl:tmod	_	_
 6	noch	noch	ADV	RB	Degree=Pos	7	advmod	_	_
 7	mehr	mehr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
@@ -1349,7 +1349,7 @@
 # text_en = Investments in this area were up by 6% in 2015 to $221bn.
 1	Investitionen	Investition	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
 2	in	in	ADP	IN	_	4	case	_	_
-3	diesem	dies	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	4	det	_	_
+3	diesem	dieser	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	Bereich	Bereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	_
 5	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	14	aux	_	_
 6	2015	2015	NUM	CD	NumType=Card	14	obl:tmod	_	_
@@ -1446,7 +1446,7 @@
 # text_en = A telltale of this meteoritic material will likely be high levels of the element iridium.
 1	Charakteristisch	charakteristisch	ADJ	JJ	Degree=Pos	0	root	_	_
 2	für	für	ADP	IN	_	5	case	_	_
-3	dieses	dies	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	5	det	_	_
+3	dieses	dieser	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
 4	meteoritische	meteoritisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	InflectionType=Weak
 5	Material	Material	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
 6	werden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	1	aux	_	_
@@ -1507,7 +1507,7 @@
 # text_en = The results from this experiment provides further support that rocket seeds can be flown and stored on the International Space Station for six months without having any significant impacts on their ability to germinate and grow on Earth.
 1	Die	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|Person=3	2	det	_	_
 2	Ergebnisse	Ergebnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
-3	dieses	dies	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|Person=3	4	det	_	_
+3	dieses	dieser	DET	DT	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
 4	Experiments	Experiment	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 5	liefern	liefern	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 6	weitere	weit	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Person=3	7	det	_	_
@@ -2357,7 +2357,7 @@
 8	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Verbindung	Verbindung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
 10	zu	zu	ADP	IN	_	12	case	_	_
-11	dieser	dies	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	12	det	_	_
+11	dieser	dieser	DET	DT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
 12	Schule	Schule	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	_
 13	hat	haben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	ccomp	_	_
 14	oder	oder	CCONJ	CC	_	18	cc	_	_
@@ -2749,7 +2749,7 @@
 # text_en = "Physicians don't have these tools, they have only a prescription pad and an injection," Mailis said.
 1	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
 2	haben	haben	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	16	ccomp	_	_
-3	diese	dies	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|Person=3	4	det	_	_
+3	diese	dieser	DET	DT	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	4	det	_	_
 4	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
 5	nicht	nicht	PART	RB	Polarity=Neg	2	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	_	_
@@ -2943,7 +2943,7 @@
 5	und	und	CCONJ	CC	_	6	cc	_	_
 6	Boni	Bonus	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	conj	_	_
 7	betrug	betragen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-8	dieses	dies	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	9	det	_	_
+8	dieses	dieser	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	9	det	_	_
 9	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obl:tmod	_	_
 10	1,5	1,5	NUM	CD	NumType=Card	11	nummod	_	_
 11	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	nmod	_	_
@@ -3184,7 +3184,7 @@
 # sent_id = n01048008
 # text = Diese Schätzwerte stimmen mit dem Anteil neuer Wohnungen, die nach ihrer Fertigstellung auf dem Vermietungsmarkt landen, überein, was die wichtige Rolle der (inländischen) Investoren auf dem Wohnungsmarkt in der Metropolregion um Toronto erkennen lässt.
 # text_en = "These estimates coincide with the percentages of new condos entering the rental market upon completion, indicating the important role (domestic) investors play in the GTA housing market."
-1	Diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|Person=3	2	det	_	_
+1	Diese	dieser	DET	DT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	Schätzwerte	Schätzwert	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	stimmen	stimmen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 4	mit	mit	ADP	IN	_	6	case	_	_
@@ -3229,19 +3229,19 @@
 # sent_id = n01049022
 # text = Diese Sorte hilft bei Rückenschmerzen, diese Sorte hilft bei Übelkeit und dieses Produkt hilft bei Schlafproblemen, sagt Dietrich von der Hauptgeschäftsstelle in Denver, Colorado, wo Marihuana legal verkauft wird.
 # text_en = "This strain helps with back pain, this strain helps with nausea, this product makes you sleep at night," says Dietrich from the company's headquarters in Denver, Colorado, where pot is sold legally.
-1	Diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	2	det	_	_
+1	Diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	Sorte	Sorte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	hilft	helfen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	19	ccomp	_	_
 4	bei	bei	ADP	IN	_	5	case	_	_
 5	Rückenschmerzen	Rückenschmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	9	punct	_	_
-7	diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	8	det	_	_
+7	diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
 8	Sorte	Sorte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 9	hilft	helfen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	parataxis	_	_
 10	bei	bei	ADP	IN	_	11	case	_	_
 11	Übelkeit	Übelkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
 12	und	und	CCONJ	CC	_	15	cc	_	_
-13	dieses	dies	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	14	det	_	_
+13	dieses	dieser	DET	DT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	det	_	_
 14	Produkt	Produkt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
 15	hilft	helfen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	conj	_	_
 16	bei	bei	ADP	IN	_	17	case	_	_
@@ -3522,7 +3522,7 @@
 8	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	cop	_	_
 9	einer	ein	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
 10	von	von	ADP	IN	_	12	case	_	_
-11	diesen	dies	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|Person=3	12	det	_	_
+11	diesen	dieser	DET	DT	Case=Dat|Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
 12	Typen	Typ	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	3	punct	_	_
 14	sagte	sagen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -3638,7 +3638,7 @@
 # text_en = The purpose of these CRTC hearings is to field responses from industry stakeholders and the public.
 1	Das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	2	det	_	_
 2	Ziel	Ziel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
-3	dieser	dies	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|Person=3	6	det	_	_
+3	dieser	dieser	DET	DT	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
 4	CRTC	CRTC	PROPN	NNP	Case=Gen|Gender=Fem|Number=Plur	6	compound	_	SpaceAfter=No
 5	-	-	PUNCT	-	_	4	punct	_	SpaceAfter=No
 6	Sitzungen	Sitzung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
@@ -3837,7 +3837,7 @@
 # sent_id = n01059008
 # text = Diese Diskordanz zwischen ökonomischen Daten und politischer Rhetorik ist bekannt, oder sollte es sein.
 # text_en = This discordance between economic data and political rhetoric is familiar, or should be.
-1	Diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	2	det	_	_
+1	Diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	Diskordanz	Diskordanz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 3	zwischen	zwischen	ADP	IN	_	5	case	_	_
 4	ökonomischen	ökonomisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	InflectionType=Strong
@@ -3862,7 +3862,7 @@
 3	warnen	warnen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 4	davor	davor	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	11	punct	_	_
-6	diese	dies	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|Person=3	7	det	_	_
+6	diese	dieser	DET	DT	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	7	det	_	_
 7	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	_
 8	als	als	CCONJ	CC	_	9	cc	_	_
 9	Beweis	Beweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	conj	_	_
@@ -3905,7 +3905,7 @@
 21	institutionellen	institutionell	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	InflectionType=Weak
 22	Entwicklungen	Entwicklung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	26	nsubj	_	_
 23	während	während	ADP	IN	_	25	case	_	_
-24	dieser	dies	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|Person=3	25	det	_	_
+24	dieser	dieser	DET	DT	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	25	det	_	_
 25	Amtszeiten	Amtszeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
 26	hatten	haben	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	3	conj	_	_
 27	erhebliche	erheblich	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	InflectionType=Strong
@@ -4149,7 +4149,7 @@
 5	Songs	Song	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	10	punct	_	_
 7	die	der	PRON	REL	Case=Nom|Gender=Masc|Number=Plur|Person=3	10	nsubj	_	_
-8	diese	dies	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|Person=3	10	obj	_	_
+8	diese	dieser	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	10	obj	_	_
 9	musikalisch	musikalisch	ADV	RB	Degree=Pos	10	advmod	_	_
 10	untermalen	untermalen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	5	acl:relcl	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	2	punct	_	_
@@ -4173,7 +4173,7 @@
 # text_en = Their revivals underscore the appeal of a good challenge, artistic or otherwise: discomfort, growth, and a meaningful connection.
 1	Das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	2	det	_	_
 2	Revival	Revival	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
-3	dieser	dies	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3	4	det	_	_
+3	dieser	dieser	DET	DT	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
 4	Songs	Song	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
 5	unterstreicht	unterstreichen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 6	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3	7	det	_	_
@@ -4729,7 +4729,7 @@
 # text_en = Who can stop this Australia side?
 1	Wer	wer	PRON	WP	Case=Nom|Person=3	6	nsubj	_	_
 2	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux	_	_
-3	diese	dies	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	5	det	_	_
+3	diese	dieser	DET	DT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 4	australische	australisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	InflectionType=Weak|Proper=True
 5	Mannschaft	Mannschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 6	stoppen	stoppen	VERB	VB	_	0	root	_	SpaceAfter=No
@@ -4951,7 +4951,7 @@
 16	öffentliche	öffentlich	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	conj	_	InflectionType=Weak
 17	Meinung	Meinung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
 18	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	20	aux	_	_
-19	diesen	dies	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3	20	obj	_	_
+19	diesen	dieser	DET	DT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	20	obj	_	_
 20	abschwächen	abschwächen	VERB	VB	_	2	conj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -5246,7 +5246,7 @@
 # text = Vor diesem Hintergrund ist es sinnvoll, über den Handel zu schimpfen.
 # text_en = In this context, railing against trade makes sense.
 1	Vor	vor	ADP	IN	_	3	case	_	_
-2	diesem	dies	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	3	det	_	_
+2	diesem	dieser	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	Hintergrund	Hintergrund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
 4	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
 5	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	6	expl	_	_
@@ -5330,7 +5330,7 @@
 # sent_id = n01084045
 # text = Dieser Zinssatz von 3 % gilt auch für Inhaber einer Nectar Card, die zwischen 15.001 und 19.999 Pfund über einen Zeitraum von zwei bis drei Jahren leihen möchten.
 # text_en = That 3% rate also applies to Nectar cardholders looking to borrow from £15,001-£19,999 over a period of between two and three years.
-1	Dieser	dies	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	2	det	_	_
+1	Dieser	dieser	DET	DT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	Zinssatz	Zinssatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 3	von	von	ADP	IN	_	5	case	_	_
 4	3	3	NUM	CD	NumType=Card	5	nummod	_	_
@@ -5393,7 +5393,7 @@
 25	aus	aus	ADP	IN	_	24	case	_	_
 26	arm	arm	ADJ	JJ	Degree=Pos	5	conj	_	_
 27	an	an	ADP	IN	_	30	case	_	_
-28	diesem	dies	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	30	det	_	_
+28	diesem	dieser	DET	DT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	30	det	_	_
 29	essenziellen	essenziell	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	InflectionType=Weak
 30	Mineral	Mineral	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	26	obl	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	5	punct	_	_
@@ -5682,7 +5682,7 @@
 7	und	und	CCONJ	CC	_	13	cc	_	_
 8	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	9	det	_	_
 9	Gesicht	Gesicht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
-10	dieser	dies	DET	PDT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	12	det	_	_
+10	dieser	dieser	DET	PDT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
 11	einen	ein	DET	DT	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Frau	Frau	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 13	tauchte	tauchen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	conj	_	_
@@ -6030,7 +6030,7 @@
 11	,	,	PUNCT	,	_	18	punct	_	_
 12	aber	aber	CCONJ	CC	_	18	cc	_	_
 13	viele	viel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
-14	dieser	dies	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3	15	det	_	_
+14	dieser	dieser	DET	DT	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	15	det	_	_
 15	Marktplätze	Marktplatz	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
 16	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	18	cop	_	_
 17	einfach	einfach	ADV	RB	Degree=Pos	18	advmod	_	_
@@ -6364,7 +6364,7 @@
 # sent_id = n01101003
 # text = Diese Einmischung Pekings ist möglicherweise die tiefgreifendste seit der Entkolonialisierung Hong Kongs 1997 durch das Vereinigte Königreich.
 # text_en = The intervention is potentially the most far-reaching by Beijing since the 1997 handover of Hong Kong from the UK.
-1	Diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	2	det	_	_
+1	Diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	Einmischung	Einmischung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 3	Pekings	Peking	PROPN	NNP	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 4	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
@@ -6444,7 +6444,7 @@
 1	„	„	PUNCT	``	_	3	punct	_	SpaceAfter=No
 2	Peking	Peking	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
 3	hält	halten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	18	ccomp	_	_
-4	dieses	dies	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	5	det	_	_
+4	dieses	dieser	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
 5	Eingreifen	Eingreifen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
 6	für	für	ADP	IN	_	7	case	_	_
 7	nötig	nötig	ADV	RB	Degree=Pos	3	obl	_	SpaceAfter=No
@@ -7007,7 +7007,7 @@
 # text_en = If they did, Premium Bonds would be indistinguishable from ordinary savings accounts.
 1	Wenn	wenn	SCONJ	CC	_	4	mark	_	_
 2	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
-3	dies	dies	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	4	obj	_	_
+3	dies	dieser	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	_
 4	täten	tun	VERB	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	6	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
 6	wären	sein	VERB	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	0	root	_	_
@@ -7391,7 +7391,7 @@
 5	Energie	Energie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
 6	?	?	PUNCT	.	_	2	punct	_	_
 7	Oder	oder	CCONJ	CC	_	9	cc	_	_
-8	diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	9	det	_	_
+8	diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 9	Stimme	Stimme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No|orig_deprel=nsubj
 10	,	,	PUNCT	,	_	15	punct	_	_
 11	die	der	PRON	REL	Case=Nom|Gender=Fem|Number=Sing|Person=3	15	nsubj	_	_
@@ -7732,7 +7732,7 @@
 9	,	,	PUNCT	,	_	13	punct	_	_
 10	genau	genau	ADV	RB	Degree=Pos	13	advmod	_	_
 11	wie	wie	CCONJ	CC	_	13	cc	_	_
-12	diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	13	det	_	_
+12	diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
 13	Geschichte	Geschichte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	21	punct	_	_
 15	weshalb	weshalb	ADV	WRB	_	21	advmod	_	_
@@ -8086,7 +8086,7 @@
 # sent_id = n01129010
 # text = Dies ist eines der grundlegendsten Probleme nationaler Sicherheit.
 # text_en = This is a homeland security issue of the most existential kind.
-1	Dies	dies	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	3	nsubj	_	_
+1	Dies	dieser	DET	DT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 3	eines	ein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 4	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|Person=3	6	det	_	_
@@ -8173,7 +8173,7 @@
 8	dem	der	PRON	REL	Case=Dat|Gender=Masc|Number=Sing|Person=3	14	obl	_	_
 9	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
 10	in	in	ADP	IN	_	12	case	_	_
-11	dieser	dies	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	12	det	_	_
+11	dieser	dieser	DET	DT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
 12	Wahl	Wahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
 13	alles	all	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
 14	entscheidet	entscheiden	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	acl:relcl	_	SpaceAfter=No
@@ -8602,7 +8602,7 @@
 9	verkleiden	verkleiden	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 10	sich	sich	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	_
 11	an	an	ADP	IN	_	13	case	_	_
-12	diesem	dies	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	13	det	_	_
+12	diesem	dieser	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	Feiertag	Feiertag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
 14	als	als	CCONJ	CC	_	15	cc	_	_
 15	Charaktere	Charakter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	conj	_	_
@@ -8673,7 +8673,7 @@
 12	,	,	PUNCT	,	_	19	punct	_	_
 13	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obj	_	_
 14	in	in	ADP	IN	_	17	case	_	_
-15	diesem	dies	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	17	det	_	_
+15	diesem	dieser	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
 16	emotionalen	emotional	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	InflectionType=Weak
 17	Zustand	Zustand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	_
 18	zu	zu	PART	RP	_	19	mark	_	_
@@ -9172,7 +9172,7 @@
 19	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3	20	det	_	_
 20	Zeitpunkt	Zeitpunkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
 21	für	für	ADP	IN	_	23	case	_	_
-22	diese	dies	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	23	det	_	_
+22	diese	dieser	DET	DT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
 23	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	nmod	_	_
 24	von	von	ADP	IN	_	25	case	_	_
 25	Veranstaltung	Veranstaltung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	_
@@ -9206,7 +9206,7 @@
 3	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	4	expl	_	_
 4	wundervoll	wundervoll	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	_	_
-6	dies	dies	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	7	obj	_	_
+6	dies	dieser	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	obj	_	_
 7	bewahren	bewahren	VERB	VB	_	4	csubj	_	_
 8	zu	zu	PART	RP	_	7	mark	_	_
 9	können	können	AUX	VB	_	7	aux	_	SpaceAfter=No
@@ -10028,7 +10028,7 @@
 18	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
 19	1973	1973	NUM	CD	NumType=Card	18	nummod	_	_
 20	auf	auf	ADP	IN	_	22	case	_	_
-21	dieser	dies	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	22	det	_	_
+21	dieser	dieser	DET	DT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
 22	Idee	Idee	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	_
 23	basierende	basierend	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	InflectionType=Strong
 24	synoptische	synoptisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	23	conj	_	InflectionType=Strong
@@ -10936,7 +10936,7 @@
 # sent_id = w01025084
 # text = Dieser Rückzug kam für die österreichisch-preußische Armee überraschend und es gelang fast allen in der dänischen Armee, die Evakuierung durchzuführen.
 # text_en = This retreat came as a surprise to the Austro-Prussian army, and almost all of the Danish army succeeded in completing the evacuation.
-1	Dieser	dies	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	2	det	_	_
+1	Dieser	dieser	DET	DT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	Rückzug	Rückzug	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	kam	kommen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	für	für	ADP	IN	_	9	case	_	_
@@ -11123,7 +11123,7 @@
 5	trocken	trocken	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	15	punct	_	_
 7	dass	dass	SCONJ	CC	_	15	mark	_	_
-8	diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	9	det	_	_
+8	diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
 9	Ebenen	Ebene	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	nsubj:pass	_	_
 10	manchmal	manchmal	ADV	RB	Degree=Pos	15	advmod	_	_
 11	für	für	CCONJ	CC	_	15	cc	_	_
@@ -11608,7 +11608,7 @@
 # sent_id = w01033067
 # text = Diese Besiedlungen begannen vermutlich um 1000 v. Chr., als Ostmelanesier Richtung Norden reisten.
 # text_en = Such settlements probably began around 1000 BC, when eastern Melanesians travelled north.
-1	Diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	2	det	_	_
+1	Diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	Besiedlungen	Besiedlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
 3	begannen	beginnen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 4	vermutlich	vermutlich	ADV	RB	Degree=Pos	3	advmod	_	_
@@ -11697,7 +11697,7 @@
 10	Wahrscheinlichkeit	Wahrscheinlichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	15	punct	_	_
 12	dass	dass	SCONJ	CC	_	15	mark	_	_
-13	diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|Person=3	14	det	_	_
+13	diese	dieser	DET	DT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	14	det	_	_
 14	Ereignisse	Ereignis	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	15	nsubj	_	_
 15	auftreten	auftreten	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	10	ccomp	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	10	punct	_	_
@@ -11802,7 +11802,7 @@
 # sent_id = w01036077
 # text = Diese Pflanzenfamilien sind noch in Papua-Neuguinea zu finden.
 # text_en = These plant families are still present in Papua New Guinea.
-1	Diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	2	det	_	_
+1	Diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	Pflanzenfamilien	Pflanzenfamilie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
 3	sind	sein	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 4	noch	noch	ADV	RB	Degree=Pos	3	advmod	_	_
@@ -11869,7 +11869,7 @@
 # sent_id = w01038009
 # text = Diese sind bedingt durch die oft abgelegenen und straßenlosen Standorte nicht sehr beliebt.
 # text_en = These are not very popular due to the often remote and roadless locations.
-1	Diese	dies	DET	DT	Case=Nom|Definite=Def|Number=Plur|Person=3	13	nsubj	_	_
+1	Diese	dieser	DET	DT	Case=Nom|Number=Plur|PronType=Dem	13	nsubj	_	_
 2	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	13	cop	_	_
 3	bedingt	bedingen	ADJ	JJ	Degree=Pos	13	advmod	_	_
 4	durch	durch	ADP	IN	_	10	case	_	_
@@ -11907,7 +11907,7 @@
 # sent_id = w01038022
 # text = Diese ist auch die einzige Region in Alaska, in der die durchschnittliche Tageshöchsttemperatur während der Wintermonate über dem Gefrierpunkt liegt.
 # text_en = This is also the only region in Alaska in which the average daytime high temperature is above freezing during the winter months.
-1	Diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
+1	Diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	6	nsubj	_	_
 2	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
 3	auch	auch	ADV	RB	Degree=Pos	6	advmod	_	_
 4	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	6	det	_	_
@@ -11957,7 +11957,7 @@
 # text = An diesem Ort stahlen sie ein kleines Kanu, das die in der Gegend ansässigen australischen Aborigines zurückgelassen hatten.
 # text_en = It was here they stole a small canoe left by the Australian Aborigines of the region.
 1	An	an	ADP	IN	_	3	case	_	_
-2	diesem	dies	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	3	det	_	_
+2	diesem	dieser	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	Ort	Ort	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
 4	stahlen	stahlen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 5	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
@@ -12479,7 +12479,7 @@
 8	einer	ein	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	negativen	negativ	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	InflectionType=Mixed
 10	Entwicklung	Entwicklung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
-11	dieser	dies	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|Person=3	12	det	_	_
+11	dieser	dieser	DET	DT	Case=Gen|Gender=Neut|Number=Plur|PronType=Dem	12	det	_	_
 12	Ökosysteme	Ökosystem	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	_
 13	geführt	führen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	13	punct	_	_
@@ -12592,7 +12592,7 @@
 # sent_id = w01047104
 # text = Dies machte die Chemieindustrie und ihre Lobbyisten sowie die breite Masse der amerikanischen Bevölkerung auf das Buch aufmerksam.
 # text_en = This brought the book to the attention of the chemical industry and its lobbyists, as well as a wide swath of the American populace.
-1	Dies	dies	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	2	nsubj	_	_
+1	Dies	dieser	DET	DT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	machte	machen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	4	det	_	_
 4	Chemieindustrie	Chemieindustrie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
@@ -13009,7 +13009,7 @@
 # sent_id = w01052046
 # text = Dieses Mal beanspruchte er für sich, den Kampf gekämpft zu haben, obwohl er seine Rüstung erst zwei Stunden nach Beginn des Kampfes angelegt hatte.
 # text_en = This time he claimed to have fought the battle without even bothering to put on his corslet until two hours after the fighting began.
-1	Dieses	dies	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	2	det	_	_
+1	Dieses	dieser	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
 2	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
 3	beanspruchte	beanspruchen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
@@ -13067,7 +13067,7 @@
 5	dass	dass	SCONJ	CC	_	12	mark	_	_
 6	Herodes	Herodes	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 7	zu	zu	ADP	IN	_	9	case	_	_
-8	dieser	dies	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	9	det	_	_
+8	dieser	dieser	DET	DT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 9	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
 10	in	in	ADP	IN	_	11	case	_	_
 11	Jerusalem	Jerusalem	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
@@ -13143,7 +13143,7 @@
 24	doch	doch	CCONJ	CC	_	26	cc	_	_
 25	Newton	Newton	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
 26	bevorzugte	bevorzugen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	9	conj	_	_
-27	dies	dies	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	26	obj	_	SpaceAfter=No
+27	dies	dieser	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	26	obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = w01053067
@@ -13666,7 +13666,7 @@
 # sent_id = w01064034
 # text = Dies geschah mit dem Schiff aus Kontinentaleuropa.
 # text_en = This was by boat from continental Europe.
-1	Dies	dies	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	2	nsubj	_	_
+1	Dies	dieser	DET	DT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	geschah	geschehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	mit	mit	ADP	IN	_	5	case	_	_
 4	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	5	det	_	_
@@ -13743,7 +13743,7 @@
 2	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3	4	det	_	_
 3	genauen	genau	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	InflectionType=Weak
 4	Zweick	Zweick	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
-5	dieser	dies	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3	6	det	_	_
+5	dieser	dieser	DET	DT	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
 6	Megalithen	Megalith	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
 7	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	aux:pass	_	_
 8	noch	noch	ADV	RB	Degree=Pos	9	advmod	_	_
@@ -14012,7 +14012,7 @@
 4	15	15	NUM	CD	NumType=Card	5	nummod	_	_
 5	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obl:tmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	16	punct	_	_
-7	dies	dies	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	16	nsubj	_	_
+7	dies	dieser	DET	DT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	16	nsubj	_	_
 8	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	cop	_	_
 9	duch	duch	ADP	IN	_	12	case	_	_
 10	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	12	det	_	_
@@ -14573,7 +14573,7 @@
 # text = Zu dieser Zeit dachte er mehr und mehr über seine Zukunft nach.
 # text_en = By this time, he had been increasingly thinking about the future.
 1	Zu	zu	ADP	IN	_	3	case	_	_
-2	dieser	dies	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	3	det	_	_
+2	dieser	dieser	DET	DT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
 4	dachte	denken	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 5	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
@@ -14722,7 +14722,7 @@
 1	Die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	2	det	_	_
 2	Studie	Studie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	interpretierte	interpretieren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	diese	dies	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|Person=3	6	det	_	_
+4	diese	dieser	DET	DT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
 5	drei	drei	NUM	CD	NumType=Card	6	nummod	_	_
 6	Faktoren	Faktor	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
 7	als	als	CCONJ	CC	_	3	cc	_	_
@@ -14988,7 +14988,7 @@
 9	verwiesen	verweisen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 10	;	;	PUNCT	:	_	15	punct	_	_
 11	viele	viel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
-12	dieser	dies	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3	14	det	_	_
+12	dieser	dieser	DET	DT	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	14	det	_	_
 13	spanischen	spanisch	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	InflectionType=Weak|Proper=True
 14	Juden	Jude	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	Proper=True
 15	gingen	gehen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	9	parataxis	_	_
@@ -15061,7 +15061,7 @@
 13	volle	voll	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	InflectionType=Weak
 14	Kontrolle	Kontrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
 15	über	über	ADP	IN	_	18	case	_	_
-16	diese	dies	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	18	det	_	_
+16	diese	dieser	DET	DT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
 17	gesamte	gesamt	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	InflectionType=Weak
 18	Region	Region	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_
 19	erlangt	erlangen	VERB	VBN	Tense=Past	3	conj	_	SpaceAfter=No
@@ -15186,7 +15186,7 @@
 # sent_id = w01083007
 # text = Diese idealisierte Sichtweise der Romanow-Monarchie machte ihn blind für den tatsächlichen Zustand seines Landes.
 # text_en = This idealized vision of the Romanov monarchy blinded him to the actual state of his country.
-1	Diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	3	det	_	_
+1	Diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 2	idealisierte	idealisieren	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	InflectionType=Weak
 3	Sichtweise	Sichtweise	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 4	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	7	det	_	_
@@ -15252,7 +15252,7 @@
 # sent_id = w01084102
 # text = Dieser Kontakt mit dem Westen während des 16. Jahrhunderts führte zu einer Periode nachhaltigen wirtschaftlichen Wachstums, in der sich lukrative Handesrouten etablierten.
 # text_en = This contact with the West during the 16th century lead to a period of profound economic growth as lucrative trade routes were established.
-1	Dieser	dies	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	2	det	_	_
+1	Dieser	dieser	DET	DT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	Kontakt	Kontakt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 3	mit	mit	ADP	IN	_	5	case	_	_
 4	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	5	det	_	_
@@ -15530,7 +15530,7 @@
 # text = Zu dieser Zeit gab es nur noch etwa 40 Familien, die dort mit reichlich gutem Farmland und Weideflächen lebten.
 # text_en = At this time there were only around forty families living there with plenty of good farming land and grazing for cattle.
 1	Zu	zu	ADP	IN	_	3	case	_	_
-2	dieser	dies	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	3	det	_	_
+2	dieser	dieser	DET	DT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
 4	gab	geben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 5	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	4	expl	_	_
@@ -15769,7 +15769,7 @@
 # sent_id = w01095089
 # text = Diese Konvention wird in der Moderne nur unwesentlich gelockert, und noch heute ist es nicht ratsam, unter Freunden den Vornamen zu vewenden; stattdessen ist die Verwendung des Nachnamens sehr gebräuchlich.
 # text_en = This convention is only slightly relaxed in modern age and now it is still unadvisable among friends to use the given name, but use of the family name is still common.
-1	Diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	2	det	_	_
+1	Diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	Konvention	Konvention	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	aux:pass	_	_
 4	in	in	ADP	IN	_	6	case	_	_
@@ -16477,7 +16477,7 @@
 27	funktionierten	funktionieren	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	22	conj	_	SpaceAfter=No
 28	,	,	PUNCT	,	_	22	punct	_	_
 29	kam	kommen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	9	conj	_	_
-30	dies	dies	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	29	nsubj	_	_
+30	dies	dieser	DET	DT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	29	nsubj	_	_
 31	zu	zu	ADV	RB	Degree=Pos	32	advmod	_	_
 32	spät	spät	ADV	RB	Degree=Pos	29	advmod	_	SpaceAfter=No
 33	,	,	PUNCT	,	_	38	punct	_	_
@@ -17024,7 +17024,7 @@
 # sent_id = w01113033
 # text = Diese Karte gewährt einen Zuschuss, der von Geldautomaten zum Erwerb von Schulbedarf wie Büchern und Uniformen abgehoben werden kann.
 # text_en = This card gives an allowance that can be withdrawn from ATMs in order to buy school needs such as books and uniforms.
-1	Diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	2	det	_	_
+1	Diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	Karte	Karte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	gewährt	gewähren|währen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	einen	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -17765,7 +17765,7 @@
 11	Gebet	Gebet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	21	punct	_	_
 13	doch	doch	CCONJ	CC	_	21	cc	_	_
-14	diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	15	det	_	_
+14	diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
 15	Gottesfürchtigkeit	Gottesfürchtigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj:pass	_	_
 16	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	aux:pass	_	_
 17	von	von	ADP	IN	_	19	case	_	_
@@ -17855,7 +17855,7 @@
 # text = Zu diesem Zeitpunkt hatten sie ein extravaganter Lebenswandel und eine Reihe schlechter Investitionen ihrer Geldgeber beinahe ruiniert.
 # text_en = By this time, extravagant spending and a string of bad investments by her investors had left her nearly broke.
 1	Zu	zu	ADP	IN	_	3	case	_	_
-2	diesem	dies	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	3	det	_	_
+2	diesem	dieser	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	Zeitpunkt	Zeitpunkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
 4	hatten	haben	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	17	aux	_	_
 5	sie	sie	PRON	PRP	Case=Acc|Person=3	17	obj	_	_
@@ -17916,7 +17916,7 @@
 3	Post	Post	NOUN	NN	Case=Dat|Number=Sing	4	compound	_	Proper=True
 4	Dispatch	Dispatch	NOUN	NN	Case=Dat|Number=Sing	13	obl	_	Proper=True
 5	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	aux:pass	_	_
-6	dies	dies	DET	DT	Case=Nom|Definite=Def|Number=Sing|Person=3	13	nsubj:pass	_	_
+6	dies	dieser	DET	DT	Case=Nom|Number=Sing|PronType=Dem	13	nsubj:pass	_	_
 7	als	als	CCONJ	CC	_	8	cc	_	_
 8	einer	ein	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
 9	von	von	ADP	IN	_	12	case	_	_
@@ -17995,7 +17995,7 @@
 29	,	,	PUNCT	,	_	34	punct	_	_
 30	der	der	PRON	REL	Case=Nom|Gender=Masc|Number=Sing|Person=3	34	nsubj	_	_
 31	je	je	ADV	RB	Degree=Pos	34	advmod	_	_
-32	diesen	dies	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3	33	det	_	_
+32	diesen	dieser	DET	DT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	33	det	_	_
 33	Titel	Titel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	34	obj	_	_
 34	errungen	erringen	VERB	VBN	Tense=Past	28	acl:relcl	_	_
 35	hat	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	34	aux	_	SpaceAfter=No
@@ -18135,7 +18135,7 @@
 # sent_id = w01130103
 # text = Dies waren die letzten beiden Aufzeichnungen, die Rafferty mit Hugh Murphy produzierte, welcher 1998 starb.
 # text_en = These were the last two records Rafferty produced with Hugh Murphy, who died in 1998.
-1	Dies	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	6	nsubj	_	_
+1	Dies	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	6	nsubj	_	_
 2	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	6	cop	_	_
 3	die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	6	det	_	_
 4	letzten	letzt	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	InflectionType=Weak
@@ -18226,7 +18226,7 @@
 17	finden	finden	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	2	acl:relcl	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	17	punct	_	_
 19	lassen	lassen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-20	diese	dies	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|Person=3	21	det	_	_
+20	diese	dieser	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	21	det	_	_
 21	Stätten	Stätte	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
 22	als	als	SCONJ	CC	_	23	mark	_	_
 23	Teil	Teil	NOUN	NN	_	31	advcl	_	_
@@ -18302,7 +18302,7 @@
 26	die	der	DET	DT	Case=Acc|Definite=Def|Number=Plur|Person=3	27	det	_	_
 27	Maya	Maya	PROPN	NNP	Case=Acc|Number=Plur	21	obl	_	_
 28	in	in	ADP	IN	_	30	case	_	_
-29	dieser	dies	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	30	det	_	_
+29	dieser	dieser	DET	DT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
 30	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	_
 31	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	21	cop	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	2	punct	_	_
@@ -18762,7 +18762,7 @@
 # text = In dieser Zeit wawr Marcelle oft allein im Zimmer, währen Piaf und Mômone draußen auf der Straße oder in Clubs zum Singen waren.
 # text_en = During this time, Marcelle was often left alone in the room while Piaf and Mômone were out on the streets or at the club singing.
 1	In	in	ADP	IN	_	3	case	_	_
-2	dieser	dies	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	3	det	_	_
+2	dieser	dieser	DET	DT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
 4	wawr	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	cop	_	_
 5	Marcelle	Marcelle	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -18795,7 +18795,7 @@
 # sent_id = w01139043
 # text = Diese waren bis nach Smith' Tod fast vollkommen in Vergessenheit geraten.
 # text_en = These were almost completely forgotten until after Smith's death.
-1	Diese	dies	DET	DT	Case=Nom|Definite=Def|Number=Plur|Person=3	11	nsubj	_	_
+1	Diese	dieser	DET	DT	Case=Nom|Number=Plur|PronType=Dem	11	nsubj	_	_
 2	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	11	aux	_	_
 3	bis	bis	ADP	IN	_	6	case	_	_
 4	nach	nach	ADP	IN	_	6	case	_	_
@@ -18965,7 +18965,7 @@
 # text = Dank dieser Scheibe konnte Rona Labor-Proben von Polonium erzeugen, die in einem Großteil der späteren Forschung des Instituts genutzt wurden.
 # text_en = This disc allowed Rona to create lab specimens of polonium, which were used in much of the Institute's subsequent research.
 1	Dank	dank	ADP	IN	_	3	case	_	_
-2	dieser	dies	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	3	det	_	_
+2	dieser	dieser	DET	DT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	Scheibe	Scheibe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
 4	konnte	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	11	aux	_	_
 5	Rona	Rona	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
@@ -19471,7 +19471,7 @@
 # sent_id = w01148068
 # text = Dieses Mal erreichte es ihn, doch er weigerte sich zu glauben, dass sie nicht mehr mit ihm verheiratet sein wollte.
 # text_en = This time it reached him, but he refused to believe that she no longer wanted to be married to him.
-1	Dieses	dies	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	2	det	_	_
+1	Dieses	dieser	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
 2	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
 3	erreichte	erreichen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	3	nsubj	_	_
@@ -20111,7 +20111,7 @@
 6	Elite	Elite	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
 7	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	11	cop	_	_
 8	in	in	ADP	IN	_	10	case	_	_
-9	dieser	dies	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	10	det	_	_
+9	dieser	dieser	DET	DT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
 10	Sichtweise	Sichtweise	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
 11	Schuld	Schuld	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 12	daran	daran	ADV	RB	Degree=Pos	11	advmod	_	SpaceAfter=No
@@ -21064,7 +21064,7 @@
 4	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	5	det	_	_
 5	AKP	AKP	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 6	haben	haben	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	14	aux	_	_
-7	diese	dies	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	8	det	_	_
+7	diese	dieser	DET	DT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
 8	Ablehnung	Ablehnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
 9	als	als	CCONJ	CC	_	10	cc	_	_
 10	Rechtfertigung	Rechtfertigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	conj	_	_
@@ -21176,7 +21176,7 @@
 # text = In dieser Nachricht hatte der ehemalige Jusitzminister Brice Hortefeux als „faschistischen schwachsinnigen Innenminister“ und als „Gangster“ tituliert.
 # text_en = In the message, the former Minister for Justice accused Brice Hortefeux of being a 'fascist', 'Minister (moron) of the Interior' and a 'thug'.
 1	In	in	ADP	IN	_	3	case	_	_
-2	dieser	dies	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	3	det	_	_
+2	dieser	dieser	DET	DT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	Nachricht	Nachricht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	_
 4	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	aux	_	_
 5	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	7	det	_	_
@@ -21318,7 +21318,7 @@
 # sent_id = n03007003
 # text = Diese Klausel bezog sich auf Fahrtzeiten innerhalb der Arbeitszeit zu den Kunden nach Hause.
 # text_en = This clause included the time taken to travel to clients' homes in working hours.
-1	Diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	2	det	_	_
+1	Diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	Klausel	Klausel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	bezog	beziehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
@@ -21373,7 +21373,7 @@
 10	,	,	PUNCT	,	_	19	punct	_	_
 11	nachdem	nachdem	SCONJ	CC	_	19	mark	_	_
 12	man	man	PRON	EX	_	19	nsubj	_	_
-13	dies	dies	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	19	obj	_	_
+13	dies	dieser	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	19	obj	_	_
 14	von	von	ADP	IN	_	18	case	_	_
 15	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	18	det	_	_
 16	tatsächlich	tatsächlich	ADV	RB	Degree=Pos	17	advmod	_	_
@@ -21398,7 +21398,7 @@
 3	,	,	PUNCT	,	_	9	punct	_	_
 4	die	der	PRON	REL	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nsubj:pass	_	_
 5	in	in	ADP	IN	_	8	case	_	_
-6	dieser	dies	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	8	det	_	_
+6	dieser	dieser	DET	DT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
 7	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	InflectionType=Weak
 8	Stunde	Stunde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
 9	verrichtet	verrichten	VERB	VBN	Tense=Past	2	acl:relcl	_	_
@@ -21492,7 +21492,7 @@
 3	Figaro	Figaro	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	_
 4	könnten	können	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	15	aux	_	_
 5	durch	durch	ADP	IN	_	7	case	_	_
-6	diesen	dies	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3	7	det	_	_
+6	diesen	dieser	DET	DT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	Plan	Plan	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
 8	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	9	det	_	_
 9	Regierung	Regierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
@@ -21924,7 +21924,7 @@
 # sent_id = n04007018
 # text = Dies war MPS nach der Entscheidung des Ex-Ministers, die Partei zu verlassen, mitgeteilt worden.
 # text_en = This is what has been written in a note to Mps after the decision of the ex-minister to leave the party.
-1	Dies	dies	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	17	nsubj:pass	_	_
+1	Dies	dieser	DET	DT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	17	nsubj:pass	_	_
 2	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	17	aux	_	_
 3	MPS	MPS	PROPN	NNP	Case=Dat|Number=Sing	17	obl:arg	_	_
 4	nach	nach	ADP	IN	_	6	case	_	_
@@ -21957,7 +21957,7 @@
 # sent_id = n04008007
 # text = Dies wurde den Studenten der LUISS-Universität im Verlauf eines Gesprächs mitgeteilt, das in Rom stattfand.
 # text_en = Students at LUISS University were told during the course of a meeting which took place in Rome.
-1	Dies	dies	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	14	nsubj:pass	_	_
+1	Dies	dieser	DET	DT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj:pass	_	_
 2	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	14	aux:pass	_	_
 3	den	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|Person=3	4	det	_	_
 4	Studenten	Student	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	obl:arg	_	_
@@ -21983,7 +21983,7 @@
 # text = An diesem Morgen traf sich Papst Franziskus mit Mark Zuckerberg und dessen Frau in der Casa Santa Maria.
 # text_en = This morning, Pope Francis met Mark Zuckerberg and his wife at Casa Santa Marta.
 1	An	an	ADP	IN	_	3	case	_	_
-2	diesem	dies	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	3	det	_	_
+2	diesem	dieser	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	Morgen	Morgen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
 4	traf	treffen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 5	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
@@ -22292,7 +22292,7 @@
 # sent_id = n05002020
 # text = Diese Abteilung muss sich nun auf neue Herausforderungen gefasst machen.
 # text_en = This department now faces new challenges.
-1	Diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	2	det	_	_
+1	Diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	Abteilung	Abteilung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 3	muss	müssen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	aux	_	_
 4	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
@@ -22676,7 +22676,7 @@
 7	nahe	nahe	VERB	DC	_	4	compound:prt	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	18	punct	_	_
 9	dass	dass	SCONJ	CC	_	18	mark	_	_
-10	dieses	dies	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|Person=3	11	det	_	_
+10	dieses	dieser	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	det	_	_
 11	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	obl	_	_
 12	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|Person=3	13	det	_	_
 13	Hispanics	Hispanic	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
@@ -22694,7 +22694,7 @@
 25	unklar	unklar	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	31	punct	_	_
 27	ob	ob	SCONJ	CC	_	31	mark	_	_
-28	diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	29	det	_	_
+28	diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	29	det	_	_
 29	Steigerung	Steigerung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	_
 30	Auswirkungen	Auswirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	31	obj	_	_
 31	haben	haben	VERB	VB	_	25	csubj	_	_
@@ -23138,7 +23138,7 @@
 3	als	als	CCONJ	CC	_	5	cc	_	_
 4	auch	auch	ADV	RB	Degree=Pos	5	advmod	_	_
 5	Ablauf	Ablauf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
-6	dieses	dies	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|Person=3	7	det	_	_
+6	dieses	dieser	DET	DT	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
 7	Ereignisses	Ereignis	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 8	werden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	11	aux:pass	_	_
 9	sehr	sehr	ADV	RB	Degree=Pos	10	advmod	_	_
@@ -23235,7 +23235,7 @@
 7	den	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|Person=3	9	det	_	_
 8	weitläufigsten	weitläufig	ADJ	JJ	Case=Dat|Degree=Sup|Gender=Fem|Number=Plur	9	amod	_	InflectionType=Weak
 9	Kulturen	Kultur	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	_
-10	dieser	dies	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	11	det	_	_
+10	dieser	dieser	DET	DT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
 11	Zeit	Zeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	18	punct	_	_
 13	von	von	ADP	IN	_	14	case	_	_
@@ -23660,7 +23660,7 @@
 # text = Nach diesen Erfolgen wurde er vom Team Telekom unter Vertrag genommen und zog zu seiner Freundin nach Merdingen in Südbaden, wo er bis 2002 lebte.
 # text_en = After these successes, he signed a contract with Team Telekom and moved in with his girlfriend in Merdingen in Südbaden, where he lived until 2002.
 1	Nach	nach	ADP	IN	_	3	case	_	_
-2	diesen	dies	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|Person=3	3	det	_	_
+2	diesen	dieser	DET	DT	Case=Dat|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
 3	Erfolgen	Erfolg	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	_
 4	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	aux:pass	_	_
 5	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj:pass	_	_
@@ -24026,7 +24026,7 @@
 # sent_id = w03004037
 # text = Diese Abfassung war der Gründungsakt der Römischen Gesetzgebung, der Institutionen der Römischen Republik und des mos mojorum.
 # text_en = This drawing up was the founding act of Roman law, the institutions of the Roman Republic and the mos maiorum.
-1	Diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	2	det	_	_
+1	Diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	Abfassung	Abfassung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 3	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	cop	_	_
 4	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	5	det	_	_
@@ -24300,7 +24300,7 @@
 # sent_id = w03008011
 # text = Diese Affäre kann als Startpunkt für seine Karriere als radikaler Revolutionär vestanden werden.
 # text_en = This affair can be seen as the starting point for his career as a radical revolutionary.
-1	Diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	2	det	_	_
+1	Diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	Affäre	Affäre	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	_
 3	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	aux	_	_
 4	als	als	CCONJ	CC	_	12	cc	_	_
@@ -24369,7 +24369,7 @@
 10	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	9	cop	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	9	punct	_	_
 12	wurden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	16	aux:pass	_	_
-13	diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	14	det	_	_
+13	diese	dieser	DET	DT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	14	det	_	_
 14	Schulen	Schule	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj:pass	_	_
 15	1994	1994	NUM	CD	NumType=Card	16	obl:tmod	_	_
 16	geschlossen	schließen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
@@ -24635,7 +24635,7 @@
 2	Element	Element	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	7	punct	_	_
 4	das	der	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|Person=3	7	nsubj	_	_
-5	diese	dies	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	6	det	_	_
+5	diese	dieser	DET	DT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	Hypothese	Hypothese	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
 7	unterstützen	unterstützen	VERB	VB	_	2	acl:relcl	_	_
 8	würde	werden	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	7	aux	_	SpaceAfter=No
@@ -24892,7 +24892,7 @@
 10	vor	vor	ADP	IN	_	12	case	_	_
 11	den	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|Person=3	12	det	_	_
 12	Herausforderungen	Herausforderung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	15	obl	_	_
-13	dieser	dies	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	14	det	_	_
+13	dieser	dieser	DET	DT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
 14	Zeit	Zeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
 15	geflohen	fliehen	VERB	VBN	Tense=Past	5	ccomp	_	_
 16	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	aux	_	SpaceAfter=No
@@ -24923,7 +24923,7 @@
 12	existiert	existieren	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	_	_
 14	und	und	CCONJ	CC	_	16	cc	_	_
-15	diese	dies	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|Person=3	16	nsubj	_	_
+15	diese	dieser	DET	DT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	16	nsubj	_	_
 16	hatten	haben	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	12	conj	_	_
 17	auch	auch	ADV	RB	Degree=Pos	16	advmod	_	_
 18	weitgehend	weitgehend	ADV	RB	Degree=Pos	19	advmod	_	_
@@ -25125,7 +25125,7 @@
 22	hatten	haben	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	21	aux	_	SpaceAfter=No
 23	;	;	PUNCT	:	_	35	punct	_	_
 24	aus	aus	ADP	IN	_	26	case	_	_
-25	diesem	dies	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	26	det	_	_
+25	diesem	dieser	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
 26	Grund	Grund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	35	obl	_	_
 27	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	35	aux:pass	_	_
 28	(	(	PUNCT	(	_	30	punct	_	SpaceAfter=No
@@ -25497,7 +25497,7 @@
 1	Der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	2	det	_	_
 2	Abschnitt	Abschnitt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 3	von	von	ADP	IN	_	6	case	_	_
-4	dieser	dies	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	6	det	_	_
+4	dieser	dieser	DET	DT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 5	zweiten	zweit	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	InflectionType=Weak
 6	Grenze	Grenze	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
 7	bis	bis	ADV	RB	Degree=Pos	11	advmod	_	_
@@ -25566,7 +25566,7 @@
 # sent_id = w05005084
 # text = Dies war der Gnadenschuss und die Ermunterung, die die Siedler brauchten, um ihre Unabhängigkeit zu erhalten.
 # text_en = This was the coup de grâce and encouragement the settlers needed to get their independence.
-1	Dies	dies	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	4	nsubj	_	_
+1	Dies	dieser	DET	DT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	cop	_	_
 3	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	4	det	_	_
 4	Gnadenschuss	Gnadenschuß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -25923,7 +25923,7 @@
 6	,	,	PUNCT	,	_	13	punct	_	_
 7	der	der	PRON	REL	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
 8	zu	zu	ADP	IN	_	10	case	_	_
-9	dieser	dies	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	10	det	_	_
+9	dieser	dieser	DET	DT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
 10	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
 11	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Amtsperiode	Amtsperiode	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
