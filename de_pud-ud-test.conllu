@@ -1424,7 +1424,7 @@
 7	Umweltveränderungen	Umweltveränderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	_
 8	zulassen	zulassen	VERB	VB	_	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	13	punct	_	_
-10	welche	welch	DET	WDT	Case=Nom|Gender=Fem|Number=Plur|Person=3	13	nsubj	_	_
+10	welche	welcher	DET	WDT	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	13	nsubj	_	_
 11	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	12	det	_	_
 12	Erde	Erde	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
 13	überwältigten	überwältigen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	7	acl:relcl	_	_
@@ -18149,7 +18149,7 @@
 12	Murphy	Murphy	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	11	flat:name	_	_
 13	produzierte	produzieren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	acl:relcl	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	17	punct	_	_
-15	welcher	welch	DET	WDT	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+15	welcher	welcher	DET	WDT	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	17	nsubj	_	_
 16	1998	1998	NUM	CD	NumType=Card	17	obl:tmod	_	_
 17	starb	sterben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	11	acl:relcl	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	6	punct	_	_
@@ -19941,7 +19941,7 @@
 3	nicht	nicht	PART	RB	Polarity=Neg	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	13	punct	_	_
 5	auf	auf	ADP	IN	_	7	case	_	_
-6	welche	welch	DET	WDT	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	det	_	_
+6	welche	welcher	DET	WDT	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	7	det	_	_
 7	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
 8	und	und	CCONJ	CC	_	9	cc	_	_
 9	Weise	Weise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_
@@ -20407,7 +20407,7 @@
 3	lediglich	lediglich	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	_	_
 5	in	in	ADP	IN	_	6	case	_	_
-6	welchen	welch	DET	WDT	Person=3	2	obl	_	SpaceAfter=No
+6	welchen	welcher	DET	WDT	PronType=Int,Rel	2	obl	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n02048
@@ -25255,7 +25255,7 @@
 9	zahlreichen	zahlreich	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	InflectionType=Mixed
 10	gemeinsamen	gemeinsam	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	9	conj	_	InflectionType=Mixed
 11	Arbeiten	Arbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	18	obl	_	_
-12	welche	welch	DET	WDT	Case=Acc|Gender=Masc|Number=Plur|Person=3	14	det	_	_
+12	welche	welcher	DET	WDT	Case=Acc|Gender=Masc|Number=Plur|PronType=Int,Rel	14	det	_	_
 13	stilistischen	stilistischen	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	InflectionType=Weak
 14	Beträge	Betrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
 15	zu	zu	ADP	IN	_	17	case	_	_
@@ -26008,7 +26008,7 @@
 38	:	:	PUNCT	:	_	52	punct	_	_
 39	Egal	egal	ADV	RB	Degree=Pos	52	advmod	_	SpaceAfter=No
 40	,	,	PUNCT	,	_	44	punct	_	_
-41	welche	welch	DET	WDT	Case=Acc|Gender=Fem|Number=Sing|Person=3	42	det	_	_
+41	welche	welcher	DET	WDT	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	42	det	_	_
 42	Alternative	Alternative	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	44	obj	_	_
 43	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	44	nsubj	_	_
 44	wählte	wählen	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	39	ccomp	_	SpaceAfter=No

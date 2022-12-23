@@ -33,7 +33,7 @@
     <tag name="X">30</tag><!-- E, Multi, Bundes, Demografie, Druck, Einzel, Ex, Fjögur, Handel, Hey -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="44">
+  <feats unique="45">
     <feat name="AdpType" value="Prep" upos="ADP">3</feat><!-- zu -->
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">2653</feat><!-- die, sich, den, eine, das, einen, ein, seine, es, ihre -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">3090</feat><!-- dem, der, den, einem, einer, Jahr, Jahren, ihrer, Chr., dieser -->
@@ -63,11 +63,12 @@
     <feat name="NumType" value="Ord" upos="ADJ,NUM">16</feat><!-- 1., 30., 10., 11., 12., 16, 19., 21., 24, 27. -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">198</feat><!-- ich, wir, mich, uns, habe, unsere, bin, müssen, haben, kenne -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">15</feat><!-- Do, Du, Knew, Knuck, Lass, Metti, Ya, dich, du., euch -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">5138</feat><!-- die, der, dem, das, den, es, ist, sich, des, er -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">5132</feat><!-- die, der, dem, das, den, es, ist, sich, des, er -->
     <feat name="Polarity" value="Neg" upos="PART">87</feat><!-- nicht -->
     <feat name="Poss" value="Yes" upos="DET">213</feat><!-- seine, ihre, ihrer, seiner, sein, ihren, seinen, ihr, seines, ihres -->
     <feat name="PronType" value="Art" upos="DET">414</feat><!-- eine, ein, einer, einem, einen, eines, dem -->
     <feat name="PronType" value="Dem" upos="DET">105</feat><!-- diese, dieser, dies, dieses, diesem, diesen, jenem -->
+    <feat name="PronType" value="Int,Rel" upos="DET">6</feat><!-- welche, welchen, welcher -->
     <feat name="PronType" value="Neg" upos="DET">25</feat><!-- keine, kein, keinen -->
     <feat name="PronType" value="Prs" upos="DET,PRON">361</feat><!-- sich, seine, ihre, ihrer, seiner, ihr, sein, ihren, seinen, seines -->
     <feat name="PronType" value="Rcp" upos="PRON">10</feat><!-- mich, uns, dich, mir -->
