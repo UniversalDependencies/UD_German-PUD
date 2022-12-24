@@ -90,7 +90,7 @@
 20	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	conj	_	_
 21	„	„	PUNCT	``	_	23	punct	_	SpaceAfter=No
 22	enorm	enorm	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	_
-23	viele	viel	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Person=3	26	det	_	SpaceAfter=No
+23	viele	viel	DET	DT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	26	det	_	SpaceAfter=No
 24	“	“	PUNCT	``	_	23	punct	_	_
 25	legale	legal	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	26	amod	_	InflectionType=Strong
 26	Einwanderer	Einwanderer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	31	obj	_	_
@@ -801,7 +801,7 @@
 26	und	und	CCONJ	CC	_	35	cc	_	_
 27	dreimal	dreimal	ADV	RB	Degree=Pos	28	advmod	_	_
 28	so	so	ADV	RB	Degree=Pos	29	advmod	_	_
-29	viele	viel	DET	DT	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|Person=3	30	det	_	_
+29	viele	viel	DET	DT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	30	det	_	_
 30	Babys	Baby	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	35	nsubj:pass	_	_
 31	wurden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	35	aux:pass	_	_
 32	Keira	Keira	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	35	xcomp	_	_
@@ -1205,7 +1205,7 @@
 23	,	,	PUNCT	,	_	24	punct	_	_
 24	Spotify	Spotify	PROPN	NNP	Case=Acc|Number=Sing	20	conj	_	_
 25	und	und	CCONJ	CC	_	27	cc	_	_
-26	viele	viel	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	27	det	_	_
+26	viele	viel	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	27	det	_	_
 27	andere	ander	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	conj	_	_
 28	lahmlegten	lahmlegen	VERB	VB	_	9	acl:relcl	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	9	punct	_	_
@@ -1272,7 +1272,7 @@
 # sent_id = n01022005
 # text = Vielen Wissenschaftlern zufolge werden nun Technologien, die Kohlenstoff aus der Luft entfernen, benötigt, um die Ziele von Paris zu erreichen.
 # text_en = Many scientists say that technology to remove carbon from the air will now be needed to meet the Paris targets.
-1	Vielen	viel	DET	DT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|Person=3	2	det	_	_
+1	Vielen	viel	DET	DT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	Wissenschaftlern	Wissenschaftler	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	obl	_	_
 3	zufolge	zufolge	ADP	IN	_	2	case	_	_
 4	werden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	15	aux:pass	_	_
@@ -1430,7 +1430,7 @@
 13	überwältigten	überwältigen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	7	acl:relcl	_	_
 14	und	und	CCONJ	CC	_	24	cc	_	_
 15	so	so	ADV	RB	Degree=Pos	16	advmod	_	_
-16	viele	viel	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	17	det	_	_
+16	viele	viel	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
 17	Spezies	Spezies	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	obj	_	_
 18	–	–	PUNCT	-	_	22	punct	_	OrigForm=--
 19	nicht	nicht	PART	RB	Polarity=Neg	20	advmod	_	_
@@ -2044,7 +2044,7 @@
 # text_en = However there are many MLAs with deeply-held religious beliefs who oppose any new legislation.
 1	Allerdings	allerdings	ADV	RB	Degree=Pos	2	advmod	_	_
 2	haben	haben	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-3	viele	viel	DET	DT	Case=Nom|Definite=Ind|Number=Plur|Person=3	4	det	_	_
+3	viele	viel	DET	DT	Case=Nom|Number=Plur|PronType=Ind	4	det	_	_
 4	Abgeordnete	Abgeordnete	NOUN	NNA	Case=Nom|Number=Plur	2	nsubj	_	InflectionType=Mixed
 5	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	7	det	_	_
 6	Nordirischen	nordirisch	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	InflectionType=Weak|Proper=True
@@ -2537,7 +2537,7 @@
 3	,	,	PUNCT	,	_	24	punct	_	_
 4	dass	dass	SCONJ	CC	_	24	mark	_	_
 5	sehr	sehr	ADV	RB	Degree=Pos	6	advmod	_	_
-6	viele	viel	DET	DT	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|Person=3	7	det	_	_
+6	viele	viel	DET	DT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	7	det	_	_
 7	Länder	Land	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	24	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	14	punct	_	_
 9	und	und	CCONJ	CC	_	14	cc	_	_
@@ -3108,7 +3108,7 @@
 3	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	7	cop	_	_
 4	heutzutage	heutzutage	ADV	RB	Degree=Pos	7	advmod	_	_
 5	so	so	ADV	RB	Degree=Pos	6	advmod	_	_
-6	viel	viel	DET	DT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Person=3	7	det	_	_
+6	viel	viel	DET	DT	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	7	det	_	_
 7	mehr	mehr	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 8	als	als	CCONJ	CC	_	9	cc	_	_
 9	Telefone	Telefon	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	conj	_	SpaceAfter=No
@@ -3612,7 +3612,7 @@
 # sent_id = n01054017
 # text = Viele Menschen, darunter auch indigene Gruppen, argumentieren, dass sie die Kultur der First Nations trivialisieren.
 # text_en = Many people, including Indigenous groups, argue they trivialize First Nations culture.
-1	Viele	viel	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	2	det	_	_
+1	Viele	viel	DET	DT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	7	punct	_	_
 4	darunter	darunter	ADV	RB	Degree=Pos	7	advmod	_	_
@@ -3737,7 +3737,7 @@
 2	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	7	cop	_	_
 3	immer	immer	ADV	RB	Degree=Pos	4	advmod	_	_
 4	noch	noch	ADV	RB	Degree=Pos	7	advmod	_	_
-5	viele	viel	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Person=3	6	det	_	_
+5	viele	viel	DET	DT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
 6	Fragen	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
 7	unbeantwortet	unbeantwortet	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	7	punct	_	_
@@ -4219,7 +4219,7 @@
 # text = Wie viele andere, die ich kenne, bin ich die letzten Monate lange aufgeblieben und habe mit Schrecken die Umfragen verfolgt.
 # text_en = Like many people I know, I’ve spent recent months staying up late, reading polls in terror.
 1	Wie	wie	SCONJ	CC	_	3	case	_	_
-2	viele	viel	DET	DT	Case=Nom|Definite=Ind|Number=Plur|Person=3	3	det	_	_
+2	viele	viel	DET	DT	Case=Nom|Number=Plur|PronType=Ind	3	det	_	_
 3	andere	ander	NOUN	NN	Case=Nom|Number=Plur	15	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	_	_
 5	die	der	PRON	REL	Case=Acc|Number=Plur|Person=3	7	obj	_	_
@@ -4610,7 +4610,7 @@
 6	dass	dass	SCONJ	CC	_	14	mark	_	_
 7	dessen	der	DET	DT	Case=Gen|Definite=Def|Number=Sing|Person=3	8	det:poss	_	_
 8	Geschichte	Geschichte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
-9	vielen	viel	DET	DT	Case=Dat|Definite=Ind|Number=Plur|Person=3	14	obl:arg	_	_
+9	vielen	viel	DET	DT	Case=Dat|Number=Plur|PronType=Ind	14	obl:arg	_	_
 10	aufgrund	aufgrund	ADP	IN	_	12	case	_	_
 11	ihres	ihr	DET	DTP$	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Alters	Alter	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_
@@ -4701,7 +4701,7 @@
 4	in	in	ADP	IN	_	5	case	_	_
 5	einem	ein	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	_
 6	ihrer	ihr	DET	DTP$	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
-7	vielen	viel	DET	DT	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Person=3	10	det	_	_
+7	vielen	viel	DET	DT	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
 8	trauernden	trauernd	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	InflectionType=Mixed
 9	Facebook	Facebook	PROPN	NNP	Case=Gen|Gender=Masc|Number=Plur	10	compound	_	_
 10	Posts	Posts	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
@@ -5524,7 +5524,7 @@
 7	sich	sich	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
 8	mit	mit	ADP	IN	_	11	case	_	_
 9	so	so	ADV	RB	Degree=Pos	10	advmod	_	_
-10	vielen	viel	DET	DT	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur|Person=3	11	det	_	_
+10	vielen	viel	DET	DT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	11	det	_	_
 11	Mustern	Muster	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	_
 12	und	und	CCONJ	CC	_	13	cc	_	_
 13	Farben	Farbe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	conj	_	_
@@ -5640,7 +5640,7 @@
 4	in	in	ADP	IN	_	6	case	_	_
 5	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	6	det	_	_
 6	Bürolandschaft	Bürolandschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
-7	viele	viel	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|Person=3	8	det	_	_
+7	viele	viel	DET	DT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	8	det	_	_
 8	Kleidungsstücke	Kleidungsstück	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
 9	und	und	CCONJ	CC	_	11	cc	_	_
 10	wenig	wenig	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Person=3	11	det	_	_
@@ -5813,7 +5813,7 @@
 6	sie	sie	PRON	PRP	Case=Acc|Person=3	14	obj	_	_
 7	auch	auch	ADV	RB	Degree=Pos	14	advmod	_	_
 8	mit	mit	ADP	IN	_	11	case	_	_
-9	vielen	viel	DET	DT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|Person=3	11	det	_	_
+9	vielen	viel	DET	DT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
 10	führenden	führend	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	InflectionType=Weak
 11	Umweltschützern	Umweltschützer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	obl	_	_
 12	in	in	ADP	IN	_	13	case	_	_
@@ -6029,7 +6029,7 @@
 10	zugreifen	greifen	VERB	VB	_	31	ccomp	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	18	punct	_	_
 12	aber	aber	CCONJ	CC	_	18	cc	_	_
-13	viele	viel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+13	viele	viel	DET	NN	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	18	nsubj	_	_
 14	dieser	dieser	DET	DT	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	15	det	_	_
 15	Marktplätze	Marktplatz	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
 16	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	18	cop	_	_
@@ -7982,7 +7982,7 @@
 13	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	11	cop	_	_
 14	oder	oder	CCONJ	CC	_	19	cc	_	_
 15	wie	wie	ADV	WRB	_	16	advmod	_	_
-16	viele	viel	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	17	det	_	_
+16	viele	viel	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
 17	Regeln	Regel	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
 18	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	19	nsubj	_	_
 19	einhalten	einhalten	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	11	conj	_	SpaceAfter=No
@@ -8619,7 +8619,7 @@
 1	Ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	_
 2	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Past	6	aux	_	_
 3	nicht	nicht	PART	RB	Polarity=Neg	4	advmod	_	_
-4	viele	viel	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	5	det	_	_
+4	viele	viel	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
 5	Episoden	Episode	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 6	gesehen	sehen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	10	punct	_	_
@@ -9817,7 +9817,7 @@
 3	achämenidische	achämenidisch	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	InflectionType=Weak|Proper=True
 4	Armee	Armee	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 5	besaß	besitzen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-6	viele	viel	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Person=3	7	det	_	_
+6	viele	viel	DET	DT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
 7	Soldante	Soldat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
 8	aus	aus	ADP	IN	_	10	case	_	_
 9	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	10	det	_	_
@@ -9829,7 +9829,7 @@
 # text_en = Moreover, many of the Macedonian and Persian elite intermarried.
 1	Zudem	zudem	ADV	RB	Degree=Pos	2	advmod	_	_
 2	heirateten	heiraten	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
-3	viele	viel	DET	DT	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|Person=3	4	det	_	_
+3	viele	viel	DET	DT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	4	det	_	_
 4	Mitglieder	Mitglied	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
 5	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	6	det	_	_
 6	mazedonischen	mazedonisch	NOUN	NNA	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	InflectionType=Weak|Proper=True
@@ -10660,7 +10660,7 @@
 5	Laufe	Lauf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
 6	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|Person=3	7	det	_	_
 7	Jahre	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
-8	vielen	viel	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur|Person=3	9	det	_	_
+8	vielen	viel	DET	DT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
 9	Siedlungen	Siedlung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl:arg	_	_
 10	Routen	Route	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
 11	für	für	ADP	IN	_	12	case	_	_
@@ -11933,7 +11933,7 @@
 # sent_id = w01038044
 # text = Viele einheimische Menschen bewohnten Alaska für tausende von Jahren, bevor die Europäer in dem Gebiet ankamen.
 # text_en = Numerous indigenous peoples occupied Alaska for thousands of years before the arrival of European peoples to the area.
-1	Viele	viel	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	3	det	_	_
+1	Viele	viel	DET	DT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 2	einheimische	einheimisch	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	InflectionType=Strong
 3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 4	bewohnten	bewohnen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
@@ -12537,7 +12537,7 @@
 6	persönlichen	persönlich	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	InflectionType=Mixed
 7	Beziehungen	Beziehung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	_
 8	zu	zu	ADP	IN	_	10	case	_	_
-9	vielen	viel	DET	DT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|Person=3	10	det	_	_
+9	vielen	viel	DET	DT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
 10	Regierungswissenschaftlern	Regierungswissenschaftler	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	16	punct	_	_
 12	die	der	PRON	REL	Case=Nom|Gender=Masc|Number=Plur|Person=3	16	nsubj	_	_
@@ -14018,7 +14018,7 @@
 10	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	12	det	_	_
 11	unvollständige	unvollständig	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	InflectionType=Weak
 12	Bauweise	Bauweise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
-13	vieler	viel	NOUN	NNA	Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	InflectionType=Strong
+13	vieler	viel	DET	NNA	Case=Gen|Gender=Neut|Number=Plur|PronType=Ind	12	nmod	_	InflectionType=Strong
 14	seiner	sein	DET	DTP$	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Bauwerke	Bauwerk	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
 16	belegt	belegen	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No
@@ -14987,7 +14987,7 @@
 8	Landes	Land	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
 9	verwiesen	verweisen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 10	;	;	PUNCT	:	_	15	punct	_	_
-11	viele	viel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+11	viele	viel	DET	NN	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	15	nsubj	_	_
 12	dieser	dieser	DET	DT	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	14	det	_	_
 13	spanischen	spanisch	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	InflectionType=Weak|Proper=True
 14	Juden	Jude	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	Proper=True
@@ -16623,7 +16623,7 @@
 12	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	13	det	_	_
 13	Krieg	Krieg	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
 14	weiterhin	weiterhin	ADV	RB	Degree=Pos	17	advmod	_	_
-15	viele	viel	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|Person=3	16	det	_	_
+15	viele	viel	DET	DT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	16	det	_	_
 16	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	17	obl:tmod	_	_
 17	nutzte	nutzen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	advcl	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	31	punct	_	_
@@ -17757,7 +17757,7 @@
 4	demütig	demütig	ADJ	JJ	Degree=Pos	0	root	_	_
 5	und	und	CCONJ	CC	_	6	cc	_	_
 6	verbrachte	verbringen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	conj	_	_
-7	viele	viel	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	8	det	_	_
+7	viele	viel	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
 8	Stunden	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 9-10	im	_	_	_	_	_	_	_	_
 9	in	in	ADP	APPR	_	11	case	_	_
@@ -19902,7 +19902,7 @@
 12	,	,	PUNCT	,	_	10	punct	_	_
 13	können	können	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	19	aux	_	_
 14	sich	sich	PRON	PRP	Case=Dat|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	19	obl:arg	_	_
-15	viele	viel	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	16	det	_	_
+15	viele	viel	DET	DT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
 16	Nutzer	Nutzer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
 17	100	100	NUM	CD	NumType=Card	18	nummod	_	_
 18	Euro	Euro	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	Proper=True
@@ -20601,7 +20601,7 @@
 2	Wechsel	Wechsel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 3	Barrosos	Barroso	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	aux	_	_
-5	viel	viel	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Person=3	6	det	_	_
+5	viel	viel	DET	DT	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
 6	Wirbel	Wirbel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 7	ausgelöst	auslösen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	7	punct	_	_
@@ -20705,7 +20705,7 @@
 3	Europa	Europa	PROPN	NNP	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
 4	vor	vor	ADP	IN	_	7	case	_	_
 5	zu	zu	ADV	RB	Degree=Pos	6	advmod	_	_
-6	viel	viel	DET	DT	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|Person=3	7	det	_	_
+6	viel	viel	DET	DT	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	7	det	_	_
 7	Verständnis	Verständnis	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
 8	für	für	ADP	IN	_	10	case	_	_
 9	Erdogans	Erdogan	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	10	nmod:poss	_	_
@@ -22411,7 +22411,7 @@
 3	sagte	sagen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	8	punct	_	_
 5	wie	wie	CCONJ	CC	_	8	cc	_	_
-6	viele	viel	DET	PDT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	8	det	_	_
+6	viele	viel	DET	PDT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
 7	andere	ander	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	8	det	_	_
 8	Sozialisten	Sozialist	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
 9-10	im	_	_	_	_	_	_	_	_
@@ -23240,7 +23240,7 @@
 12	,	,	PUNCT	,	_	18	punct	_	_
 13	von	von	ADP	IN	_	14	case	_	_
 14	der	der	PRON	REL	Case=Dat|Gender=Fem|Number=Sing|Person=3	18	obl	_	_
-15	viele	viel	DET	PDT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Person=3	17	det	_	_
+15	viele	viel	DET	PDT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
 16	weitere	weit	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Person=3	17	det	_	_
 17	Fundstätten	Fundstätte	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	_
 18	bekannt	bekennen	ADJ	JJ	Degree=Pos	11	acl:relcl	_	_
@@ -24157,7 +24157,7 @@
 1	Griechenland	Griechenland	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
 2	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	cop	_	_
 3	in	in	ADP	IN	_	7	case	_	_
-4	viele	viel	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	7	det	_	_
+4	viele	viel	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
 5	kleine	klein	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	InflectionType=Strong
 6	eigenständige	eigenständig	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	conj	_	InflectionType=Strong
 7	Kommunen	Kommune	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	_
@@ -24806,7 +24806,7 @@
 # text_en = There are many prehistoric artifacts, including several different menhirs and dolmens.
 1	Es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	expl	_	_
 2	gibt	geben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-3	viele	viel	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|Person=3	5	det	_	_
+3	viele	viel	DET	DT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	5	det	_	_
 4	prähistorische	prähistorisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	InflectionType=Strong
 5	Artefakte	Artefakt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	9	punct	_	_
@@ -25188,7 +25188,7 @@
 1	Nicolai	Nicolai	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	arbeitete	arbeiten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	in	in	ADP	IN	_	5	case	_	_
-4	vielen	viel	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur|Person=3	5	det	_	_
+4	vielen	viel	DET	DT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
 5	Filmeproduktionen	Filmeproduktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	_
 6	mit	mit	ADP	IN	_	7	case	_	_
 7	Morricone	Morricone	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
@@ -25316,7 +25316,7 @@
 7	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	8	det	_	_
 8	Apsis	Apsis	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
 9	und	und	CCONJ	CC	_	12	cc	_	_
-10	viele	viel	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	12	det	_	_
+10	viele	viel	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
 11	seitliche	seitlich	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	InflectionType=Strong
 12	Kapellen	Kapelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	conj	_	orig_deprel=obj
 13	zwischen	zwischen	ADP	IN	_	15	case	_	orig_deprel=obl
@@ -25481,7 +25481,7 @@
 15	die	der	PRON	REL	Case=Nom|Gender=Fem|Number=Sing|Person=3	23	nsubj	_	_
 16	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	17	det	_	_
 17	Insolvenz	Insolvenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
-18	vieler	viel	DET	DT	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|Person=3	19	det	_	_
+18	vieler	viel	DET	DT	Case=Gen|Gender=Neut|Number=Plur|PronType=Ind	19	det	_	_
 19	Unternehmen	Unternehmen	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
 20-21	zur	_	_	_	_	_	_	_	_
 20	zu	zu	ADP	APPR	_	22	case	_	_
