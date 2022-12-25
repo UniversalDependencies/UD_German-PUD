@@ -6073,7 +6073,7 @@
 14	mit	mit	ADP	IN	_	16	case	_	_
 15	ihrer	ihr	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Missbilligung	Mißbilligung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
-17	all	all	DET	PDT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Person=3	19	det	_	_
+17	all	alle	DET	PDT	PronType=Tot	19	det	_	_
 18	ihren	ihr	DET	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 19	Hass	Haß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
 20	auf	auf	ADP	IN	_	22	case	_	_
@@ -9355,7 +9355,7 @@
 # text = Nicht alle Veränderungen in der Region waren erfolgreich.
 # text_en = Not all transformations in the region have been successful.
 1	Nicht	nicht	PART	RB	Polarity=Neg	2	advmod	_	_
-2	alle	all	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Person=3	3	det	_	_
+2	alle	alle	DET	DT	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	3	det	_	_
 3	Veränderungen	Veränderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
 4	in	in	ADP	IN	_	6	case	_	_
 5	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	6	det	_	_
