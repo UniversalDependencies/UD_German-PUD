@@ -591,7 +591,7 @@
 # sent_id = n01011011
 # text = Sie tötete Andre Price III, indem sie sein Gesicht in eine Luftmatratze in ihrem Wohnzimmer drückte, bevor sie dasselbe bei ihrer Tochter Angel versuchte, wie die Polizei mitteilte.
 # text_en = She killed Andre Price III by pressing his face into an air mattress in her sitting room before trying to do the same to her daughter, Angel, police said.
-1	Sie	Sie|sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	tötete	töten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	Andre	Andre	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
 4	Price	Price	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	3	flat:name	_	_
@@ -7352,7 +7352,7 @@
 # sent_id = n01116009
 # text = Sie begann bei der Royal Shakespeare Company mit der Rolle einer Gefängnisinsassin in „Marat/Sade“.
 # text_en = She started out at the RSC in the mid-Sixties playing an asylum-inmate in Marat/Sade.
-1	Sie	Sie|sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	begann	beginnen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	bei	bei	ADP	IN	_	7	case	_	_
 4	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	7	det	_	_
@@ -9402,7 +9402,7 @@
 # sent_id = n01149010
 # text = Sie sprach mit CNN Style über ihre Erfahrungen.
 # text_en = She spoke to CNN Style about the experience.
-1	Sie	Sie|sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	sprach	sprechen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	mit	mit	ADP	IN	_	4	case	_	_
 4	CNN	CNN	PROPN	NNP	Case=Dat|Number=Sing	2	obl	_	_
@@ -10652,7 +10652,7 @@
 # sent_id = w01020017
 # text = Sie bot im Laufe der Jahre vielen Siedlungen Routen für Handel, Kolonialisierung und Krieg sowie für Lebensmittel (durch das Fischen und Sammeln anderer Meerestiere).
 # text_en = It provided routes for trade, colonisation, and war, as well as food (from fishing and the gathering of other seafood) for numerous communities throughout the ages.
-1	Sie	Sie|sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	bot	bieten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3-4	im	_	_	_	_	_	_	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
@@ -12529,7 +12529,7 @@
 # sent_id = w01047071
 # text = Sie profitierte ebenfalls von ihren persönlichen Beziehungen zu vielen Regierungswissenschaftlern, die ihr vertrauliche Informationen lieferten.
 # text_en = She also took advantage of her personal connections with many government scientists, who supplied her with confidential information.
-1	Sie	Sie|sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	profitierte	profitieren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	ebenfalls	ebenfalls	ADV	RB	Degree=Pos	2	advmod	_	_
 4	von	von	ADP	IN	_	7	case	_	_
@@ -18528,7 +18528,7 @@
 # sent_id = w01135037
 # text = Sie spielte die Hauptrolle in dem Film „Fast Verheiratet“ aus dem Jahr 2012 unter der Regie von Nicholas Stoller und mit Jason Segel in einer weiteren Hauptrolle.
 # text_en = She starred in the 2012 film The Five-Year Engagement, directed by Nicholas Stoller and co-starring Jason Segel.
-1	Sie	Sie|sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	spielte	spielen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	4	det	_	_
 4	Hauptrolle	Hauptrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
@@ -18934,7 +18934,7 @@
 # sent_id = w01140033
 # text = Sie erwarb sich aufgrund ihres Expertenwissens Anerkennung und nahm ihre Fähigkeiten mit zurück in das Radium-Institut, zusammen mit einer kleinen Scheibe Polonium.
 # text_en = Gaining recognition as an expert in the field, she took those skills back to the Radium Institute along with a small disc of polonium.
-1	Sie	Sie|sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	erwarb	erwerben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	sich	sich	PRON	PRP	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obl:arg	_	_
 4	aufgrund	aufgrund	ADP	IN	_	6	case	_	_
@@ -21361,7 +21361,7 @@
 # sent_id = n03007009
 # text = Sie zielt darauf ab, die Fahrtzeit zu berücksichtigen, nachdem man dies von der tatsächlich geleisteten Arbeitszeit abzieht, ohne die wahre Fahrtzeit messen zu können.
 # text_en = It aims to take the journey time into account after deducting this from the working hours actually completed, without being able to measure the real journey time.
-1	Sie	Sie|sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	zielt	zielen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	darauf	darauf	ADV	RB	Degree=Pos	2	advmod	_	_
 4	ab	ab	VERB	DC	_	2	compound:prt	_	SpaceAfter=No

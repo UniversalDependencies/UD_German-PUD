@@ -24,7 +24,7 @@
     <tag name="NOUN">4226</tag><!-- Jahr, Zeit, Land, Teil, ein, Mensch, Stadt, Jahrhundert, Geschichte, Film -->
     <tag name="NUM">354</tag><!-- zwei, drei, vier, 3, sechs, zehn, 1, 10, 50, 100 -->
     <tag name="PART">233</tag><!-- zu, nicht, not, wohl -->
-    <tag name="PRON">962</tag><!-- der, er, es, sich, sie, ich, wir, was, Sie|sie, man -->
+    <tag name="PRON">962</tag><!-- der, er, es, sich, sie, ich, wir, was, man, ihr -->
     <tag name="PROPN">1219</tag><!-- Chr., China, Trump, USA, Frankreich, Albanien, Clinton, Joseph, US, Disney -->
     <tag name="PUNCT">2770</tag><!-- ,, ., -, „, “, (, ), :, –, ; -->
     <tag name="SCONJ">326</tag><!-- dass, als, um, wenn, nachdem, weil, ob, indem, wie, bevor -->
@@ -71,7 +71,7 @@
     <feat name="PronType" value="Ind" upos="DET">38</feat><!-- viele, vielen, viel, vieler -->
     <feat name="PronType" value="Int,Rel" upos="DET">6</feat><!-- welche, welchen, welcher -->
     <feat name="PronType" value="Neg" upos="DET">25</feat><!-- keine, kein, keinen -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">361</feat><!-- sich, seine, ihre, ihrer, seiner, ihr, sein, ihren, seinen, seines -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">369</feat><!-- sich, seine, ihre, ihrer, seiner, ihr, sein, ihren, seinen, Sie -->
     <feat name="PronType" value="Rcp" upos="PRON">10</feat><!-- mich, uns, dich, mir -->
     <feat name="PronType" value="Tot" upos="DET">48</feat><!-- alle, allem, jedes, alles, jede, jeder, jeden, allen, jedem, all -->
     <feat name="Reflex" value="Yes" upos="PRON">134</feat><!-- sich -->
