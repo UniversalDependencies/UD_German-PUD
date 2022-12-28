@@ -4127,10 +4127,10 @@
 14	Version	Version	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
 15	von	von	ADP	IN	_	17	case	_	_
 16	„	„	PUNCT	``	_	17	punct	_	SpaceAfter=No
-17	Knuck	Knuck	VERB	VBC	Mood=Imp|Number=Sing|Person=2|Tense=Pres	14	nmod	_	Proper=True
-18	If	If	SCONJ	CC	_	20	mark	_	Proper=True
-19	You	You	PRON	PRP	Case=Nom|Number=Sing|Person=3	20	nsubj	_	Proper=True
-20	Buck	Buck	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	advcl	_	SpaceAfter=No|Proper=True
+17	Knuck	knuck	VERB	VBC	Foreign=Yes|Mood=Imp|Number=Sing|Person=2|Tense=Pres	14	nmod	_	Lang=en|Proper=True
+18	If	if	SCONJ	CC	Foreign=Yes	20	mark	_	Lang=en|Proper=True
+19	You	you	PRON	PRP	Case=Nom|Foreign=Yes|Number=Sing|Person=2	20	nsubj	_	Lang=en|Proper=True
+20	Buck	buck	VERB	VBC	Foreign=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	advcl	_	SpaceAfter=No|Lang=en|Proper=True
 21	“	“	PUNCT	''	_	17	punct	_	_
 22	auf	auf	ADP	IN	_	25	case	_	_
 23	einem	ein	DET	DT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -5189,7 +5189,7 @@
 # text = „Mehr Menschen nehmen Kredite auf … Während das Leihen gerade leicht zu bewältigen sein mag, könnte eine plötzliche Änderung der Umstände zu Schuldenproblemen führen.“
 # text_en = “More people are turning to credit … While this borrowing might be manageable now, a sudden change in circumstances could lead to debt problems.”
 1	„	„	PUNCT	``	_	4	punct	_	SpaceAfter=No
-2	Mehr	Mehr	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	3	det	_	_
+2	Mehr	mehr	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	3	det	_	_
 3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 4	nehmen	nehmen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 5	Kredite	Kredit	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
@@ -9874,8 +9874,8 @@
 # text_en = In 2007 the most successful film was El Greco, directed by Yannis Smaragdis.
 1	2007	2007	NUM	CD	NumType=Card	13	obl:tmod	_	_
 2	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	cop	_	_
-3	El	El	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	4	det	_	Proper=True
-4	Greco	Greco	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	Proper=True
+3	El	el	DET	DT	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Lang=es|Proper=True
+4	Greco	greco	NOUN	NN	Foreign=Yes|Gender=Masc|Number=Sing	13	nsubj	_	Lang=es|Proper=True
 5	unter	unter	ADP	IN	_	7	case	_	_
 6	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	7	det	_	_
 7	Regie	Regie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	_
@@ -16941,8 +16941,8 @@
 9	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|Person=3	10	det	_	_
 10	Dreharbeiten	Dreharbeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	2	obl	_	_
 11	zu	zu	ADP	IN	_	13	case	_	_
-12	That	That	DET	DT	Case=Dat|Definite=Def|Number=Sing|Person=3	13	det	_	Proper=True
-13	Summer	Summer	NOUN	NN	Case=Dat|Number=Sing	10	nmod	_	Proper=True
+12	That	that	DET	DT	Foreign=Yes|PronType=Dem	13	det	_	Lang=en|Proper=True
+13	Summer	summer	NOUN	NN	Foreign=Yes|Number=Sing	10	nmod	_	Lang=en|Proper=True
 14-15	im	_	_	_	_	_	_	_	_
 14	in	in	ADP	APPR	_	16	case	_	_
 15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|Person=3	16	det	_	_
@@ -17594,8 +17594,8 @@
 11	,	,	PUNCT	,	_	17	punct	_	_
 12	um	um	SCONJ	CC	_	17	mark	_	_
 13	in	in	ADP	IN	_	15	case	_	_
-14	Los	Los	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	15	det	_	Proper=True
-15	Angeles	Angeles	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
+14	Los	el	DET	DT	Definite=Def|Foreign=Yes|Gender=Masc|Number=Plur|PronType=Art	15	det	_	Lang=es|Proper=True
+15	Angeles	Angeles	PROPN	NNP	Foreign=Yes|Number=Sing	17	obl	_	Lang=en
 16	zu	zu	PART	RP	_	17	mark	_	_
 17	leben	leben	VERB	VB	_	7	advcl	_	_
 18	und	und	CCONJ	CC	_	28	cc	_	_
@@ -17630,10 +17630,10 @@
 13	,	,	PUNCT	,	_	11	punct	_	_
 14	erreichte	erreichen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 15	„	„	PUNCT	``	_	16	punct	_	SpaceAfter=No
-16	Thought	Thought	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Past	14	nsubj	_	Proper=True
-17	'	'	PUNCT	''	_	19	punct	_	SpaceAfter=No|Proper=True
-18	Ya	Ya	PRON	PRP	Case=Nom|Number=Sing|Person=2	19	nsubj	_	Proper=True
-19	Knew	Knew	VERB	VBC	Mood=Sub|Number=Sing|Person=2|Tense=Past	16	ccomp	_	SpaceAfter=No|Proper=True
+16	Thought	think	VERB	VBC	Foreign=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Past	14	nsubj	_	Lang=en|Proper=True
+17	'	'	PUNCT	''	Foreign=Yes	19	punct	_	SpaceAfter=No|Lang=en|Proper=True
+18	Ya	you	PRON	PRP	Case=Nom|Foreign=Yes|Number=Sing|Person=2	19	nsubj	_	Lang=en|Proper=True
+19	Knew	know	VERB	VBC	Foreign=Yes|Mood=Sub|Number=Sing|Person=2|Tense=Past	16	ccomp	_	SpaceAfter=No|Lang=en|Proper=True
 20	“	“	PUNCT	''	_	16	punct	_	_
 21	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	22	det	_	_
 22	Nr.	Nr.	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
@@ -20414,10 +20414,10 @@
 # sent_id = n02048002
 # text = Schimpfen Sie mit Ihrem Wecker?
 # text_en = Do you argue with your alarm clock?
-1	Schimpfen	schimpfen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-2	Sie	Sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	1	nsubj	_	_
+1	Schimpfen	schimpfen	VERB	VBC	Mood=Ind|Person=2|Polite=Form|Tense=Pres	0	root	_	_
+2	Sie	Sie	PRON	PRP	Case=Nom|Person=2|Polite=Form	1	nsubj	_	_
 3	mit	mit	ADP	IN	_	5	case	_	_
-4	Ihrem	Ihr	DET	DTP$	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|PronType=Prs	5	det:poss	_	_
+4	Ihrem	Ihr	DET	DTP$	Case=Dat|Gender=Masc|Number=Sing|Person=2|Polite=Form|PronType=Prs	5	det:poss	_	_
 5	Wecker	Wecker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
 6	?	?	PUNCT	.	_	1	punct	_	_
 
@@ -21488,8 +21488,8 @@
 # text = Laut Le Figaro könnten durch diesen Plan der Regierung 42 Mio. Euro frei werden, von denen 15,5 Mio. für die Sicherheit eingesetzt werden würden.
 # text_en = According to Le Figaro, this government plan could free up 42 million euros, of which 15.5 million would go towards security.
 1	Laut	laut	ADP	IN	_	3	case	_	_
-2	Le	Le	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|Person=3	3	det	_	Proper=True
-3	Figaro	Figaro	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	_
+2	Le	le	DET	DT	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Lang=fr|Proper=True
+3	Figaro	Figaro	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	15	obl	_	Lang=fr
 4	könnten	können	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	15	aux	_	_
 5	durch	durch	ADP	IN	_	7	case	_	_
 6	diesen	dieser	DET	DT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
@@ -22725,8 +22725,8 @@
 18	Opposition	Opposition	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
 19	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	20	det	_	_
 20	Zeitung	Zeitung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl:arg	_	_
-21	El	El	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	22	det	_	Proper=True
-22	Mundo	Mundo	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	appos	_	SpaceAfter=No|Proper=True
+21	El	el	DET	DT	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	22	det	_	Lang=es|Proper=True
+22	Mundo	mundo	NOUN	NN	Foreign=Yes|Gender=Masc|Number=Sing	20	appos	_	SpaceAfter=No|Lang=es|Proper=True
 23	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = n05009030
