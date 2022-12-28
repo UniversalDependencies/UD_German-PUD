@@ -8691,9 +8691,9 @@
 6	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	7	det	_	_
 7	Talkshow	Talkshow	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 8	„	„	PUNCT	``	_	11	punct	_	SpaceAfter=No
-9	The	The	DET	DT	Case=Nom|Definite=Def|Number=Plur|Person=3	11	det	_	Proper=True
-10	Talking	Talking	ADJ	JJ	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	Proper=True
-11	Dead	Dead	NOUN	NN	Case=Nom|Number=Plur	7	appos	_	SpaceAfter=No|Proper=True
+9	The	the	DET	DT	Definite=Def|Foreign=Yes|PronType=Art	11	det	_	Lang=en|Proper=True
+10	Talking	talking	ADJ	JJ	Foreign=Yes	11	amod	_	Lang=en|Proper=True
+11	Dead	dead	NOUN	NN	Foreign=Yes|Number=Plur	7	appos	_	SpaceAfter=No|Lang=en|Proper=True
 12	“	“	PUNCT	''	_	11	punct	_	_
 13	an	an	VERB	DC	_	4	compound:prt	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	4	punct	_	_
@@ -17250,7 +17250,7 @@
 5	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Stellenanzeige	Stellenanzeige	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
 7	in	in	ADP	IN	_	9	case	_	_
-8	The	The	DET	DT	Case=Dat|Definite=Def|Number=Sing|Person=3	9	det	_	Proper=True
+8	The	the	DET	DT	Definite=Def|Foreign=Yes|PronType=Art	9	det	_	Lang=en|Proper=True
 9	Scotsman	Scotsman	PROPN	NNP	Case=Dat|Number=Sing	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	15	punct	_	_
 11	die	der	PRON	REL	Case=Acc|Gender=Fem|Number=Sing|Person=3	15	obj	_	_
@@ -17682,8 +17682,8 @@
 18	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|Person=3	19	det	_	_
 19	Musicals	Musical	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
 20	„	„	PUNCT	``	_	22	punct	_	SpaceAfter=No
-21	The	The	DET	DT	Case=Nom|Definite=Def|Number=Sing|Person=3	22	det	_	Proper=True
-22	Wiz	Wiz	NOUN	NN	Case=Nom|Number=Sing	19	appos	_	SpaceAfter=No|Proper=True
+21	The	the	DET	DT	Definite=Def|Foreign=Yes|PronType=Art	22	det	_	Lang=en|Proper=True
+22	Wiz	Wiz	NOUN	NN	Foreign=Yes|Number=Sing	19	appos	_	SpaceAfter=No|Lang=en|Proper=True
 23	“	“	PUNCT	''	_	22	punct	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -18671,9 +18671,9 @@
 4	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	6	det	_	_
 5	Lord	Lord	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	_
 6	President	President	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
-7	of	of	ADP	IN	_	9	case	_	_
-8	the	the	DET	DT	Definite=Def|Number=Sing|Person=3	9	det	_	_
-9	Council	Council	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+7	of	of	ADP	IN	Foreign=Yes	9	case	_	Lang=en
+8	the	the	DET	DT	Definite=Def|Foreign=Yes|PronType=Art	9	det	_	Lang=en
+9	Council	council	NOUN	NN	Foreign=Yes|Number=Sing	6	nmod	_	Lang=en|SpaceAfter=No
 10	,	,	PUNCT	,	_	1	punct	_	_
 11	besuchte	besuchen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 12	Deutschland	Deutschland	PROPN	NNP	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
@@ -25845,10 +25845,10 @@
 14	mit	mit	ADP	IN	_	16	case	_	_
 15	seinem	sein	DET	DTP$	Case=Dat|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Plattenlabel	Plattenlabel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	_
-17	The	The	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3	20	det	_	Proper=True
-18	Rocket	Rocket	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	compound	_	Proper=True
-19	Record	Record	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	compound	_	Proper=True
-20	Company	Company	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	appos	_	Proper=True
+17	The	the	DET	DT	Definite=Def|Foreign=Yes|PronType=Art	20	det	_	Lang=en|Proper=True
+18	Rocket	rocket	NOUN	NN	Foreign=Yes|Number=Sing	19	compound	_	Lang=en|Proper=True
+19	Record	record	NOUN	NN	Foreign=Yes|Number=Sing	20	compound	_	Lang=en|Proper=True
+20	Company	company	NOUN	NN	Foreign=Yes|Number=Sing	16	appos	_	Lang=en|Proper=True
 21	arbeitete	arbeiten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	acl:relcl	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	26	punct	_	_
 23	um	um	SCONJ	CC	_	26	mark	_	_
