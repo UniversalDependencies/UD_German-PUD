@@ -19788,7 +19788,7 @@
 12	Finanzaufsicht	Finanzaufsicht	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	17	punct	_	_
 14	Mohammed	Mohammed	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	15	compound	_	_
-15	al	al	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3	17	compound	_	SpaceAfter=No|Proper=True
+15	al	al	DET	DT	Definite=Def|Foreign=Yes|PronType=Art	17	det	_	SpaceAfter=No|Proper=True
 16	-	-	PUNCT	-	_	15	punct	_	SpaceAfter=No|Proper=True
 17	Jadaan	Jadaan	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	3	punct	_	_
