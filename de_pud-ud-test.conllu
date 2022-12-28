@@ -576,7 +576,7 @@
 # sent_id = n01011004
 # text = Sie wurde auch der versuchten Tötung ihrer zweijährigen Tochter angeklagt.
 # text_en = She has also been charged with trying to kill her two-year-old daughter.
-1	Sie	Sie|sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	nsubj:pass	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	nsubj:pass	_	_
 2	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	aux:pass	_	_
 3	auch	auch	ADV	RB	Degree=Pos	10	advmod	_	_
 4	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	6	det	_	_
@@ -3473,7 +3473,7 @@
 # sent_id = n01052004
 # text = Sie war 84 Jahre alt.
 # text_en = She was 84 years old.
-1	Sie	Sie|sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
 2	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	cop	_	_
 3	84	84	NUM	CD	NumType=Card	4	nummod	_	_
 4	Jahre	Jahr	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	obl	_	_
@@ -4756,7 +4756,7 @@
 # sent_id = n01074011
 # text = Sie haben einen Versuch, das wiedergutzumachen, indem sie England besiegen.
 # text_en = They have one crack at redemption, beating England.
-1	Sie	Sie|sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
 2	haben	haben	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 3	einen	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Versuch	Versuch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
@@ -7308,7 +7308,7 @@
 # sent_id = n01115005
 # text = Sie spielen am Samstag, dem 10. Juni.
 # text_en = They will play on Saturday, 10 June.
-1	Sie	Sie|sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
 2	spielen	spielen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 3-4	am	_	_	_	_	_	_	_	_
 3	an	an	ADP	APPR	_	5	case	_	_
@@ -11573,7 +11573,7 @@
 # sent_id = w01033025
 # text = Sie wurde im Jahr 1975 zum geschützten Lebensraum für Tiere erklärt.
 # text_en = It was declared a wildlife sanctuary in 1975.
-1	Sie	Sie|sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	13	nsubj:pass	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	13	nsubj:pass	_	_
 2	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	aux:pass	_	_
 3-4	im	_	_	_	_	_	_	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
@@ -14467,7 +14467,7 @@
 # sent_id = w01073007
 # text = Sie waren so ergriffen von der Schönheit der Gegend um den Rudyard-See, dass sie ihr erstgeborenes Kind danach benannten.
 # text_en = They had been so moved by the beauty of the Rudyard Lake area that when their first child was born they referenced it when naming him.
-1	Sie	Sie|sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
 2	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	4	cop	_	_
 3	so	so	ADV	RB	Degree=Pos	4	advmod	_	_
 4	ergriffen	ergreifen	ADJ	JJ	Degree=Pos	0	root	_	_
@@ -16330,7 +16330,7 @@
 # sent_id = w01101084
 # text = Ihr waren verschiedene Drehbücher, Fernsehwerbesopts und Bühnenprojekte angeboten worden, aber nichts davon weckte ihr Interesse.
 # text_en = She was offered several scripts, television commercials, and stage projects, but none piqued her interest.
-1	Ihr	Ihr|ihr	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	9	obl:arg	_	_
+1	Ihr	sie	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	9	obl:arg	_	_
 2	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	9	aux	_	_
 3	verschiedene	verschieden	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	InflectionType=Strong
 4	Drehbücher	Drehbuch	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	9	nsubj:pass	_	SpaceAfter=No
@@ -23296,7 +23296,7 @@
 # sent_id = w02008055
 # text = Sie lagen vor allem auf Anhöhen.
 # text_en = They were primarily on hills.
-1	Sie	Sie|sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
 2	lagen	liegen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 3	vor	vor	ADP	IN	_	4	case	_	_
 4	allem	alle	DET	NNA	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	2	obl	_	InflectionType=Strong
@@ -25642,7 +25642,7 @@
 # sent_id = w05005087
 # text = Sie wurden jedoch abgefangen und mussten in Freeman kämpfen, nahe dem Hudson River.
 # text_en = However, they were intercepted and had to do battle in Freeman, close to the Hudson River.
-1	Sie	Sie|sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	4	nsubj:pass	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	4	nsubj:pass	_	_
 2	wurden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	4	aux:pass	_	_
 3	jedoch	jedoch	ADV	RB	Degree=Pos	4	advmod	_	_
 4	abgefangen	abfangen	VERB	VBN	Tense=Past	0	root	_	_
