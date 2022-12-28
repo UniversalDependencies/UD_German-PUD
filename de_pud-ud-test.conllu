@@ -3953,7 +3953,7 @@
 5	:	:	PUNCT	:	_	7	punct	_	_
 6	„	„	PUNCT	``	_	7	punct	_	SpaceAfter=No
 7	Schauen	schauen	VERB	VBC	Mood=Imp|Number=Plur|Person=3|Tense=Pres	3	ccomp	_	_
-8	Sie	Sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
+8	Sie	Sie	PRON	PRP	Case=Nom|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	_
 9	sich	sich	PRON	PRP	Case=Dat|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	7	obl:arg	_	_
 10	an	an	VERB	DC	_	7	compound:prt	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	_	_
@@ -20415,7 +20415,7 @@
 # text = Schimpfen Sie mit Ihrem Wecker?
 # text_en = Do you argue with your alarm clock?
 1	Schimpfen	schimpfen	VERB	VBC	Mood=Ind|Person=2|Polite=Form|Tense=Pres	0	root	_	_
-2	Sie	Sie	PRON	PRP	Case=Nom|Person=2|Polite=Form	1	nsubj	_	_
+2	Sie	Sie	PRON	PRP	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	_
 3	mit	mit	ADP	IN	_	5	case	_	_
 4	Ihrem	Ihr	DET	DTP$	Case=Dat|Gender=Masc|Number=Sing|Person=2|Polite=Form|PronType=Prs	5	det:poss	_	_
 5	Wecker	Wecker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
