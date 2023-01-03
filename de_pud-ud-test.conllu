@@ -9020,7 +9020,7 @@
 7	,	,	PUNCT	,	_	12	punct	_	_
 8	der	der	PRON	REL	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
 9	die	der	DET	PDT	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|Person=3	11	det	_	_
-10	beiden	beide	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|Person=3	11	det	_	_
+10	beiden	beide	DET	DT	Case=Acc|Gender=Neut|Number=Plur|NumType=Card|PronType=Tot	11	det	_	_
 11	Grundstücke	Grundstück	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	_
 12	trennte	trennen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	acl:relcl	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	15	punct	_	_
@@ -14279,7 +14279,7 @@
 13	sowie	sowie	CCONJ	CC	_	23	cc	_	_
 14	zu	zu	ADP	IN	_	23	case	_	_
 15	den	der	DET	PDT	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|Person=3	23	det	_	_
-16	beiden	beide	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur|Person=3	23	det	_	_
+16	beiden	beide	DET	DT	Case=Dat|Gender=Fem|Number=Plur|NumType=Card|PronType=Tot	23	det	_	_
 17	Tag	Tag	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	compound	_	SpaceAfter=No
 18	-	-	PUNCT	-	_	17	punct	_	SpaceAfter=No
 19	und	und	CCONJ	CC	_	21	compound	_	SpaceAfter=No
@@ -16714,7 +16714,7 @@
 8	in	in	ADP	IN	_	12	case	_	_
 9	den	der	DET	PDT	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|Person=3	12	det	_	_
 10	letzten	letzt	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	12	amod	_	InflectionType=Weak
-11	beiden	beide	DET	DT	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur|Person=3	12	det	_	_
+11	beiden	beide	DET	DT	Case=Dat|Gender=Neut|Number=Plur|NumType=Card|PronType=Tot	12	det	_	_
 12	Jahrzehnten	Jahrzehnt	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	_
 13	seines	sein	DET	DTP$	Case=Gen|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Lebens	Leben	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
@@ -19946,7 +19946,7 @@
 8	und	und	CCONJ	CC	_	9	cc	_	_
 9	Weise	Weise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_
 10	die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|Person=3	12	det	_	_
-11	beiden	beide	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	12	det	_	_
+11	beiden	beide	DET	DT	Case=Nom|Gender=Masc|Number=Plur|NumType=Card|PronType=Tot	12	det	_	_
 12	Dramatiker	Dramatiker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
 13	zusammengearbeitet	zusammenarbeiten	VERB	VBN	Tense=Past	2	ccomp	_	_
 14	hätten	haben	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	13	aux	_	SpaceAfter=No
@@ -20642,7 +20642,7 @@
 8	kommen	kommen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 9	sich	sich	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
 10	die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|Person=3	13	det	_	_
-11	beiden	beide	DET	DT	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|Person=3	13	det	_	_
+11	beiden	beide	DET	DT	Case=Nom|Gender=Neut|Number=Plur|NumType=Card|PronType=Tot	13	det	_	_
 12	verfeindeten	verfeindet	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	13	amod	_	InflectionType=Weak
 13	Bündnisse	Bündnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
 14	(	(	PUNCT	(	_	15	punct	_	SpaceAfter=No
@@ -20799,7 +20799,7 @@
 2	Hingucker	Hingucker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
 3	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	7	cop	_	_
 4	die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|Person=3	7	det	_	_
-5	beiden	beide	DET	DT	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|Person=3	7	det	_	_
+5	beiden	beide	DET	DT	Case=Nom|Gender=Neut|Number=Plur|NumType=Card|PronType=Tot	7	det	_	_
 6	ausgestellten	ausgestellt	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	InflectionType=Weak
 7	Gemälde	Gemälde	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
 8	von	von	ADP	IN	_	9	case	_	_
@@ -21338,7 +21338,7 @@
 # text = Die beiden Organisationen veröffentlichten einen Appell, der am 12. Oktober vom Kassationshof zurückgewiesen wurde.
 # text_en = The two organisations launched an appeal which was thrown out by the Court of Cassation on the 12th of October.
 1	Die	der	DET	PDT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	3	det	_	_
-2	beiden	beide	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Person=3	3	det	_	_
+2	beiden	beide	DET	DT	Case=Nom|Gender=Fem|Number=Plur|NumType=Card|PronType=Tot	3	det	_	_
 3	Organisationen	Organisation	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
 4	veröffentlichten	veröffentlichen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 5	einen	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -21775,7 +21775,7 @@
 3	,	,	PUNCT	,	_	12	punct	_	_
 4	der	der	PRON	REL	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
 5	in	in	ADP	IN	_	7	case	_	_
-6	beiden	beide	DET	DT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|Person=3	7	det	_	_
+6	beiden	beide	DET	DT	Case=Dat|Gender=Masc|Number=Plur|NumType=Card|PronType=Tot	7	det	_	_
 7	Fällen	Fall	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	_
 8	für	für	ADP	IN	_	10	case	_	_
 9	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	10	det	_	_
@@ -23575,7 +23575,7 @@
 13	bedacht	bedenken	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	20	punct	_	_
 15	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
-16	beiden	beide	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	17	det	_	_
+16	beiden	beide	DET	DT	Case=Acc|Gender=Fem|Number=Plur|NumType=Card|PronType=Tot	17	det	_	_
 17	Monarchien	Monarchie	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_
 18	gleich	gleich	ADV	RB	Degree=Pos	20	advmod	_	_
 19	zu	zu	PART	RP	_	20	mark	_	_
@@ -25111,7 +25111,7 @@
 8	Krieg	Krieg	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 9	zwischen	zwischen	ADP	IN	_	12	case	_	_
 10	den	der	DET	PDT	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|Person=3	12	det	_	_
-11	beiden	beide	DET	DT	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur|Person=3	12	det	_	_
+11	beiden	beide	DET	DT	Case=Dat|Gender=Neut|Number=Plur|NumType=Card|PronType=Tot	12	det	_	_
 12	Reichen	Reich	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	13	obl	_	_
 13	ausbrechen	ausbrechen	VERB	VB	_	3	ccomp	_	_
 14	würde	werden	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	13	aux	_	SpaceAfter=No
@@ -25142,7 +25142,7 @@
 # sent_id = w04010027
 # text = Beide Studenten von Goffredo Petrassi - Ennio Morricone und Bruno Nicolai - trafen sich im Hl. Cäcilien-Konservatorium.
 # text_en = Both students of Goffredo Petrassi, Ennio Morricone and Bruno Nicolai met at the Santa (Saint) Cecelia conservatory.
-1	Beide	beide	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	2	det	_	_
+1	Beide	beide	DET	DT	Case=Nom|Gender=Masc|Number=Plur|NumType=Card|PronType=Tot	2	det	_	_
 2	Studenten	Student	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
 3	von	von	ADP	IN	_	4	case	_	_
 4	Goffredo	Goffredo	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
@@ -25271,7 +25271,7 @@
 25	für	für	ADP	IN	_	27	case	_	_
 26	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	27	det	_	_
 27	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	obl	_	_
-28	beider	beide	DET	DT	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Person=3	29	det	_	_
+28	beider	beide	DET	DT	Case=Gen|Gender=Masc|Number=Plur|NumType=Card|PronType=Tot	29	det	_	_
 29	Künstler	Künstler	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
 30	angesehen	ansehen	VERB	VBN	Tense=Past	17	acl:relcl	_	_
 31	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	30	aux:pass	_	SpaceAfter=No
