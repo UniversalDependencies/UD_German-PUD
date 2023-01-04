@@ -8375,7 +8375,7 @@
 4	Futures	Future	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	_
 5	steigen	steigen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 6	um	um	ADP	IN	_	10	case	_	_
-7	mehr	mehr	ADV	RB	Degree=Pos	10	det	_	Bug=det-upos
+7	mehr	mehr	ADV	RB	Degree=Pos	10	advmod	_	Bug=det-upos
 8	als	als	SCONJ	CC	_	7	fixed	_	_
 9	1	1	NUM	CD	NumType=Card	10	nummod	_	_
 10	%	%	SYM	SYM	_	5	obl	_	SpaceAfter=No
