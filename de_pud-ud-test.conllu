@@ -1828,7 +1828,7 @@
 # text_en = Seagal, whose grandmother was from Vladivostok in Russia's far east, has made frequent trips to Russia in recent years and visited Kamchatka and Sakhalin in September.
 1	Seagal	Seagal	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	12	punct	_	_
-3	dessen	der	PRON	REL	Case=Gen|Gender=Masc|Number=Sing|Person=3	4	nmod:poss	_	_
+3	dessen	der	PRON	REL	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem,Rel	4	nmod:poss	_	_
 4	Großmutter	Großmutter	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 5	aus	aus	ADP	IN	_	6	case	_	_
 6	Wladiwostok	Wladiwostok	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
@@ -1927,7 +1927,7 @@
 # text_en = Cuaron, whose last film was the Oscar-winning Gravity, was reportedly not on set at the time of the incident.
 1	Cuaron	Cuaron	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	8	punct	_	_
-3	dessen	der	PRON	REL	Case=Gen|Gender=Masc|Number=Sing|Person=3	5	nmod:poss	_	_
+3	dessen	der	PRON	REL	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem,Rel	5	nmod:poss	_	_
 4	letzter	letzt	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	InflectionType=Strong
 5	Film	Film	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 6	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|Person=3	8	det	_	_
@@ -4608,7 +4608,7 @@
 4	hin	hin	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	14	punct	_	_
 6	dass	dass	SCONJ	CC	_	14	mark	_	_
-7	dessen	der	DET	DT	Case=Gen|Definite=Def|Number=Sing|Person=3	8	det:poss	_	_
+7	dessen	der	PRON	DT	Case=Gen|Number=Sing|PronType=Dem,Rel	8	nmod:poss	_	_
 8	Geschichte	Geschichte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
 9	vielen	viel	DET	DT	Case=Dat|Number=Plur|PronType=Ind	14	obl:arg	_	_
 10	aufgrund	aufgrund	ADP	IN	_	12	case	_	_
@@ -10184,7 +10184,7 @@
 10	Mojmír	Mojmír	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
 11	I.	I.	NOUN	NNA	Case=Acc|Gender=Masc|Number=Sing	10	appos	_	InflectionType=Weak|Proper=True
 12	gegen	gegen	ADP	IN	_	14	case	_	_
-13	dessen	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3	14	det:poss	_	_
+13	dessen	der	PRON	DT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem,Rel	14	nmod:poss	_	_
 14	Neffen	Neffe	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 15	Rastiz	Rastiz	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
 16	aus	aus	VERB	DC	_	9	compound:prt	_	SpaceAfter=No
@@ -19567,7 +19567,7 @@
 12	hatte	haben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	conj	_	_
 13	Kurzauftritte	Kurzauftritte	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
 14	in	in	ADP	IN	_	16	case	_	_
-15	dessen	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3	16	det:poss	_	_
+15	dessen	der	PRON	DT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem,Rel	16	nmod:poss	_	_
 16	Filmen	Film	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	_
 17	„	„	PUNCT	``	_	22	punct	_	SpaceAfter=No
 18	Per	per	ADP	IN	_	19	case	_	Proper=True
@@ -21993,7 +21993,7 @@
 9	Mark	Mark	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
 10	Zuckerberg	Zuckerberg	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	9	flat:name	_	_
 11	und	und	CCONJ	CC	_	13	cc	_	_
-12	dessen	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3	13	det:poss	_	_
+12	dessen	der	PRON	DT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem,Rel	13	nmod:poss	_	_
 13	Frau	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	conj	_	_
 14	in	in	ADP	IN	_	16	case	_	_
 15	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|Person=3	16	det	_	_
