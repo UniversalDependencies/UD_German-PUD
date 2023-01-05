@@ -5233,7 +5233,7 @@
 11	Arbeiter	Arbeiter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
 12	bietet	bieten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	ccomp	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	19	punct	_	_
-14	deren	der	PRON	REL	Case=Gen|Gender=Masc|Number=Plur|Person=3	15	nmod:poss	_	_
+14	deren	der	PRON	REL	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem,Rel	15	nmod:poss	_	_
 15	Jobs	Job	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	19	obl:arg	_	_
 16	und	und	CCONJ	CC	_	17	cc	_	_
 17	Lebensstandards	Lebensstandard	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	conj	_	_
@@ -8256,7 +8256,7 @@
 15	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3	16	det	_	_
 16	Woche	Woche	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
 17	lag	liegen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	parataxis	_	_
-18	deren	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3	19	det:poss	_	_
+18	deren	der	PRON	DT	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem,Rel	19	nmod:poss	_	_
 19	Gesamtzahl	Gesamtzahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
 20	bei	bei	ADP	IN	_	21	case	_	_
 21	16.500	16.500	NUM	CD	NumType=Card	17	obl	_	SpaceAfter=No
@@ -12626,7 +12626,7 @@
 8	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	9	det	_	_
 9	Möglichkeit	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	16	punct	_	_
-11	die	der	PRON	REL	Case=Acc|Gender=Fem|Number=Sing|Person=3	14	det	_	_
+11	die	der	PRON	REL	Case=Acc|Gender=Fem|Number=Sing|Person=3	14	nmod	_	_
 12	Goryeo	Goryeo	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing	14	compound	_	SpaceAfter=No
 13	-	-	PUNCT	-	_	12	punct	_	SpaceAfter=No
 14	Regierung	Regierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
@@ -13724,7 +13724,7 @@
 43	-	-	PUNCT	-	_	50	punct	_	_
 44	und	und	CCONJ	CC	_	50	cc	_	_
 45	in	in	ADP	IN	_	47	case	_	_
-46	deren	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3	47	det:poss	_	_
+46	deren	der	PRON	DT	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem,Rel	47	nmod:poss	_	_
 47	Mitte	Mitte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	50	nmod	_	_
 48	eine	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
 49	altarartige	altarartig	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	50	amod	_	InflectionType=Mixed
@@ -18108,7 +18108,7 @@
 5	Album	Album	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
 6	„	„	PUNCT	``	_	9	punct	_	SpaceAfter=No
 7	Over	over	ADP	IN	Foreign=Yes	9	case	_	Lang=en|Proper=True
-8	My	my	PRON	DTP$	Foreign=Yes|Number=Sing|Person=1|PronType=Prs	9	det:poss	_	Lang=en|Proper=True
+8	My	my	PRON	DTP$	Foreign=Yes|Number=Sing|Person=1|PronType=Prs	9	nmod:poss	_	Lang=en|Proper=True
 9	Head	head	NOUN	NN	Foreign=Yes|Number=Sing	5	nmod	_	SpaceAfter=No|Lang=en|Proper=True
 10	“	“	PUNCT	''	_	9	punct	_	_
 11	von	von	ADP	IN	_	12	case	_	_
@@ -23881,7 +23881,7 @@
 20	aus	aus	ADP	IN	_	21	case	_	_
 21	Einwanderern	Einwanderer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	25	obl	_	_
 22	und	und	CCONJ	CC	_	24	cc	_	_
-23	deren	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3	24	det:poss	_	_
+23	deren	der	PRON	DT	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem,Rel	24	nmod:poss	_	_
 24	Nachfahren	Nachfahr	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	21	conj	_	_
 25	besteht	bestehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	advcl	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	7	punct	_	_
@@ -25906,7 +25906,7 @@
 27	wurden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	26	aux:pass	_	SpaceAfter=No
 28	,	,	PUNCT	,	_	33	punct	_	_
 29	in	in	ADP	IN	_	31	case	_	_
-30	deren	der	PRON	REL	Case=Gen|Gender=Masc|Number=Plur|Person=3	31	nmod:poss	_	_
+30	deren	der	PRON	REL	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem,Rel	31	nmod:poss	_	_
 31	Gunst	Gunst	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	33	obl	_	_
 32	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	33	nsubj	_	_
 33	stand	stehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	24	acl:relcl	_	SpaceAfter=No
