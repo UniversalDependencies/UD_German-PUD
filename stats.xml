@@ -46,9 +46,9 @@
     <feat name="Degree" value="Pos" upos="ADJ,ADV">2215</feat><!-- auch, so, noch, nur, sehr, ersten, neue, jedoch, letzten, mehr -->
     <feat name="Degree" value="Sup" upos="ADJ">32</feat><!-- besten, größten, schlimmsten, höchsten, Oberste, Obersten, bekannteste, beknackteste, erfoglreichste, erfolgreichste -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">79</feat><!-- the, a, of, El, My, n't, ', Angeles, Breaking, Buck -->
-    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">3840</feat><!-- die, der, eine, sie, einer, seine, diese, Zeit, ihre, seiner -->
-    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">3606</feat><!-- der, dem, er, die, den, des, ein, einen, einem, Menschen -->
-    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,PRON,PROPN">2527</feat><!-- das, dem, es, des, ein, die, Jahr, Jahre, der, Jahren -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">3699</feat><!-- die, der, eine, sie, einer, seine, diese, Zeit, ihre, seiner -->
+    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">3449</feat><!-- dem, der, er, den, des, ein, einen, einem, Menschen, sie -->
+    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,PRON,PROPN">2455</feat><!-- das, dem, es, des, ein, Jahr, Jahre, Jahren, einem, eines -->
     <feat name="Gender[psor]" value="Fem" upos="DET">48</feat><!-- ihre, ihrer, ihr, ihren, ihres, ihrem -->
     <feat name="Gender[psor]" value="Masc" upos="DET">115</feat><!-- seine, seiner, sein, ihre, seinen, ihrer, seines, ihren, seinem, ihr -->
     <feat name="Gender[psor]" value="Neut" upos="DET">16</feat><!-- seine, ihren, sein, seiner, seines -->
