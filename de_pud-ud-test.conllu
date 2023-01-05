@@ -2147,8 +2147,8 @@
 20	wie	wie	CCONJ	CC	_	25	cc	_	_
 21-22	z.	_	_	_	_	_	_	_	_
 21	zu	zu	ADP	APPR	AdpType=Prep|Case=Dat	23	case	_	_
-22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	23	det	_	_
-23	B.	B.	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	25	nmod	_	_
+22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
+23	B.	Beispiel	NOUN	NN	Abbr=Yes|Case=Dat|Gender=Neut|Number=Sing	25	nmod	_	_
 24	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	Blase	Blase	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	4	punct	_	_
@@ -8408,8 +8408,8 @@
 16	Anleihen	Anleihe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	_
 17-18	am	_	_	_	_	_	_	_	_
 17	an	an	ADP	APPR	_	19	case	_	_
-18	dem	der	DET	ART	Case=Dat|Definite=Def|Number=Sing|PronType=Art	19	det	_	_
-19	stärksten	stark	NOUN	NN	Case=Dat|Number=Sing	20	obl	_	_
+18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	stärksten	stark	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	_
 20	betroffen	betreffen	ADJ	JJ	Degree=Pos	3	acl:relcl	_	_
 21	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	20	cop	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	3	punct	_	_
@@ -16761,8 +16761,8 @@
 13	,	,	PUNCT	,	_	20	punct	_	_
 14-15	z.	_	_	_	_	_	_	_	_
 14	zu	zu	ADP	APPR	AdpType=Prep|Case=Dat	16	case	_	_
-15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	16	det	_	_
-16	B.	B.	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	B.	Beispiel	NOUN	NN	Abbr=Yes|Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	_
 17	mit	mit	ADP	IN	_	20	case	_	_
 18	Filmposter	Filmposter	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	20	compound	_	SpaceAfter=No
 19	-	-	PUNCT	-	_	18	punct	_	SpaceAfter=No
@@ -20866,8 +20866,8 @@
 7	noch	noch	ADV	RB	Degree=Pos	8	advmod	_	_
 8	unfertigen	unfertig	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	InflectionType=Weak
 9	Lungen	Lunge	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
-10	der	der	DET	DT	Case=Gen|Definite=Def|PronType=Art	11	det	_	_
-11	Kleinen	Kleine	NOUN	NN	Case=Gen	9	nmod	_	SpaceAfter=No|Proper=True
+10	der	der	DET	DT	Case=Gen|Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	Kleinen	Kleine	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No|Proper=True
 12	,	,	PUNCT	,	_	23	punct	_	_
 13	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	23	nsubj	_	_
 14	können	können	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	23	aux	_	_
@@ -25196,8 +25196,8 @@
 9	,	,	PUNCT	,	_	15	punct	_	_
 10-11	z.	_	_	_	_	_	_	_	_
 10	zu	zu	ADP	APPR	AdpType=Prep|Case=Dat	12	case	_	_
-11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
-12	B.	B.	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	B.	Beispiel	NOUN	NN	Abbr=Yes|Case=Dat|Gender=Neut|Number=Sing	15	obl	_	_
 13	in	in	ADP	IN	_	15	case	_	_
 14	„	„	PUNCT	``	_	15	punct	_	SpaceAfter=No
 15	Metti	Metti	VERB	VBC	Foreign=Yes|Mood=Imp|Number=Sing|Person=2|Tense=Pres	5	nmod	_	SpaceAfter=No|Lang=it|Proper=True
