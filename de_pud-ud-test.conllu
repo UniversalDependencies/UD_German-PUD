@@ -59,7 +59,7 @@
 18	Übergang	Übergang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
 19	ein	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
 20	wenig	wenig	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	obl	_	_
-21	anders	ander	ADJ	JJ	Degree=Pos	0	root	_	_
+21	anders	anderer	DET	JJ	PronType=Ind	0	root	_	_
 22	sein	sein	AUX	VB	_	21	cop	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	21	punct	_	_
 
@@ -515,7 +515,7 @@
 1	„	„	PUNCT	``	_	7	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	7	nsubj	_	_
 3	haben	haben	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	7	aux	_	_
-4	andere	ander	DET	DT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	5	det	_	_
+4	andere	anderer	DET	DT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	5	det	_	_
 5	Länder	Land	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	_
 6	darum	darum	ADV	RB	PronType=Dem	7	advmod	_	_
 7	gebeten	bitten	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
@@ -833,7 +833,7 @@
 17	Batterie	Batterie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 18	von	von	ADP	IN	_	21	case	_	_
 19	einem	ein	DET	PDT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-20	anderen	ander	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_
+20	anderen	anderer	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_
 21	Hersteller	Hersteller	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	_
 22	aus	aus	VERB	DC	_	11	compound:prt	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	4	punct	_	_
@@ -1587,7 +1587,7 @@
 13	,	,	PUNCT	,	_	19	punct	_	_
 14	die	der	DET	DT	Case=Acc|Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	Haare	Haar	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	19	obj	_	_
-16	anderer	ander	DET	DT	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
+16	anderer	anderer	DET	DT	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
 17	Menschen	Mensch	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
 18	zu	zu	PART	RP	_	19	mark	_	_
 19	kaufen	kaufen	VERB	VB	VerbForm=Inf	12	xcomp	_	_
@@ -2079,7 +2079,7 @@
 13	die	der	DET	DT	Case=Acc|Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 14	eigentlichen	eigentlich	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	InflectionType=Weak
 15	Ursachen	Ursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
-16	anderer	ander	DET	DT	Case=Gen|Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
+16	anderer	anderer	DET	DT	Case=Gen|Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
 17	Krebsarten	Krebsart	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
 18	zu	zu	PART	RP	_	19	mark	_	_
 19	klären	klären	VERB	VB	_	11	xcomp	_	SpaceAfter=No
@@ -5057,7 +5057,7 @@
 21	dass	dass	SCONJ	CC	_	25	mark	_	_
 22	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	25	nsubj	_	_
 23	eine	ein	DET	PDT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-24	andere	ander	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	25	det	_	_
+24	andere	anderer	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	25	det	_	_
 25	Assistentin	Assistentin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	ccomp	_	_
 26	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	25	cop	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	4	punct	_	_
@@ -7028,7 +7028,7 @@
 2	in	in	ADP	IN	_	3	case	_	_
 3	Prämienanleihen	Prämienanleihe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	nmod	_	_
 4	und	und	CCONJ	CC	_	7	cc	_	_
-5	anderen	ander	DET	DT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	7	det	_	_
+5	anderen	anderer	DET	DT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	7	det	_	_
 6	nationalen	national	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	InflectionType=Strong
 7	Spar	Spar	X	RED	_	3	conj	_	SpaceAfter=No
 8	-	-	PUNCT	-	_	7	punct	_	_
@@ -10310,7 +10310,7 @@
 21	,	,	PUNCT	,	_	26	punct	_	_
 22	die	der	PRON	REL	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	26	nsubj	_	_
 23	eine	ein	DET	PDT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-24	andere	ander	DET	DT	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	25	det	_	_
+24	andere	anderer	DET	DT	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	25	det	_	_
 25	Sprachgeschichte	Sprachgeschichte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
 26	aufweist	aufweisen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	18	acl:relcl	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	5	punct	_	_
@@ -10678,7 +10678,7 @@
 23	Fischen	Fischen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
 24	und	und	CCONJ	CC	_	25	cc	_	_
 25	Sammeln	Sammeln	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	conj	_	_
-26	anderer	ander	DET	DT	Case=Gen|Gender=Neut|Number=Plur|PronType=Ind	27	det	_	_
+26	anderer	anderer	DET	DT	Case=Gen|Gender=Neut|Number=Plur|PronType=Ind	27	det	_	_
 27	Meerestiere	Meerestier	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	25	nmod	_	SpaceAfter=No
 28	)	)	PUNCT	)	_	23	punct	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	2	punct	_	_
@@ -12135,7 +12135,7 @@
 5	stoßen	stoßen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 6	sie	sie	PRON	PRP	Case=Nom|Gender=Neut|Number=Plur|Person=3	5	nsubj	_	_
 7	auf	auf	ADP	IN	_	9	case	_	_
-8	andere	ander	DET	DT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	9	det	_	_
+8	andere	anderer	DET	DT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	9	det	_	_
 9	Partikel	Partikel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	17	punct	_	_
 11	die	der	PRON	REL	Case=Nom|Number=Plur|PronType=Dem,Rel	17	nsubj:pass	_	_
@@ -13269,7 +13269,7 @@
 6	,	,	PUNCT	,	_	7	punct	_	_
 7	Historiker	Historiker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	_
 8	und	und	CCONJ	CC	_	10	cc	_	_
-9	andere	ander	DET	DT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+9	andere	anderer	DET	DT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
 10	Intelektuelle	intelektuell	NOUN	NNA	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	InflectionType=Strong
 11	Werke	Werk	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	18	punct	_	_
@@ -13947,7 +13947,7 @@
 2	chinesische	chinesisch	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	InflectionType=Weak|Proper=True
 3	Neujahrsfest	Neujahrsfest	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
 4	und	und	CCONJ	CC	_	6	cc	_	_
-5	andere	ander	DET	DT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	6	det	_	_
+5	andere	anderer	DET	DT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	6	det	_	_
 6	Feste	Fest	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	conj	_	_
 7	der	der	DET	DT	Case=Gen|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 8	Thai	Thai	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	10	compound	_	SpaceAfter=No|Proper=True
@@ -15887,7 +15887,7 @@
 18	wurden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	23	aux:pass	_	_
 19	nach	nach	ADP	IN	_	22	case	_	_
 20	einem	ein	DET	PDT	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
-21	anderen	ander	DET	DT	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	22	det	_	_
+21	anderen	anderer	DET	DT	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	22	det	_	_
 22	System	System	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	obl	_	_
 23	gewählt	wählen	VERB	VBN	Tense=Past	10	conj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	10	punct	_	_
@@ -16289,7 +16289,7 @@
 10	mit	mit	ADP	IN	_	11	case	_	_
 11	Wissenschaftlern	Wissenschaftler	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	19	obl	_	_
 12	und	und	CCONJ	CC	_	14	cc	_	_
-13	anderen	ander	DET	DT	Case=Dat|Number=Plur|PronType=Ind	14	det	_	_
+13	anderen	anderer	DET	DT	Case=Dat|Number=Plur|PronType=Ind	14	det	_	_
 14	Fachleuten	Fachleute	NOUN	NN	Case=Dat|Number=Plur	11	conj	_	_
 15	aus	aus	ADP	IN	_	17	case	_	_
 16	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -18688,7 +18688,7 @@
 20	mit	mit	ADP	IN	_	21	case	_	_
 21	Hitler	Hitler	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	_
 22	und	und	CCONJ	CC	_	25	cc	_	_
-23	anderen	ander	DET	DT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	25	det	_	_
+23	anderen	anderer	DET	DT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	25	det	_	_
 24	deutschen	deutsch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	25	amod	_	InflectionType=Strong|Proper=True
 25	Offiziellen	Offizielle	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	11	punct	_	_
@@ -18812,7 +18812,7 @@
 # text = Ein anderes Thema der Skylark-Romane sind die Vorboten moderner Informationstechnologie.
 # text_en = Another theme of the Skylark novels involves precursors of modern information technology.
 1	Ein	ein	DET	PDT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
-2	anderes	ander	DET	DT	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	3	det	_	_
+2	anderes	anderer	DET	DT	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	3	det	_	_
 3	Thema	Thema	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 4	der	der	DET	DT	Case=Gen|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 5	Skylark	Skylark	PROPN	NNP	Case=Gen|Gender=Masc|Number=Plur	7	compound	_	SpaceAfter=No
@@ -21916,7 +21916,7 @@
 26	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	31	nsubj	_	_
 27	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	Berücksichtigung	Berücksichtigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
-29	anderer	ander	DET	DT	Case=Gen|Gender=Fem|Number=Plur|PronType=Ind	30	det	_	_
+29	anderer	anderer	DET	DT	Case=Gen|Gender=Fem|Number=Plur|PronType=Ind	30	det	_	_
 30	Alternativen	Alternative	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	_
 31	ausschlösse	ausschließen	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	22	advcl	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	5	punct	_	_
@@ -22315,7 +22315,7 @@
 6	noch	noch	ADV	RB	Degree=Pos	12	advmod	_	_
 7	mit	mit	ADP	IN	_	11	case	_	_
 8	einem	ein	DET	PDT	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
-9	anderen	ander	DET	DT	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	11	det	_	_
+9	anderen	anderer	DET	DT	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	11	det	_	_
 10	heißen	heißen	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	InflectionType=Mixed
 11	Eisen	Eisen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
 12	auseinandersetzen	auseinandersetzen	VERB	VB	_	0	root	_	SpaceAfter=No
@@ -22412,7 +22412,7 @@
 4	,	,	PUNCT	,	_	8	punct	_	_
 5	wie	wie	CCONJ	CC	_	8	cc	_	_
 6	viele	viel	DET	PDT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
-7	andere	ander	DET	DT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+7	andere	anderer	DET	DT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
 8	Sozialisten	Sozialist	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
 9-10	im	_	_	_	_	_	_	_	_
 9	in	in	ADP	APPR	_	11	case	_	_
@@ -22537,7 +22537,7 @@
 6	offene	offen	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	InflectionType=Strong
 7	Anspielungen	Anspielung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	_
 8	und	und	CCONJ	CC	_	12	cc	_	_
-9	andere	ander	DET	DT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	12	det	_	_
+9	andere	anderer	DET	DT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	12	det	_	_
 10	gern	gern	ADV	RB	Degree=Pos	11	advmod	_	_
 11	eingesetzte	eingesetzt	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	12	amod	_	InflectionType=Strong
 12	Instrumente	Instrument	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	1	conj	_	_
@@ -23455,7 +23455,7 @@
 8	als	als	CCONJ	CC	_	12	cc	_	_
 9	in	in	ADP	IN	_	12	case	_	_
 10	jedem	jeder	DET	PDT	Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	12	det	_	_
-11	anderen	ander	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
+11	anderen	anderer	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
 12	Staat	Staat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	conj	_	_
 13	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Erde	Erde	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
@@ -24900,7 +24900,7 @@
 18	um	um	SCONJ	CC	_	24	mark	_	_
 19	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	24	obj	_	_
 20	mit	mit	ADP	IN	_	22	case	_	_
-21	anderen	ander	DET	DT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	22	det	_	_
+21	anderen	anderer	DET	DT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	22	det	_	_
 22	Dingen	Ding	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	24	obl	_	_
 23	zu	zu	PART	RP	_	24	mark	_	_
 24	beschäftigen	beschäftigen	VERB	VB	_	15	advcl	_	SpaceAfter=No

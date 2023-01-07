@@ -10,17 +10,17 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1000</sentences><tokens>21000</tokens><words>21331</words><fused>331</fused></test>
   </size>
-  <lemmas unique="5335" /><!-- der, ,, ., in, und, sein, ein, werden, zu, von, -, haben, er, es, an -->
+  <lemmas unique="5336" /><!-- der, ,, ., in, und, sein, ein, werden, zu, von, -, haben, er, es, an -->
   <forms unique="6487" /><!-- ,, ., die, der, in, und, dem, zu, von, das, den, -, es, an, ist -->
   <fusions unique="9" /><!-- im, am, zum, zur, vom, beim, ins, z., ans -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">1399</tag><!-- neu, groß, erst, letzt, gut, hoch, eigen, britisch, politisch, klein -->
+    <tag name="ADJ">1398</tag><!-- neu, groß, erst, letzt, gut, hoch, eigen, britisch, politisch, klein -->
     <tag name="ADP">2043</tag><!-- in, von, zu, mit, für, an, auf, nach, bei, über -->
     <tag name="ADV">1052</tag><!-- auch, so, noch, nur, sehr, mehr, jedoch, wie, davon, immer -->
     <tag name="AUX">872</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, mögen, dürfen, do -->
     <tag name="CCONJ">743</tag><!-- und, als, aber, wie, oder, doch, sowie, bis, bzw., sowohl -->
-    <tag name="DET">3082</tag><!-- der, ein, sein, dieser, ihr, viel, alle, kein, ander, jeder -->
+    <tag name="DET">3083</tag><!-- der, ein, sein, dieser, ihr, viel, alle, kein, anderer, jeder -->
     <tag name="NOUN">4226</tag><!-- Jahr, Zeit, Land, Teil, ein, Mensch, Stadt, Jahrhundert, Geschichte, Film -->
     <tag name="NUM">354</tag><!-- zwei, drei, vier, 3, sechs, zehn, 1, 10, 50, 100 -->
     <tag name="PART">233</tag><!-- zu, nicht, not, wohl -->
@@ -43,7 +43,7 @@
     <feat name="Definite" value="Def" upos="DET">2131</feat><!-- der, die, dem, den, das, des, the, El, Le, Los -->
     <feat name="Definite" value="Ind" upos="DET">472</feat><!-- eine, ein, einer, einem, einen, eines, einige, mehr, weitere, mehrere -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">58</feat><!-- mehr, später, besser, genauer, größere, höherer, lieber, späteren, weniger, Stranger -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">2215</feat><!-- auch, so, noch, nur, sehr, ersten, neue, jedoch, letzten, mehr -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">2214</feat><!-- auch, so, noch, nur, sehr, ersten, neue, jedoch, letzten, mehr -->
     <feat name="Degree" value="Sup" upos="ADJ">32</feat><!-- besten, größten, schlimmsten, höchsten, Oberste, Obersten, bekannteste, beknackteste, erfoglreichste, erfolgreichste -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">79</feat><!-- the, a, of, El, My, n't, ', Angeles, Breaking, Buck -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">3699</feat><!-- die, der, eine, sie, einer, seine, diese, Zeit, ihre, seiner -->
@@ -70,7 +70,7 @@
     <feat name="PronType" value="Art" upos="DET">2541</feat><!-- der, die, dem, den, das, des, eine, ein, einer, einem -->
     <feat name="PronType" value="Dem" upos="ADV,DET">186</feat><!-- diese, dieser, davon, dies, dazu, damit, dieses, dafür, darauf, diesem -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">244</feat><!-- die, der, das, denen, dem, dessen, deren, den -->
-    <feat name="PronType" value="Ind" upos="DET">59</feat><!-- viele, andere, anderen, vielen, anderer, viel, vieler, anderes -->
+    <feat name="PronType" value="Ind" upos="DET">60</feat><!-- viele, andere, anderen, vielen, anderer, viel, vieler, anderes, anders -->
     <feat name="PronType" value="Int,Rel" upos="DET">6</feat><!-- welche, welchen, welcher -->
     <feat name="PronType" value="Neg" upos="DET">25</feat><!-- keine, kein, keinen -->
     <feat name="PronType" value="Prs" upos="DET,PRON">371</feat><!-- sich, seine, ihre, ihrer, seiner, ihr, sein, ihren, seinen, Sie -->
