@@ -4326,7 +4326,7 @@
 13	und	und	CCONJ	CC	_	14	cc	_	_
 14	nahm	nehmen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	conj	_	_
 15	damit	damit	ADV	RB	PronType=Dem	14	advmod	_	_
-16	denjenigen	derjenige	NOUN	NN	Case=Dat|Number=Plur	14	obl:arg	_	_
+16	denjenigen	derjenige	DET	NN	Case=Dat|Number=Plur|PronType=Dem	14	obl:arg	_	_
 17	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Hürde	Hürde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	23	punct	_	_
@@ -5911,7 +5911,7 @@
 10	einer	ein	DET	DT	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Klage	Klage	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 12	auf	auf	ADP	IN	_	13	case	_	_
-13	diejenigen	derjenige	NOUN	NN	Case=Acc|Number=Plur	15	obl	_	_
+13	diejenigen	derjenige	DET	NN	Case=Acc|Number=Plur|PronType=Dem	15	obl	_	_
 14	zu	zu	PART	RP	_	15	mark	_	_
 15	begrenzen	begrenzen	VERB	VB	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	25	punct	_	_
