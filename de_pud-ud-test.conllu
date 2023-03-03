@@ -20744,7 +20744,7 @@
 25	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	38	aux	_	_
 26	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	Nummer	Nummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	38	xcomp	_	_
-28	Eins	ein	DET	CD	Definite=Ind|NumType=Card|PronType=Art	27	nummod	_	_
+28	Eins	ein	DET	CD	Definite=Ind|NumType=Card|PronType=Art	27	det	_	_
 29	bei	bei	ADP	IN	_	31	case	_	_
 30	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	Stromerzeugung	Stromerzeugung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	38	obl	_	_
