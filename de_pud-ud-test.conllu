@@ -85,7 +85,7 @@
 15	Partei	Partei	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No|Proper=True
 16	,	,	PUNCT	,	_	31	punct	_	_
 17	dass	dass	SCONJ	CC	_	31	mark	_	_
-18	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	31	nsubj	_	_
+18	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
 19	als	als	CCONJ	CC	_	20	cc	_	_
 20	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	conj	_	_
 21	„	„	PUNCT	``	_	23	punct	_	SpaceAfter=No
@@ -126,7 +126,7 @@
 19	“	“	PUNCT	''	_	8	punct	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	8	punct	_	_
 21	sagte	sagen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-22	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+22	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 23	zu	zu	ADP	IN	_	25	case	_	_
 24	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	Menschenmenge	Menschenmenge	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
@@ -289,7 +289,7 @@
 16	Inhalte	Inhalt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	21	punct	_	_
 18	indem	indem	SCONJ	CC	_	21	mark	_	_
-19	sie	er	PRON	PRP	Case=Nom|Gender=Fem|Number=Plur|Person=3	21	nsubj	_	_
+19	sie	er	PRON	PRP	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
 20	diese	dieser	DET	DT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	21	obj	_	_
 21	anwenden	anwenden	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	12	advcl	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	12	punct	_	_
@@ -303,7 +303,7 @@
 4	.	.	PUNCT	.	_	3	punct	_	_
 5	Klasse	Klasse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
 6	liegen	liegen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-7	sie	er	PRON	PRP	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
+7	sie	er	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
 8-9	im	_	_	_	_	_	_	_	_
 8	in	in	ADP	APPR	_	11	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -317,7 +317,7 @@
 17	.	.	PUNCT	.	_	16	punct	_	_
 18	Klasse	Klasse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	_
 19	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	21	cop	_	_
-20	sie	er	PRON	PRP	Case=Nom|Number=Plur|Person=3	21	nsubj	_	_
+20	sie	er	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
 21	besser	gut	ADJ	JJ	Degree=Cmp	6	conj	_	_
 22	als	als	CCONJ	CC	_	25	cc	_	_
 23	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -502,7 +502,7 @@
 7	Schwein	Schwein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	14	punct	_	_
 9	aber	aber	CCONJ	CC	_	14	cc	_	_
-10	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+10	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 11	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	cop	_	_
 12	nicht	nicht	PART	RB	Polarity=Neg	13	advmod	_	_
 13	immer	immer	ADV	RB	Degree=Pos	14	advmod	_	_
@@ -559,13 +559,13 @@
 9	,	,	PUNCT	,	_	15	punct	_	_
 10	an	an	ADP	IN	_	11	case	_	_
 11	dem	der	PRON	REL	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem,Rel	15	obl	_	_
-12	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+12	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 13	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 14	Gefühl	Gefühl	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
 15	hatte	haben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	acl:relcl	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	21	punct	_	_
 17	dass	dass	SCONJ	CC	_	21	mark	_	_
-18	sie	er	PRON	PRP	Case=Nom|Number=Plur|Person=3	21	nsubj	_	_
+18	sie	er	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
 19	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
 20	Gebäude	Gebäude	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
 21	verlassen	verlassen	VERB	VB	_	14	acl	_	_
@@ -681,7 +681,7 @@
 8	an	an	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	15	punct	_	_
 10	nachdem	nachdem	SCONJ	CC	_	15	mark	_	_
-11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj:pass	_	_
+11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj:pass	_	_
 12-13	im	_	_	_	_	_	_	_	_
 12	in	in	ADP	APPR	_	14	case	_	_
 13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -1166,7 +1166,7 @@
 30	,	,	PUNCT	,	_	34	punct	_	_
 31	in	in	ADP	IN	_	32	case	_	_
 32	der	der	PRON	REL	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem,Rel	34	obl	_	_
-33	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	34	nsubj	_	_
+33	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
 34	erklärte	erklären	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	29	acl:relcl	_	SpaceAfter=No
 35	,	,	PUNCT	,	_	39	punct	_	_
 36	warum	warum	ADV	WRB	_	39	advmod	_	_
@@ -1784,7 +1784,7 @@
 4	Schlagzeilen	Schlagzeile	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	25	punct	_	_
 6	als	als	SCONJ	CC	_	25	mark	_	_
-7	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
+7	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 8	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 9	russische	russisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	InflectionType=Weak|Proper=True
 10	Vorgehen	Vorgehen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	25	obj	_	_
@@ -1812,7 +1812,7 @@
 2	leidenschaftlicher	leidenschaftlich	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	InflectionType=Strong
 3	Gitarrist	Gitarrist	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	acl	_	_
 4	gab	geben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-5	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+5	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 6	dort	dort	ADV	RB	Degree=Pos	4	advmod	_	_
 7-8	im	_	_	_	_	_	_	_	_
 7	in	in	ADP	APPR	_	10	case	_	_
@@ -1875,7 +1875,7 @@
 9	Staatsbürgerschaft	Staatsbürgerschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	_	_
 11	nachdem	nachdem	SCONJ	CC	_	13	mark	_	_
-12	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+12	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	angeboten	anbieten	VERB	VBN	Tense=Past	5	advcl	_	_
 14	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	aux	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	23	punct	_	_
@@ -2014,7 +2014,7 @@
 # sent_id = n01031021
 # text = Er fügte hinzu: „Das war ein Schritt auf der langen Suche nach der richtigen Kombination für hormonelle Verhütung für Männer.“
 # text_en = He added: "This has been one step in a long journey of finding the right combination for male hormonal contraception."
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	fügte	fügen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	hinzu	hinzu	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
 4	:	:	PUNCT	:	_	9	punct	_	_
@@ -2220,7 +2220,7 @@
 10	hier	hier	ADV	RB	Degree=Pos	14	advmod	_	_
 11	trotzdem	trotzdem	ADV	RB	Degree=Pos	14	advmod	_	_
 12	mit	mit	ADP	IN	_	13	case	_	_
-13	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	14	obl	_	_
+13	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
 14	zusammenarbeiten	zusammenarbeiten	VERB	VB	_	0	root	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	20	punct	_	_
 16	um	um	SCONJ	CC	_	20	mark	_	_
@@ -2301,7 +2301,7 @@
 32	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	31	cop	_	SpaceAfter=No
 33	,	,	PUNCT	,	_	44	punct	_	_
 34	weil	weil	SCONJ	CC	_	44	mark	_	_
-35	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	44	nsubj	_	_
+35	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	nsubj	_	_
 36	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	37	det	_	_
 37	Jugendliche	Jugendliche	NOUN	NNA	Case=Acc|Gender=Fem|Number=Sing	44	obj	_	InflectionType=Mixed
 38	an	an	ADP	IN	_	41	case	_	_
@@ -2377,7 +2377,7 @@
 # sent_id = n01035030
 # text = Er sagte auch, dass Klein verschlossen, unkooperativ und nicht gewillt sei, von den Gefängniszellen unter dem Gerichtsgebäude nach oben zu seiner Anhörung zu gehen.
 # text_en = He also said Klein was uncommunicative, uncooperative and unwilling to walk up from cells under the courthouse to attend his hearing.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	sagte	sagen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	auch	auch	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	_	_
@@ -2443,7 +2443,7 @@
 # sent_id = n01036020
 # text = Er wünscht sich außerdem eine verstärkte Anwendung des Gesetzes und Ermittlungsbefugnisse für den Immobilienrat in Ontario (RECO), der den Immobilienmarkt in der Provinz reguliert.
 # text_en = He'd also like to see greater enforcement and investigative powers for the Real Estate Council of Ontario (RECO), which regulates agents in the province.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	wünscht	wünschen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	sich	sich	PRON	PRP	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obl:arg	_	_
 4	außerdem	außerdem	ADV	RB	Degree=Pos	2	advmod	_	_
@@ -2574,7 +2574,7 @@
 # sent_id = n01038025
 # text = Er könnte auch bis zum Ende seiner ersten Amtszeit warten, um eine Bestimmung in dem Abkommen von Paris dazu zu nutzen, aus dem Pakt auszutreten.
 # text_en = He could also wait until the end of his first term to use a provision in the Paris agreement to pull out of the pact.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 2	könnte	können	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	11	aux	_	_
 3	auch	auch	ADV	RB	Degree=Pos	11	advmod	_	_
 4	bis	bis	ADP	IN	_	7	case	_	_
@@ -2625,7 +2625,7 @@
 14	,	,	PUNCT	,	_	18	punct	_	_
 15	indem	indem	SCONJ	CC	_	18	mark	_	_
 16	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	18	nsubj	_	_
-17	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	18	obl:arg	_	_
+17	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obl:arg	_	_
 18	vorwerfen	vorwerfen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	13	advcl	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	35	punct	_	_
 20	seine	sein	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
@@ -2639,7 +2639,7 @@
 28	sein	sein	DET	DTP$	Case=Nom|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	29	det:poss	_	_
 29	Temperament	Temperament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	22	conj	_	_
 30	würden	werden	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	35	aux	_	_
-31	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	35	obj	_	_
+31	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
 32	für	für	ADP	IN	_	34	case	_	_
 33	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	34	det	_	_
 34	Amt	Amt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	35	obl	_	_
@@ -3091,7 +3091,7 @@
 21	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	20	cop	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	29	punct	_	_
 23	als	als	SCONJ	CC	_	29	mark	_	_
-24	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	29	nsubj	_	_
+24	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
 25	Duffy	Duffy	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	29	obj	_	_
 26	von	von	ADP	IN	_	28	case	_	_
 27	allen	alle	DET	DT	Case=Dat|Gender=Fem|Number=Plur|PronType=Tot	28	det	_	_
@@ -3141,7 +3141,7 @@
 # sent_id = n01046057
 # text = Er wies außerdem darauf hin, dass Rogers kürzlich eine neue App vorgestellt hatte, die Kunden hilft, ihren Datenverbrauch zu überwachen.
 # text_en = He also pointed out that Rogers recently introduced a new app tool that helps customers monitor their data usage.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	wies	weisen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	außerdem	außerdem	ADV	RB	Degree=Pos	2	advmod	_	_
 4	darauf	darauf	ADV	RB	PronType=Dem	2	advmod	_	_
@@ -3483,7 +3483,7 @@
 # sent_id = n01052006
 # text = Er beschrieb sie als „bemerkenswerte“ und „liebevolle und wunderbare“ Frau, die die literarische Welt mit ihren Geschichten prägte.
 # text_en = He described her as a "remarkable" and "loving and wonderful" woman who left her mark in the literary world with her stories.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	beschrieb	beschreiben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	2	obj	_	_
 4	als	als	CCONJ	CC	_	6	cc	_	_
@@ -3806,14 +3806,14 @@
 # sent_id = n01058064
 # text = Er konnte die Auswirkungen der Wahl um ihn herum wahrnehmen, durch das Aufplatzen von Konflikten und die eigenartigen Überschneidungen von neuen und alten Ideen.
 # text_en = He could detect the effects of the election around him, in the bursts of conflict and the curious intersection of new ideas with old ones.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 2	konnte	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	aux	_	_
 3	die	der	DET	DT	Case=Acc|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	Auswirkungen	Auswirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
 5	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Wahl	Wahl	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 7	um	um	ADP	IN	_	8	case	_	_
-8	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obl	_	_
+8	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
 9	herum	herum	ADV	RB	Degree=Pos	8	advmod	_	_
 10	wahrnehmen	wahrnehmen	VERB	VB	_	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	_	_
@@ -4010,7 +4010,7 @@
 1	„	„	PUNCT	``	_	7	punct	_	SpaceAfter=No
 2	Wenn	wenn	SCONJ	CC	_	5	mark	_	_
 3	ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
-4	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obj	_	_
+4	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 5	spiele	spielen	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	7	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	_	_
 7	fühle	fühlen	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	13	ccomp	_	_
@@ -4535,7 +4535,7 @@
 12	,	,	PUNCT	,	_	2	punct	_	_
 13	hoffen	hoffen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	21	punct	_	_
-15	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	21	obj	_	_
+15	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
 16	mit	mit	ADP	IN	_	18	case	_	_
 17	ihrer	ihr	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Kandidatin	Kandidatin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	_
@@ -4567,7 +4567,7 @@
 # sent_id = n01069023
 # text = Er war sehr freundlich und nahm es wie ein Mann, aber ich bin total wütend.
 # text_en = He was utterly gracious and took it like a man, I am beyond furious.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	cop	_	_
 3	sehr	sehr	ADV	RB	Degree=Pos	4	advmod	_	_
 4	freundlich	freundlich	ADJ	JJ	Degree=Pos	0	root	_	_
@@ -4663,7 +4663,7 @@
 # text_en = He then spent four years with BBC World Service radio at Bush House.
 1	Danach	danach	ADV	RB	Degree=Pos	2	advmod	_	_
 2	verbrachte	verbringen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+3	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 4	vier	vier	NUM	CD	NumType=Card	5	nummod	_	_
 5	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obl:tmod	_	_
 6-7	beim	_	_	_	_	_	_	_	_
@@ -4683,7 +4683,7 @@
 # sent_id = n01072012
 # text = Er arbeitete ein Jahrzent für die BBC.
 # text_en = He worked for the BBC for a decade.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	arbeitete	arbeiten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	ein	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	4	det	_	_
 4	Jahrzent	Jahrzent	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl:tmod	_	_
@@ -4798,7 +4798,7 @@
 # sent_id = n01074020
 # text = Er hat seine harten Kanten im Spiel, aber auch weiche Hände.
 # text_en = He has got that hard edge to his game but also the soft hands.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	hat	haben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 4	harten	hart	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	InflectionType=Mixed
@@ -4869,7 +4869,7 @@
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	als	als	SCONJ	CC	_	2	mark	_	_
 5	würde	werden	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	16	aux	_	_
-6	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+6	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 7	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
 9	unter	unter	ADP	IN	_	12	case	_	_
@@ -4959,7 +4959,7 @@
 # sent_id = n01076030
 # text = Er hat sich für Folter ausgesprochen.
 # text_en = He’s spoken in favour of torture.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 2	hat	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux	_	_
 3	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
 4	für	für	ADP	IN	_	5	case	_	_
@@ -5543,7 +5543,7 @@
 6	zurück	zurück	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	17	punct	_	_
 8	nachdem	nachdem	SCONJ	CC	_	17	mark	_	_
-9	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+9	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 10	erst	erst	ADV	RB	Degree=Pos	12	advmod	_	_
 11	in	in	ADP	IN	_	12	case	_	_
 12	London	London	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	_
@@ -5555,7 +5555,7 @@
 18	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	17	aux	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	29	punct	_	_
 20	wo	wo	ADV	WRB	_	29	advmod	_	_
-21	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	29	nsubj	_	_
+21	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
 22	Schmuckdesign	Schmuckdesign	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	29	obj	_	_
 23	an	an	ADP	IN	_	26	case	_	_
 24	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -5578,7 +5578,7 @@
 7	“	“	PUNCT	''	_	3	punct	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	3	punct	_	_
 9	sagt	sagen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-10	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	SpaceAfter=No
+10	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = n01087039
@@ -5603,7 +5603,7 @@
 17	“	“	PUNCT	''	_	3	punct	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	3	punct	_	_
 19	sagt	sagen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-20	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	SpaceAfter=No
+20	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	19	punct	_	_
 
 # newdoc id = n01088
@@ -5849,7 +5849,7 @@
 3	mal	mal	ADV	RB	Degree=Pos	1	advmod	_	_
 4	an	an	VERB	DC	_	1	compound:prt	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	_	_
-6	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+6	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	irrt	irren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	ccomp	_	_
 8	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	1	punct	_	_
@@ -5928,7 +5928,7 @@
 26	“	“	PUNCT	''	_	3	punct	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	30	punct	_	_
 28	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	30	aux:pass	_	_
-29	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	30	nsubj:pass	_	_
+29	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj:pass	_	_
 30	zitiert	zitieren	VERB	VBN	Tense=Past	3	parataxis	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -6460,7 +6460,7 @@
 16	“	“	PUNCT	''	_	3	punct	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	3	punct	_	_
 18	sagte	sagen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-19	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	nsubj	_	SpaceAfter=No
+19	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = n01101017
@@ -6480,7 +6480,7 @@
 # sent_id = n01102006
 # text = Er erzählte Andrew Marr Show von der BBC: „Parlamentswahlen sind offen gesagt das Letzte, was die Regierung will.“
 # text_en = He told the BBC’s Andrew Marr Show: “A general election is frankly the last thing that the Government wants.”
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	erzählte	erzählen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	Andrew	Andrew	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	5	compound	_	_
 4	Marr	Marr	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	3	flat:name	_	_
@@ -6590,7 +6590,7 @@
 8	so	so	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	21	punct	_	_
 10	als	als	SCONJ	CC	_	21	mark	_	_
-11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 12-13	im	_	_	_	_	_	_	_	_
 12	in	in	ADP	APPR	_	14	case	_	_
 13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -6618,7 +6618,7 @@
 8	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	Gleichgewicht	Gleichgewicht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
 10	und	und	CCONJ	CC	_	12	cc	_	_
-11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	scheint	scheinen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	conj	_	_
 13	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	ganze	ganz	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	InflectionType=Weak
@@ -6793,7 +6793,7 @@
 # sent_id = n01107010
 # text = Er wurde im Oktober 2015, einen Monat, nachdem der Skandal ans Tageslicht gebracht wurde, zum Vorsitzenden befördert.
 # text_en = He was promoted to chairman in October 2015, the month after the scandal was unearthed.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	nsubj:pass	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj:pass	_	_
 2	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	23	aux:pass	_	_
 3-4	im	_	_	_	_	_	_	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
@@ -6880,7 +6880,7 @@
 # sent_id = n01108015
 # text = Er kann jedoch nicht unbegrenzt Geld ausgeben, da die Regierung weiterhin mit einem erheblichen Haushaltsdefizit kämpft.
 # text_en = There will be limits to his ability to spend, however, as the Government is still running a substantial budget deficit.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 2	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux	_	_
 3	jedoch	jedoch	ADV	RB	Degree=Pos	7	advmod	_	_
 4	nicht	nicht	PART	RB	Polarity=Neg	5	advmod	_	_
@@ -7239,7 +7239,7 @@
 # sent_id = n01114012
 # text = Er warnte vor dem „enormen Druck“, der jetzt auf dem NHS laste, und forderte die Öffentlichkeit auf, mehr Verantwortung für die eigene Gesundheit zu übernehmen.
 # text_en = Warning that the NHS was now under "enormous pressure," he urged the public to take more responsibility for their own health.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	warnte	warnen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	vor	vor	ADP	IN	_	7	case	_	_
 4	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -7457,7 +7457,7 @@
 # sent_id = n01117007
 # text = Er arbeitete jahrzehntelang für Radio und Fernsehen bei den Nachrichten und der aktuellen Berichterstattung.
 # text_en = He worked on the news and current affairs side of radio and TV for decades.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	arbeitete	arbeiten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	jahrzehntelang	jahrzehntelang	ADV	RB	Degree=Pos	2	advmod	_	_
 4	für	für	ADP	IN	_	5	case	_	_
@@ -7505,7 +7505,7 @@
 4	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Regisseurs	Regisseur	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 6	hat	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	aux	_	_
-7	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+7	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 8	bisher	bisher	ADV	RB	Degree=Pos	11	advmod	_	_
 9	acht	acht	NUM	CD	NumType=Card	10	nummod	_	_
 10	Spielfilme	Spielfilm	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
@@ -7959,7 +7959,7 @@
 12	tritt	treten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	advcl	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	_	_
 14	wirkt	wirken	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-15	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+15	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 16	sehr	sehr	ADV	RB	Degree=Pos	17	advmod	_	_
 17	gefasst	gefasst	VERB	VBN	Tense=Past|VerbForm=Part	14	ccomp	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	14	punct	_	_
@@ -8418,12 +8418,12 @@
 # sent_id = n01134015
 # text = Ihm wird gutgeschrieben, dass er sich an der Reduzierung des von den chinesischen Kommunalverwaltungen verursachten Schuldenbergs unterstützend beteiligt hat.
 # text_en = He is credited with helping efforts to tackle the mountain of debt accumulated by local governments in China.
-1	Ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	3	obl:arg	_	_
+1	Ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl:arg	_	_
 2	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux:pass	_	_
 3	gutgeschrieben	gutschreiben	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	19	punct	_	_
 5	dass	dass	SCONJ	CC	_	19	mark	_	_
-6	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+6	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 7	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	19	obj	_	_
 8	an	an	ADP	IN	_	10	case	_	_
 9	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -8652,7 +8652,7 @@
 10	wichtigsten	wichtig	ADJ	JJ	Case=Dat|Degree=Sup|Number=Plur	11	amod	_	InflectionType=Strong
 11	Gefolgsleuten	Gefolgsleute	NOUN	NN	Case=Dat|Number=Plur	2	nmod	_	_
 12	genießt	genießen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-13	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+13	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 14	einige	einige	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
 15	Freiheiten	Freiheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	12	punct	_	_
@@ -8672,7 +8672,7 @@
 10	wirklich	wirklich	ADV	RB	Degree=Pos	11	advmod	_	_
 11	schlimm	schlimm	ADJ	JJ	Degree=Pos	5	parataxis	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	19	punct	_	_
-13	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obj	_	_
+13	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
 14	in	in	ADP	IN	_	17	case	_	_
 15	diesem	dieser	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
 16	emotionalen	emotional	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	InflectionType=Weak
@@ -8910,7 +8910,7 @@
 8	auflief	auflaufen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	acl:relcl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	16	punct	_	_
 10	als	als	SCONJ	CC	_	16	mark	_	_
-11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 12-13	im	_	_	_	_	_	_	_	_
 12	in	in	ADP	APPR	_	15	case	_	_
 13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -9032,7 +9032,7 @@
 18	zurück	zurück	VERB	DC	_	15	compound:prt	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	25	punct	_	_
 20	wo	wo	ADV	WRB	_	25	advmod	_	_
-21	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
+21	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 22	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	25	obj	_	_
 23	zu	zu	ADP	IN	_	24	case	_	_
 24	Hause	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	25	obl	_	_
@@ -9042,7 +9042,7 @@
 # sent_id = n01144023
 # text = Er tauchte wieder und wieder in meinem Stall auf, und ich meinte scherzhaft zu dem Nachbarn, dass er offensichtlich nicht verkauft werden wollte.
 # text_en = He kept on turning up at my barn and I joked to the guy that clearly he didn't want to be sold.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	tauchte	tauchen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	wieder	wieder	ADV	RB	Degree=Pos	2	advmod	_	_
 4	und	und	CCONJ	CC	_	5	cc	_	_
@@ -9061,7 +9061,7 @@
 17	Nachbarn	Nachbar	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	23	punct	_	_
 19	dass	dass	SCONJ	CC	_	23	mark	_	_
-20	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	nsubj:pass	_	_
+20	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj:pass	_	_
 21	offensichtlich	offensichtlich	ADV	RB	Degree=Pos	23	advmod	_	_
 22	nicht	nicht	PART	RB	Polarity=Neg	23	advmod	_	_
 23	verkauft	verkaufen	VERB	VBN	Tense=Past	13	ccomp	_	_
@@ -9089,12 +9089,12 @@
 15	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	19	obj	_	_
 16	rückwärts	rückwärts	ADV	RB	Degree=Pos	19	advmod	_	_
 17	auf	auf	ADP	IN	_	18	case	_	_
-18	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obl	_	_
+18	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
 19	setzte	setzen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	conj	_	SpaceAfter=No
 20	“	“	PUNCT	``	_	3	punct	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	3	punct	_	_
 22	fügte	fügen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-23	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+23	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 24	hinzu	hinzu	VERB	DC	_	22	compound:prt	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	22	punct	_	_
 
@@ -9532,7 +9532,7 @@
 22	erhalten	erhalten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	conj	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	7	punct	_	_
 24	sagt	sagen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-25	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	nsubj	_	SpaceAfter=No
+25	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	24	punct	_	_
 
 # newdoc id = w01001
@@ -11858,7 +11858,7 @@
 15	Inseln	Insel	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No|Proper=True
 16	,	,	PUNCT	,	_	23	punct	_	_
 17	womit	womit	ADV	WRB	_	23	advmod	_	_
-18	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	nsubj	_	_
+18	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 19	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	20	det	_	_
 20	Ära	Ära	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
 21	europäischer	europäisch	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	InflectionType=Strong|Proper=True
@@ -11994,7 +11994,7 @@
 11	Flusses	Fluß	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	20	punct	_	_
 13	bis	bis	CCONJ	CC	_	20	cc	_	_
-14	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
+14	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 15	in	in	ADP	IN	_	18	case	_	_
 16	seiner	sein	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 17	schlimmsten	schlimm	ADJ	JJ	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing	18	amod	_	InflectionType=Mixed
@@ -13013,7 +13013,7 @@
 1	Dieses	dieser	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
 2	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
 3	beanspruchte	beanspruchen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+4	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 5	für	für	ADP	IN	_	6	case	_	_
 6	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obl	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	10	punct	_	_
@@ -13024,7 +13024,7 @@
 12	haben	haben	AUX	VB	_	10	aux	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	25	punct	_	_
 14	obwohl	obwohl	SCONJ	CC	_	25	mark	_	_
-15	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
+15	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 16	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 17	Rüstung	Rüstung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
 18	erst	erst	ADV	RB	Degree=Pos	19	advmod	_	_
@@ -13086,7 +13086,7 @@
 23	schicken	schicken	VERB	VB	_	14	xcomp	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	30	punct	_	_
 25	um	um	SCONJ	CC	_	30	mark	_	_
-26	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	30	obj	_	_
+26	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
 27	vor	vor	ADP	IN	_	28	case	_	_
 28	Gericht	Gericht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	30	obl	_	_
 29	zu	zu	PART	RP	_	30	mark	_	_
@@ -13172,7 +13172,7 @@
 20	nicht	nicht	PART	RB	Polarity=Neg	3	conj	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	28	punct	_	_
 22	ob	ob	SCONJ	CC	_	28	mark	_	_
-23	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
+23	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
 24	von	von	ADP	IN	_	25	case	_	_
 25	Wolken	Wolke	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	28	obl	_	_
 26	oder	oder	CCONJ	CC	_	27	cc	_	_
@@ -13208,7 +13208,7 @@
 # sent_id = w01056103
 # text = Er legte die Grundlage für die Integration, wobei ökonomische und juristische Mechanismen des Staates im gesamten Mittelmeerraum Anwendung fanden, ähnlich wie einst Mechanismen aus Latium auf ganz Italien angewandt wurden.
 # text_en = It set the basis for integration where the economic and judicial mechanisms of the state could be applied throughout the Mediterranean as was once done from Latium into all Italy.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	legte	legen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Grundlage	Grundlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
@@ -13292,7 +13292,7 @@
 3	vorhergesagt	vorhersagen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	15	punct	_	_
 5	dass	dass	SCONJ	CC	_	15	mark	_	_
-6	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+6	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 7	entweder	entweder	CCONJ	CC	_	15	cc:preconj	_	_
 8	in	in	ADP	IN	_	10	case	_	_
 9	hohem	hoch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	InflectionType=Strong
@@ -13452,7 +13452,7 @@
 # sent_id = w01060040
 # text = Er konnte seinen guten Ruf am Hof weiter ausbauen, als er im Sommer 1075 als Gesandter zur Khitan-Liao-Dynastie geschickt wurde.
 # text_en = He gained further reputation at court once he was dispatched as an envoy to the Khitan Liao Dynasty in the summer of 1075.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 2	konnte	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	aux	_	_
 3	seinen	sein	DET	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 4	guten	gut	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	InflectionType=Mixed
@@ -13465,7 +13465,7 @@
 10	ausbauen	ausbauen	VERB	VB	_	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	27	punct	_	_
 12	als	als	SCONJ	CC	_	27	mark	_	_
-13	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	27	nsubj:pass	_	_
+13	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj:pass	_	_
 14-15	im	_	_	_	_	_	_	_	_
 14	in	in	ADP	APPR	_	16	case	_	_
 15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -13571,7 +13571,7 @@
 17	doch	doch	CCONJ	CC	_	19	cc	_	_
 18	Augustus	Augustus	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
 19	verweigerte	verweigern	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	conj	_	_
-20	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	19	obl:arg	_	_
+20	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl:arg	_	_
 21	jedes	jeder	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	22	det	_	_
 22	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	_
 23	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
@@ -13587,7 +13587,7 @@
 4	,	,	PUNCT	,	_	9	punct	_	_
 5	als	als	SCONJ	CC	_	9	mark	_	_
 6	würde	werden	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	9	aux	_	_
-7	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+7	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 8	sich	sich	PRON	PRP	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	obl:arg	_	_
 9	wünschen	wünschen	VERB	VB	_	2	advcl	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	20	punct	_	_
@@ -13599,7 +13599,7 @@
 16	Staat	Staat	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
 17	einfach	einfach	ADV	RB	Degree=Pos	20	advmod	_	_
 18	ohne	ohne	ADP	IN	_	19	case	_	_
-19	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obl	_	_
+19	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl	_	_
 20	handelten	handeln	VERB	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	9	ccomp	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	28	punct	_	_
 22	und	und	CCONJ	CC	_	28	cc	_	_
@@ -13616,7 +13616,7 @@
 33	darüber	darüber	ADV	RB	PronType=Dem	32	advmod	_	SpaceAfter=No
 34	,	,	PUNCT	,	_	38	punct	_	_
 35	was	was	PRON	REL	Case=Acc|Gender=Neut|Number=Sing|Person=3	38	obj	_	_
-36	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	38	nsubj	_	_
+36	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	_
 37	eigentlich	eigentlich	ADV	RB	Degree=Pos	38	advmod	_	_
 38	wollte	wollen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	33	acl:relcl	_	SpaceAfter=No
 39	,	,	PUNCT	,	_	43	punct	_	_
@@ -13977,7 +13977,7 @@
 # text_en = In addition, he strengthened defenses between Egypt and Asia, building the Walls of the Ruler in the East Delta region.
 1	Außerdem	außerdem	ADV	RB	Degree=Pos	13	advmod	_	_
 2	hat	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	aux	_	_
-3	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+3	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 4	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Schutz	Schutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
 6	an	an	ADP	IN	_	8	case	_	_
@@ -13990,7 +13990,7 @@
 13	gestärkt	stärken	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	27	punct	_	_
 15	indem	indem	SCONJ	CC	_	27	mark	_	_
-16	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	27	nsubj	_	_
+16	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
 17	die	der	DET	DT	Case=Acc|Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	Mauern	Mauer	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	27	obj	_	Proper=True
 19	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	Proper=True
@@ -14007,7 +14007,7 @@
 # sent_id = w01067059
 # text = Er regierte nur 15 Jahre, dies ist duch die unvollständige Bauweise vieler seiner Bauwerke belegt.
 # text_en = He reigned only fifteen years, which is evidenced by the incomplete nature of many of his constructions.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	regierte	regieren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	nur	nur	ADV	RB	Degree=Pos	4	advmod	_	_
 4	15	15	NUM	CD	NumType=Card	5	nummod	_	_
@@ -14097,7 +14097,7 @@
 # text_en = In 1519, he became ruler of the Habsburg empire, and he gained the title Holy Roman Emperor in 1530.
 1	1519	1519	NUM	CD	NumType=Card	2	obl:tmod	_	_
 2	wurde	werden	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+3	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 4	Herrscher	Herrscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	xcomp	_	_
 5	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 6	Habsburgerreiches	Habsburgerreich	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No|Proper=True
@@ -14105,7 +14105,7 @@
 8	und	und	CCONJ	CC	_	19	cc	_	_
 9	1530	1530	NUM	CD	NumType=Card	19	obl:tmod	_	_
 10	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	19	aux:pass	_	_
-11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj:pass	_	_
+11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	_
 12-13	zum	_	_	_	_	_	_	_	_
 12	zu	zu	ADP	APPR	_	14	case	_	_
 13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -14577,7 +14577,7 @@
 2	dieser	dieser	DET	DT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
 4	dachte	denken	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-5	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+5	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 6	mehr	mehr	ADV	RB	Degree=Cmp	4	advmod	_	_
 7	und	und	CCONJ	CC	_	8	cc	_	_
 8	mehr	mehr	ADV	RB	Degree=Cmp	6	conj	_	_
@@ -15050,14 +15050,14 @@
 1	In	in	ADP	IN	_	2	case	_	_
 2	Thessalien	Thessalien	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
 3	besiegte	besiegen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+4	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 5	seine	sein	DET	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Feinde	Feind	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
 7	und	und	CCONJ	CC	_	19	cc	_	_
 8	bis	bis	ADP	IN	_	9	case	_	_
 9	352	352	NUM	CD	NumType=Card	19	obl	_	_
 10	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	19	aux	_	_
-11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 12	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	volle	voll	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	InflectionType=Weak
 14	Kontrolle	Kontrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
@@ -15096,11 +15096,11 @@
 22	versuchte	versuchen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	conj	_	_
 23	nicht	nicht	PART	RB	Polarity=Neg	22	advmod	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	26	punct	_	_
-25	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	26	obj	_	_
+25	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
 26	einzunehmen	einnehmen	VERB	VB	_	22	xcomp	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	41	punct	_	_
 28	weil	weil	SCONJ	CC	_	41	mark	_	_
-29	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	41	nsubj	_	_
+29	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
 30	von	von	ADP	IN	_	33	case	_	_
 31	einer	ein	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	33	det	_	_
 32	gemeinsamen	gemeinsam	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	InflectionType=Mixed
@@ -15129,7 +15129,7 @@
 8	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	aux	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	7	punct	_	_
 10	stellte	stellen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 12	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	15	det	_	_
 13	große	groß	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	InflectionType=Mixed
 14	mazedonische	mazedonisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	conj	_	InflectionType=Mixed|Proper=True
@@ -15195,7 +15195,7 @@
 6	-	-	PUNCT	-	_	5	punct	_	SpaceAfter=No
 7	Monarchie	Monarchie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 8	machte	machen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-9	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	obj	_	_
+9	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
 10	blind	blind	ADV	RB	Degree=Pos	8	advmod	_	_
 11	für	für	ADP	IN	_	14	case	_	_
 12	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -15861,7 +15861,7 @@
 30	,	,	PUNCT	,	_	34	punct	_	_
 31	in	in	ADP	IN	_	32	case	_	_
 32	der	der	PRON	REL	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem,Rel	34	obl	_	_
-33	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	34	nsubj	_	_
+33	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
 34	herrschte	herrschen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	28	acl:relcl	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -16285,7 +16285,7 @@
 5	Geschäftstreffen	Geschäftstreffen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	19	punct	_	_
 7	wo	wo	ADV	WRB	_	19	advmod	_	_
-8	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+8	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 9	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	19	obj	_	_
 10	mit	mit	ADP	IN	_	11	case	_	_
 11	Wissenschaftlern	Wissenschaftler	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	19	obl	_	_
@@ -16448,7 +16448,7 @@
 # sent_id = w01105053
 # text = Er wurde erst ziemlich spät im Krieg fertiggestellt; und obwohl eine Reihe von B-29s mit dem Eagle ausgestattet wurden und auch gut funktionierten, kam dies zu spät, um einen Unterschied zu machen.
 # text_en = It was completed rather late in the war; although a number of B-29s were equipped with Eagle and it worked well, it came too late to make much difference.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj:pass	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj:pass	_	_
 2	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	9	aux:pass	_	_
 3	erst	erst	ADV	RB	Degree=Pos	5	advmod	_	_
 4	ziemlich	ziemlich	ADV	RB	Degree=Pos	5	advmod	_	_
@@ -16798,7 +16798,7 @@
 4	Nervenzusammenbruch	Nervenzusammenbruch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	23	punct	_	_
 6	weil	weil	SCONJ	CC	_	23	mark	_	_
-7	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	nsubj	_	_
+7	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 8	zwischen	zwischen	ADP	IN	_	10	case	_	_
 9	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	Verlangen	Verlangen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	obl	_	_
@@ -16854,7 +16854,7 @@
 2	einer	ein	DET	DT	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	3	det	_	_
 3	Episode	Episode	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
 4	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	aux:pass	_	_
-5	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj:pass	_	_
+5	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj:pass	_	_
 6	als	als	CCONJ	CC	_	8	cc	_	_
 7	versierter	versiert	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	InflectionType=Strong
 8	Gitarrenspieler	Gitarrenspieler	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
@@ -16887,7 +16887,7 @@
 4	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:pass	_	_
 5	angedeutet	andeuten	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	11	punct	_	_
-7	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+7	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 8	sei	sein	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres	11	cop	_	_
 9	ein	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	11	det	_	_
 10	verdeckter	verdeckt	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	InflectionType=Mixed
@@ -17052,7 +17052,7 @@
 # sent_id = w01113046
 # text = Er hat zudem im Jahr 2013 fünf traditionelle Märkte und im Jahr 2014 vier traditionelle Märkte gebaut und renoviert.
 # text_en = He also built and renovated five traditional markets in 2013 and four traditional markets in 2014.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	hat	haben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	zudem	zudem	ADV	RB	Degree=Pos	2	advmod	_	_
 4-5	im	_	_	_	_	_	_	_	_
@@ -17113,7 +17113,7 @@
 5	übernahm	übernehmen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	_	_
 7	sorgte	sorgen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-8	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+8	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 9	dafür	dafür	ADV	RB	PronType=Dem	7	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	27	punct	_	_
 11	dass	dass	SCONJ	CC	_	27	mark	_	_
@@ -17135,7 +17135,7 @@
 27	übernahm	übernehmen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	ccomp	_	SpaceAfter=No
 28	,	,	PUNCT	,	_	33	punct	_	_
 29	weil	weil	SCONJ	CC	_	33	mark	_	_
-30	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	33	nsubj	_	_
+30	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
 31	Subventionen	Subventionen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	33	obj	_	_
 32	weiter	weiter	ADV	RB	Degree=Pos	33	advmod	_	_
 33	abgebaut	abbauen	VERB	VBN	Tense=Past	27	advcl	_	_
@@ -17179,14 +17179,14 @@
 6	hin	hin	ADV	RB	Degree=Pos	3	advmod	_	_
 7	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	cop	_	_
 8	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	10	expl	_	_
-9	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	10	obl:arg	_	_
+9	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl:arg	_	_
 10	möglich	möglich	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	_	_
 12	einen	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	13	det	_	_
 13	Kompromiss	Kompromiß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
 14	auszuhandeln	aushandeln	VERB	VB	_	10	csubj	_	SpaceAfter=No
 15	:	:	PUNCT	:	_	20	punct	_	_
-16	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
+16	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 17	würde	werden	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	20	aux	_	_
 18	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	19	det	_	_
 19	Universität	Universität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
@@ -17212,7 +17212,7 @@
 9	ein	ein	DET	DC	Definite=Ind|NumType=Card|PronType=Art	2	compound:prt	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	19	punct	_	_
 11	wo	wo	ADV	WRB	_	19	advmod	_	_
-12	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+12	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 13	Theaterkritiken	Theaterkritik	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
 14	für	für	ADP	IN	_	18	case	_	_
 15	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -17225,7 +17225,7 @@
 # sent_id = w01115024
 # text = Er machte seinen Abschluss und erhielt seinen M.A. am 21. April 1882.
 # text_en = He graduated and obtained an M.A. on 21 April 1882.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	machte	machen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	seinen	sein	DET	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Abschluss	Abschluß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
@@ -17244,7 +17244,7 @@
 # sent_id = w01115025
 # text = Er bewarb sich auf eine Stellenanzeige in The Scotsman, die ihm seine Schwester gesucht hatte, und er arbeitete für anderthalb Jahre als angestellter Journalist beim Nottingham Journal.
 # text_en = Following a job advertisement found by his sister in The Scotsman, he worked for a year and a half as a staff journalist on the Nottingham Journal.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	bewarb	bewerben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	auf	auf	ADP	IN	_	6	case	_	_
@@ -17255,14 +17255,14 @@
 9	Scotsman	Scotsman	PROPN	NNP	Case=Dat|Number=Sing	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	15	punct	_	_
 11	die	der	PRON	REL	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem,Rel	15	obj	_	_
-12	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	15	obl:arg	_	_
+12	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl:arg	_	_
 13	seine	sein	DET	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Schwester	Schwester	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
 15	gesucht	suchen	VERB	VBN	Tense=Past	6	acl:relcl	_	_
 16	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	15	aux	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	20	punct	_	_
 18	und	und	CCONJ	CC	_	20	cc	_	_
-19	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
+19	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 20	arbeitete	arbeiten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	conj	_	_
 21	für	für	ADP	IN	_	23	case	_	_
 22	anderthalb	anderthalb	NUM	CD	NumType=Card	23	nummod	_	_
@@ -17282,7 +17282,7 @@
 # text_en = He then returned to Kirriemuir.
 1	Dann	dann	ADV	RB	Degree=Pos	2	advmod	_	_
 2	kehrte	kehren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+3	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 4	zurück	zurück	VERB	DC	_	2	compound:prt	_	_
 5	nach	nach	ADP	IN	_	6	case	_	_
 6	Kirriemuir	Kirriemuir	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
@@ -17785,7 +17785,7 @@
 4	ihren	ihr	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
 6	wie	wie	ADV	WRB	_	8	advmod	_	_
-7	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+7	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	fand	finden	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	advcl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
 10	lockeren	locker	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	InflectionType=Mixed
@@ -17967,7 +17967,7 @@
 # text_en = In 2003, he dominated in the points standings and leading the last 33 of 36 races and became the 2003 NASCAR Winston Cup champion, the last driver to ever hold that title.
 1	2003	2003	NUM	CD	NumType=Card	2	obl:tmod	_	_
 2	dominierte	dominieren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+3	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 4	die	der	DET	DT	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	Punktestände	Punktestand	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
 6	und	und	CCONJ	CC	_	7	cc	_	_
@@ -17980,7 +17980,7 @@
 13	Rennen	Rennen	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	17	punct	_	_
 15	und	und	CCONJ	CC	_	17	cc	_	_
-16	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+16	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 17	wurde	werden	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	conj	_	_
 18	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 19	NASCAR	NASCAR	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	21	compound	_	_
@@ -18048,7 +18048,7 @@
 11	1992	1992	NUM	CD	NumType=Card	5	obl:tmod	_	SpaceAfter=No
 12	)	)	PUNCT	)	_	11	punct	_	_
 13	spielte	spielen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-14	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+14	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 15	wieder	wieder	ADV	RB	Degree=Pos	13	advmod	_	_
 16	in	in	ADP	IN	_	18	case	_	_
 17	einigen	einige	DET	DT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	18	det	_	_
@@ -18409,7 +18409,7 @@
 5	Hanteltraining	Hanteltraining	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	24	punct	_	_
 7	und	und	CCONJ	CC	_	24	cc	_	_
-8	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
+8	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 9	hat	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	24	aux	_	_
 10	seinen	sein	DET	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Trainingsplan	Trainingsplan	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
@@ -19124,7 +19124,7 @@
 2	wenig	wenig	ADV	RB	Degree=Pos	3	advmod	_	_
 3	zuvor	zuvor	ADV	RB	Degree=Pos	11	advmod	_	_
 4	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	11	aux	_	_
-5	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj:pass	_	_
+5	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj:pass	_	_
 6	von	von	ADP	IN	_	8	case	_	_
 7	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Schauspielerin	Schauspielerin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl:agent	_	_
@@ -19134,7 +19134,7 @@
 12	worden	werden	AUX	VBN	Tense=Past	11	aux:pass	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	_	_
 14	aber	aber	CCONJ	CC	_	16	cc	_	_
-15	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+15	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 16	litt	leiden	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	11	conj	_	_
 17	sehr	sehr	ADV	RB	Degree=Pos	16	advmod	_	_
 18	unter	unter	ADP	IN	_	20	case	_	_
@@ -19145,7 +19145,7 @@
 # sent_id = w01143037
 # text = Er spielte Humphrey Bogarts jüngeren Bruder, den sorglosen Playboy, in „Sabrina“ (1954), die von Audrey Hepburn dargestellt wurde.
 # text_en = He co-starred as Humphrey Bogart's younger brother, a carefree playboy, in Sabrina (1954), played by Audrey Hepburn.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	spielte	spielen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	Humphrey	Humphrey	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	6	nmod:poss	_	_
 4	Bogarts	Bogarts	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	3	flat:name	_	_
@@ -19176,7 +19176,7 @@
 # sent_id = w01144031
 # text = Er entschied sich, im folgenden Wahlkampf nicht noch ein drittes Mal anzutreten.
 # text_en = He chose not to seek a third term in the following election cycle.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	entschied	entscheiden	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	14	punct	_	_
@@ -19260,7 +19260,7 @@
 # sent_id = w01144084
 # text = Er erholte sich und wurde am 11. April aus dem Krankenhaus entlassen, womit er der erste US-Präsident wurde, der einen versuchten Mordanschlag überlebt hatte.
 # text_en = He recovered and was released from the hospital on April 11, becoming the first serving U.S. president to survive being shot in an assassination attempt.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	erholte	erholen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	und	und	CCONJ	CC	_	13	cc	_	_
@@ -19276,7 +19276,7 @@
 13	entlassen	entlassen	VERB	VBN	Tense=Past	2	conj	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	22	punct	_	_
 15	womit	womit	ADV	WRB	_	22	advmod	_	_
-16	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+16	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 17	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 18	erste	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	InflectionType=Weak
 19	US	US	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	21	compound	_	SpaceAfter=No
@@ -19307,7 +19307,7 @@
 10	hatte	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	9	aux	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	17	punct	_	_
 12	weil	weil	SCONJ	CC	_	17	mark	_	_
-13	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+13	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 14	noch	noch	ADV	RB	Degree=Pos	17	advmod	_	_
 15	zu	zu	ADP	IN	_	16	case	_	_
 16	Höherem	Höhere	NOUN	NNA	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	InflectionType=Strong
@@ -19337,7 +19337,7 @@
 15	;	;	PUNCT	:	_	17	punct	_	_
 16	damit	damit	ADV	RB	PronType=Dem	17	advmod	_	_
 17	unterstreicht	unterstreichen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	parataxis	_	_
-18	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+18	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 19	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 20	impliziten	implizit	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	InflectionType=Weak
 21	Humanismus	Humanismus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
@@ -19435,7 +19435,7 @@
 32	bewunderte	bewundern	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	20	acl:relcl	_	SpaceAfter=No
 33	,	,	PUNCT	,	_	36	punct	_	_
 34	und	und	CCONJ	CC	_	36	cc	_	_
-35	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	36	nsubj	_	_
+35	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
 36	erklärte	erklären	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	18	conj	_	_
 37	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	36	obj	_	_
 38	bereit	bereit	VERB	DC	_	36	compound:prt	_	SpaceAfter=No
@@ -19476,10 +19476,10 @@
 2	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
 3	erreichte	erreichen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	3	nsubj	_	_
-5	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	obj	_	SpaceAfter=No
+5	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	9	punct	_	_
 7	doch	doch	CCONJ	CC	_	9	cc	_	_
-8	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+8	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	weigerte	weigern	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	conj	_	_
 10	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	_
 11	zu	zu	PART	RP	_	12	mark	_	_
@@ -19490,7 +19490,7 @@
 16	nicht	nicht	PART	RB	Polarity=Neg	20	advmod	_	_
 17	mehr	mehr	ADV	RB	Degree=Pos	16	advmod	_	_
 18	mit	mit	ADP	IN	_	19	case	_	_
-19	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	20	obl	_	_
+19	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl	_	_
 20	verheiratet	verheiratet	ADJ	JJ	Degree=Pos	12	ccomp	_	_
 21	sein	sein	AUX	VB	_	20	cop	_	_
 22	wollte	wollen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	20	aux	_	SpaceAfter=No
@@ -19510,7 +19510,7 @@
 8	geboren	gebären	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	_	_
 10	aber	aber	CCONJ	CC	_	12	cc	_	_
-11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	wuchs	wachsen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	conj	_	_
 13	hauptsächlich	hauptsächlich	ADV	RB	Degree=Pos	12	advmod	_	_
 14	in	in	ADP	IN	_	15	case	_	_
@@ -19564,7 +19564,7 @@
 8	Jennings	Jennings	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	_	_
 10	und	und	CCONJ	CC	_	12	cc	_	_
-11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	hatte	haben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	conj	_	_
 13	Kurzauftritte	Kurzauftritte	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
 14	in	in	ADP	IN	_	16	case	_	_
@@ -19827,7 +19827,7 @@
 5	137	137	NUM	CD	NumType=Card	6	nummod	_	_
 6	Länderspielen	Länderspiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	3	nmod	_	_
 7	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	cop	_	_
-8	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+8	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 9	DFB	DFB	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	11	compound	_	SpaceAfter=No
 10	-	-	PUNCT	-	_	9	punct	_	SpaceAfter=No
 11	Rekordtorschütze	Rekordtorschütze	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -20349,7 +20349,7 @@
 1	Und	und	CCONJ	CC	_	7	cc	_	_
 2	jetzt	jetzt	ADV	RB	Degree=Pos	7	advmod	_	_
 3	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
-4	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+4	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 5	auch	auch	ADV	RB	Degree=Pos	7	advmod	_	_
 6	noch	noch	ADV	RB	Degree=Pos	7	advmod	_	_
 7	Weltmeister	Weltmeister	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -20525,7 +20525,7 @@
 8	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	SPIEGEL	Spiegel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl:arg	_	SpaceAfter=No|Proper=True
 10	,	,	PUNCT	,	_	13	punct	_	_
-11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 12	sei	sein	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres	13	cop	_	_
 13	überzeugt	überzeugt	ADJ	JJ	Degree=Pos	7	ccomp	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	28	punct	_	_
@@ -20957,7 +20957,7 @@
 10	,	,	PUNCT	,	_	9	punct	_	_
 11	so	so	ADV	RB	Degree=Pos	12	advmod	_	_
 12	versicherte	versichern	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-13	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	SpaceAfter=No
+13	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	19	punct	_	_
 15	würde	werden	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	19	aux	_	_
 16	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	19	nsubj:pass	_	_
@@ -20984,7 +20984,7 @@
 11	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	aux	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	10	punct	_	_
 13	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	19	aux	_	_
-14	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+14	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 15	auch	auch	ADV	RB	Degree=Pos	16	advmod	_	_
 16	nicht	nicht	PART	RB	Polarity=Neg	19	advmod	_	_
 17	mit	mit	ADP	IN	_	18	case	_	_
@@ -21304,7 +21304,7 @@
 6	problematisch	problematisch	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	16	punct	_	_
 8	weil	weil	SCONJ	CC	_	16	mark	_	_
-9	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+9	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 10	„	„	PUNCT	``	_	13	punct	_	SpaceAfter=No
 11	aus	aus	ADP	IN	_	13	case	_	_
 12	einer	ein	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	13	det	_	_
@@ -21435,7 +21435,7 @@
 # sent_id = n03009006
 # text = Er bemerkte auch, dass „die Existenz eines solchen Dokuments Konsequenzen haben könnte, die wahrscheinlich, aber nicht akzeptabel“ seien.
 # text_en = He also remarked that "the existence of such a document could lead to consequences that are as likely as they are unacceptable".
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	bemerkte	bemerken	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	auch	auch	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	13	punct	_	_
@@ -21852,7 +21852,7 @@
 17	übernommen	übernehmen	VERB	VBN	Tense=Past	12	acl:relcl	_	_
 18	haben	haben	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	17	aux	_	SpaceAfter=No
 19	;	;	PUNCT	:	_	21	punct	_	_
-20	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+20	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 21	entspricht	entsprechen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	parataxis	_	_
 22	1,335	1,335	NUM	CD	NumType=Card	23	nummod	_	_
 23	Euro	Euro	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	21	obl:arg	_	Proper=True
@@ -22479,7 +22479,7 @@
 # sent_id = n05005016
 # text = Er steht allein vor dem Publikum, und am Ende muss er das Beste aus sich herausholen, um die Zuschauer zum Lachen zu bringen.
 # text_en = He stands alone in front of the audience and, ultimately, he has to bring out the best of himself in order to make the audience laugh.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	steht	stehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	allein	allein	ADV	RB	Degree=Pos	2	advmod	_	_
 4	vor	vor	ADP	IN	_	6	case	_	_
@@ -22492,7 +22492,7 @@
 10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	_
 12	muss	müssen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	18	aux	_	_
-13	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
+13	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 14	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
 15	Beste	gut	NOUN	NNA	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	InflectionType=Weak
 16	aus	aus	ADP	IN	_	17	case	_	_
@@ -22564,7 +22564,7 @@
 # sent_id = n05007006
 # text = Er glaubt, dass niemand der auf uns Wartenden auf uns wartet.
 # text_en = He believes that nobody waiting for us waits for us.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	glaubt	glauben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	12	punct	_	_
 4	dass	dass	SCONJ	CC	_	12	mark	_	_
@@ -22588,7 +22588,7 @@
 5	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	13	punct	_	_
 7	wieso	wieso	ADV	WRB	_	13	advmod	_	_
-8	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	13	obl:arg	_	_
+8	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl:arg	_	_
 9	Tränen	Träne	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
 10	in	in	ADP	IN	_	12	case	_	_
 11	die	der	DET	DT	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
@@ -23043,7 +23043,7 @@
 # sent_id = w02005027
 # text = Er dient den San Franciscans als städtisches Naherholungsgebiet.
 # text_en = It serves as a local place of rest and relaxation for San Franciscans.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	dient	dienen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	den	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	San	San	PROPN	NNP	Case=Dat|Gender=Masc|Number=Plur	2	obl:arg	_	_
@@ -23383,7 +23383,7 @@
 10	walten	walten	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	17	punct	_	_
 12	sodass	sodass	SCONJ	CC	_	17	mark	_	_
-13	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	nsubj:pass	_	_
+13	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj:pass	_	_
 14	bei	bei	ADP	IN	_	15	case	_	_
 15	Aufenthalten	Aufenthalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	17	obl	_	_
 16	mehrfach	mehrfach	ADV	RB	Degree=Pos	17	advmod	_	_
@@ -23664,7 +23664,7 @@
 2	diesen	dieser	DET	DT	Case=Dat|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
 3	Erfolgen	Erfolg	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	_
 4	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	aux:pass	_	_
-5	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj:pass	_	_
+5	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	_	_
 6-7	vom	_	_	_	_	_	_	_	_
 6	von	von	ADP	APPR	_	8	case	_	_
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
@@ -23684,7 +23684,7 @@
 21	Südbaden	Südbaden	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	27	punct	_	_
 23	wo	wo	ADV	WRB	_	27	advmod	_	_
-24	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	27	nsubj	_	_
+24	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
 25	bis	bis	ADP	IN	_	26	case	_	_
 26	2002	2002	NUM	CD	NumType=Card	27	obl	_	_
 27	lebte	leben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	19	acl:relcl	_	SpaceAfter=No
@@ -23838,7 +23838,7 @@
 6	1977	1977	NUM	CD	NumType=Card	8	obl:tmod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	_	_
 8	erhielt	erhalten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-9	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+9	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 10	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Auszeichnung	Auszeichnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
 12	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -24342,7 +24342,7 @@
 20	gelockert	lockern	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	24	punct	_	_
 22	und	und	CCONJ	CC	_	24	cc	_	_
-23	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
+23	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 24	unternahm	unternehmen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	20	conj	_	_
 25	verschiedene	verschieden	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	InflectionType=Strong
 26	Maßnahmen	Maßnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	obj	_	SpaceAfter=No
@@ -24376,7 +24376,7 @@
 16	geschlossen	schließen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	20	punct	_	_
 18	nachdem	nachdem	SCONJ	CC	_	20	mark	_	_
-19	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
+19	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 20	bankrott	bankrott	ADJ	JJ	Degree=Pos	16	advcl	_	_
 21	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	20	cop	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	16	punct	_	_
@@ -24485,8 +24485,8 @@
 25	,	,	PUNCT	,	_	32	punct	_	_
 26	in	in	ADP	IN	_	27	case	_	_
 27	dem	der	PRON	REL	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem,Rel	32	obl	_	_
-28	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	32	nsubj	_	_
-29	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	32	obj	_	_
+28	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+29	ihn	er	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
 30	um	um	ADP	IN	_	31	case	_	_
 31	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	32	obl	_	_
 32	bat	bitten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	acl:relcl	_	_
@@ -24535,7 +24535,7 @@
 2	der	der	DET	DT	Case=Gen|Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	Ferien	Ferien	NOUN	NN	Case=Gen|Number=Plur	4	obl	_	_
 4	begann	beginnen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-5	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+5	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 6	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	_
 7	außereheliche	außerehelich	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	InflectionType=Mixed
 8	Affäre	Affäre	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
@@ -24545,7 +24545,7 @@
 12	Mädchen	Mädchen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	18	punct	_	_
 14	die	der	PRON	REL	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem,Rel	18	obj	_	_
-15	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
+15	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 16	wenig	wenig	ADV	RB	Degree=Pos	17	advmod	_	_
 17	später	spät	ADV	RB	Degree=Cmp	18	advmod	_	_
 18	gestand	gestehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	acl:relcl	_	SpaceAfter=No
@@ -25105,7 +25105,7 @@
 1	Der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	erzählte	erzählen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	3	obl:arg	_	SpaceAfter=No
+4	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl:arg	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	13	punct	_	_
 6	dass	dass	SCONJ	CC	_	13	mark	_	_
 7	ein	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	8	det	_	_
@@ -25118,7 +25118,7 @@
 14	würde	werden	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	13	aux	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	21	punct	_	_
 16	wie	wie	ADV	WRB	_	21	advmod	_	_
-17	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+17	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 18	und	und	CCONJ	CC	_	19	cc	_	_
 19	Walter	Walter	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_
 20	es	es	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3	21	obj	_	_
@@ -25409,7 +25409,7 @@
 1	Der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Zusammenbruch	Zusammenbruch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 3	zwischen	zwischen	ADP	IN	_	4	case	_	_
-4	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+4	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
 5	und	und	CCONJ	CC	_	6	cc	_	_
 6	Linares	Linares	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	4	conj	_	_
 7	und	und	CCONJ	CC	_	9	cc	_	_
@@ -25426,7 +25426,7 @@
 18	Rechtfertigung	Rechtfertigung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	23	punct	_	_
 20	wodurch	wodurch	ADV	WRB	_	23	advmod	_	_
-21	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	nsubj:pass	_	_
+21	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj:pass	_	_
 22	1879	1879	NUM	CD	NumType=Card	23	obl:tmod	_	_
 23	gestürzt	stürzen	VERB	VBN	Tense=Past	16	acl:relcl	_	_
 24	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	23	aux:pass	_	SpaceAfter=No
@@ -25802,7 +25802,7 @@
 # sent_id = w05008107
 # text = Er verhandelte auch die Föderalisierung der Stadt Buenos Aires, die Verlängerung des Handelsgesetzbuchs und die Verpflichtung neuer Generäle in die Armee.
 # text_en = He also discussed the federalization of the City of Buenos Aires, the extension of the commercial code and the appointment of new generals to the army.
-1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	verhandelte	verhandeln	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	auch	auch	ADV	RB	Degree=Pos	2	advmod	_	_
 4	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -25832,7 +25832,7 @@
 # text_en = In 1976 he met with a friend who worked with his record label The Rocket Record Company, Kiki Dee, to record what would be another remarkable success for him: "Don't Go Breaking My Heart".
 1	1976	1976	NUM	CD	NumType=Card	2	obl:tmod	_	_
 2	traf	treffen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+3	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 4	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
 5	mit	mit	ADP	IN	_	6	case	_	_
 6	Kiki	Kiki	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
@@ -25909,7 +25909,7 @@
 29	in	in	ADP	IN	_	31	case	_	_
 30	deren	der	PRON	REL	Case=Gen|Number=Plur|PronType=Dem,Rel	31	nmod:poss	_	_
 31	Gunst	Gunst	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	33	obl	_	_
-32	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	33	nsubj	_	_
+32	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
 33	stand	stehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	24	acl:relcl	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -25971,13 +25971,13 @@
 2	als	als	SCONJ	CC	_	7	mark	_	_
 3	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Senat	Senat	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
-5	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	7	obl:arg	_	_
+5	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl:arg	_	_
 6	endgültig	endgültig	ADV	RB	Degree=Pos	7	advmod	_	_
 7	antwortete	antworten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	36	advcl	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	12	punct	_	_
 9	indem	indem	SCONJ	CC	_	12	mark	_	_
-10	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
-11	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	12	obl:arg	_	_
+10	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl:arg	_	_
 12	verbot	verbieten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	advcl	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	17	punct	_	_
 14-15	im	_	_	_	_	_	_	_	_
@@ -25986,7 +25986,7 @@
 16	Konsulat	Konsulat	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	_
 17	anzutreten	antreten	VERB	VB	_	12	xcomp	_	_
 18	und	und	CCONJ	CC	_	22	cc	_	_
-19	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	22	obl:arg	_	_
+19	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obl:arg	_	_
 20	die	der	DET	DT	Case=Acc|Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 21	Optionen	Option	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	obj	_	_
 22	eröffnete	eröffnen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	conj	_	SpaceAfter=No
@@ -26005,16 +26005,16 @@
 34	werden	werden	VERB	VB	_	27	conj	_	SpaceAfter=No
 35	,	,	PUNCT	,	_	7	punct	_	_
 36	erkannte	erkennen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-37	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	36	nsubj	_	SpaceAfter=No
+37	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	SpaceAfter=No
 38	:	:	PUNCT	:	_	52	punct	_	_
 39	Egal	egal	ADV	RB	Degree=Pos	52	advmod	_	SpaceAfter=No
 40	,	,	PUNCT	,	_	44	punct	_	_
 41	welche	welcher	DET	WDT	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	42	det	_	_
 42	Alternative	Alternative	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	44	obj	_	_
-43	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	44	nsubj	_	_
+43	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	nsubj	_	_
 44	wählte	wählen	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	39	ccomp	_	SpaceAfter=No
 45	,	,	PUNCT	,	_	39	punct	_	_
-46	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	52	nsubj	_	_
+46	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	52	nsubj	_	_
 47	würde	werden	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	52	aux	_	_
 48	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	52	obj	_	_
 49	seinen	sein	DET	DTP$	Case=Dat|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	50	det:poss	_	_

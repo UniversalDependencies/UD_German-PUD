@@ -10,7 +10,7 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1000</sentences><tokens>21001</tokens><words>21332</words><fused>331</fused></test>
   </size>
-  <lemmas unique="5334" /><!-- der, ,, ., in, und, sein, ein, werden, zu, von, -, haben, er, es, an -->
+  <lemmas unique="5333" /><!-- der, ,, ., in, und, sein, ein, werden, zu, von, -, haben, er, es, an -->
   <forms unique="6486" /><!-- ,, ., die, der, in, und, dem, zu, von, das, den, -, es, an, ist -->
   <fusions unique="9" /><!-- im, am, zum, zur, vom, beim, ins, z., ans -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -73,7 +73,7 @@
     <feat name="PronType" value="Ind" upos="DET">78</feat><!-- viele, einige, andere, anderen, vielen, anderer, einigen, viel, vieler, Einiges -->
     <feat name="PronType" value="Int,Rel" upos="DET">6</feat><!-- welche, welchen, welcher -->
     <feat name="PronType" value="Neg" upos="DET">25</feat><!-- keine, kein, keinen -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">374</feat><!-- sich, seine, ihre, ihrer, seiner, ihr, sein, ihren, seinen, Sie -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">534</feat><!-- sich, er, seine, ihre, ihrer, seiner, ihr, sein, ihren, sie -->
     <feat name="PronType" value="Rcp" upos="PRON">9</feat><!-- mich, uns, mir -->
     <feat name="PronType" value="Tot" upos="DET,PRON">61</feat><!-- alle, beiden, allem, jedes, alles, jede, jeder, jeden, allen, jedem -->
     <feat name="Reflex" value="Yes" upos="PRON">135</feat><!-- sich, dich -->
