@@ -8418,7 +8418,7 @@
 # sent_id = n01134015
 # text = Ihm wird gutgeschrieben, dass er sich an der Reduzierung des von den chinesischen Kommunalverwaltungen verursachten Schuldenbergs unterstützend beteiligt hat.
 # text_en = He is credited with helping efforts to tackle the mountain of debt accumulated by local governments in China.
-1	Ihm	er|es	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	3	obl:arg	_	_
+1	Ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	3	obl:arg	_	_
 2	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux:pass	_	_
 3	gutgeschrieben	gutschreiben	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	19	punct	_	_
