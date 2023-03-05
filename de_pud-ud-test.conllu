@@ -1043,7 +1043,7 @@
 # text = Doch einige Sicherheitsexperten hinterfragen die Notwendigkeit des Kurses und die Absicht dahinter.
 # text_en = But some security experts raised questions about the need for the course and the intent behind it.
 1	Doch	doch	CCONJ	CC	_	4	cc	_	_
-2	einige	einige	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	3	det	_	_
+2	einige	einige	DET	DT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	Sicherheitsexperten	Sicherheitsexperte	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 4	hinterfragen	hinterfragen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 5	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -3512,7 +3512,7 @@
 # sent_id = n01053008
 # text = Einige Männer verstehen es, und Bono ist einer von diesen Typen, sagte Leive kürzlich in einem Interview.
 # text_en = "Some men get it and Bono is one of those guys," Leive said in a recent interview.
-1	Einige	einig	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	2	det	_	_
+1	Einige	einige	DET	DT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	verstehen	verstehen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	14	ccomp	_	_
 4	es	es	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3	3	obj	_	SpaceAfter=No
@@ -4495,7 +4495,7 @@
 2	Wolmar	Wolmar	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	12	punct	_	_
 4	der	der	PRON	REL	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	12	nsubj	_	_
-5	einige	einige	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|Person=3	6	det	_	_
+5	einige	einige	DET	DT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	6	det	_	_
 6	Bücher	Buch	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	_
 7	über	über	ADP	IN	_	9	case	_	_
 8	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -6235,7 +6235,7 @@
 # text_en = I spotted a few.
 1	Ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
 2	habe	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	4	aux	_	_
-3	einige	einige	NOUN	NN	Case=Acc|Number=Plur	4	obj	_	_
+3	einige	einige	DET	NN	Case=Acc|Number=Plur|PronType=Ind	4	obj	_	_
 4	entdeckt	entdecken	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -8653,7 +8653,7 @@
 11	Gefolgsleuten	Gefolgsleute	NOUN	NN	Case=Dat|Number=Plur	2	nmod	_	_
 12	genießt	genießen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 13	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
-14	einige	einige	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	15	det	_	_
+14	einige	einige	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
 15	Freiheiten	Freiheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	12	punct	_	_
 
@@ -10050,7 +10050,7 @@
 7	Wind	Wind	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	12	punct	_	_
 9	der	der	PRON	REL	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	12	nsubj	_	_
-10	einige	einige	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Person=3	11	det	_	_
+10	einige	einige	DET	DT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
 11	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obl:tmod	_	_
 12	andauert	andauern	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	acl:relcl	_	_
 13	und	und	CCONJ	CC	_	19	cc	_	_
@@ -12118,7 +12118,7 @@
 2	höherer	hoch	ADJ	JJ	Case=Dat|Degree=Cmp|Gender=Fem|Number=Sing	3	amod	_	InflectionType=Strong
 3	Windgeschwindigkeit	Windgeschwindigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
 4	werden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	10	aux:pass	_	_
-5	einige	einige	DET	DT	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|Person=3	6	det	_	_
+5	einige	einige	DET	DT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	6	det	_	_
 6	Partikel	Partikel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	10	nsubj:pass	_	_
 7	in	in	ADP	IN	_	9	case	_	_
 8	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -13491,7 +13491,7 @@
 1	Die	der	DET	DT	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Khitans	Khitan	PROPN	NNP	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
 3	hatten	haben	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	7	aux	_	_
-4	einige	einige	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	6	det	_	_
+4	einige	einige	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
 5	aggressive	aggressiv	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	InflectionType=Strong
 6	Verhandlungen	Verhandlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
 7	geführt	führen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
@@ -16027,7 +16027,7 @@
 # sent_id = w01097104
 # text = Einige Historiker, wie Chandler und Weller, vertreten die Ansicht, dass die britische schwere Kavallerie als funktionsfähige Macht zerstört wurde, nachdem sie ihrem ersten gewaltigen Angriff ausgesetzt war.
 # text_en = Some historians, such as Chandler and Weller, assert that the British heavy cavalry were destroyed as a viable force following their first, epic charge.
-1	Einige	einige	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	2	det	_	_
+1	Einige	einige	DET	DT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	Historiker	Historiker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	_	_
 4	wie	wie	CCONJ	CC	_	5	cc	_	_
@@ -16198,7 +16198,7 @@
 3	Britannien	Britannien	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	4	obl:arg	_	_
 4	überlassen	überlassen	VERB	VBN	Tense=Past	0	root	_	_
 5	und	und	CCONJ	CC	_	22	cc	_	_
-6	einige	einige	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	7	det	_	_
+6	einige	einige	DET	DT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
 7	Häfen	Hafen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	nsubj:pass	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	10	punct	_	_
 9	darunter	darunter	ADV	RB	Degree=Pos	10	advmod	_	_
@@ -16638,7 +16638,7 @@
 26	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	31	obl	_	_
 27	noch	noch	ADV	RB	Degree=Pos	30	advmod	_	_
 28	von	von	ADP	IN	_	30	case	_	_
-29	einigen	einige	DET	DT	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur|Person=3	30	det	_	_
+29	einigen	einige	DET	DT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	30	det	_	_
 30	Ländern	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	31	obl:agent	_	_
 31	verwendet	verwenden	VERB	VBN	Tense=Past	4	conj	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	4	punct	_	_
@@ -17338,7 +17338,7 @@
 # sent_id = w01116100
 # text = Einige christliche Wissenschaftler kritisieren Tolles Lehre, andere loben sie.
 # text_en = Some Christian scholars criticize Tolle's teachings, while others praise them.
-1	Einige	einige	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	3	det	_	_
+1	Einige	einige	DET	DT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 2	christliche	christlich	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	InflectionType=Strong|Proper=True
 3	Wissenschaftler	Wissenschaftler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 4	kritisieren	kritisieren	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
@@ -18051,7 +18051,7 @@
 14	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
 15	wieder	wieder	ADV	RB	Degree=Pos	13	advmod	_	_
 16	in	in	ADP	IN	_	18	case	_	_
-17	einigen	einige	DET	DT	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur|Person=3	18	det	_	_
+17	einigen	einige	DET	DT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	18	det	_	_
 18	Stücken	Stück	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	13	obl	_	_
 19	zusammen	zusammen	ADV	RB	Degree=Pos	13	advmod	_	_
 20	mit	mit	ADP	IN	_	22	case	_	_
@@ -21049,7 +21049,7 @@
 10	letzten	letzt	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	12	amod	_	InflectionType=Weak
 11	20	20	NUM	CD	NumType=Card	12	nummod	_	_
 12	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	_
-13	Einiges	einige	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+13	Einiges	einige	DET	NN	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	2	obj	_	_
 14	zu	zu	PART	RP	_	15	mark	_	_
 15	wünschen	wünschen	VERB	VB	VerbForm=Inf	13	xcomp	_	_
 16	übrig	übrig	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
@@ -23521,7 +23521,7 @@
 4	Revolution	Revolution	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	Proper=True
 5	1917	1917	NUM	CD	NumType=Card	4	nummod	_	_
 6	erlangten	erlangen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
-7	einige	einige	DET	DT	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|Person=3	8	det	_	_
+7	einige	einige	DET	DT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	8	det	_	_
 8	Länder	Land	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
 9	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Unabhängigkeit	Unabhängigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
@@ -24860,7 +24860,7 @@
 7	Name	Name	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	_
 8	Apulien	Apulien	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing	7	appos	_	_
 9	von	von	ADP	IN	_	11	case	_	_
-10	einigen	einige	DET	DT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|Person=3	11	det	_	_
+10	einigen	einige	DET	DT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
 11	Autoren	Autor	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	obl:agent	_	_
 12	verwendet	verwenden	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	24	punct	_	_
@@ -25209,7 +25209,7 @@
 20	cena	cena	NOUN	NN	Foreign=Yes|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No|Lang=it|Proper=True
 21	“	“	PUNCT	''	_	15	punct	_	SpaceAfter=No
 22	;	;	PUNCT	:	_	29	punct	_	_
-23	einige	einige	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|Person=3	24	det	_	_
+23	einige	einige	DET	DT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	24	det	_	_
 24	Stücke	Stück	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	29	obj	_	_
 25	hatten	haben	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	29	aux	_	_
 26	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	29	nsubj	_	_
@@ -25368,7 +25368,7 @@
 12	von	von	ADP	IN	_	13	case	_	_
 13	Südamerika	Südamerika	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	_
 14	bereits	bereits	ADV	RB	Degree=Pos	17	advmod	_	_
-15	einige	einige	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Person=3	16	det	_	_
+15	einige	einige	DET	DT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
 16	Gebirgsbildungen	Gebirgsbildung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
 17	stattgefunden	stattfinden	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	17	punct	_	_
