@@ -929,7 +929,7 @@
 11	geschafft	schaffen	VERB	VBN	Tense=Past	4	csubj	_	_
 12	haben	haben	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	11	aux	_	_
 13	und	und	CCONJ	CC	_	17	cc	_	_
-14	etwas	etwas	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+14	etwas	etwas	PRON	NN	Gender=Neut|Number=Sing|PronType=Ind	17	obj	_	_
 15	halbwegs	halbwegs	ADV	RB	Degree=Pos	16	advmod	_	_
 16	Zuverlässiges	Zuverlässige	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	nmod	_	_
 17	anbieten	anbieten	VERB	VB	_	11	conj	_	_
@@ -3963,7 +3963,7 @@
 15	,	,	PUNCT	,	_	20	punct	_	_
 16	dass	dass	SCONJ	CC	_	20	mark	_	_
 17	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	20	nsubj	_	_
-18	etwas	etwas	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+18	etwas	etwas	PRON	NN	Gender=Neut|Number=Sing|PronType=Ind	20	obj	_	_
 19	anders	anders	ADV	RB	Degree=Pos	20	advmod	_	_
 20	machen	machen	VERB	VB	_	14	ccomp	_	_
 21	müssen	müssen	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	20	aux	_	_
@@ -7653,7 +7653,7 @@
 4	Doss	Doss	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
 5	hat	haben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 6	auch	auch	ADV	RB	Degree=Pos	5	advmod	_	_
-7	etwas	etwas	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	etwas	etwas	PRON	NN	Gender=Neut|Number=Sing|PronType=Ind	5	obj	_	_
 8	Unglaubhaftes	Unglaubhafte	NOUN	NNA	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	InflectionType=Strong
 9	an	an	ADP	IN	_	10	case	_	_
 10	sich	sich	PRON	PRP	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	obl	_	SpaceAfter=No
@@ -7698,7 +7698,7 @@
 11	damit	damit	ADV	RB	PronType=Dem	21	advmod	_	_
 12	auch	auch	ADV	RB	Degree=Pos	21	advmod	_	_
 13	unseren	unser	DET	DTP$	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	_
-14	etwas	etwas	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	_
+14	etwas	etwas	PRON	NN	Gender=Neut|Number=Sing|PronType=Ind	15	obl	_	_
 15	störanfälligen	störanfällig	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	InflectionType=Mixed
 16	Odi	Odi	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
 17-18	zum	_	_	_	_	_	_	_	_
@@ -24338,7 +24338,7 @@
 16	Druck	Druck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj:pass	_	_
 17	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Terrorherrschaft	Terrorherrschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
-19	etwas	etwas	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	obl	_	_
+19	etwas	etwas	PRON	NN	Gender=Neut|Number=Sing|PronType=Ind	20	obl	_	_
 20	gelockert	lockern	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	24	punct	_	_
 22	und	und	CCONJ	CC	_	24	cc	_	_
