@@ -701,7 +701,7 @@
 5	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 6	Datum	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
 7	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-8	ersten	erst	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	InflectionType=Weak
+8	ersten	erst	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	InflectionType=Weak
 9	Stahlschnitts	Stahlschnitt	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 10	würde	werden	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	12	aux	_	_
 11	dazu	dazu	ADV	RB	PronType=Dem	12	advmod	_	_
@@ -2583,7 +2583,7 @@
 6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
 8	seiner	sein	DET	DTP$	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
-9	ersten	erst	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	InflectionType=Mixed
+9	ersten	erst	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	InflectionType=Mixed
 10	Amtszeit	Amtszeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 11	warten	warten	VERB	VB	_	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	23	punct	_	_
@@ -2671,7 +2671,7 @@
 6	,	,	PUNCT	,	_	2	punct	_	_
 7	hatte	haben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 8	ihren	ihr	DET	DTP$	Case=Acc|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
-9	ersten	erst	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	InflectionType=Mixed
+9	ersten	erst	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	InflectionType=Mixed
 10	Auftritt	Auftritt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 11-12	im	_	_	_	_	_	_	_	_
 11	in	in	ADP	APPR	_	13	case	_	_
@@ -4411,7 +4411,7 @@
 2-3	zum	_	_	_	_	_	_	_	_
 2	zu	zu	ADP	APPR	_	5	case	_	_
 3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
-4	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	InflectionType=Weak
+4	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	5	amod	_	InflectionType=Weak
 5	Mal	Mal	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
 6	werden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	11	aux:pass	_	_
 7	Karten	Karte	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj:pass	_	_
@@ -9852,7 +9852,7 @@
 4	1912	1912	NUM	CD	NumType=Card	3	nummod	_	_
 5	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	aux:pass	_	_
 6	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-7	erste	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	InflectionType=Weak
+7	erste	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	InflectionType=Weak
 8	Filmgesellschaft	Filmgesellschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj:pass	_	_
 9	(	(	PUNCT	(	_	10	punct	_	SpaceAfter=No
 10	Athina	Athina	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	8	appos	_	_
@@ -10157,7 +10157,7 @@
 # text = Ihr erster König war Mojmír I. (herrschte 830 - 846).
 # text_en = Their first king was Mojmír I (ruled 830–846).
 1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	3	det:poss	_	_
-2	erster	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	InflectionType=Mixed
+2	erster	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	InflectionType=Mixed
 3	König	König	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	cop	_	_
 5	Mojmír	Mojmír	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -12365,7 +12365,7 @@
 # text_en = During the first century of development, Spanish dominance in the region remained undisputed.
 1	Während	während	ADP	IN	_	4	case	_	_
 2	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
-3	ersten	erst	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	InflectionType=Weak|Proper=True
+3	ersten	erst	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	4	amod	_	InflectionType=Weak|Proper=True
 4	Jahrhunderts	Jahrhundert	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
 5	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Entwicklung	Entwicklung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
@@ -12909,7 +12909,7 @@
 1	Tatsächlich	tatsächlich	ADV	RB	Degree=Pos	2	advmod	_	_
 2	lobte	loben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-4	erste	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	InflectionType=Weak
+4	erste	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	InflectionType=Weak
 5	wissenschaftliche	wissenschaftlich	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	InflectionType=Weak
 6	Bericht	Bericht	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 7	von	von	ADP	IN	_	8	case	_	_
@@ -14383,7 +14383,7 @@
 18	Erklärungen	Erklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	nmod	_	_
 19	fußen	fußen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	9	conj	_	_
 20	in	in	ADP	IN	_	22	case	_	_
-21	erster	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	InflectionType=Strong
+21	erster	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	22	amod	_	InflectionType=Strong
 22	Linie	Linie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	_
 23	auf	auf	ADP	IN	_	25	case	_	_
 24	bloßer	bloß	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	InflectionType=Strong
@@ -14419,7 +14419,7 @@
 # text_en = During the first stages of Romanization, the peninsula was divided in two by the Romans for administrative purposes.
 1	Während	während	ADP	IN	_	4	case	_	_
 2	der	der	DET	DT	Case=Gen|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
-3	ersten	erst	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	InflectionType=Weak
+3	ersten	erst	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|NumType=Ord	4	amod	_	InflectionType=Weak
 4	Phasen	Phase	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	19	obl	_	_
 5	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Romanisierung	Romanisierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	Proper=True
@@ -14865,7 +14865,7 @@
 20	hier	hier	ADV	RB	Degree=Pos	31	advmod	_	_
 21	während	während	ADP	IN	_	25	case	_	_
 22	der	der	DET	DT	Case=Gen|Definite=Def|Number=Plur|PronType=Art	25	det	_	_
-23	ersten	erst	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	25	amod	_	InflectionType=Weak
+23	ersten	erst	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|NumType=Ord	25	amod	_	InflectionType=Weak
 24	zwei	zwei	NUM	CD	NumType=Card	25	nummod	_	_
 25	Kriegsjahre	Kriegsjahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	31	obl	_	_
 26	zunächst	zunächst	ADV	RB	Degree=Pos	31	advmod	_	_
@@ -15224,7 +15224,7 @@
 14	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	23	obl	_	_
 15	vor	vor	ADP	IN	_	18	case	_	_
 16	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-17	Ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	InflectionType=Weak|Proper=True
+17	Ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	18	amod	_	InflectionType=Weak|Proper=True
 18	Weltkrieg	Weltkrieg	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	Proper=True
 19	deutliche	deutlich	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	20	amod	_	InflectionType=Strong
 20	Zeichen	Zeichen	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	23	obj	_	_
@@ -15993,7 +15993,7 @@
 9	starren	starr	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	InflectionType=Weak
 10	Frontlinien	Frontlinie	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	_
 11	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-12	Ersten	erst	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	InflectionType=Weak|Proper=True
+12	Ersten	erst	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	InflectionType=Weak|Proper=True
 13	Weltkriegs	Weltkrieg	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	Proper=True
 14	hin	hin	ADV	RB	Degree=Pos	17	advmod	_	_
 15	zu	zu	ADP	IN	_	17	case	_	_
@@ -16053,7 +16053,7 @@
 24	nachdem	nachdem	SCONJ	CC	_	30	mark	_	_
 25	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	30	nsubj	_	_
 26	ihrem	ihr	DET	DTP$	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	29	det:poss	_	_
-27	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	InflectionType=Mixed
+27	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	29	amod	_	InflectionType=Mixed
 28	gewaltigen	gewaltig	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	27	conj	_	InflectionType=Mixed
 29	Angriff	Angriff	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	30	obl:arg	_	_
 30	ausgesetzt	aussetzen	ADJ	JJ	Degree=Pos	21	advcl	_	_
@@ -16148,7 +16148,7 @@
 5-6	im	_	_	_	_	_	_	_	_
 5	in	in	ADP	APPR	_	8	case	_	_
 6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-7	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	InflectionType=Weak|Proper=True
+7	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	InflectionType=Weak|Proper=True
 8	Opiumkrieg	Opiumkrieg	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	Proper=True
 9	mit	mit	ADP	IN	_	10	case	_	_
 10	Großbritannien	Großbritannien	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
@@ -16304,7 +16304,7 @@
 # text_en = Lamarr's earliest inventions include an improved traffic stoplight and a tablet that would dissolve in water to create a carbonated drink.
 1	Zu	zu	ADP	IN	_	4	case	_	_
 2	den	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
-3	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	InflectionType=Weak
+3	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur|NumType=Ord	4	amod	_	InflectionType=Weak
 4	Erfindungen	Erfindung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	_
 5	Lamarrs	Lamarr	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 6	gehören	gehören	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
@@ -17294,7 +17294,7 @@
 # text_en = Only 3000 copies were published of the first edition.
 1	Von	von	ADP	IN	_	4	case	_	_
 2	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-3	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	InflectionType=Weak
+3	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	InflectionType=Weak
 4	Edition	Edition	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl:agent	_	_
 5	wurden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	9	aux:pass	_	_
 6	lediglich	lediglich	ADV	RB	Degree=Pos	7	advmod	_	_
@@ -17459,7 +17459,7 @@
 6	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	cop	_	_
 7	Jasmine	Jasmine	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 8	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-9	erste	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	InflectionType=Weak
+9	erste	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	InflectionType=Weak
 10	nicht	nicht	PART	RB	Polarity=Neg	11	advmod	_	_
 11	weiße	weiß	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	InflectionType=Weak
 12	Prinzessin	Prinzessin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -19235,7 +19235,7 @@
 6-7	zum	_	_	_	_	_	_	_	_
 6	zu	zu	ADP	APPR	_	9	case	_	_
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
-8	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	InflectionType=Weak
+8	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	9	amod	_	InflectionType=Weak
 9	Mal	Mal	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
 10	seit	seit	ADP	IN	_	11	case	_	_
 11	1952	1952	NUM	CD	NumType=Card	3	obl	_	_
@@ -19278,7 +19278,7 @@
 15	womit	womit	ADV	WRB	_	22	advmod	_	_
 16	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 17	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-18	erste	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	InflectionType=Weak
+18	erste	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	21	amod	_	InflectionType=Weak
 19	US	US	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	21	compound	_	SpaceAfter=No
 20	-	-	PUNCT	-	_	19	punct	_	SpaceAfter=No
 21	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	xcomp	_	_
@@ -21025,7 +21025,7 @@
 9	von	von	ADP	IN	_	10	case	_	Proper=True
 10	Amerika	Amerika	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
 11	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-12	erste	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	InflectionType=Weak
+12	erste	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	14	amod	_	InflectionType=Weak
 13	weibliche	weiblich	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	conj	_	InflectionType=Weak
 14	Präsidentin	Präsidentin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj:pass	_	_
 15	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -21400,7 +21400,7 @@
 4	die	der	PRON	REL	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	9	nsubj:pass	_	_
 5	in	in	ADP	IN	_	8	case	_	_
 6	dieser	dieser	DET	DT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
-7	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	InflectionType=Weak
+7	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	InflectionType=Weak
 8	Stunde	Stunde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
 9	verrichtet	verrichten	VERB	VBN	Tense=Past	2	acl:relcl	_	_
 10	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	aux:pass	_	SpaceAfter=No
@@ -22215,7 +22215,7 @@
 1-2	Zum	_	_	_	_	_	_	_	_
 1	Zu	zu	ADP	APPR	_	4	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
-3	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	InflectionType=Weak
+3	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	4	amod	_	InflectionType=Weak
 4	Mal	Mal	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
 5	seit	seit	ADP	IN	_	7	case	_	_
 6	sechs	sechs	NUM	CD	NumType=Card	7	nummod	_	_
@@ -23414,7 +23414,7 @@
 1	Ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
 2	erkläre	erklären	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
 3	die	der	DET	DT	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-4	ersten	erst	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	InflectionType=Weak
+4	ersten	erst	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|NumType=Ord	7	amod	_	InflectionType=Weak
 5	internationalen	international	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	4	conj	_	InflectionType=Weak|Proper=True
 6	Olympischen	olympisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	4	conj	_	InflectionType=Weak|Proper=True
 7	Spiele	Spiel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	Proper=True
@@ -23428,7 +23428,7 @@
 # text_en = The First World War brought about shifts and new developments in colonial politics.
 1	Mit	mit	ADP	IN	_	4	case	_	_
 2	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-3	Ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	InflectionType=Weak|Proper=True
+3	Ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	InflectionType=Weak|Proper=True
 4	Weltkrieg	Weltkrieg	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	Proper=True
 5	kam	kommen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 6	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
@@ -24147,7 +24147,7 @@
 7	an	an	ADV	RB	Degree=Pos	4	advmod	_	_
 8	erschienen	erscheinen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 9	die	der	DET	DT	Case=Nom|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-10	ersten	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	InflectionType=Weak
+10	ersten	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|NumType=Ord	12	amod	_	InflectionType=Weak
 11	griechischen	griechisch	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	conj	_	InflectionType=Weak|Proper=True
 12	Texte	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	8	punct	_	_
@@ -24208,7 +24208,7 @@
 8	bildeten	bilden	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 9	sich	sich	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
 10	die	der	DET	DT	Case=Nom|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-11	ersten	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	InflectionType=Weak
+11	ersten	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|NumType=Ord	12	amod	_	InflectionType=Weak
 12	Stadtstaaten	Stadtstaat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
 13	:	:	PUNCT	:	_	16	punct	_	_
 14	kleine	klein	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	16	amod	_	InflectionType=Strong
@@ -24765,7 +24765,7 @@
 12	Münzen	Münze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	nsubj:pass	_	_
 13	sollen	sollen	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	19	aux	_	_
 14	in	in	ADP	IN	_	16	case	_	_
-15	erster	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	InflectionType=Strong
+15	erster	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	16	amod	_	InflectionType=Strong
 16	Linie	Linie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	_
 17	an	an	ADP	IN	_	18	case	_	_
 18	Sammler	Sammler	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	obl	_	_
@@ -24938,7 +24938,7 @@
 # text_en = During the War of the First Coalition, light quickly began to be shed upon a young Corsican artillery officer, following the French Revolution: Napoleon Bonaparte.
 1	Während	während	ADP	IN	_	4	case	_	_
 2	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-3	Ersten	erst	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	InflectionType=Weak|Proper=True
+3	Ersten	erst	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	InflectionType=Weak|Proper=True
 4	Koalitionskrieges	Koalitionskrieg	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	Proper=True
 5	geriet	geraten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 6	ein	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	9	det	_	_
