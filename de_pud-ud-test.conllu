@@ -7619,7 +7619,7 @@
 2	die	der	DET	DT	Case=Acc|Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	Zuschauer	Zuschauer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	obl	_	_
 4	von	von	ADP	IN	_	5	case	_	_
-5	heute	heute	ADV	RB	Degree=Pos	3	nmod	_	SpaceAfter=No
+5	heute	heute	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	14	punct	_	_
 7	von	von	ADP	IN	_	8	case	_	_
 8	denen	der	PRON	REL	Case=Dat|Number=Plur|PronType=Dem,Rel	14	obl	_	_
@@ -8140,7 +8140,7 @@
 1	Wenn	wenn	SCONJ	CC	_	5	mark	_	_
 2	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	nsubj	_	_
 3	häufig	häufig	ADV	RB	Degree=Pos	5	advmod	_	_
-4	genug	genug	ADV	RB	Degree=Pos	5	advmod	_	_
+4	genug	genug	ADV	RB	PronType=Ind	5	advmod	_	_
 5	vorkommt	vorkommen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	_	_
 7	noch	noch	ADV	RB	Degree=Pos	8	advmod	_	_
@@ -17315,7 +17315,7 @@
 7	The	the	DET	DT	Definite=Def|Foreign=Yes|PronType=Art	8	det	_	Lang=en|Proper=True
 8	Power	power	NOUN	NN	Foreign=Yes|Number=Sing	4	nmod	_	Lang=en|Proper=True
 9	of	of	ADP	IN	Foreign=Yes	10	case	_	Lang=en|Proper=True
-10	Now	now	ADV	RB	Foreign=Yes	8	nmod	_	SpaceAfter=No|Lang=en|Proper=True
+10	Now	now	ADV	RB	Foreign=Yes	8	advmod	_	SpaceAfter=No|Lang=en|Proper=True
 11	“	“	PUNCT	''	_	8	punct	_	_
 12	und	und	CCONJ	CC	_	16	cc	_	_
 13	„	„	PUNCT	``	_	16	punct	_	SpaceAfter=No
@@ -24260,7 +24260,7 @@
 11	,	,	PUNCT	,	_	13	punct	_	_
 12	die	der	PRON	REL	Case=Nom|Number=Plur|PronType=Dem,Rel	13	nsubj	_	_
 13	groß	groß	ADJ	JJ	Degree=Pos	8	acl:relcl	_	_
-14	genug	genug	ADV	RB	Degree=Pos	13	advmod	_	_
+14	genug	genug	ADV	RB	PronType=Ind	13	advmod	_	_
 15	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	13	cop	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	21	punct	_	_
 17	um	um	SCONJ	CC	_	21	mark	_	_

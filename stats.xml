@@ -43,7 +43,7 @@
     <feat name="Definite" value="Def" upos="DET">2129</feat><!-- der, die, dem, den, das, des, the, El, Le, Los -->
     <feat name="Definite" value="Ind" upos="DET">487</feat><!-- eine, ein, einer, einem, einen, eines, mehr, weitere, mehrere, meisten -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">58</feat><!-- mehr, später, besser, genauer, größere, höherer, lieber, späteren, weniger, Stranger -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">2214</feat><!-- auch, so, noch, nur, sehr, ersten, neue, jedoch, letzten, mehr -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">2212</feat><!-- auch, so, noch, nur, sehr, ersten, neue, jedoch, letzten, mehr -->
     <feat name="Degree" value="Sup" upos="ADJ">32</feat><!-- besten, größten, schlimmsten, höchsten, Oberste, Obersten, bekannteste, beknackteste, erfoglreichste, erfolgreichste -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">79</feat><!-- the, a, of, El, My, n't, ', Angeles, Breaking, Buck -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">3699</feat><!-- die, der, eine, sie, einer, seine, diese, Zeit, ihre, seiner -->
@@ -70,7 +70,7 @@
     <feat name="PronType" value="Art" upos="DET">2572</feat><!-- der, die, dem, den, das, eine, des, ein, einer, einem -->
     <feat name="PronType" value="Dem" upos="ADV,DET">191</feat><!-- diese, dieser, davon, dies, dazu, damit, dieses, dafür, darauf, diesem -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">244</feat><!-- die, der, das, denen, dem, dessen, deren, den -->
-    <feat name="PronType" value="Ind" upos="DET,PRON">83</feat><!-- viele, einige, andere, anderen, vielen, etwas, anderer, einigen, viel, vieler -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">85</feat><!-- viele, einige, andere, anderen, vielen, etwas, anderer, einigen, viel, genug -->
     <feat name="PronType" value="Int,Rel" upos="DET">6</feat><!-- welche, welchen, welcher -->
     <feat name="PronType" value="Neg" upos="DET">25</feat><!-- keine, kein, keinen -->
     <feat name="PronType" value="Prs" upos="DET,PRON">681</feat><!-- es, sich, er, seine, ihre, ihrer, seiner, ihr, sein, ihren -->
@@ -88,7 +88,7 @@
     <dep name="acl">20</dep>
     <dep name="acl:relcl">271</dep>
     <dep name="advcl">221</dep>
-    <dep name="advmod">1119</dep>
+    <dep name="advmod">1121</dep>
     <dep name="amod">1090</dep>
     <dep name="appos">265</dep>
     <dep name="aux">367</dep>
@@ -114,7 +114,7 @@
     <dep name="flat:name">164</dep>
     <dep name="iobj">1</dep>
     <dep name="mark">459</dep>
-    <dep name="nmod">1101</dep>
+    <dep name="nmod">1099</dep>
     <dep name="nmod:poss">49</dep>
     <dep name="nsubj">1482</dep>
     <dep name="nsubj:pass">207</dep>
