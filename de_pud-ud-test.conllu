@@ -8376,7 +8376,7 @@
 4	Futures	Future	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	_
 5	steigen	steigen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 6	um	um	ADP	IN	_	10	case	_	_
-7	mehr	mehr	ADV	RB	Degree=Pos	10	advmod	_	Bug=det-upos
+7	mehr	mehr	ADV	RB	Degree=Pos	10	case	_	_
 8	als	als	SCONJ	CC	_	7	fixed	_	_
 9	1	1	NUM	CD	NumType=Card	10	nummod	_	_
 10	%	%	SYM	SYM	_	5	obl	_	SpaceAfter=No
@@ -18122,7 +18122,7 @@
 18	-	-	PUNCT	-	_	17	punct	_	SpaceAfter=No
 19	Songs	Song	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
 20	„	„	PUNCT	``	_	25	punct	_	SpaceAfter=No
-21	Her	her	PRON	DTP$	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nmod:poss	_	Lang=en|Proper=True
+21	Her	her	PRON	DTP$	Case=Gen|Foreign=Yes|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	Lang=en|Proper=True
 22	fahter	father	NOUN	NN	Foreign=Yes|Number=Sing	25	nsubj	_	Lang=en|Proper=True
 23	did	do	AUX	''	Foreign=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Past	25	aux	_	SpaceAfter=No|Lang=en|Proper=True
 24	n't	not	PART	VBC	Foreign=Yes	25	advmod	_	Lang=en|Proper=True
