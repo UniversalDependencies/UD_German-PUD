@@ -24,7 +24,7 @@
     <tag name="NOUN">4197</tag><!-- Jahr, Zeit, Land, Teil, Mensch, Stadt, Jahrhundert, Geschichte, Film, Regierung -->
     <tag name="NUM">354</tag><!-- zwei, drei, vier, 3, sechs, zehn, 1, 10, 50, 100 -->
     <tag name="PART">233</tag><!-- zu, nicht, not, wohl -->
-    <tag name="PRON">975</tag><!-- der, er, es, sich, sie, ich, wir, was, man, ihr -->
+    <tag name="PRON">975</tag><!-- der, er, es, sich, sie, ich, wir, was, man, etwas -->
     <tag name="PROPN">1219</tag><!-- Chr., China, Trump, USA, Frankreich, Albanien, Clinton, Joseph, US, Disney -->
     <tag name="PUNCT">2771</tag><!-- ,, ., -, „, “, (, ), :, –, ; -->
     <tag name="SCONJ">326</tag><!-- dass, als, um, wenn, nachdem, weil, ob, indem, wie, bevor -->
@@ -38,16 +38,16 @@
     <feat name="AdpType" value="Prep" upos="ADP">3</feat><!-- zu -->
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">2642</feat><!-- die, sich, den, eine, das, einen, ein, seine, es, ihre -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">3079</feat><!-- dem, der, den, einem, einer, Jahr, Jahren, ihrer, Chr., dieser -->
-    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PRON,PROPN">1175</feat><!-- der, des, eines, einer, seiner, dieser, ihrer, seines, ersten, Jahre -->
-    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">3712</feat><!-- die, der, er, das, es, sie, ein, eine, ich, wir -->
+    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PRON,PROPN">1176</feat><!-- der, des, eines, einer, seiner, dieser, ihrer, seines, ersten, Jahre -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">3711</feat><!-- die, der, er, das, es, sie, ein, eine, ich, wir -->
     <feat name="Definite" value="Def" upos="DET">2129</feat><!-- der, die, dem, den, das, des, the, El, Le, Los -->
     <feat name="Definite" value="Ind" upos="DET">487</feat><!-- eine, ein, einer, einem, einen, eines, mehr, weitere, mehrere, meisten -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">58</feat><!-- mehr, später, besser, genauer, größere, höherer, lieber, späteren, weniger, Stranger -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">2212</feat><!-- auch, so, noch, nur, sehr, ersten, neue, jedoch, letzten, mehr -->
     <feat name="Degree" value="Sup" upos="ADJ">32</feat><!-- besten, größten, schlimmsten, höchsten, Oberste, Obersten, bekannteste, beknackteste, erfoglreichste, erfolgreichste -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">79</feat><!-- the, a, of, El, My, n't, ', Angeles, Breaking, Buck -->
-    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">3699</feat><!-- die, der, eine, sie, einer, seine, diese, Zeit, ihre, seiner -->
-    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">3449</feat><!-- dem, der, er, den, des, ein, einen, einem, Menschen, sie -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">3700</feat><!-- die, der, eine, sie, einer, seine, diese, Zeit, ihre, seiner -->
+    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">3448</feat><!-- dem, der, er, den, des, ein, einen, einem, Menschen, sie -->
     <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,PRON,PROPN">2455</feat><!-- das, dem, es, des, ein, Jahr, Jahre, Jahren, einem, eines -->
     <feat name="Gender[psor]" value="Fem" upos="DET">48</feat><!-- ihre, ihrer, ihr, ihren, ihres, ihrem -->
     <feat name="Gender[psor]" value="Masc" upos="DET">115</feat><!-- seine, seiner, sein, ihre, seinen, ihrer, seines, ihren, seinem, ihr -->
@@ -66,14 +66,14 @@
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">2649</feat><!-- es, ist, sich, er, sie, wurde, war, hat, wird, hatte -->
     <feat name="Polarity" value="Neg" upos="PART">87</feat><!-- nicht -->
     <feat name="Polite" value="Form" upos="DET,PRON,VERB">4</feat><!-- Sie, Ihrem, Schimpfen -->
-    <feat name="Poss" value="Yes" upos="DET">213</feat><!-- seine, ihre, ihrer, seiner, sein, ihren, seinen, ihr, seines, ihres -->
+    <feat name="Poss" value="Yes" upos="DET,PRON">222</feat><!-- seine, ihre, ihrer, seiner, ihr, sein, ihren, seinen, seines, ihres -->
     <feat name="PronType" value="Art" upos="DET">2572</feat><!-- der, die, dem, den, das, eine, des, ein, einer, einem -->
     <feat name="PronType" value="Dem" upos="ADV,DET">191</feat><!-- diese, dieser, davon, dies, dazu, damit, dieses, dafür, darauf, diesem -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">244</feat><!-- die, der, das, denen, dem, dessen, deren, den -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">85</feat><!-- viele, einige, andere, anderen, vielen, etwas, anderer, einigen, viel, genug -->
     <feat name="PronType" value="Int,Rel" upos="DET">6</feat><!-- welche, welchen, welcher -->
     <feat name="PronType" value="Neg" upos="DET">25</feat><!-- keine, kein, keinen -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">681</feat><!-- es, sich, er, seine, ihre, ihrer, seiner, ihr, sein, ihren -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">690</feat><!-- es, sich, er, seine, ihre, ihr, ihrer, seiner, sein, ihren -->
     <feat name="PronType" value="Rcp" upos="PRON">9</feat><!-- mich, uns, mir -->
     <feat name="PronType" value="Tot" upos="DET,PRON">61</feat><!-- alle, beiden, allem, jedes, alles, jede, jeder, jeden, allen, jedem -->
     <feat name="Reflex" value="Yes" upos="PRON">135</feat><!-- sich, dich -->
@@ -88,12 +88,12 @@
     <dep name="acl">20</dep>
     <dep name="acl:relcl">271</dep>
     <dep name="advcl">221</dep>
-    <dep name="advmod">1121</dep>
+    <dep name="advmod">1120</dep>
     <dep name="amod">1090</dep>
     <dep name="appos">265</dep>
     <dep name="aux">367</dep>
     <dep name="aux:pass">230</dep>
-    <dep name="case">2054</dep>
+    <dep name="case">2055</dep>
     <dep name="cc">723</dep>
     <dep name="cc:preconj">11</dep>
     <dep name="ccomp">169</dep>

@@ -108,7 +108,7 @@
 1	„	„	PUNCT	``	_	8	punct	_	SpaceAfter=No
 2	Ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	8	nsubj	_	_
 3	möchte	mögen	AUX	VBC	Mood=Sub|Number=Sing|Person=1|Tense=Past	8	aux	_	_
-4	euch	ihr	PRON	PRP	Case=Acc|Number=Plur|Person=2	8	obj	_	_
+4	euch	ihr	PRON	PRP	Case=Acc|Number=Plur|Person=2|PronType=Prs	8	obj	_	_
 5	ungern	ungern	ADV	RB	Degree=Pos	8	advmod	_	_
 6	unter	unter	ADP	IN	_	7	case	_	_
 7	Druck	Druck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
@@ -1765,7 +1765,7 @@
 13	übrigens	übrigens	ADV	RB	Degree=Pos	18	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	13	punct	_	_
 15	habt	haben	AUX	VBC	Mood=Ind|Number=Plur|Person=2|Tense=Pres	18	aux	_	_
-16	ihr	ihr	PRON	PRP	Case=Nom|Number=Plur|Person=2	18	nsubj	_	_
+16	ihr	ihr	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	18	nsubj	_	_
 17	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	obj	_	_
 18	gemerkt	merken	VERB	VBN	Tense=Past	9	parataxis	_	SpaceAfter=No
 19	?	?	PUNCT	.	_	9	punct	_	SpaceAfter=No
@@ -2305,7 +2305,7 @@
 36	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	37	det	_	_
 37	Jugendliche	Jugendliche	NOUN	NNA	Case=Acc|Gender=Fem|Number=Sing	44	obj	_	InflectionType=Mixed
 38	an	an	ADP	IN	_	41	case	_	_
-39	ihrer	ihr	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	41	det:poss	_	_
+39	ihrer	ihr	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	41	det:poss	_	_
 40	High	High	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_
 41	School	School	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	44	obl	_	_
 42	in	in	ADP	IN	_	43	case	_	_
@@ -2714,7 +2714,7 @@
 20	meisten	meist	NOUN	NNA	Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	InflectionType=Weak
 21	Trost	Trost	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
 22	spenden	spenden	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	16	ccomp	_	_
-23	ihr	ihr	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	22	obl:arg	_	_
+23	ihr	sie	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obl:arg	_	_
 24	ihre	ihr	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
 25	Freunde	Freund	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	4	punct	_	_
@@ -3563,7 +3563,7 @@
 # sent_id = n01053041
 # text = Ihre Stimme ging im wahrsten Sinne des Wortes um die Welt, sagte Leive.
 # text_en = "Her voice literally went around the world," Leive said.
-1	Ihre	ihr	DET	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	2	det:poss	_	_
+1	Ihre	ihr	DET	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Stimme	Stimme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	ging	gehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	14	ccomp	_	_
 4-5	im	_	_	_	_	_	_	_	_
@@ -5221,7 +5221,7 @@
 # sent_id = n01083013
 # text = Ihr Grund ist, dass es unzureichenden Schutz für amerikanische Arbeiter bietet, deren Jobs und Lebensstandards es schaden könnte.
 # text_en = Her reason is that it provides insufficient protection to American workers whose jobs and living standards it might harm.
-1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	2	det:poss	_	_
+1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	ist	sein	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	12	punct	_	_
@@ -7411,7 +7411,7 @@
 # sent_id = n01116021
 # text = Ihr Hals strebt nach vorn in Konfrontation, die Adern treten hervor, ihre Hände zittern.
 # text_en = Her neck pushes forward in vein-accentuating confrontation, her hands shake.
-1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	2	det:poss	_	_
+1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Hals	Hals	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	strebt	streben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	nach	nach	ADP	IN	_	5	case	_	_
@@ -7448,7 +7448,7 @@
 14	wer	wer	PRON	WP	Case=Nom|Person=3	19	nsubj	_	_
 15	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	19	aux	_	_
 16	es	es	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
-17	ihr	ihr	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	19	obl:arg	_	_
+17	ihr	sie	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obl:arg	_	_
 18	da	da	ADV	RB	Degree=Pos	19	advmod	_	_
 19	verübeln	verübeln	VERB	VB	_	0	root	_	SpaceAfter=No
 20	?	?	PUNCT	.	_	19	punct	_	_
@@ -10156,7 +10156,7 @@
 # sent_id = w01010047
 # text = Ihr erster König war Mojmír I. (herrschte 830 - 846).
 # text_en = Their first king was Mojmír I (ruled 830–846).
-1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	3	det:poss	_	_
+1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 2	erster	erst	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	InflectionType=Mixed
 3	König	König	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	cop	_	_
@@ -12542,7 +12542,7 @@
 10	Regierungswissenschaftlern	Regierungswissenschaftler	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	16	punct	_	_
 12	die	der	PRON	REL	Case=Nom|Number=Plur|PronType=Dem,Rel	16	nsubj	_	_
-13	ihr	ihr	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	16	obl:arg	_	_
+13	ihr	sie	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obl:arg	_	_
 14	vertrauliche	vertraulich	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	InflectionType=Strong
 15	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
 16	lieferten	liefern	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	10	acl:relcl	_	SpaceAfter=No
@@ -13894,7 +13894,7 @@
 # sent_id = w01066006
 # text = Ihr Tierkreiszeichen ist der Affe, und ihr traditionell begangenes 60. Jubiläumsjahr war 1992.
 # text_en = Her zodiacal animal is the Monkey and her traditionally significant sixtieth anniversary year was 1992.
-1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	2	det:poss	_	_
+1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Tierkreiszeichen	Tierkreiszeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
 3	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
 4	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -17371,7 +17371,7 @@
 # sent_id = w01117029
 # text = Ihr neuestes nicht fiktionales Buch ist über Margeret Douglas, die Gräfin von Lennox.
 # text_en = Her latest non-fiction is about Margaret Douglas, Countess of Lennox.
-1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	5	det:poss	_	_
+1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 2	neuestes	neu	ADJ	JJ	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	5	amod	_	InflectionType=Mixed
 3	nicht	nicht	PART	RB	Polarity=Neg	4	advmod	_	_
 4	fiktionales	fiktional	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	conj	_	InflectionType=Mixed
@@ -17396,7 +17396,7 @@
 4	fiktionalen	fiktional	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	InflectionType=Strong
 5	Stoffen	Stoff	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	_
 6	fiel	fallen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-7	ihr	ihr	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	6	obl:arg	_	_
+7	ihr	sie	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl:arg	_	_
 8	leicht	leicht	ADV	RB	Degree=Pos	6	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	_	_
 10	wie	wie	SCONJ	CC	_	12	mark	_	_
@@ -17837,7 +17837,7 @@
 # sent_id = w01127071
 # text = Ihr Album Wild West aus dem Jahr 1981 war einer ihrer größten Verkaufsschlager.
 # text_en = Her 1981 album Wild West was one of her biggest sellers.
-1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	2	det:poss	_	_
+1	Ihr	ihr	DET	DTP$	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Album	Album	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
 3	Wild	Wild	ADJ	JJ	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	Proper=True
 4	West	West	NOUN	NN	Case=Nom|Number=Sing	2	appos	_	Proper=True
@@ -18841,13 +18841,13 @@
 9	Curie	Curie	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
 10	und	und	CCONJ	CC	_	11	cc	_	_
 11	schlug	schlagen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	conj	_	_
-12	ihr	ihr	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	11	obl:arg	_	_
+12	ihr	sie	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obl:arg	_	_
 13	vor	vor	VERB	DC	_	11	compound:prt	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	19	punct	_	_
 15	dass	dass	SCONJ	CC	_	19	mark	_	_
 16	Rona	Rona	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
 17	mit	mit	ADP	IN	_	18	case	_	_
-18	ihr	ihr	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	19	obl	_	_
+18	ihr	sie	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
 19	arbeiten	arbeiten	VERB	VB	_	11	ccomp	_	_
 20	könne	können	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres	19	aux	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	24	punct	_	_
@@ -22329,7 +22329,7 @@
 1	Der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Verteidigungsminister	Verteidigungsminister	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	hat	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux	_	_
-4	ihr	ihr	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	5	obl:arg	_	_
+4	ihr	sie	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl:arg	_	_
 5	gestattet	gestatten	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	12	punct	_	_
 7	vorerst	vorerst	ADV	RB	Degree=Pos	12	advmod	_	_
