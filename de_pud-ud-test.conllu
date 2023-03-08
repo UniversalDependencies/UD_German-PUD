@@ -7763,7 +7763,7 @@
 7	nicht	nicht	PART	RB	Polarity=Neg	6	advmod	_	_
 8	auf	auf	ADP	IN	_	11	case	_	_
 9	eine	ein	DET	PDT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	11	det	_	_
-10	irgendeine	irgendein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	11	det	_	_
+10	irgendeine	irgendein	DET	DT	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	11	det	_	_
 11	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 12	Zwang	zwang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
 13-14	zum	_	_	_	_	_	_	_	_
