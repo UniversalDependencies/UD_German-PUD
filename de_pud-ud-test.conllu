@@ -22744,10 +22744,10 @@
 9	Sieg	Sieg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
 10	auf	auf	ADP	IN	_	12	case	_	_
 11	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	Plaza	Plaza	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
-13	de	de	ADP	IN	_	15	case	_	Proper=True
-14	las	las	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|Person=3	15	det	_	Proper=True
-15	Victorias	Victorias	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No|Proper=True
+12	Plaza	plaza	NOUN	NN	Foreign=Yes|Gender=Fem|Number=Sing	6	obl	_	Lang=es|Proper=True
+13	de	de	ADP	IN	Foreign=Yes	15	case	_	Lang=es|Proper=True
+14	las	el	DET	DT	Definite=Def|Foreign=Yes|Gender=Fem|Number=Plur|PronType=Art	15	det	_	Lang=es|Proper=True
+15	Victorias	victoria	NOUN	NN	Foreign=Yes|Gender=Fem|Number=Plur	12	nmod	_	Lang=es|SpaceAfter=No|Proper=True
 16	.	.	PUNCT	.	_	6	punct	_	_
 
 # newdoc id = n05010
