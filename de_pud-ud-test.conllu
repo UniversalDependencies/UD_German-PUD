@@ -18109,7 +18109,7 @@
 5	Album	Album	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
 6	„	„	PUNCT	``	_	9	punct	_	SpaceAfter=No
 7	Over	over	ADP	IN	Foreign=Yes	9	case	_	Lang=en|Proper=True
-8	My	my	PRON	DTP$	Foreign=Yes|Number=Sing|Person=1|PronType=Prs	9	nmod:poss	_	Lang=en|Proper=True
+8	My	my	PRON	DTP$	Case=Gen|Foreign=Yes|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	Lang=en|Proper=True
 9	Head	head	NOUN	NN	Foreign=Yes|Number=Sing	5	nmod	_	SpaceAfter=No|Lang=en|Proper=True
 10	“	“	PUNCT	''	_	9	punct	_	_
 11	von	von	ADP	IN	_	12	case	_	_
@@ -25869,7 +25869,7 @@
 37	n't	not	PART	AFX	Foreign=Yes	38	advmod	_	Lang=en|Proper=True
 38	Go	go	VERB	VB	Foreign=Yes|VerbForm=Inf	25	parataxis	_	Lang=en|Proper=True
 39	Breaking	break	VERB	VBN	Foreign=Yes|Tense=Pres|VerbForm=Part	38	advcl	_	Lang=en|Proper=True
-40	My	my	PRON	DTP$	Foreign=Yes|Number=Sing|Person=3|PronType=Prs	41	nmod:poss	_	Lang=en|Proper=True
+40	My	my	PRON	DTP$	Case=Gen|Foreign=Yes|Number=Sing|Person=1|Poss=Yes|PronType=Prs	41	nmod:poss	_	Lang=en|Proper=True
 41	Heart	heart	NOUN	NN	Foreign=Yes|Number=Sing	39	obj	_	SpaceAfter=No|Lang=en|Proper=True
 42	“	“	PUNCT	''	_	38	punct	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	2	punct	_	_
