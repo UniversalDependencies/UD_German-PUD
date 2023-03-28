@@ -3936,7 +3936,7 @@
 17	doch	doch	CCONJ	CC	_	19	cc	_	_
 18	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	nsubj	_	_
 19	ändert	ändern	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	conj	_	_
-20	nichts	nichts	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+20	nichts	nichts	PRON	NN	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	19	obj	_	_
 21	an	an	ADP	IN	_	23	case	_	_
 22	den	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|PronType=Art	23	det	_	_
 23	Ähnlichkeiten	Ähnlichkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
@@ -4247,7 +4247,7 @@
 # text_en = Caplan dismisses retrospective voting, quoting a pair of scholars who call it “no more rational than killing the pharaoh when the Nile does not flood.”
 1	Caplan	Caplan	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	hält	halten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-3	nichts	nichts	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+3	nichts	nichts	PRON	NN	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	2	obj	_	_
 4	von	von	ADP	IN	_	6	case	_	_
 5	retrospektivem	retrospektiv	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	InflectionType=Strong
 6	Wählen	Wählen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
@@ -4290,7 +4290,7 @@
 3	abgesehen	abgesehen	ADV	RB	Degree=Pos	4	advmod	_	_
 4	hatte	haben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 5	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
-6	nichts	nichts	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	nichts	nichts	PRON	NN	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	4	obj	_	_
 7	offensichtlich	offensichtlich	ADV	RB	Degree=Pos	8	advmod	_	_
 8	Künstlerisches	künstlerisch	NOUN	NNA	Case=Acc|Gender=Neut|Number=Sing	6	appos	_	InflectionType=Strong
 9	an	an	ADP	IN	_	10	case	_	_
@@ -8121,7 +8121,7 @@
 18	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	nsubj	_	_
 19	nützt	nützen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	conj	_	_
 20	alles	all	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	18	obl	_	_
-21	nichts	nichts	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	SpaceAfter=No
+21	nichts	nichts	PRON	NN	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	19	obj	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	31	punct	_	_
 23	wenn	wenn	SCONJ	CC	_	31	mark	_	_
 24	ein	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	26	det	_	_
@@ -16343,7 +16343,7 @@
 10	worden	werden	AUX	VBN	Tense=Past	9	aux:pass	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	15	punct	_	_
 12	aber	aber	CCONJ	CC	_	15	cc	_	_
-13	nichts	nichts	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+13	nichts	nichts	PRON	NN	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	15	nsubj	_	_
 14	davon	davon	ADV	RB	PronType=Dem	13	advmod	_	_
 15	weckte	wecken	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	9	conj	_	_
 16	ihr	ihr	DET	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
