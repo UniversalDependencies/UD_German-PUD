@@ -968,7 +968,7 @@
 # text = Die meisten Leute würden WLAN am Flughafen nützlicher finden als die Möglichkeit, E-Mails vom Flugzeug aus zu verschicken.
 # text_en = "Most people would find airport wi-fi more useful than being able to send emails on a plane."
 1	Die	der	DET	PDT	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	_
-2	meisten	meist	DET	DT	Case=Nom|Definite=Ind|Number=Plur|Person=3	3	det	_	_
+2	meisten	meist	DET	DT	Case=Nom|Degree=Sup|Number=Plur|PronType=Ind	3	det	_	_
 3	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	10	nsubj	_	_
 4	würden	werden	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	10	aux	_	_
 5	WLAN	WLAN	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
@@ -10451,7 +10451,7 @@
 9	,	,	PUNCT	,	_	14	punct	_	_
 10	doch	doch	CCONJ	CC	_	14	cc	_	_
 11	die	der	DET	PDT	Case=Nom|Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-12	meisten	meist	DET	DT	Case=Nom|Definite=Ind|Number=Plur|Person=3	13	det	_	_
+12	meisten	meist	DET	DT	Case=Nom|Degree=Sup|Number=Plur|PronType=Ind	13	det	_	_
 13	Bantu	Bantu	PROPN	NNP	Case=Nom|Number=Plur	14	nsubj	_	_
 14	kamen	kommen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	2	conj	_	_
 15	nie	nie	ADV	RB	Degree=Pos	14	advmod	_	_
@@ -15509,7 +15509,7 @@
 # text = Die meisten Informationen über die Zeit stammen von Grabstätten und den Grabbeigaben, die sich darin befanden.
 # text_en = Most of the information about the period comes from burial sites and the grave goods contained within them.
 1	Die	der	DET	PDT	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	_
-2	meisten	meist	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Person=3	3	det	_	_
+2	meisten	meist	DET	DT	Case=Nom|Degree=Sup|Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
 3	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
 4	über	über	ADP	IN	_	6	case	_	_
 5	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -23265,7 +23265,7 @@
 12	ebenso	ebenso	ADV	RB	Degree=Pos	16	advmod	_	_
 13	wie	wie	CCONJ	CC	_	16	cc	_	_
 14	die	der	DET	PDT	Case=Nom|Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-15	meisten	meist	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	16	det	_	_
+15	meisten	meist	DET	DT	Case=Nom|Degree=Sup|Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
 16	Fundplätze	Fundplatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	_
 17	Südosteuropas	Südosteuropa	PROPN	NNP	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	3	punct	_	_
@@ -24231,7 +24231,7 @@
 3	Mittelalter	Mittelalter	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
 4	hatten	haben	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 5	die	der	DET	PDT	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-6	meisten	meist	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	7	det	_	_
+6	meisten	meist	DET	DT	Case=Nom|Degree=Sup|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
 7	Christen	Christ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	Proper=True
 8	keinen	kein	DET	DT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	9	det	_	_
 9	Zugang	Zugang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
