@@ -2283,7 +2283,7 @@
 14	,	,	PUNCT	,	_	21	punct	_	_
 15	dass	dass	SCONJ	CC	_	21	mark	_	_
 16	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	21	nsubj	_	_
-17	mehr	mehr	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	18	det	_	_
+17	mehr	mehr	DET	DT	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	18	det	_	_
 18	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	21	obj	_	_
 19	als	als	CCONJ	CC	_	20	cc	_	_
 20	Antworten	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	conj	_	_
@@ -3367,7 +3367,7 @@
 5	für	für	ADP	IN	_	6	case	_	_
 6	Eisenwerte	Eisenwert	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	Proper=True
 7	werden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	10	aux:pass	_	_
-8	mehr	mehr	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	9	det	_	_
+8	mehr	mehr	DET	DT	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
 9	Spender	Spender	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj:pass	_	_
 10	gebraucht	brauchen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	10	punct	_	_
@@ -3919,7 +3919,7 @@
 # text_en = There are more differences between Sulla and Trump, Rome and the U.S., than there are similarities, but that doesn’t discredit the resemblances.
 1	Es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	gibt	geben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-3	mehr	mehr	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Person=3	4	det	_	_
+3	mehr	mehr	DET	DT	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
 4	Unterschiede	Unterschied	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
 5	als	als	CCONJ	CC	_	6	cc	_	_
 6	Gemeinsamkeiten	Gemeinsamkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	conj	_	_
@@ -4000,7 +4000,7 @@
 12	,	,	PUNCT	,	_	11	punct	_	_
 13	entwickelte	entwickeln	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 14	Karel	Karel	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
-15	mehr	mehr	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Person=3	16	det	_	_
+15	mehr	mehr	DET	DT	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing|PronType=Ind	16	det	_	_
 16	Mitgefühl	Mitgefühl	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	13	punct	_	_
 
@@ -5190,7 +5190,7 @@
 # text = „Mehr Menschen nehmen Kredite auf … Während das Leihen gerade leicht zu bewältigen sein mag, könnte eine plötzliche Änderung der Umstände zu Schuldenproblemen führen.“
 # text_en = “More people are turning to credit … While this borrowing might be manageable now, a sudden change in circumstances could lead to debt problems.”
 1	„	„	PUNCT	``	_	4	punct	_	SpaceAfter=No
-2	Mehr	mehr	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	3	det	_	_
+2	Mehr	mehr	DET	DT	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 4	nehmen	nehmen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 5	Kredite	Kredit	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
@@ -5411,7 +5411,7 @@
 6	verdient	verdienen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 7	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	nsubj	_	_
 8	immer	immer	ADV	RB	Degree=Pos	9	advmod	_	_
-9	mehr	mehr	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	10	det	_	_
+9	mehr	mehr	DET	DT	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
 10	Beachtung	Beachtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -6722,7 +6722,7 @@
 18	von	von	ADP	IN	_	19	case	_	_
 19	VW	VW	PROPN	NNP	Case=Dat|Number=Sing	17	nmod	_	_
 20	um	um	ADP	IN	_	24	case	_	_
-21	mehrere	mehr	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Person=3	24	det	_	_
+21	mehrere	mehr	DET	DT	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur|PronType=Ind	24	det	_	_
 22	zehn	zehn	NUM	CD	NumType=Card	23	nummod	_	_
 23	Milliarden	Milliarde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	nmod	_	_
 24	Euro	Euro	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	obl	_	Proper=True
@@ -7189,7 +7189,7 @@
 12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
 13	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
 14	2050	2050	NUM	CD	NumType=Card	13	nummod	_	_
-15	mehr	mehr	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Person=3	16	det	_	_
+15	mehr	mehr	DET	DT	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
 16	Plastikmüll	Plastikmüll	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
 17	als	als	CCONJ	CC	_	18	cc	_	_
 18	Fische	Fisch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
@@ -7217,7 +7217,7 @@
 # text = Nach mehreren meisterhaften chirurgischen Eingriffen und einer Menge sehr anstrengender Reha-Maßnahmen bin ich vollständig genesen.
 # text_en = After some genius surgery and a lot of very tough rehab, I have made a full recovery.
 1	Nach	nach	ADP	IN	_	5	case	_	_
-2	mehreren	mehr	DET	DT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|Person=3	5	det	_	_
+2	mehreren	mehr	DET	DT	Case=Dat|Degree=Cmp|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
 3	meisterhaften	meisterhaft	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	InflectionType=Strong
 4	chirurgischen	chirurgisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	3	conj	_	InflectionType=Strong
 5	Eingriffen	Eingriff	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	17	obl	_	_
@@ -7261,7 +7261,7 @@
 20	Öffentlichkeit	Öffentlichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
 21	auf	auf	VERB	DC	_	18	compound:prt	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	30	punct	_	_
-23	mehr	mehr	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	24	det	_	_
+23	mehr	mehr	DET	DT	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing|PronType=Ind	24	det	_	_
 24	Verantwortung	Verantwortung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	obj	_	_
 25	für	für	ADP	IN	_	28	case	_	_
 26	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -13507,7 +13507,7 @@
 17	,	,	PUNCT	,	_	24	punct	_	_
 18	wobei	wobei	ADV	WRB	_	24	advmod	_	_
 19	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	24	nsubj	_	_
-20	mehrere	mehr	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Person=3	23	det	_	_
+20	mehrere	mehr	DET	DT	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur|PronType=Ind	23	det	_	_
 21	inkompetente	inkompetent	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	InflectionType=Strong
 22	chinesische	chinesisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	21	conj	_	InflectionType=Strong|Proper=True
 23	Botschafter	Botschafter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	24	obj	_	_
@@ -14883,7 +14883,7 @@
 1	Es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	erörtert	erörtern	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	in	in	ADP	IN	_	5	case	_	_
-4	mehreren	mehrere	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur|Person=3	5	det	_	_
+4	mehreren	mehr	DET	DT	Case=Dat|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
 5	Passagen	Passage	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	_
 6	speziell	speziell	ADV	RB	Degree=Pos	12	advmod	_	_
 7	die	der	DET	DT	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
@@ -18340,7 +18340,7 @@
 26	und	und	CCONJ	CC	_	34	cc	_	_
 27	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	34	obj	_	_
 28	über	über	ADP	IN	_	32	case	_	_
-29	mehrere	mehr	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Person=3	32	det	_	_
+29	mehrere	mehr	DET	DT	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur|PronType=Ind	32	det	_	_
 30	Marvel	Marvel	PROPN	NNP	Case=Acc|Gender=Masc|Number=Plur	32	compound	_	SpaceAfter=No
 31	-	-	PUNCT	-	_	30	punct	_	SpaceAfter=No
 32	Titel	Titel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	34	obl	_	_
@@ -19065,7 +19065,7 @@
 14	,	,	PUNCT	,	_	5	punct	_	_
 15	heiratete	heiraten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	31	advcl	_	_
 16	und	und	CCONJ	CC	_	19	cc	_	_
-17	mehrere	mehr	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|Person=3	18	det	_	_
+17	mehrere	mehr	DET	DT	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur|PronType=Ind	18	det	_	_
 18	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	19	obj	_	_
 19	bekam	bekommen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	15	conj	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	22	punct	_	_
@@ -23809,7 +23809,7 @@
 15	ein	ein	DET	DC	Definite=Ind|NumType=Card|PronType=Art	4	compound:prt	_	_
 16	und	und	CCONJ	CC	_	17	cc	_	_
 17	unternahm	unternehmen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	conj	_	_
-18	mehrere	mehr	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Person=3	19	det	_	_
+18	mehrere	mehr	DET	DT	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	19	det	_	_
 19	Reisen	reisen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
 20	nach	nach	ADP	IN	_	21	case	_	_
 21	Israel	Israel	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
@@ -25749,7 +25749,7 @@
 20	und	und	CCONJ	CC	_	21	cc	_	_
 21	Carlos	Carlos	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	15	conj	_	_
 22	IV.	IV.	NOUN	NNA	Case=Dat|Gender=Masc|Number=Sing	21	appos	_	InflectionType=Weak|Proper=True
-23	mehr	mehr	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Person=3	24	det	_	_
+23	mehr	mehr	DET	DT	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing|PronType=Ind	24	det	_	_
 24	Anspruch	Anspruch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	28	obj	_	_
 25	auf	auf	ADP	IN	_	27	case	_	_
 26	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
