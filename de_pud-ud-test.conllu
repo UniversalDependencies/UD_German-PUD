@@ -438,7 +438,7 @@
 # text_en = There are parallels to draw here between games and our everyday lives.
 1	Hier	hier	ADV	RB	Degree=Pos	11	advmod	_	_
 2	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	aux	_	_
-3	man	man	PRON	EX	_	11	nsubj	_	_
+3	man	man	PRON	EX	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	_
 4	Parallelen	parallel	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
 5	zwischen	zwischen	ADP	IN	_	6	case	_	_
 6	Spielen	Spielen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	_
@@ -5319,7 +5319,7 @@
 # text_en = With this, in theory, you are able to access your money whenever you like.
 1	Damit	damit	ADV	RB	PronType=Dem	9	advmod	_	_
 2	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	aux	_	_
-3	man	man	PRON	EX	_	9	nsubj	_	_
+3	man	man	PRON	EX	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	_
 4	theoretisch	theoretisch	ADV	RB	Degree=Pos	5	advmod	_	_
 5	jederzeit	jederzeit	ADV	RB	Degree=Pos	9	advmod	_	_
 6	auf	auf	ADP	IN	_	8	case	_	_
@@ -5463,7 +5463,7 @@
 # sent_id = n01086016
 # text = Man hört dann genauer hin und wartet auf das nächste Geräusch und ärgert sich noch mehr, wenn es kommt.
 # text_en = You end up listening more acutely for the next noise and getting more irritated when it comes.
-1	Man	man	PRON	EX	_	2	nsubj	_	_
+1	Man	man	PRON	EX	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	_
 2	hört	hören	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	dann	dann	ADV	RB	Degree=Pos	2	advmod	_	_
 4	genauer	genau	ADV	RB	Degree=Cmp	2	advmod	_	_
@@ -5498,7 +5498,7 @@
 # sent_id = n01087005
 # text = Man kann sagen, dass Rocco Catalano Retro arbeitet, lebt und atmet.
 # text_en = It’s fair to say that Rocco Catalano works, lives and breathes retro.
-1	Man	man	PRON	EX	_	3	nsubj	_	_
+1	Man	man	PRON	EX	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	_
 2	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux	_	_
 3	sagen	sagen	VERB	VB	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	9	punct	_	_
@@ -6022,7 +6022,7 @@
 2	Auf	auf	ADP	IN	_	3	case	_	_
 3	Agora	Agora	PROPN	NNP	Case=Dat|Number=Sing	10	obl	_	_
 4	konnte	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	aux	_	_
-5	man	man	PRON	EX	_	10	nsubj	_	_
+5	man	man	PRON	EX	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	_
 6	nur	nur	ADV	RB	Degree=Pos	9	advmod	_	_
 7	über	über	ADP	IN	_	9	case	_	_
 8	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	9	det	_	_
@@ -6038,11 +6038,11 @@
 18	zugänglich	zugänglich	ADJ	JJ	Degree=Pos	10	conj	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	22	punct	_	_
 20	wenn	wenn	SCONJ	CC	_	22	mark	_	_
-21	man	man	PRON	EX	_	22	nsubj	_	_
+21	man	man	PRON	EX	Case=Nom|Number=Sing|PronType=Ind	22	nsubj	_	_
 22	weiß	wissen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	18	advcl	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	27	punct	_	_
 24	wie	wie	SCONJ	CC	_	27	mark	_	_
-25	man	man	PRON	EX	_	27	nsubj	_	_
+25	man	man	PRON	EX	Case=Nom|Number=Sing|PronType=Ind	27	nsubj	_	_
 26	danach	danach	ADV	RB	Degree=Pos	27	advmod	_	_
 27	suchen	suchen	VERB	VB	_	22	ccomp	_	_
 28	muss	müssen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	27	aux	_	SpaceAfter=No
@@ -6529,7 +6529,7 @@
 4	,	,	PUNCT	,	_	8	punct	_	_
 5	in	in	ADP	IN	_	6	case	_	_
 6	dem	der	PRON	REL	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	obl	_	_
-7	man	man	PRON	EX	_	8	nsubj	_	_
+7	man	man	PRON	EX	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	_
 8	dominiert	dominieren	VERB	VBN	Tense=Past	3	acl:relcl	_	_
 9	hat	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	aux	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	3	punct	_	_
@@ -13657,7 +13657,7 @@
 22	gewährt	gewähren	VERB	VBN	Tense=Past	3	conj	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	28	punct	_	_
 24	die	der	PRON	REL	Case=Acc|Number=Plur|PronType=Dem,Rel	28	obj	_	_
-25	man	man	PRON	EX	_	28	nsubj	_	_
+25	man	man	PRON	EX	Case=Nom|Number=Sing|PronType=Ind	28	nsubj	_	_
 26	als	als	CCONJ	CC	_	28	cc	_	_
 27	angemessen	angemessen	ADJ	JJ	Degree=Pos	28	xcomp	_	_
 28	ansah	ansehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	19	acl:relcl	_	SpaceAfter=No
@@ -15324,7 +15324,7 @@
 # sent_id = w01085006
 # text = Man verließ sich auf Freiwillige und staatliche Milizen, die an den Sammelpunkten in Florida mit Problemen in Bezug auf Logistik, Ausbildung und Verpflegung zu kämpfen hatten.
 # text_en = It relied on volunteers and state militia units, which faced logistical, training and food problems in the staging areas in Florida.
-1	Man	man	PRON	EX	_	2	nsubj	_	_
+1	Man	man	PRON	EX	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	_
 2	verließ	verlassen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	auf	auf	ADP	IN	_	5	case	_	_
@@ -15852,7 +15852,7 @@
 21	umzubenennen	umzubenennen	VERB	VB	_	14	conj	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	29	punct	_	_
 23	wobei	wobei	ADV	WRB	_	29	advmod	_	_
-24	man	man	PRON	EX	_	29	nsubj	_	_
+24	man	man	PRON	EX	Case=Nom|Number=Sing|PronType=Ind	29	nsubj	_	_
 25	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	Namen	Name	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	obj	_	_
 27	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -17411,7 +17411,7 @@
 19	Lernkurve	Lernkurve	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	25	punct	_	_
 21	und	und	CCONJ	CC	_	25	cc	_	_
-22	man	man	PRON	EX	_	25	nsubj	_	_
+22	man	man	PRON	EX	Case=Nom|Number=Sing|PronType=Ind	25	nsubj	_	_
 23	muss	müssen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	25	aux	_	_
 24	aufgeschlossen	aufschließen	ADJ	JJ	Degree=Pos	25	xcomp	_	_
 25	bleiben	bleiben	VERB	VB	VerbForm=Fin	17	conj	_	SpaceAfter=No
@@ -19937,7 +19937,7 @@
 # sent_id = n02022015
 # text = Man wisse nicht, auf welche Art und Weise die beiden Dramatiker zusammengearbeitet hätten.
 # text_en = One doesn't know in which way both dramatists would have worked together.
-1	Man	man	PRON	EX	_	2	nsubj	_	_
+1	Man	man	PRON	EX	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	_
 2	wisse	wissen	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	nicht	nicht	PART	RB	Polarity=Neg	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	13	punct	_	_
@@ -20780,7 +20780,7 @@
 1	Einen	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	det	_	_
 2	Schub	Schub	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 3	erwartet	erwarten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-4	man	man	PRON	EX	_	3	nsubj	_	_
+4	man	man	PRON	EX	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	_
 5	sich	sich	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	dep	_	_
 6-7	vom	_	_	_	_	_	_	_	_
 6	von	von	ADP	APPR	_	9	case	_	_
@@ -21373,7 +21373,7 @@
 9	berücksichtigen	berücksichtigen	VERB	VB	_	2	xcomp	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	19	punct	_	_
 11	nachdem	nachdem	SCONJ	CC	_	19	mark	_	_
-12	man	man	PRON	EX	_	19	nsubj	_	_
+12	man	man	PRON	EX	Case=Nom|Number=Sing|PronType=Ind	19	nsubj	_	_
 13	dies	dieser	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	19	obj	_	_
 14	von	von	ADP	IN	_	18	case	_	_
 15	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
