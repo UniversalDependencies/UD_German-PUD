@@ -164,11 +164,11 @@
 # text = Was sie sagt und was sie tut - eigentlich ist es unglaublich.
 # text_en = What she’s saying and what she’s doing, it — actually, it’s unbelievable.
 1	Was	was	PRON	WP	Case=Acc|Person=3	3	obj	_	_
-2	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+2	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	sagt	sagen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	und	und	CCONJ	CC	_	7	cc	_	_
 5	was	was	PRON	WP	Case=Acc|Person=3	7	obj	_	_
-6	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
+6	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	tut	tun	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	conj	_	_
 8	-	-	PUNCT	-	_	12	punct	_	_
 9	eigentlich	eigentlich	ADV	RB	Degree=Pos	12	advmod	_	_
@@ -576,7 +576,7 @@
 # sent_id = n01011004
 # text = Sie wurde auch der versuchten Tötung ihrer zweijährigen Tochter angeklagt.
 # text_en = She has also been charged with trying to kill her two-year-old daughter.
-1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	nsubj:pass	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	_
 2	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	aux:pass	_	_
 3	auch	auch	ADV	RB	Degree=Pos	10	advmod	_	_
 4	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -598,7 +598,7 @@
 5	III	III	NOUN	NNA	Case=Acc|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No|InflectionType=Weak|Proper=True
 6	,	,	PUNCT	,	_	17	punct	_	_
 7	indem	indem	SCONJ	CC	_	17	mark	_	_
-8	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
+8	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 9	sein	sein	DET	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Gesicht	Gesicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
 11	in	in	ADP	IN	_	13	case	_	_
@@ -610,7 +610,7 @@
 17	drückte	drücken	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	advcl	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	26	punct	_	_
 19	bevor	bevor	SCONJ	CC	_	26	mark	_	_
-20	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	26	nsubj	_	_
+20	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
 21	dasselbe	derselbe	DET	PRP	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	26	obj	_	_
 22	bei	bei	ADP	IN	_	24	case	_	_
 23	ihrer	ihr	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
@@ -1371,7 +1371,7 @@
 3	fantastisch	fantastisch	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	11	punct	_	_
 5	dass	dass	SCONJ	CC	_	11	mark	_	_
-6	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	11	nsubj	_	_
+6	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
 7	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 8	Pariser	Pariser	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	Proper=True
 9	Abkommen	Abkommen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
@@ -1693,7 +1693,7 @@
 # text_en = Who are they?
 1	Wer	wer	PRON	WP	Case=Nom|Person=3	0	root	_	_
 2	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	1	cop	_	_
-3	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	1	nsubj	_	SpaceAfter=No
+3	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No
 4	?	?	PUNCT	.	_	1	punct	_	_
 
 # sent_id = n01027030
@@ -1721,11 +1721,11 @@
 # text_en = I asked her afterwards if she understood why people might vote for Trump.
 1	Ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
 2	fragte	fragen	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	_
-3	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	2	obj	_	_
+3	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 4	hinterher	hinterher	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	8	punct	_	_
 6	ob	ob	SCONJ	CC	_	8	mark	_	_
-7	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+7	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	verstand	verstehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	ccomp	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	13	punct	_	_
 10	warum	warum	ADV	WRB	_	13	advmod	_	_
@@ -2198,7 +2198,7 @@
 17	und	und	CCONJ	CC	_	23	cc	_	_
 18	so	so	ADV	RB	Degree=Pos	23	advmod	_	_
 19	musste	müssen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	23	aux	_	_
-20	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	23	nsubj	_	_
+20	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 21	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Studie	Studie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
 23	verlassen	verlassen	VERB	VB	_	5	conj	_	SpaceAfter=No
@@ -2282,7 +2282,7 @@
 13	Columbia	Columbia	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	21	punct	_	_
 15	dass	dass	SCONJ	CC	_	21	mark	_	_
-16	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	21	nsubj	_	_
+16	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 17	mehr	mehr	DET	DT	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	18	det	_	_
 18	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	21	obj	_	_
 19	als	als	CCONJ	CC	_	20	cc	_	_
@@ -2371,7 +2371,7 @@
 22	Abbotsford	Abbotsford	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	2	punct	_	_
 24	sagte	sagen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-25	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	24	nsubj	_	SpaceAfter=No
+25	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	24	punct	_	_
 
 # sent_id = n01035030
@@ -2624,7 +2624,7 @@
 13	halten	halten	VERB	VB	_	5	xcomp	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	18	punct	_	_
 15	indem	indem	SCONJ	CC	_	18	mark	_	_
-16	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	18	nsubj	_	_
+16	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
 17	ihm	er	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obl:arg	_	_
 18	vorwerfen	vorwerfen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	13	advcl	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	35	punct	_	_
@@ -2753,7 +2753,7 @@
 4	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
 5	nicht	nicht	PART	RB	Polarity=Neg	2	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	_	_
-7	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
+7	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
 8	haben	haben	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	2	parataxis	_	_
 9	nur	nur	ADV	RB	Degree=Pos	11	advmod	_	_
 10	einen	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	11	det	_	_
@@ -3081,7 +3081,7 @@
 11	schließlich	schließlich	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	20	punct	_	_
 13	dass	dass	SCONJ	CC	_	20	mark	_	_
-14	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	20	nsubj:pass	_	_
+14	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nsubj:pass	_	_
 15	durch	durch	ADP	IN	_	17	case	_	_
 16	die	der	DET	DT	Case=Acc|Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	Regeln	Regel	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obl	_	_
@@ -3473,7 +3473,7 @@
 # sent_id = n01052004
 # text = Sie war 84 Jahre alt.
 # text_en = She was 84 years old.
-1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	cop	_	_
 3	84	84	NUM	CD	NumType=Card	4	nummod	_	_
 4	Jahre	Jahr	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	obl	_	_
@@ -3485,7 +3485,7 @@
 # text_en = He described her as a "remarkable" and "loving and wonderful" woman who left her mark in the literary world with her stories.
 1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	beschrieb	beschreiben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	2	obj	_	_
+3	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 4	als	als	CCONJ	CC	_	6	cc	_	_
 5	„	„	PUNCT	``	_	6	punct	_	SpaceAfter=No
 6	bemerkenswerte	bemerkenswert	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No|InflectionType=Strong
@@ -3541,7 +3541,7 @@
 3	20	20	NUM	CD	NumType=Card	4	nummod	_	_
 4	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	_
 5	macht	machen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-6	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+6	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 7	sich	sich	PRON	PRP	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
 8	gegen	gegen	ADP	IN	_	9	case	_	_
 9	Mobbing	Mobbing	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	Proper=True
@@ -3601,7 +3601,7 @@
 14	Medien	Medium	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	_
 15	–	–	PUNCT	-	_	20	punct	_	OrigForm=--
 16	und	und	CCONJ	CC	_	20	cc	_	_
-17	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	20	nsubj	_	_
+17	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
 18	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	20	cop	_	_
 19	alles	alle	DET	DT	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	20	det	_	_
 20	andere	ander	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	conj	_	_
@@ -3623,7 +3623,7 @@
 9	argumentieren	argumentieren	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	18	punct	_	_
 11	dass	dass	SCONJ	CC	_	18	mark	_	_
-12	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	18	nsubj	_	_
+12	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
 13	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Kultur	Kultur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
 15	der	der	DET	DT	Case=Gen|Definite=Def|Number=Plur|PronType=Art	17	det	_	_
@@ -3793,7 +3793,7 @@
 19	beizubringen	beibringen	VERB	VB	_	13	advcl	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	28	punct	_	_
 21	wie	wie	ADV	WRB	_	28	mark	_	_
-22	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	28	nsubj	_	_
+22	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	_
 23	mit	mit	ADP	IN	_	24	case	_	_
 24	Problemen	Problem	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	28	obl	_	_
 25	bei	bei	ADP	IN	_	27	case	_	_
@@ -3947,7 +3947,7 @@
 # text = Und sie räumte ein: „Schauen Sie sich an, wo sie zugibt, dass wir etwas anders machen müssen – wir können es besser – und wo sie Bedauern ausgesprochen hat.“
 # text_en = And, she granted, “you have to look at where she has acknowledged that we need to do something different—we can do better—and where she has expressed regret.”
 1	Und	und	CCONJ	CC	_	3	cc	_	_
-2	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+2	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	räumte	räumen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	ein	ein	DET	DC	Definite=Ind|NumType=Card|PronType=Art	3	compound:prt	_	SpaceAfter=No
 5	:	:	PUNCT	:	_	7	punct	_	_
@@ -3958,7 +3958,7 @@
 10	an	an	VERB	DC	_	7	compound:prt	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	_	_
 12	wo	wo	ADV	WRB	_	14	advmod	_	_
-13	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	14	nsubj	_	_
+13	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 14	zugibt	zugeben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	acl:relcl	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	20	punct	_	_
 16	dass	dass	SCONJ	CC	_	20	mark	_	_
@@ -3975,7 +3975,7 @@
 27	–	–	PUNCT	-	_	32	punct	_	OrigForm=--
 28	und	und	CCONJ	CC	_	32	cc	_	_
 29	wo	wo	ADV	WRB	_	32	advmod	_	_
-30	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	32	nsubj	_	_
+30	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	32	nsubj	_	_
 31	Bedauern	Bedauer	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	32	obj	_	_
 32	ausgesprochen	aussprechen	VERB	VBN	Tense=Past	14	conj	_	_
 33	hat	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	32	aux	_	SpaceAfter=No
@@ -4122,7 +4122,7 @@
 9	Zayion	Zayion	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	26	punct	_	_
 11	wie	wie	SCONJ	CC	_	26	mark	_	_
-12	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	26	nsubj	_	_
+12	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
 13	ihre	ihr	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Version	Version	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
 15	von	von	ADP	IN	_	17	case	_	_
@@ -4289,7 +4289,7 @@
 2	davon	davon	ADV	RB	PronType=Dem	3	advmod	_	_
 3	abgesehen	abgesehen	ADV	RB	Degree=Pos	4	advmod	_	_
 4	hatte	haben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-5	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+5	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 6	nichts	nichts	PRON	NN	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	4	obj	_	_
 7	offensichtlich	offensichtlich	ADV	RB	Degree=Pos	8	advmod	_	_
 8	Künstlerisches	künstlerisch	NOUN	NNA	Case=Acc|Gender=Neut|Number=Sing	6	appos	_	InflectionType=Strong
@@ -4301,7 +4301,7 @@
 14	Art	Art	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	20	punct	_	_
 16	wie	wie	ADV	WRB	_	20	advmod	_	_
-17	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	20	nsubj	_	_
+17	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 18	mit	mit	ADP	IN	_	19	case	_	_
 19	anderen	ander	NOUN	NN	Case=Dat|Number=Plur	20	obl	_	_
 20	umging	umgehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	14	acl:relcl	_	SpaceAfter=No
@@ -4757,7 +4757,7 @@
 # sent_id = n01074011
 # text = Sie haben einen Versuch, das wiedergutzumachen, indem sie England besiegen.
 # text_en = They have one crack at redemption, beating England.
-1	Sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	haben	haben	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 3	einen	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	4	det	_	_
 4	Versuch	Versuch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
@@ -4766,7 +4766,7 @@
 7	wiedergutzumachen	wiedergutmachen	VERB	VB	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	12	punct	_	_
 9	indem	indem	SCONJ	CC	_	12	mark	_	_
-10	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	12	nsubj	_	_
+10	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
 11	England	England	PROPN	NNP	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
 12	besiegen	besiegen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	7	advcl	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	2	punct	_	_
@@ -4791,7 +4791,7 @@
 15	Lage	Lage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
 16	sein	sein	VERB	VB	_	3	conj	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	19	punct	_	_
-18	ihnen	sie	PRON	PRP	Case=Dat|Number=Plur|Person=3	19	obl:arg	_	_
+18	ihnen	sie	PRON	PRP	Case=Dat|Number=Plur|Person=3|PronType=Prs	19	obl:arg	_	_
 19	gleichzukommen	gleichkommen	VERB	VB	_	16	xcomp	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -4924,7 +4924,7 @@
 15	machen	machen	VERB	VB	_	0	root	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	22	punct	_	_
 17	als	als	CCONJ	CC	_	22	cc	_	_
-18	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	22	nsubj	_	_
+18	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 19	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	expl	_	_
 20	ohnehin	ohnehin	ADV	RB	Degree=Pos	22	advmod	_	_
 21	schon	schon	ADV	RB	Degree=Pos	22	advmod	_	_
@@ -5143,13 +5143,13 @@
 3	es	es	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
 4	mir	ich	PRON	PRP	Case=Dat|Number=Sing|Person=1|PronType=Rcp	7	obl:arg	_	_
 5	mit	mit	ADP	IN	_	6	case	_	_
-6	ihnen	sie	PRON	PRP	Case=Dat|Number=Plur|Person=3	7	obl	_	_
+6	ihnen	sie	PRON	PRP	Case=Dat|Number=Plur|Person=3|PronType=Prs	7	obl	_	_
 7	anschauen	anschauen	VERB	VB	_	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	_	_
 9	aber	aber	CCONJ	CC	_	11	cc	_	_
 10	letztendlich	letztendlich	ADV	RB	Degree=Pos	11	advmod	_	_
 11	entschieden	entscheiden	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	7	conj	_	_
-12	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	11	nsubj	_	_
+12	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
 13	sich	sich	PRON	PRP	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	19	punct	_	_
 15	es	es	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
@@ -5306,7 +5306,7 @@
 16	Pfund	Pfund	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No|Proper=True
 17	,	,	PUNCT	,	_	24	punct	_	_
 18	wenn	wenn	SCONJ	CC	_	24	mark	_	_
-19	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	24	nsubj	_	_
+19	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
 20	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 21	kostenlose	kostenlos	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	InflectionType=Weak
 22	Option	Option	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
@@ -5521,7 +5521,7 @@
 3	,	,	PUNCT	,	_	14	punct	_	_
 4	darum	darum	ADV	RB	PronType=Dem	14	advmod	_	_
 5	haben	haben	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	14	aux	_	_
-6	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	14	nsubj	_	_
+6	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
 7	sich	sich	PRON	PRP	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
 8	mit	mit	ADP	IN	_	11	case	_	_
 9	so	so	ADV	RB	Degree=Pos	10	advmod	_	_
@@ -5616,19 +5616,19 @@
 4	vorschlage	vorschlagen	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	18	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	10	punct	_	_
 6	dass	dass	SCONJ	CC	_	10	mark	_	_
-7	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+7	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 8	Frank	Frank	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
 9	dazu	dazu	ADV	RB	PronType=Dem	10	advmod	_	_
 10	bringen	bringen	VERB	VB	_	4	ccomp	_	_
 11	soll	sollen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	aux	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	16	punct	_	_
 13	für	für	ADP	IN	_	14	case	_	_
-14	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	16	obl	_	_
+14	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
 15	zu	zu	PART	RP	_	16	mark	_	_
 16	modeln	modeln	VERB	VB	_	10	xcomp	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	4	punct	_	_
 18	lacht	lachen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-19	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	18	nsubj	_	SpaceAfter=No
+19	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	18	punct	_	_
 
 # newdoc id = n01089
@@ -5661,7 +5661,7 @@
 8	gefilmt	filmen	VERB	VBN	Tense=Past	3	conj	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	17	punct	_	_
 10	wie	wie	SCONJ	CC	_	17	mark	_	_
-11	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
+11	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 12	ihre	ihr	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Sonnenbrille	Sonnenbrille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
 14	vor	vor	ADP	IN	_	16	case	_	_
@@ -5699,7 +5699,7 @@
 23	,	,	PUNCT	,	_	25	punct	_	_
 24	als	als	SCONJ	CC	_	25	mark	_	_
 25	kämen	kommen	VERB	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	22	advcl	_	_
-26	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Plur|Person=3	25	nsubj	_	_
+26	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
 27	aus	aus	ADP	IN	_	29	case	_	_
 28	den	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|PronType=Art	29	det	_	_
 29	1970ern	1970er	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	25	obl	_	SpaceAfter=No
@@ -5811,7 +5811,7 @@
 3	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	RSPB	RSPB	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 5	hat	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	aux	_	_
-6	sie	sie	PRON	PRP	Case=Acc|Person=3	14	obj	_	_
+6	sie	sie	PRON	PRP	Case=Acc|Person=3|PronType=Prs	14	obj	_	_
 7	auch	auch	ADV	RB	Degree=Pos	14	advmod	_	_
 8	mit	mit	ADP	IN	_	11	case	_	_
 9	vielen	viel	DET	DT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
@@ -6172,7 +6172,7 @@
 # text = Aber sie können wenigstens Fallen zur Verwirrung und Abschreckung legen – ein Konzept, das als „aktive Verteidigung“ bekannt ist.
 # text_en = But they can at least lay booby-traps to confuse and deter – a concept known as “active defence”.
 1	Aber	aber	CCONJ	CC	_	11	cc	_	_
-2	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	11	nsubj	_	_
+2	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
 3	können	können	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	11	aux	_	_
 4	wenigstens	wenigstens	ADV	RB	Degree=Pos	11	advmod	_	_
 5	Fallen	Falle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
@@ -6847,7 +6847,7 @@
 20	;	;	PUNCT	:	_	27	punct	_	_
 21	stattdessen	stattdessen	ADV	RB	Degree=Pos	27	advmod	_	_
 22	konnten	können	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	27	aux	_	_
-23	sie	sie	PRON	PRP	Case=Nom|Gender=Neut|Number=Plur|Person=3	27	nsubj	_	_
+23	sie	sie	PRON	PRP	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	27	nsubj	_	_
 24	ein	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	26	det	_	_
 25	kontinuierliches	kontinuierlich	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	InflectionType=Mixed
 26	Wachstum	Wachstum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	27	obj	_	_
@@ -7007,7 +7007,7 @@
 # text = Wenn sie dies täten, wären Prämienanleihen nicht mehr von regulären Sparkonten zu unterscheiden.
 # text_en = If they did, Premium Bonds would be indistinguishable from ordinary savings accounts.
 1	Wenn	wenn	SCONJ	CC	_	4	mark	_	_
-2	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+2	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 3	dies	dieser	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	_
 4	täten	tun	VERB	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	6	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
@@ -7105,7 +7105,7 @@
 2	bedeutet	bedeuten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	23	punct	_	_
 4	dass	dass	SCONJ	CC	_	23	mark	_	_
-5	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	23	nsubj	_	_
+5	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
 6	von	von	ADP	IN	_	15	case	_	_
 7	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 8	durch	durch	ADP	IN	_	10	case	_	_
@@ -7309,7 +7309,7 @@
 # sent_id = n01115005
 # text = Sie spielen am Samstag, dem 10. Juni.
 # text_en = They will play on Saturday, 10 June.
-1	Sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	spielen	spielen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 3-4	am	_	_	_	_	_	_	_	_
 3	an	an	ADP	APPR	_	5	case	_	_
@@ -7403,7 +7403,7 @@
 16	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	aux	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	21	punct	_	_
 18	dass	dass	SCONJ	CC	_	21	mark	_	_
-19	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	21	nsubj	_	_
+19	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 20	Schockwellen	Schockwelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	21	obj	_	_
 21	erzeugt	erzeugen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	advcl	_	SpaceAfter=No
 22	?	?	PUNCT	.	_	2	punct	_	_
@@ -7434,7 +7434,7 @@
 # text_en = But having allowed Glenda to score such a blinder, who can blame it?
 1	Aber	aber	CCONJ	CC	_	19	cc	_	_
 2	nachdem	nachdem	SCONJ	CC	_	11	mark	_	_
-3	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
+3	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 4	Glenda	Glenda	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	11	obl:arg	_	_
 5	Gelegenheit	Gelegenheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
 6	zu	zu	ADP	IN	_	10	case	_	_
@@ -7659,7 +7659,7 @@
 10	sich	sich	PRON	PRP	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	5	obl	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	17	punct	_	_
 12	das	der	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	17	nsubj	_	_
-13	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	17	obj	_	_
+13	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
 14	nur	nur	ADV	RB	Degree=Pos	17	advmod	_	_
 15	umso	umso	ADV	RB	Degree=Pos	16	advmod	_	_
 16	attraktiver	attraktiv	ADV	RB	Degree=Cmp	17	advmod	_	_
@@ -7738,7 +7738,7 @@
 14	,	,	PUNCT	,	_	21	punct	_	_
 15	weshalb	weshalb	ADV	WRB	_	21	advmod	_	_
 16	ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	21	nsubj	_	_
-17	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	21	obj	_	_
+17	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
 18	wie	wie	CCONJ	CC	_	20	cc	_	_
 19	ein	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	20	det	_	_
 20	Drama	Drama	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	conj	_	_
@@ -7937,7 +7937,7 @@
 4	,	,	PUNCT	,	_	8	punct	_	_
 5	warum	warum	ADV	WRB	_	8	mark	_	_
 6	ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	8	nsubj	_	_
-7	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	8	obj	_	_
+7	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
 8	ausgesucht	aussuchen	VERB	VBN	Tense=Past	2	ccomp	_	_
 9	habe	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	8	aux	_	_
 10	…	…	PUNCT	NFP	_	2	punct	_	OrigForm=...
@@ -8030,7 +8030,7 @@
 6	beibringen	beibringen	VERB	VB	_	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	14	punct	_	_
 8	wie	wie	CCONJ	CC	_	14	cc	_	_
-9	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	14	nsubj	_	_
+9	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
 10	sich	sich	PRON	PRP	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
 11	selbst	selbst	ADV	RB	Degree=Pos	10	advmod	_	_
 12	online	online	ADV	RB	Degree=Pos	14	advmod	_	_
@@ -8329,7 +8329,7 @@
 7	entscheiden	entscheiden	VERB	VB	_	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	15	punct	_	_
 9	ob	ob	SCONJ	CC	_	15	mark	_	_
-10	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	15	nsubj	_	_
+10	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
 11	ihr	ihr	DET	DTP$	Case=Acc|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 12	elektrisches	elektrisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	InflectionType=Mixed
 13	Motorrad	Motorrad	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
@@ -8504,7 +8504,7 @@
 4	Amerikanischen	amerikanisch	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	InflectionType=Weak|Proper=True
 5	Bürgerrechtsvereinigung	Bürgerrechtsvereinigung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	Proper=True
 6	klagten	klagen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
-7	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
+7	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
 8	schließlich	schließlich	ADV	RB	Degree=Pos	6	advmod	_	_
 9	gegen	gegen	ADP	IN	_	11	case	_	_
 10	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -9320,7 +9320,7 @@
 17	großartige	großartig	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	InflectionType=Mixed
 18	Zeit	Zeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	22	punct	_	_
-20	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	22	obj	_	_
+20	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
 21	zu	zu	PART	RP	_	22	mark	_	_
 22	besuchen	besuchen	VERB	VB	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	18	punct	_	_
@@ -9518,7 +9518,7 @@
 8	mehr	mehr	ADV	RB	Degree=Pos	7	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	22	punct	_	_
 10	doch	doch	CCONJ	CC	_	22	cc	_	_
-11	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	22	nsubj	_	_
+11	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 12	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	22	aux	_	_
 13	bei	bei	ADP	IN	_	15	case	_	_
 14	den	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|PronType=Art	15	det	_	_
@@ -11574,7 +11574,7 @@
 # sent_id = w01033025
 # text = Sie wurde im Jahr 1975 zum geschützten Lebensraum für Tiere erklärt.
 # text_en = It was declared a wildlife sanctuary in 1975.
-1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	13	nsubj:pass	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj:pass	_	_
 2	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	aux:pass	_	_
 3-4	im	_	_	_	_	_	_	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
@@ -11961,7 +11961,7 @@
 2	diesem	dieser	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	Ort	Ort	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
 4	stahlen	stahlen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
-5	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+5	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 6	ein	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	8	det	_	_
 7	kleines	klein	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	InflectionType=Mixed
 8	Kanu	Kanu	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
@@ -12130,11 +12130,11 @@
 # text = Wenn sie landen, stoßen sie auf andere Partikel, die dann ihrerseits in die Luft gewirbelt werden und so eine Kettenreaktion in Gang setzen.
 # text_en = When they land, they strike other particles which may be jerked into the air in their turn, starting a chain reaction.
 1	Wenn	wenn	SCONJ	CC	_	3	mark	_	_
-2	sie	sie	PRON	PRP	Case=Nom|Gender=Neut|Number=Plur|Person=3	3	nsubj	_	_
+2	sie	sie	PRON	PRP	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 3	landen	landen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	5	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	stoßen	stoßen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-6	sie	sie	PRON	PRP	Case=Nom|Gender=Neut|Number=Plur|Person=3	5	nsubj	_	_
+6	sie	sie	PRON	PRP	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 7	auf	auf	ADP	IN	_	9	case	_	_
 8	andere	anderer	DET	DT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	9	det	_	_
 9	Partikel	Partikel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
@@ -12395,7 +12395,7 @@
 11	Karibik	Karibik	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
 12	besuchten	besuchen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	7	acl:relcl	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	_	_
-14	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	obj	_	_
+14	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
 15	als	als	CCONJ	CC	_	18	cc	_	_
 16	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 17	„	„	PUNCT	``	_	18	punct	_	SpaceAfter=No
@@ -12578,7 +12578,7 @@
 24	Buchs	Buch	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	36	punct	_	_
 26	indem	indem	SCONJ	CC	_	36	mark	_	_
-27	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	36	nsubj	_	_
+27	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	36	nsubj	_	_
 28	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	29	det	_	_
 29	Manuskript	Manuskript	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	36	obj	_	_
 30	für	für	ADP	IN	_	32	case	_	_
@@ -13506,7 +13506,7 @@
 16	verschieben	verschieben	VERB	VB	_	7	advcl	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	24	punct	_	_
 18	wobei	wobei	ADV	WRB	_	24	advmod	_	_
-19	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	24	nsubj	_	_
+19	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
 20	mehrere	mehr	DET	DT	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur|PronType=Ind	23	det	_	_
 21	inkompetente	inkompetent	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	InflectionType=Strong
 22	chinesische	chinesisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	21	conj	_	InflectionType=Strong|Proper=True
@@ -13647,7 +13647,7 @@
 12	dar	dar	VERB	DC	_	3	compound:prt	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	22	punct	_	_
 14	und	und	CCONJ	CC	_	22	cc	_	_
-15	ihnen	sie	PRON	PRP	Case=Dat|Gender=Masc|Number=Plur|Person=3	22	obl:arg	_	_
+15	ihnen	sie	PRON	PRP	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	obl:arg	_	_
 16	wurden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	22	aux:pass	_	_
 17	gewissenhaft	gewissenhaft	ADV	RB	Degree=Pos	22	advmod	_	_
 18	die	der	DET	DT	Case=Nom|Definite=Def|Number=Plur|PronType=Art	19	det	_	_
@@ -13718,7 +13718,7 @@
 36	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	höchste	hoch	NOUN	NNA	Case=Nom|Gender=Masc|Number=Sing	21	appos	_	InflectionType=Weak
 38	von	von	ADP	IN	_	39	case	_	_
-39	ihnen	sie	PRON	PRP	Case=Dat|Number=Plur|Person=3	37	nmod	_	_
+39	ihnen	sie	PRON	PRP	Case=Dat|Number=Plur|Person=3|PronType=Prs	37	nmod	_	_
 40	drei	drei	NUM	CD	NumType=Card	41	nummod	_	_
 41	Meter	Meter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	42	obl	_	_
 42	hoch	hoch	ADV	RB	Degree=Pos	37	advmod	_	_
@@ -13751,7 +13751,7 @@
 9	diskutiert	diskutieren	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	27	punct	_	_
 11	aber	aber	CCONJ	CC	_	27	cc	_	_
-12	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	27	nsubj	_	_
+12	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	nsubj	_	_
 13	könnten	können	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	27	aux	_	_
 14	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	17	det	_	_
 15	kanaanäische	kanaanäisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	InflectionType=Mixed|Proper=True
@@ -13962,7 +13962,7 @@
 16	beweglich	beweglich	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	24	punct	_	_
 18	weil	weil	SCONJ	CC	_	24	mark	_	_
-19	sie	sie	PRON	PRP	Case=Nom|Gender=Neut|Number=Plur|Person=3	24	nsubj:pass	_	_
+19	sie	sie	PRON	PRP	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	24	nsubj:pass	_	_
 20	nach	nach	ADP	IN	_	23	case	_	_
 21	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 22	chinesischen	chinesisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	InflectionType=Weak|Proper=True
@@ -14468,7 +14468,7 @@
 # sent_id = w01073007
 # text = Sie waren so ergriffen von der Schönheit der Gegend um den Rudyard-See, dass sie ihr erstgeborenes Kind danach benannten.
 # text_en = They had been so moved by the beauty of the Rudyard Lake area that when their first child was born they referenced it when naming him.
-1	Sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 2	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	4	cop	_	_
 3	so	so	ADV	RB	Degree=Pos	4	advmod	_	_
 4	ergriffen	ergreifen	ADJ	JJ	Degree=Pos	0	root	_	_
@@ -14484,7 +14484,7 @@
 14	See	See	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|Proper=True
 15	,	,	PUNCT	,	_	22	punct	_	_
 16	dass	dass	SCONJ	CC	_	22	mark	_	_
-17	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	22	nsubj	_	_
+17	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
 18	ihr	ihr	DET	DTP$	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 19	erstgeborenes	erstgeboren	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	InflectionType=Mixed
 20	Kind	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	22	obj	_	_
@@ -14768,7 +14768,7 @@
 21	Revolten	Revolte	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	31	punct	_	_
 23	wenn	wenn	SCONJ	CC	_	31	mark	_	_
-24	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	31	nsubj	_	_
+24	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	_
 25	höhere	hoch	ADJ	JJ	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	26	amod	_	InflectionType=Strong
 26	Bildung	Bildung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
 27	oder	oder	CCONJ	CC	_	30	cc	_	_
@@ -14778,7 +14778,7 @@
 31	erhalten	erhalten	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	16	advcl	_	_
 32	und	und	CCONJ	CC	_	36	cc	_	_
 33	wenn	wenn	SCONJ	CC	_	36	mark	_	_
-34	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	36	nsubj	_	_
+34	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	36	nsubj	_	_
 35	davon	davon	ADV	RB	PronType=Dem	36	advmod	_	_
 36	ausgehen	ausgehen	VERB	VB	_	31	conj	_	_
 37	können	können	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	36	aux	_	SpaceAfter=No
@@ -15092,7 +15092,7 @@
 18	teilt	teilen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	acl:relcl	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	22	punct	_	_
 20	aber	aber	CCONJ	CC	_	22	cc	_	_
-21	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	22	nsubj	_	_
+21	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 22	versuchte	versuchen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	conj	_	_
 23	nicht	nicht	PART	RB	Polarity=Neg	22	advmod	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	26	punct	_	_
@@ -15300,7 +15300,7 @@
 # text_en = However, it was too oriented to small posts in the West and not as well-prepared for an overseas conflict.
 1	Allerdings	allerdings	ADV	RB	Degree=Pos	12	advmod	_	_
 2	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	cop	_	_
-3	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
+3	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 4	zu	zu	ADV	RB	Degree=Pos	5	advmod	_	_
 5	sehr	sehr	ADV	RB	Degree=Pos	12	advmod	_	_
 6	auf	auf	ADP	IN	_	8	case	_	_
@@ -15624,7 +15624,7 @@
 2	davon	davon	ADV	RB	PronType=Dem	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	8	punct	_	_
 4	dass	dass	SCONJ	CC	_	8	mark	_	_
-5	sie	sie	PRON	PRP	Case=Nom|Gender=Neut|Number=Plur|Person=3	8	nsubj	_	_
+5	sie	sie	PRON	PRP	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
 6	eine	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	_
 7	direkte	direkt	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	InflectionType=Mixed
 8	Nahrungsquelle	Nahrungsquelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	ccomp	_	_
@@ -16051,7 +16051,7 @@
 22	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	aux:pass	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	30	punct	_	_
 24	nachdem	nachdem	SCONJ	CC	_	30	mark	_	_
-25	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	30	nsubj	_	_
+25	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
 26	ihrem	ihr	DET	DTP$	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	29	det:poss	_	_
 27	ersten	erst	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	29	amod	_	InflectionType=Mixed
 28	gewaltigen	gewaltig	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	27	conj	_	InflectionType=Mixed
@@ -16331,7 +16331,7 @@
 # sent_id = w01101084
 # text = Ihr waren verschiedene Drehbücher, Fernsehwerbesopts und Bühnenprojekte angeboten worden, aber nichts davon weckte ihr Interesse.
 # text_en = She was offered several scripts, television commercials, and stage projects, but none piqued her interest.
-1	Ihr	sie	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	9	obl:arg	_	_
+1	Ihr	sie	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl:arg	_	_
 2	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	9	aux	_	_
 3	verschiedene	verschieden	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	InflectionType=Strong
 4	Drehbücher	Drehbuch	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	9	nsubj:pass	_	SpaceAfter=No
@@ -17347,7 +17347,7 @@
 7	,	,	PUNCT	,	_	9	punct	_	_
 8	andere	ander	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
 9	loben	lieben	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	conj	_	_
-10	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	obj	_	SpaceAfter=No
+10	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = w01117
@@ -17359,7 +17359,7 @@
 3	und	und	CCONJ	CC	_	4	cc	_	_
 4	1997	1997	NUM	CD	NumType=Card	2	conj	_	_
 5	leitete	leiten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-6	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+6	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 7	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	_
 8	Schule	Schule	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 9	für	für	ADP	IN	_	10	case	_	_
@@ -17400,7 +17400,7 @@
 8	leicht	leicht	ADV	RB	Degree=Pos	6	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	_	_
 10	wie	wie	SCONJ	CC	_	12	mark	_	_
-11	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
+11	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	erklärt	erklären	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	advcl	_	SpaceAfter=No
 13	:	:	PUNCT	:	_	17	punct	_	_
 14	„	„	PUNCT	``	_	17	punct	_	SpaceAfter=No
@@ -17424,7 +17424,7 @@
 # text_en = To avoid experiencing a similar dilemma with Jasmine, the filmmakers ultimately decided to have the princess animated entirely at one studio.
 1	Damit	damit	SCONJ	CC	_	8	mark	_	_
 2	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
-3	ihnen	sie	PRON	PRP	Case=Dat|Gender=Masc|Number=Plur|Person=3	8	obl:arg	_	_
+3	ihnen	sie	PRON	PRP	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obl:arg	_	_
 4	mit	mit	ADP	IN	_	5	case	_	_
 5	Jasmine	Jasmine	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
 6	nicht	nicht	PART	RB	Polarity=Neg	7	advmod	_	_
@@ -17859,7 +17859,7 @@
 2	diesem	dieser	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	Zeitpunkt	Zeitpunkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
 4	hatten	haben	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	17	aux	_	_
-5	sie	sie	PRON	PRP	Case=Acc|Person=3	17	obj	_	_
+5	sie	sie	PRON	PRP	Case=Acc|Person=3|PronType=Prs	17	obj	_	_
 6	ein	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	8	det	_	_
 7	extravaganter	extravagant	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	InflectionType=Mixed
 8	Lebenswandel	Lebenswandel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
@@ -18264,7 +18264,7 @@
 18	waren	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	17	cop	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	26	punct	_	_
 20	da	da	SCONJ	CC	_	26	mark	_	_
-21	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	26	nsubj	_	_
+21	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
 22	über	über	ADP	IN	_	25	case	_	_
 23	keinerlei	keinerlei	DET	DT	PronType=Neg	25	det	_	_
 24	offensichtliche	offensichtlich	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	25	amod	_	InflectionType=Strong
@@ -18510,7 +18510,7 @@
 3	selben	selb	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	InflectionType=Weak
 4	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
 5	hatte	haben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-6	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+6	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 7	einen	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	9	det	_	_
 8	kurzen	kurz	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	InflectionType=Mixed
 9	Auftritt	Auftritt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
@@ -18891,7 +18891,7 @@
 19	ein	ein	DET	DC	Definite=Ind|NumType=Card|PronType=Art	15	compound:prt	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	23	punct	_	_
 21	dass	dass	SCONJ	CC	_	23	mark	_	_
-22	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	23	nsubj	_	_
+22	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 23	kommen	kommen	VERB	VB	_	15	ccomp	_	_
 24	und	und	CCONJ	CC	_	36	cc	_	_
 25	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -19000,7 +19000,7 @@
 4	Zeit	Zeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
 5	2013	2013	NUM	CD	NumType=Card	4	nummod	_	_
 6	erschien	erscheinen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-7	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
+7	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 8	auf	auf	ADP	IN	_	9	case	_	_
 9	CTV	CTV	PROPN	NNP	Case=Dat|Number=Sing	6	obl	_	_
 10	Montreal	Montreal	PROPN	NNP	Case=Nom|Number=Sing	9	appos	_	_
@@ -19018,7 +19018,7 @@
 1	Als	als	CCONJ	CC	_	3	cc	_	_
 2	Nächstes	nah	NOUN	NNA	Case=Nom|Gender=Neut|Number=Sing	3	obl	_	InflectionType=Strong
 3	traf	treffen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+4	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 5	auf	auf	ADP	IN	_	7	case	_	_
 6	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Titelverteidigerin	Titelverteidigerin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
@@ -19385,7 +19385,7 @@
 10	Tennessee	Tennessee	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	8	appos	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	22	punct	_	_
 12	nachdem	nachdem	SCONJ	CC	_	22	mark	_	_
-13	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	22	nsubj	_	_
+13	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 14	einen	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	16	det	_	_
 15	neuen	neu	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	InflectionType=Mixed
 16	Vertrag	Vertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
@@ -19428,7 +19428,7 @@
 25	Produzenten	Produzent	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	appos	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	32	punct	_	_
 27	den	der	PRON	REL	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem,Rel	32	obj	_	_
-28	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	32	nsubj	_	_
+28	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
 29	wegen	wegen	ADP	IN	_	30	case	_	_
 30	Scritti	Scritti	PROPN	NNP	Case=Dat|Number=Sing	32	obl	_	_
 31	Politti	Politti	PROPN	NNP	Case=Dat|Number=Sing	30	flat:name	_	_
@@ -19486,7 +19486,7 @@
 12	glauben	glauben	VERB	VB	_	9	xcomp	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	20	punct	_	_
 14	dass	dass	SCONJ	CC	_	20	mark	_	_
-15	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	20	nsubj	_	_
+15	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 16	nicht	nicht	PART	RB	Polarity=Neg	20	advmod	_	_
 17	mehr	mehr	ADV	RB	Degree=Pos	16	advmod	_	_
 18	mit	mit	ADP	IN	_	19	case	_	_
@@ -19639,7 +19639,7 @@
 # text_en = Instead, they decided that Albania would be under Ottoman suzerainty but with an autonomous government.
 1	Stattdessen	stattdessen	ADV	RB	Degree=Pos	2	advmod	_	_
 2	entschieden	entscheiden	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
-3	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	2	nsubj	_	SpaceAfter=No
+3	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	13	punct	_	_
 5	dass	dass	SCONJ	CC	_	13	mark	_	_
 6	Albanien	Albanien	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
@@ -19689,7 +19689,7 @@
 25	klar	klar	ADJ	JJ	Degree=Pos	22	xcomp	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	31	punct	_	_
 27	dass	dass	SCONJ	CC	_	31	mark	_	_
-28	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Plur|Person=3	31	nsubj	_	_
+28	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	_
 29	ihre	ihr	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	30	det:poss	_	_
 30	Entscheidung	Entscheidung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
 31	revidieren	revidieren	VERB	VB	_	22	csubj	_	_
@@ -20310,7 +20310,7 @@
 7	App	App	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	_	_
 9	die	der	PRON	REL	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem,Rel	11	obj	_	_
-10	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
+10	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	verdiente	verdienen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	acl:relcl	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	25	punct	_	_
 13	in	in	ADP	IN	_	14	case	_	_
@@ -20546,7 +20546,7 @@
 29	wollen	wollen	AUX	VBN	Tense=Past	28	aux	_	_
 30	-	-	PUNCT	-	_	33	punct	_	_
 31	damit	damit	SCONJ	CC	_	33	mark	_	_
-32	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	33	nsubj	_	_
+32	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
 33	untergeht	untergehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	28	advcl	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -20830,7 +20830,7 @@
 14	Nachrichtenagentur	Nachrichtenagentur	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
 15	dpa	dpa	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	14	appos	_	_
 16	werden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	20	aux:pass	_	_
-17	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Plur|Person=3	20	nsubj:pass	_	_
+17	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	20	nsubj:pass	_	_
 18	beispielsweise	beispielsweise	ADV	RB	Degree=Pos	20	advmod	_	_
 19	dann	dann	ADV	RB	Degree=Pos	20	advmod	_	_
 20	geschaltet	schalten	VERB	VBN	Tense=Past	9	parataxis	_	SpaceAfter=No
@@ -20870,7 +20870,7 @@
 10	der	der	DET	DT	Case=Gen|Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	Kleinen	Kleine	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No|Proper=True
 12	,	,	PUNCT	,	_	23	punct	_	_
-13	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	23	nsubj	_	_
+13	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
 14	können	können	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	23	aux	_	_
 15	auch	auch	ADV	RB	Degree=Pos	23	advmod	_	_
 16	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -20960,7 +20960,7 @@
 13	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	19	punct	_	_
 15	würde	werden	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	19	aux	_	_
-16	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	19	nsubj:pass	_	_
+16	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	_
 17	„	„	PUNCT	``	_	19	punct	_	SpaceAfter=No
 18	jahrelang	jahrelang	ADV	RB	Degree=Pos	19	advmod	_	_
 19	überprüft	überprüfen	VERB	VBN	Tense=Past	12	ccomp	_	_
@@ -21002,7 +21002,7 @@
 1	Laut	laut	ADP	IN	_	2	case	_	_
 2	Programm	Programm	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
 3	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	aux	_	_
-4	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+4	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 5	um	um	ADP	IN	_	7	case	_	_
 6	23.45	23.45	NUM	CD	NumType=Card	7	nummod	_	_
 7	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
@@ -21545,7 +21545,7 @@
 12	Veneto	Veneto	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	11	flat:name	_	_
 13	geboren	gebären	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 14	;	;	PUNCT	:	_	16	punct	_	_
-15	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	16	nsubj	_	_
+15	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 16	wuchs	wachsen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	parataxis	_	_
 17	in	in	ADP	IN	_	21	case	_	_
 18	einer	ein	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	21	det	_	_
@@ -21686,7 +21686,7 @@
 9	bekommen	bekommen	VERB	VB	_	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	20	punct	_	_
 11	die	der	PRON	REL	Case=Acc|Number=Plur|PronType=Dem,Rel	20	obj	_	_
-12	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	20	nsubj	_	_
+12	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
 13	bis	bis	ADP	IN	_	18	case	_	_
 14-15	zum	_	_	_	_	_	_	_	_
 14	zu	zu	ADP	APPR	_	18	case	_	_
@@ -21914,7 +21914,7 @@
 23	würde	werden	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	22	aux	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	31	punct	_	_
 25	indem	indem	SCONJ	CC	_	31	mark	_	_
-26	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	31	nsubj	_	_
+26	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
 27	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	Berücksichtigung	Berücksichtigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
 29	anderer	anderer	DET	DT	Case=Gen|Gender=Fem|Number=Plur|PronType=Ind	30	det	_	_
@@ -22353,7 +22353,7 @@
 7	besagen	besagen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	14	punct	_	_
 9	dass	dass	SCONJ	CC	_	14	mark	_	_
-10	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	14	nsubj	_	_
+10	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 11	zu	zu	ADP	IN	_	13	case	_	_
 12	100	100	NUM	CD	NumType=Card	13	nummod	_	_
 13	%	%	SYM	SYM	_	14	obl	_	_
@@ -22380,7 +22380,7 @@
 14	die	der	PRON	REL	Case=Acc|Number=Plur|PronType=Dem,Rel	19	obj	_	_
 15	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
-17	ihnen	sie	PRON	PRP	Case=Dat|Number=Plur|Person=3	19	obl:arg	_	_
+17	ihnen	sie	PRON	PRP	Case=Dat|Number=Plur|Person=3|PronType=Prs	19	obl:arg	_	_
 18	gestern	gestern	ADV	RB	Degree=Pos	19	advmod	_	_
 19	übermitteln	übermitteln	VERB	VB	_	11	acl:relcl	_	_
 20	wollte	wollen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	19	aux	_	SpaceAfter=No
@@ -22621,7 +22621,7 @@
 # text = Und sie müssen mit Mut und klarem Kopf begrüßt werden, weil sie die neue Generation von Schönheit und Hoffnung begründen.
 # text_en = And they must be greeted with an open spirit and clear mind because they form the new generation of beauty and hope.
 1	Und	und	CCONJ	CC	_	9	cc	_	_
-2	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	9	nsubj:pass	_	_
+2	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj:pass	_	_
 3	müssen	müssen	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	9	aux	_	_
 4	mit	mit	ADP	IN	_	5	case	_	_
 5	Mut	Mut	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
@@ -22632,7 +22632,7 @@
 10	werden	werden	AUX	VB	_	9	aux:pass	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	21	punct	_	_
 12	weil	weil	SCONJ	CC	_	21	mark	_	_
-13	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	21	nsubj	_	_
+13	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
 14	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 15	neue	neu	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	InflectionType=Weak
 16	Generation	Generation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
@@ -22761,7 +22761,7 @@
 5	worden	werden	AUX	VBN	Tense=Past	4	aux:pass	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	19	punct	_	_
 7	weil	weil	SCONJ	CC	_	19	mark	_	_
-8	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	19	nsubj	_	_
+8	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 9	sich	sich	PRON	PRP	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	19	obj	_	_
 10	nach	nach	ADP	IN	_	13	case	_	_
 11	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -23193,7 +23193,7 @@
 10	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	9	aux:pass	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	19	punct	_	_
 12	da	da	SCONJ	CC	_	19	mark	_	_
-13	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	19	nsubj	_	_
+13	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
 14	selber	selber	ADV	RB	Degree=Pos	13	advmod	_	_
 15	einen	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	17	det	_	_
 16	großen	groß	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	InflectionType=Mixed
@@ -23231,7 +23231,7 @@
 2	ihrer	ihr	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Ausdehnung	Ausdehnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
 4	gehörte	gehören	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-5	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+5	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 6	zu	zu	ADP	IN	_	9	case	_	_
 7	den	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 8	weitläufigsten	weitläufig	ADJ	JJ	Case=Dat|Degree=Sup|Gender=Fem|Number=Plur	9	amod	_	InflectionType=Weak
@@ -23297,7 +23297,7 @@
 # sent_id = w02008055
 # text = Sie lagen vor allem auf Anhöhen.
 # text_en = They were primarily on hills.
-1	Sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	lagen	liegen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 3	vor	vor	ADP	IN	_	4	case	_	_
 4	allem	alle	DET	NNA	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	2	obl	_	InflectionType=Strong
@@ -23758,7 +23758,7 @@
 8	Form	Form	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	19	punct	_	_
 10	die	der	PRON	REL	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem,Rel	19	obj	_	_
-11	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Plur|Person=3	19	nsubj	_	_
+11	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
 12	nach	nach	ADP	IN	_	15	case	_	_
 13	den	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 14	bekannten	bekannt	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	InflectionType=Weak
@@ -24359,7 +24359,7 @@
 # text = Weil sie vollständig mit Privatgeldern von Bernard Tapie finanziert waren, wurden diese Schulen 1994 geschlossen, nachdem er bankrott war.
 # text_en = Financed entirely with Bernard Tapie's own money, these schools were closed in 1994 when he was declared bankrupt.
 1	Weil	weil	SCONJ	CC	_	9	mark	_	_
-2	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Plur|Person=3	9	nsubj	_	_
+2	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
 3	vollständig	vollständig	ADV	RB	Degree=Pos	9	advmod	_	_
 4	mit	mit	ADP	IN	_	5	case	_	_
 5	Privatgeldern	Privatgeld	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	_
@@ -24435,7 +24435,7 @@
 2	ihrem	ihr	DET	DTP$	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Rückflug	Rückflug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
 4	spielten	spielen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
-5	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+5	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 6	mit	mit	ADP	IN	_	8	case	_	_
 7	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Gedanken	Gedanke	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
@@ -24741,7 +24741,7 @@
 15	ab	ab	VERB	DC	_	5	compound:prt	_	_
 16	und	und	CCONJ	CC	_	17	cc	_	_
 17	nahm	nehmen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	conj	_	_
-18	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	17	obj	_	_
+18	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
 19	für	für	ADP	IN	_	21	case	_	_
 20	alle	alle	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	21	det	_	_
 21	Straftaten	Straftat	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obl	_	_
@@ -25170,7 +25170,7 @@
 # text = Zwischen ihnen entstand eine professionelle und freundschaftliche Beziehung, die Jahre andauerte.
 # text_en = Between them bloomed a long professional and amicable relationship that lasted for years.
 1	Zwischen	zwischen	ADP	IN	_	2	case	_	_
-2	ihnen	sie	PRON	PRP	Case=Dat|Number=Plur|Person=3	3	obl	_	_
+2	ihnen	sie	PRON	PRP	Case=Dat|Number=Plur|Person=3|PronType=Prs	3	obl	_	_
 3	entstand	entstehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	eine	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	_
 5	professionelle	professionell	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	InflectionType=Mixed
@@ -25212,7 +25212,7 @@
 23	einige	einige	DET	DT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	24	det	_	_
 24	Stücke	Stück	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	29	obj	_	_
 25	hatten	haben	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	29	aux	_	_
-26	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	29	nsubj	_	_
+26	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	_
 27	sogar	sogar	ADV	RB	Degree=Pos	29	advmod	_	_
 28	gemeinsam	gemeinsam	ADV	RB	Degree=Pos	29	advmod	_	_
 29	geschrieben	schreiben	VERB	VBN	Tense=Past	2	parataxis	_	SpaceAfter=No
@@ -25602,7 +25602,7 @@
 10	Kanada	Kanada	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
 11	an	an	VERB	DC	_	8	compound:prt	_	SpaceAfter=No
 12	;	;	PUNCT	:	_	14	punct	_	_
-13	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	14	nsubj	_	_
+13	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
 14	unterstützten	unterstützen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	8	parataxis	_	_
 15	die	der	DET	DT	Case=Acc|Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	Briten	Brite	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No|Proper=True
@@ -25643,7 +25643,7 @@
 # sent_id = w05005087
 # text = Sie wurden jedoch abgefangen und mussten in Freeman kämpfen, nahe dem Hudson River.
 # text_en = However, they were intercepted and had to do battle in Freeman, close to the Hudson River.
-1	Sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3	4	nsubj:pass	_	_
+1	Sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj:pass	_	_
 2	wurden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	4	aux:pass	_	_
 3	jedoch	jedoch	ADV	RB	Degree=Pos	4	advmod	_	_
 4	abgefangen	abfangen	VERB	VBN	Tense=Past	0	root	_	_

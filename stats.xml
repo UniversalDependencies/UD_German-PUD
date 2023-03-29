@@ -73,7 +73,7 @@
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">123</feat><!-- viele, man, einige, mehr, andere, anderen, vielen, etwas, mehrere, meisten -->
     <feat name="PronType" value="Int,Rel" upos="DET">6</feat><!-- welche, welchen, welcher -->
     <feat name="PronType" value="Neg" upos="DET,PRON">31</feat><!-- keine, kein, nichts, keinen, keinerlei -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">690</feat><!-- es, sich, er, seine, ihre, ihr, ihrer, seiner, sein, ihren -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">806</feat><!-- es, sich, er, sie, seine, ihre, ihr, ihrer, seiner, sein -->
     <feat name="PronType" value="Rcp" upos="PRON">9</feat><!-- mich, uns, mir -->
     <feat name="PronType" value="Tot" upos="DET,PRON">61</feat><!-- alle, beiden, allem, jedes, alles, jede, jeder, jeden, allen, jedem -->
     <feat name="Reflex" value="Yes" upos="PRON">135</feat><!-- sich, dich -->
