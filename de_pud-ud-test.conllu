@@ -163,11 +163,11 @@
 # sent_id = n01002058
 # text = Was sie sagt und was sie tut - eigentlich ist es unglaublich.
 # text_en = What she’s saying and what she’s doing, it — actually, it’s unbelievable.
-1	Was	was	PRON	WP	Case=Acc|Person=3	3	obj	_	_
+1	Was	was	PRON	WP	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	3	obj	_	_
 2	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	sagt	sagen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	und	und	CCONJ	CC	_	7	cc	_	_
-5	was	was	PRON	WP	Case=Acc|Person=3	7	obj	_	_
+5	was	was	PRON	WP	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	7	obj	_	_
 6	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	tut	tun	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	conj	_	_
 8	-	-	PUNCT	-	_	12	punct	_	_
@@ -1510,7 +1510,7 @@
 3	dieses	dieser	DET	DT	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
 4	Experiments	Experiment	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 5	liefern	liefern	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-6	weitere	weit	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Person=3	7	det	_	_
+6	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Masc|Number=Plur	7	det	_	_
 7	Belege	Beleg	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
 8	dafür	dafür	ADV	RB	PronType=Dem	7	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	16	punct	_	_
@@ -2289,7 +2289,7 @@
 20	Antworten	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	conj	_	_
 21	hat	haben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	ccomp	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	28	punct	_	_
-23	was	was	PRON	WP	Case=Nom|Person=3	28	nsubj	_	_
+23	was	was	PRON	WP	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	28	nsubj	_	_
 24	einen	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	27	det	_	_
 25	anscheinend	anscheinend	ADV	RB	Degree=Pos	26	advmod	_	_
 26	obdachlosen	obdachlos	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	InflectionType=Mixed
@@ -2949,7 +2949,7 @@
 11	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	nmod	_	_
 12	Dollar	Dollar	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No|Proper=True
 13	,	,	PUNCT	,	_	20	punct	_	_
-14	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|Person=3	20	nsubj	_	_
+14	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	20	nsubj	_	_
 15	ungefähr	ungefähr	ADV	RB	Degree=Pos	20	advmod	_	_
 16	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
 17	Niveau	Niveau	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	20	obl:arg	_	_
@@ -3013,7 +3013,7 @@
 12	dass	dass	SCONJ	CC	_	20	mark	_	_
 13	mindestens	mindestens	ADV	RB	Degree=Pos	14	advmod	_	_
 14	sechs	sechs	NUM	CD	NumType=Card	16	nummod	_	_
-15	weitere	weit	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3	16	det	_	_
+15	weitere	weiterer	ADJ	DT	Case=Nom|Gender=Masc|Number=Plur	16	det	_	_
 16	Journalisten	Journalist	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
 17	in	in	ADP	IN	_	18	case	_	_
 18	Quebec	Quebec	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	_
@@ -3174,7 +3174,7 @@
 2	ist	sein	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	8	punct	_	_
-5	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|Person=3	8	nsubj	_	_
+5	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	8	nsubj	_	_
 6	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1	8	obj	_	_
 7	süchtig	süchtig	ADV	RB	Degree=Pos	8	advmod	_	_
 8	macht	machen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	acl:relcl	_	SpaceAfter=No
@@ -3204,7 +3204,7 @@
 18	,	,	PUNCT	,	_	19	punct	_	_
 19	überein	überein	VERB	DC	_	3	compound:prt	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	39	punct	_	_
-21	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|Person=3	39	nsubj	_	_
+21	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	39	nsubj	_	_
 22	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 23	wichtige	wichtig	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	InflectionType=Weak
 24	Rolle	Rolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	38	obj	_	_
@@ -3376,7 +3376,7 @@
 # sent_id = n01051004
 # text = Was als Routine-Ultraschall begann, wurde kompliziert, als der werdenden Mutter Margaret Boemer aus Plano, Texas, mitgeteilt wurde, dass ihr ungeborenes Kind eine seltene Krankheit habe und sofort operiert werden müsse, um zu überleben.
 # text_en = What started as a routine ultrasound became complicated when expectant mother Margaret Boemer, of Plano, Texas, was told her unborn child had a rare condition and needed surgery to survive.
-1	Was	was	PRON	WP	Case=Nom|Person=3	6	nsubj	_	_
+1	Was	was	PRON	WP	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
 2	als	als	CCONJ	CC	_	5	cc	_	_
 3	Routine	Routine	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	SpaceAfter=No
 4	-	-	PUNCT	-	_	3	punct	_	SpaceAfter=No
@@ -5858,7 +5858,7 @@
 # text = Und was ist mit Australiens Position?
 # text_en = And what about Australia’s position?
 1	Und	und	CCONJ	CC	_	3	cc	_	_
-2	was	was	PRON	WP	Case=Nom|Person=3	3	nsubj	_	_
+2	was	was	PRON	WP	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nsubj	_	_
 3	ist	sein	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	mit	mit	ADP	IN	_	6	case	_	_
 5	Australiens	Australien	PROPN	NNP	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	_	_
@@ -6497,7 +6497,7 @@
 15	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
 16	Letzte	letzt	NOUN	NNA	Case=Nom|Gender=Neut|Number=Sing	2	ccomp	_	SpaceAfter=No|InflectionType=Weak
 17	,	,	PUNCT	,	_	21	punct	_	_
-18	was	was	PRON	REL	Case=Acc|Gender=Neut|Number=Sing|Person=3	21	obj	_	_
+18	was	was	PRON	REL	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	21	obj	_	_
 19	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	Regierung	Regierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
 21	will.	wollen.	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	acl:relcl	_	SpaceAfter=No
@@ -10870,7 +10870,7 @@
 # sent_id = w01023120
 # text = Was auch immer die Regeln waren, die Kämpfe endeten häufig mit dem Tod eines der Hengste.
 # text_en = Whatever the rules were, the fights often resulted in the death of one of the stallions.
-1	Was	was	PRON	WP	Case=Nom|Person=3	0	root	_	_
+1	Was	was	PRON	WP	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	0	root	_	_
 2	auch	auch	ADV	RB	Degree=Pos	1	advmod	_	_
 3	immer	immer	ADV	RB	Degree=Pos	1	advmod	_	_
 4	die	der	DET	DT	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -11793,7 +11793,7 @@
 12	Welt	Welt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 13	bezeichnet	bezeichnen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	19	punct	_	_
-15	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|Person=3	19	nsubj	_	_
+15	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	19	nsubj	_	_
 16	Gewalt	Gewalt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
 17	gegen	gegen	ADP	IN	_	18	case	_	_
 18	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	nmod	_	_
@@ -12214,7 +12214,7 @@
 12	halben	halb	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	InflectionType=Mixed
 13	Million	Million	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	24	punct	_	_
-15	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|Person=3	24	nsubj	_	_
+15	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	24	nsubj	_	_
 16	es	es	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
 17-18	zur	_	_	_	_	_	_	_	_
 17	zu	zu	ADP	APPR	_	20	case	_	_
@@ -13610,12 +13610,12 @@
 27	eher	eher	ADV	RB	Degree=Pos	28	advmod	_	_
 28	vage	vage	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No
 29	,	,	PUNCT	,	_	46	punct	_	_
-30	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|Person=3	46	nsubj	_	_
+30	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	46	nsubj	_	_
 31	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	Debatte	Debatte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	46	obj	_	_
 33	darüber	darüber	ADV	RB	PronType=Dem	32	advmod	_	SpaceAfter=No
 34	,	,	PUNCT	,	_	38	punct	_	_
-35	was	was	PRON	REL	Case=Acc|Gender=Neut|Number=Sing|Person=3	38	obj	_	_
+35	was	was	PRON	REL	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	38	obj	_	_
 36	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	_
 37	eigentlich	eigentlich	ADV	RB	Degree=Pos	38	advmod	_	_
 38	wollte	wollen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	33	acl:relcl	_	SpaceAfter=No
@@ -14933,7 +14933,7 @@
 11	zu	zu	PART	RP	_	12	mark	_	_
 12	glauben	glauben	VERB	VB	_	2	xcomp	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	17	punct	_	_
-14	was	was	PRON	REL	Case=Acc|Gender=Neut|Number=Sing|Person=3	17	obj	_	_
+14	was	was	PRON	REL	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	17	obj	_	_
 15	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Malleus	Malleus	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	Proper=True
 17	sagte	sagen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	acl:relcl	_	SpaceAfter=No
@@ -17004,7 +17004,7 @@
 1	Disney	Disney	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	erhielt	erhalten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	einen	ein	DET	PDT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	_
-4	weiteren	weit	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Person=3	5	det	_	_
+4	weiteren	weiterer	ADJ	DT	Case=Acc|Gender=Masc|Number=Sing	5	det	_	_
 5	Ehrenoscar	Ehrenoscar	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|Proper=True
 6	,	,	PUNCT	,	_	18	punct	_	_
 7	der	der	PRON	REL	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	18	nsubj	_	_
@@ -17093,7 +17093,7 @@
 10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Sieger	Sieger	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	20	punct	_	_
-13	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|Person=3	20	nsubj	_	_
+13	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	20	nsubj	_	_
 14	zu	zu	ADP	IN	_	15	case	_	_
 15	Verwirrung	Verwirrung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	_
 16	in	in	ADP	IN	_	19	case	_	_
@@ -17128,7 +17128,7 @@
 20	Entscheidung	Entscheidung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	_
 21	über	über	ADP	IN	_	24	case	_	_
 22	eine	ein	DET	PDT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	24	det	_	_
-23	weitere	weit	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	24	det	_	_
+23	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Fem|Number=Sing	24	det	_	_
 24	Erhöhung	Erhöhung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	nmod	_	_
 25	der	der	DET	DT	Case=Gen|Definite=Def|Number=Plur|PronType=Art	26	det	_	_
 26	Benzinpreise	Benzinpreise	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
@@ -17519,7 +17519,7 @@
 11	Polen	Polen	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	_
 12	jedoch	jedoch	ADV	RB	Degree=Pos	2	advmod	_	_
 13	keine	kein	DET	PDT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	16	det	_	_
-14	weitere	weit	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3	16	det	_	_
+14	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Fem|Number=Sing	16	det	_	_
 15	öffentliche	öffentlich	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	InflectionType=Mixed
 16	Anerkennung	Anerkennung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 17	ihres	ihr	DET	DTP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
@@ -17695,7 +17695,7 @@
 1	Wilkes	Wilkes	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 2	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	aux:pass	_	_
 3	zwei	zwei	NUM	CD	NumType=Card	5	nummod	_	_
-4	weitere	weit	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|Person=3	5	det	_	_
+4	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Neut|Number=Plur	5	det	_	_
 5	Male	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	_
 6	wiedergewählt	wiederwählen	VERB	VBN	Tense=Past	0	root	_	_
 7	und	und	CCONJ	CC	_	9	cc	_	_
@@ -18012,7 +18012,7 @@
 4	den	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	1990ern	1990er	NOUN	NN	Case=Dat|Number=Plur	2	obl	_	_
 6	zwei	zwei	NUM	CD	NumType=Card	7	nummod	_	_
-7	weitere	weit	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|Person=3	8	det	_	_
+7	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Neut|Number=Plur	8	det	_	_
 8	Alben	Album	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	23	punct	_	_
 10	die	der	PRON	REL	Case=Nom|Number=Plur|PronType=Dem,Rel	23	nsubj	_	_
@@ -18556,7 +18556,7 @@
 25	Segel	Segel	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	24	flat:name	_	_
 26	in	in	ADP	IN	_	29	case	_	_
 27	einer	ein	DET	PDT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	29	det	_	_
-28	weiteren	weit	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|Person=3	29	det	_	_
+28	weiteren	weiterer	ADJ	DT	Case=Dat|Gender=Fem|Number=Sing	29	det	_	_
 29	Hauptrolle	Hauptrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -18587,7 +18587,7 @@
 21	-	-	PUNCT	-	_	19	punct	_	SpaceAfter=No
 22	Levitt	Levitt	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	16	conj	_	_
 23	in	in	ADP	IN	_	25	case	_	_
-24	weiteren	weit	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur|Person=3	25	det	_	_
+24	weiteren	weiterer	ADJ	DT	Case=Dat|Gender=Fem|Number=Plur	25	det	_	_
 25	Hauptrollen	Hauptrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	nmod	_	_
 26	zu	zu	PART	RP	_	27	mark	_	_
 27	drehen	drehen	VERB	VB	_	5	xcomp	_	_
@@ -19879,7 +19879,7 @@
 8	auch	auch	ADV	RB	Degree=Pos	13	advmod	_	_
 9	noch	noch	ADV	RB	Degree=Pos	13	advmod	_	_
 10	gegen	gegen	ADP	IN	_	12	case	_	_
-11	weitere	weit	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Person=3	12	det	_	_
+11	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Masc|Number=Plur	12	det	_	_
 12	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	obl	_	_
 13	ermittelt	ermitteln	VERB	VBN	Tense=Past	5	ccomp	_	_
 14	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	aux:pass	_	SpaceAfter=No
@@ -20167,7 +20167,7 @@
 10	Immobilienunternehmen	Immobilienunternehmen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
 11	nachgefragt	nachfragen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	24	punct	_	_
-13	was	was	PRON	WP	Case=Acc|Person=3	24	obj	_	_
+13	was	was	PRON	WP	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	24	obj	_	_
 14	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	_	_
 15	mit	mit	ADP	IN	_	18	case	_	_
 16	den	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -22434,13 +22434,13 @@
 # text = Und was ist mit den Parteien in was, in historischen Rechten?
 # text_en = And what about the parties in what, in historical rights?
 1	Und	und	CCONJ	CC	_	3	cc	_	_
-2	was	was	PRON	WP	Case=Nom|Person=3	3	nsubj	_	_
+2	was	was	PRON	WP	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nsubj	_	_
 3	ist	sein	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	mit	mit	ADP	IN	_	6	case	_	_
 5	den	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	Parteien	Partei	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	_
 7	in	in	ADP	IN	_	8	case	_	_
-8	was	was	PRON	WP	Case=Dat|Person=3	3	obl	_	SpaceAfter=No
+8	was	was	PRON	WP	Case=Dat|Gender=Neut|Number=Sing|PronType=Int,Rel	3	obl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	_	_
 10	in	in	ADP	IN	_	12	case	_	_
 11	historischen	historisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	12	amod	_	InflectionType=Strong
@@ -22465,7 +22465,7 @@
 12	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Menschheit	Menschheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	15	punct	_	_
-15	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|Person=3	10	advcl	_	_
+15	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	10	advcl	_	_
 16	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Schatten	Schatten	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 18	für	für	ADP	IN	_	21	case	_	_
@@ -23242,7 +23242,7 @@
 13	von	von	ADP	IN	_	14	case	_	_
 14	der	der	PRON	REL	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem,Rel	18	obl	_	_
 15	viele	viel	DET	PDT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
-16	weitere	weit	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Person=3	17	det	_	_
+16	weitere	weiterer	ADJ	DT	Case=Nom|Gender=Fem|Number=Plur	17	det	_	_
 17	Fundstätten	Fundstätte	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	_
 18	bekannt	bekennen	ADJ	JJ	Degree=Pos	11	acl:relcl	_	_
 19	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	18	cop	_	SpaceAfter=No
