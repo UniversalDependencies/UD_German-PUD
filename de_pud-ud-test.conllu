@@ -5644,7 +5644,7 @@
 7	viele	viel	DET	DT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	8	det	_	_
 8	Kleidungsstücke	Kleidungsstück	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
 9	und	und	CCONJ	CC	_	11	cc	_	_
-10	wenig	wenig	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Person=3	11	det	_	_
+10	wenig	wenig	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	11	det	_	_
 11	Essen	Essen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	conj	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -10242,7 +10242,7 @@
 19	,	,	PUNCT	,	_	18	punct	_	_
 20	sind	sein	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 21	sehr	sehr	ADV	RB	Degree=Pos	22	advmod	_	_
-22	wenige	wenig	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Person=3	23	det	_	_
+22	wenige	wenig	DET	DT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	23	det	_	_
 23	Einwirkungen	Einwirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	_
 24	und	und	CCONJ	CC	_	25	cc	_	_
 25	Entlehnungen	Entlehnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	23	conj	_	_
@@ -16871,7 +16871,7 @@
 5	Junggeselle	Junggeselle	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	12	punct	_	_
 7	der	der	PRON	REL	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	12	nsubj	_	_
-8	wenig	wenig	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Person=3	9	det	_	_
+8	wenig	wenig	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	9	det	_	_
 9	Glück	Glück	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
 10	mit	mit	ADP	IN	_	11	case	_	_
 11	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	_
