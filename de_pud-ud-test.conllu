@@ -1691,7 +1691,7 @@
 # sent_id = n01027007
 # text = Wer sind sie?
 # text_en = Who are they?
-1	Wer	wer	PRON	WP	Case=Nom|Person=3	0	root	_	_
+1	Wer	wer	PRON	WP	Case=Nom|Number=Sing|PronType=Int,Rel	0	root	_	_
 2	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	1	cop	_	_
 3	sie	sie	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No
 4	?	?	PUNCT	.	_	1	punct	_	_
@@ -2255,7 +2255,7 @@
 8	Staaten	Staat	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	Proper=True
 9	einladen	einladen	VERB	VB	_	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	14	punct	_	_
-11	wer	wer	PRON	WP	Case=Nom|Person=3	14	nsubj	_	_
+11	wer	wer	PRON	WP	Case=Nom|Number=Sing|PronType=Int,Rel	14	nsubj	_	_
 12	auch	auch	ADV	RB	Degree=Pos	13	advmod	_	_
 13	immer	immer	ADV	RB	Degree=Pos	11	advmod	_	_
 14	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	advcl	_	_
@@ -4728,7 +4728,7 @@
 # sent_id = n01073004
 # text = Wer kann diese australische Mannschaft stoppen?
 # text_en = Who can stop this Australia side?
-1	Wer	wer	PRON	WP	Case=Nom|Person=3	6	nsubj	_	_
+1	Wer	wer	PRON	WP	Case=Nom|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
 2	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux	_	_
 3	diese	dieser	DET	DT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 4	australische	australisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	InflectionType=Weak|Proper=True
@@ -7445,7 +7445,7 @@
 11	gegeben	geben	VERB	VBN	Tense=Past	19	advcl	_	_
 12	hat	haben	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	aux	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	11	punct	_	_
-14	wer	wer	PRON	WP	Case=Nom|Person=3	19	nsubj	_	_
+14	wer	wer	PRON	WP	Case=Nom|Number=Sing|PronType=Int,Rel	19	nsubj	_	_
 15	kann	können	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	19	aux	_	_
 16	es	es	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
 17	ihr	sie	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obl:arg	_	_
@@ -25250,7 +25250,7 @@
 3	nicht	nicht	PART	RB	Polarity=Neg	4	advmod	_	_
 4	klar	klar	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	18	punct	_	_
-6	wer	wer	PRON	WP	Case=Nom|Person=3	18	nsubj	_	_
+6	wer	wer	PRON	WP	Case=Nom|Number=Sing|PronType=Int,Rel	18	nsubj	_	_
 7	in	in	ADP	IN	_	11	case	_	_
 8	ihren	ihr	DET	DTP$	Case=Dat|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 9	zahlreichen	zahlreich	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	InflectionType=Mixed

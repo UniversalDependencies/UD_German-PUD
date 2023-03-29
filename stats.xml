@@ -56,14 +56,14 @@
     <feat name="Mood" value="Ind" upos="AUX,VERB">1785</feat><!-- ist, wurde, war, hat, wird, sind, hatte, wurden, waren, kann -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">100</feat><!-- würde, könnte, sei, sollte, würden, könnten, seien, wäre, hätten, müssten -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">3029</feat><!-- die, den, der, sie, sind, wurden, waren, wir, werden, haben -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">9388</feat><!-- der, dem, die, das, es, ist, eine, des, er, ein -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">9393</feat><!-- der, dem, die, das, es, ist, eine, des, er, ein -->
     <feat name="Number[psor]" value="Plur" upos="DET">58</feat><!-- ihre, ihrer, ihren, unsere, ihr, ihrem, ihres, unserem, unserer, Nostrum -->
     <feat name="Number[psor]" value="Sing" upos="DET">156</feat><!-- seine, seiner, sein, seinen, ihre, ihr, ihrer, seines, ihren, seinem -->
     <feat name="NumType" value="Card" upos="DET,NUM">807</feat><!-- eine, ein, einer, einem, einen, zwei, eines, beiden, drei, vier -->
     <feat name="NumType" value="Ord" upos="ADJ,NUM">45</feat><!-- ersten, erste, 1., erster, 30., 10., 11., 12., 16, 19. -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">199</feat><!-- ich, wir, mich, uns, habe, unsere, bin, müssen, haben, kenne -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">20</feat><!-- Sie, du, you, Do, Ihrem, Knew, Knuck, Lass, Metti, Schimpfen -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">2589</feat><!-- es, ist, sich, er, sie, wurde, war, hat, wird, hatte -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">2584</feat><!-- es, ist, sich, er, sie, wurde, war, hat, wird, hatte -->
     <feat name="Polarity" value="Neg" upos="PART">87</feat><!-- nicht -->
     <feat name="Polite" value="Form" upos="DET,PRON,VERB">4</feat><!-- Sie, Ihrem, Schimpfen -->
     <feat name="Poss" value="Yes" upos="DET,PRON">224</feat><!-- seine, ihre, ihrer, seiner, ihr, sein, ihren, seinen, seines, ihres -->
@@ -71,7 +71,7 @@
     <feat name="PronType" value="Dem" upos="ADV,DET">194</feat><!-- diese, dieser, davon, dies, dazu, damit, dieses, dafür, darauf, diesem -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">244</feat><!-- die, der, das, denen, dem, dessen, deren, den -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">123</feat><!-- viele, man, einige, mehr, andere, anderen, vielen, etwas, mehrere, meisten -->
-    <feat name="PronType" value="Int,Rel" upos="DET,PRON">26</feat><!-- was, welche, welchen, welcher -->
+    <feat name="PronType" value="Int,Rel" upos="DET,PRON">31</feat><!-- was, wer, welche, welchen, welcher -->
     <feat name="PronType" value="Neg" upos="DET,PRON">31</feat><!-- keine, kein, nichts, keinen, keinerlei -->
     <feat name="PronType" value="Prs" upos="DET,PRON">806</feat><!-- es, sich, er, sie, seine, ihre, ihr, ihrer, seiner, sein -->
     <feat name="PronType" value="Rcp" upos="PRON">9</feat><!-- mich, uns, mir -->
