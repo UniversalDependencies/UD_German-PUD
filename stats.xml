@@ -55,8 +55,8 @@
     <feat name="Mood" value="Imp" upos="AUX,VERB">5</feat><!-- Do, Knuck, Lass, Metti, Schauen -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">1785</feat><!-- ist, wurde, war, hat, wird, sind, hatte, wurden, waren, kann -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">100</feat><!-- würde, könnte, sei, sollte, würden, könnten, seien, wäre, hätten, müssten -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">3064</feat><!-- die, den, der, sie, sind, wurden, waren, sich, wir, werden -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">9477</feat><!-- der, dem, die, das, es, ist, eine, des, er, ein -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">3029</feat><!-- die, den, der, sie, sind, wurden, waren, wir, werden, haben -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">9379</feat><!-- der, dem, die, das, es, ist, eine, des, er, ein -->
     <feat name="Number[psor]" value="Plur" upos="DET">58</feat><!-- ihre, ihrer, ihren, unsere, ihr, ihrem, ihres, unserem, unserer, Nostrum -->
     <feat name="Number[psor]" value="Sing" upos="DET">156</feat><!-- seine, seiner, sein, seinen, ihre, ihr, ihrer, seines, ihren, seinem -->
     <feat name="NumType" value="Card" upos="DET,NUM">807</feat><!-- eine, ein, einer, einem, einen, zwei, eines, beiden, drei, vier -->
