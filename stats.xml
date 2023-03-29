@@ -40,7 +40,7 @@
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">3078</feat><!-- dem, der, den, einem, einer, Jahr, Jahren, ihrer, Chr., dieser -->
     <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PRON,PROPN">1178</feat><!-- der, des, eines, einer, seiner, dieser, ihrer, seines, ersten, Jahre -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">3724</feat><!-- die, der, er, das, es, sie, ein, eine, ich, wir -->
-    <feat name="Definite" value="Def" upos="DET">2129</feat><!-- der, die, dem, den, das, des, the, El, Le, Los -->
+    <feat name="Definite" value="Def" upos="DET">2126</feat><!-- der, die, dem, den, das, des, the, El, Le, Los -->
     <feat name="Definite" value="Ind" upos="DET">463</feat><!-- eine, ein, einer, einem, einen, eines, weitere, a, weiteren, wenig -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET">74</feat><!-- mehr, später, mehrere, besser, genauer, größere, höherer, lieber, mehreren, späteren -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">2215</feat><!-- auch, so, noch, nur, sehr, ersten, neue, jedoch, letzten, mehr -->
