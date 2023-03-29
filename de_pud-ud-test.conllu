@@ -360,14 +360,14 @@
 # text = „Wir stehen im Wettbewerb und wir denken, ein Transitsystem kann dabei helfen“, sagte Joe Sternlieb, Präsident des Georgetown BID.
 # text_en = “We face a lot of competition, and we think transit can help,” said Joe Sternlieb, president of the Georgetown BID.
 1	„	„	PUNCT	``	_	3	punct	_	SpaceAfter=No
-2	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+2	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	stehen	stehen	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	18	ccomp	_	_
 4-5	im	_	_	_	_	_	_	_	_
 4	in	in	ADP	APPR	_	6	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Wettbewerb	Wettbewerb	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
 7	und	und	CCONJ	CC	_	9	cc	_	_
-8	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	9	nsubj	_	_
+8	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 9	denken	denken	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	3	conj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	15	punct	_	_
 11	ein	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	12	det	_	_
@@ -513,14 +513,14 @@
 # text = „Wir haben andere Länder darum gebeten, uns dabei zu helfen, den Zoo mit verschiedenen Tierarten zu füllen, unter anderem mit einem Schwein“, so Saqib.
 # text_en = “We’ve requested other nations to help us populate the zoo with different species of animals, including a pig,” Saqib said.
 1	„	„	PUNCT	``	_	7	punct	_	SpaceAfter=No
-2	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	7	nsubj	_	_
+2	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 3	haben	haben	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	7	aux	_	_
 4	andere	anderer	DET	DT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	5	det	_	_
 5	Länder	Land	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	_
 6	darum	darum	ADV	RB	PronType=Dem	7	advmod	_	_
 7	gebeten	bitten	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	12	punct	_	_
-9	uns	wir	PRON	PRP	Case=Dat|Number=Plur|Person=1	12	obl:arg	_	_
+9	uns	wir	PRON	PRP	Case=Dat|Number=Plur|Person=1|PronType=Prs	12	obl:arg	_	_
 10	dabei	dabei	ADV	RB	Degree=Pos	12	advmod	_	_
 11	zu	zu	PART	RP	_	12	mark	_	_
 12	helfen	helfen	VERB	VB	_	7	xcomp	_	SpaceAfter=No
@@ -1301,9 +1301,9 @@
 # text = „Wir bewegen uns in die richtige Richtung: das Abkommen von Paris wird den Klimawandel verlangsamen, genauso wie das Abkommen von Kigali zur Reduzierung von FKW“, sagte der Direktor des UN-Umweltprogramms, Erik Solheim.
 # text_en = "We are moving in the right direction: the Paris Agreement will slow climate change, as will the recent Kigali Amendment to reduce HFCs," said Erik Solheim, head of UN Environment.
 1	„	„	PUNCT	``	_	3	punct	_	SpaceAfter=No
-2	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+2	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	bewegen	bewegen	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	32	ccomp	_	_
-4	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Rcp	3	obj	_	_
+4	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
 5	in	in	ADP	IN	_	8	case	_	_
 6	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 7	richtige	richtig	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	InflectionType=Weak
@@ -1657,7 +1657,7 @@
 1	Heute	heute	ADV	RB	Degree=Pos	2	advmod	_	_
 2	Nacht	Nacht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl:tmod	_	_
 3	nutzen	nutzen	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	10	csubj	_	_
-4	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+4	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 5	Fernlicht	Fernlicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
 6	für	für	ADP	IN	_	8	case	_	_
 7	unsere	unser	DET	DTP$	Case=Acc|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
@@ -2347,7 +2347,7 @@
 # sent_id = n01035025
 # text = Wir glauben nicht, dass der Verdächtige eine Verbindung zu dieser Schule hat oder zu den zwei Mädchen oder speziell zu Abbotsford, sagte sie.
 # text_en = "We do not believe the suspect has ties to this school, or to the two girls, or specifically to the Abbotsford area," she said.
-1	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+1	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	glauben	glauben	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	24	ccomp	_	_
 3	nicht	nicht	PART	RB	Polarity=Neg	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	13	punct	_	_
@@ -2532,7 +2532,7 @@
 # sent_id = n01038021
 # text = Wir sehen, dass sehr viele Länder, und vor allem große neue Emittenten wie Brasilien, Südafrika, Indien und China, versuchen, bei der Reduktion von Emissionen eine Rolle zu spielen, sagte Guilbeault.
 # text_en = "We are seeing many, many countries and especially large new emitters like Brazil, South Africa, India and China stepping up to the plate in terms of playing a role in reducing emissions," said Guilbeault.
-1	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+1	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	sehen	sehen	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	36	ccomp	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	24	punct	_	_
 4	dass	dass	SCONJ	CC	_	24	mark	_	_
@@ -2651,7 +2651,7 @@
 # text_en = That's not what we need in our country, folks.
 1	Das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	obj	_	_
 2	brauchen	brauchen	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	_
-3	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+3	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 4	in	in	ADP	IN	_	6	case	_	_
 5	unserem	unser	DET	DTP$	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
@@ -3175,7 +3175,7 @@
 3	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	8	punct	_	_
 5	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	8	nsubj	_	_
-6	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1	8	obj	_	_
+6	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	8	obj	_	_
 7	süchtig	süchtig	ADV	RB	Degree=Pos	8	advmod	_	_
 8	macht	machen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	acl:relcl	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	_	_
@@ -3962,13 +3962,13 @@
 14	zugibt	zugeben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	acl:relcl	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	20	punct	_	_
 16	dass	dass	SCONJ	CC	_	20	mark	_	_
-17	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	20	nsubj	_	_
+17	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
 18	etwas	etwas	PRON	NN	Gender=Neut|Number=Sing|PronType=Ind	20	obj	_	_
 19	anders	anders	ADV	RB	Degree=Pos	20	advmod	_	_
 20	machen	machen	VERB	VB	_	14	ccomp	_	_
 21	müssen	müssen	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	20	aux	_	_
 22	–	–	PUNCT	-	_	24	punct	_	OrigForm=--
-23	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	24	nsubj	_	_
+23	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
 24	können	können	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	20	parataxis	_	_
 25	es	es	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
 26	besser	gut	ADV	RB	Degree=Cmp	24	advmod	_	_
@@ -4129,7 +4129,7 @@
 16	„	„	PUNCT	``	_	17	punct	_	SpaceAfter=No
 17	Knuck	knuck	VERB	VBC	Foreign=Yes|Mood=Imp|Number=Sing|Person=2|Tense=Pres	14	nmod	_	Lang=en|Proper=True
 18	If	if	SCONJ	CC	Foreign=Yes	20	mark	_	Lang=en|Proper=True
-19	You	you	PRON	PRP	Case=Nom|Foreign=Yes|Number=Sing|Person=2	20	nsubj	_	Lang=en|Proper=True
+19	You	you	PRON	PRP	Case=Nom|Foreign=Yes|Number=Sing|Person=2|PronType=Prs	20	nsubj	_	Lang=en|Proper=True
 20	Buck	buck	VERB	VBC	Foreign=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	advcl	_	SpaceAfter=No|Lang=en|Proper=True
 21	“	“	PUNCT	''	_	17	punct	_	_
 22	auf	auf	ADP	IN	_	25	case	_	_
@@ -4784,7 +4784,7 @@
 8	mehr	mehr	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	16	punct	_	_
 10	und	und	CCONJ	CC	_	16	cc	_	_
-11	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	16	nsubj	_	_
+11	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
 12	müssen	müssen	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	16	aux	_	_
 13	in	in	ADP	IN	_	15	case	_	_
 14	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -4817,7 +4817,7 @@
 # sent_id = n01074026
 # text = Wir haben eine tolle Mannschaft und es ist für uns eine Gelegenheit, weiterzukommen.
 # text_en = We have a great squad and it is an opportunity for us to take the ship forward.
-1	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+1	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	haben	haben	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	_
 3	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	_
 4	tolle	toll	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	InflectionType=Mixed
@@ -4826,7 +4826,7 @@
 7	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 8	ist	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	cop	_	_
 9	für	für	ADP	IN	_	10	case	_	_
-10	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1	12	obl	_	_
+10	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	12	obl	_	_
 11	eine	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	12	det	_	_
 12	Gelegenheit	Gelegenheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	_	_
@@ -5080,8 +5080,8 @@
 12	Mal	Mal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	20	punct	_	_
 14	dass	dass	SCONJ	CC	_	20	mark	_	_
-15	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	20	nsubj	_	_
-16	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Rcp	20	obj	_	_
+15	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
+16	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	20	obj	_	_
 17	an	an	ADP	IN	_	19	case	_	_
 18	einem	ein	DET	DT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	19	det	_	_
 19	Ort	Ort	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	_
@@ -5163,7 +5163,7 @@
 # sent_id = n01081022
 # text = Wir können Trump nicht Präsident werden lassen, jemanden, der so rassistisch, sexistisch und unglaublich unqualifiziert dafür ist.
 # text_en = We can’t let the presidency go to Donald Trump, someone so racist, sexist and incredibly unqualified to be commander-in-chief.
-1	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	7	nsubj	_	_
+1	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 2	können	können	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	7	aux	_	_
 3	Trump	Trump	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
 4	nicht	nicht	PART	RB	Polarity=Neg	7	advmod	_	_
@@ -5444,7 +5444,7 @@
 4	absurd	absurd	ADJ	JJ	Degree=Pos	0	root	_	_
 5	sein	sein	AUX	VB	_	4	cop	_	_
 6	und	und	CCONJ	CC	_	9	cc	_	_
-7	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1	9	obj	_	_
+7	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	obj	_	_
 8	wütend	wütend	ADV	RB	Degree=Pos	9	advmod	_	_
 9	machen	machen	VERB	VB	_	4	conj	_	_
 10	–	–	PUNCT	-	_	13	punct	_	OrigForm=--
@@ -5845,7 +5845,7 @@
 # text = Nehmen wir mal an, er irrt sich.
 # text_en = Let’s just say he’s wrong.
 1	Nehmen	nehmen	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	_
-2	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	1	nsubj	_	_
+2	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	_
 3	mal	mal	ADV	RB	Degree=Pos	1	advmod	_	_
 4	an	an	VERB	DC	_	1	compound:prt	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	_	_
@@ -5901,7 +5901,7 @@
 # text = „Wir suchen aktiv nach Wegen, die Möglichkeit einer Klage auf diejenigen zu begrenzen, die an einem Projekt tatsächlich ein einklagbares Interesse haben“, wurde er zitiert.
 # text_en = “We are actively thinking of possible ways to limit the scope of litigation to only those with a real standing in a project,” he was quoted as saying.
 1	„	„	PUNCT	``	_	3	punct	_	SpaceAfter=No
-2	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+2	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	suchen	suchen	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	_
 4	aktiv	aktiv	ADV	RB	Degree=Pos	3	advmod	_	_
 5	nach	nach	ADP	IN	_	6	case	_	_
@@ -6267,7 +6267,7 @@
 5	Zug	Zug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	2	punct	_	_
 7	fahren	fahren	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	_
-8	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	7	nsubj	_	_
+8	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 9	weiter	weit	ADV	RB	Degree=Pos	7	advmod	_	_
 10	Richtung	Richtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 11	Süden	Süden	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
@@ -6561,13 +6561,13 @@
 # sent_id = n01104019
 # text = Wir sind so enttäuscht, weil wir 6 Punkte bei Heimspielen verloren haben.
 # text_en = We are so disappointed because we have dropped six points playing at home.
-1	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	4	nsubj	_	_
+1	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 2	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	4	cop	_	_
 3	so	so	ADV	RB	Degree=Pos	4	advmod	_	_
 4	enttäuscht	enttäuscht	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	12	punct	_	_
 6	weil	weil	SCONJ	CC	_	12	mark	_	_
-7	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	12	nsubj	_	_
+7	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
 8	6	6	NUM	CD	NumType=Card	9	nummod	_	_
 9	Punkte	Punkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
 10	bei	bei	ADP	IN	_	11	case	_	_
@@ -7337,8 +7337,8 @@
 11	daran	daran	ADV	RB	PronType=Dem	9	advmod	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	22	punct	_	_
 13	damit	damit	SCONJ	CC	_	22	mark	_	_
-14	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	22	nsubj	_	_
-15	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Rcp	22	obj	_	_
+14	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
+15	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	22	obj	_	_
 16-17	im	_	_	_	_	_	_	_	_
 16	in	in	ADP	APPR	_	18	case	_	_
 17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
@@ -7690,10 +7690,10 @@
 3	starb	sterben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	nahmen	nehmen	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Past	0	root	_	_
-6	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	5	nsubj	_	_
+6	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 7	an	an	VERB	DC	_	5	compound:prt	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	21	punct	_	_
-9	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	21	nsubj	_	_
+9	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
 10	hätten	haben	AUX	VBC	Mood=Sub|Number=Plur|Person=1|Tense=Past	21	aux	_	_
 11	damit	damit	ADV	RB	PronType=Dem	21	advmod	_	_
 12	auch	auch	ADV	RB	Degree=Pos	21	advmod	_	_
@@ -7979,13 +7979,13 @@
 9	,	,	PUNCT	,	_	11	punct	_	_
 10	wie	wie	ADV	WRB	_	11	advmod	_	_
 11	sicher	sicher	ADJ	JJ	Degree=Pos	8	ccomp	_	_
-12	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	11	nsubj	_	_
+12	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 13	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	11	cop	_	_
 14	oder	oder	CCONJ	CC	_	19	cc	_	_
 15	wie	wie	ADV	WRB	_	16	advmod	_	_
 16	viele	viel	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
 17	Regeln	Regel	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
-18	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	19	nsubj	_	_
+18	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
 19	einhalten	einhalten	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	11	conj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -8024,7 +8024,7 @@
 # text_en = First, we must educate people on how to protect themselves better online.
 1	Zuerst	zuerst	ADV	RB	Degree=Pos	6	advmod	_	_
 2	müssen	müssen	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	6	aux	_	_
-3	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	6	nsubj	_	_
+3	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 4	den	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	obl:arg	_	_
 6	beibringen	beibringen	VERB	VB	_	0	root	_	SpaceAfter=No
@@ -8045,7 +8045,7 @@
 2	guter	gut	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	InflectionType=Strong
 3	Letzt	letzt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
 4	müssen	müssen	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	9	aux	_	_
-5	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	9	nsubj	_	_
+5	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 6	es	es	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
 7	den	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	obl:arg	_	_
@@ -8709,7 +8709,7 @@
 4	,	,	PUNCT	,	_	9	punct	_	_
 5	in	in	ADP	IN	_	6	case	_	_
 6	denen	der	PRON	REL	Case=Dat|Number=Plur|PronType=Dem,Rel	9	obl	_	_
-7	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	9	nsubj	_	_
+7	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 8	bereits	bereits	ADV	RB	Degree=Pos	9	advmod	_	_
 9	vertreten	vertreten	ADJ	JJ	Degree=Pos	3	acl:relcl	_	_
 10	bzw.	bzw.	CCONJ	CC	_	14	cc	_	_
@@ -17540,7 +17540,7 @@
 2	Really	Really	ADV	RB	Degree=Pos	4	advmod	_	Proper=True
 3	really	really	ADV	RB	Degree=Pos	2	conj	_	Proper=True
 4	love	love	VERB	VB	_	11	csubj:pass	_	Proper=True
-5	you	you	PRON	PRP	Person=2	4	obj	_	SpaceAfter=No|Proper=True
+5	you	you	PRON	PRP	Foreign=Yes|Person=2|PronType=Prs	4	obj	_	SpaceAfter=No|Proper=True
 6	“	“	PUNCT	''	_	4	punct	_	_
 7	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	11	aux:pass	_	_
 8-9	im	_	_	_	_	_	_	_	_
@@ -17633,7 +17633,7 @@
 15	„	„	PUNCT	``	_	16	punct	_	SpaceAfter=No
 16	Thought	think	VERB	VBC	Foreign=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Past	14	nsubj	_	Lang=en|Proper=True
 17	'	'	PUNCT	''	Foreign=Yes	19	punct	_	SpaceAfter=No|Lang=en|Proper=True
-18	Ya	you	PRON	PRP	Case=Nom|Foreign=Yes|Number=Sing|Person=2	19	nsubj	_	Lang=en|Proper=True
+18	Ya	you	PRON	PRP	Case=Nom|Foreign=Yes|Number=Sing|Person=2|PronType=Prs	19	nsubj	_	Lang=en|Proper=True
 19	Knew	know	VERB	VBC	Foreign=Yes|Mood=Sub|Number=Sing|Person=2|Tense=Past	16	ccomp	_	SpaceAfter=No|Lang=en|Proper=True
 20	“	“	PUNCT	''	_	16	punct	_	_
 21	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -19080,7 +19080,7 @@
 29	Joan	Joan	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
 30	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	Großmutter	Großmutter	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	28	xcomp	_	_
-32	zweier	zweier	DET	DT	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Person=3	33	det	_	_
+32	zweier	zweier	NUM	DT	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	33	nummod	_	_
 33	Könige	König	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	_
 34	von	von	ADP	IN	_	35	case	_	_
 35	England	England	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	33	nmod	_	_
@@ -20505,7 +20505,7 @@
 22	kenne	kennen	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	12	ccomp	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	27	punct	_	_
 24	ob	ob	SCONJ	CC	_	27	mark	_	_
-25	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	27	nsubj	_	_
+25	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
 26	geistige	geistig	ADJ	JJ	Case=Nom|Degree=Pos|Number=Plur	27	amod	_	InflectionType=Strong
 27	Verwandte	Verwandte	NOUN	NN	Case=Nom|Number=Plur	22	conj	_	_
 28	seien	sein	AUX	VBC	Mood=Sub|Number=Plur|Person=1|Tense=Pres	27	cop	_	SpaceAfter=No
@@ -20621,7 +20621,7 @@
 8	der	der	DET	DT	Case=Gen|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	Schikanen	Schikane	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
 10	gegen	gegen	ADP	IN	_	11	case	_	_
-11	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1	9	nmod	_	SpaceAfter=No
+11	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	nmod	_	SpaceAfter=No
 12	“	“	PUNCT	''	_	7	punct	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	7	punct	_	_
 14	sagte	sagen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -21622,7 +21622,7 @@
 3	betont	betonen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	10	punct	_	_
 5	dass	dass	SCONJ	CC	_	10	mark	_	_
-6	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	10	nsubj	_	_
+6	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
 7	nicht	nicht	PART	RB	Polarity=Neg	10	advmod	_	_
 8	mit	mit	ADP	IN	_	9	case	_	_
 9	denen	der	PRON	DT	Case=Dat|Number=Plur|PronType=Dem,Rel	10	obl	_	_
@@ -21639,14 +21639,14 @@
 # sent_id = n04002029
 # text = Wir werden prüfen, ob und wie wir im nächsten Abschnitt fortfahren.
 # text_en = We will evaluate whether and how to continue onto the next section.
-1	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+1	Wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 2	werden	werden	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	3	aux	_	_
 3	prüfen	prüfen	VERB	VB	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	13	punct	_	_
 5	ob	ob	SCONJ	CC	_	13	mark	_	_
 6	und	und	CCONJ	CC	_	7	cc	_	_
 7	wie	wie	ADV	WRB	_	5	conj	_	_
-8	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1	13	nsubj	_	_
+8	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
 9-10	im	_	_	_	_	_	_	_	_
 9	in	in	ADP	APPR	_	12	case	_	_
 10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -22571,10 +22571,10 @@
 5	niemand	niemand	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 6	der	der	DET	DT	Case=Gen|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 7	auf	auf	ADP	IN	_	8	case	_	_
-8	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1	9	nmod	_	_
+8	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	nmod	_	_
 9	Wartenden	Wartende	NOUN	NNA	Case=Gen|Number=Plur	5	nmod	_	InflectionType=Weak
 10	auf	auf	ADP	IN	_	11	case	_	_
-11	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1	12	obl	_	Proper=True
+11	uns	wir	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	12	obl	_	Proper=True
 12	wartet	warten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	ccomp	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -25882,7 +25882,7 @@
 2	übernahm	übernehmen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Führung	Führung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
-5	zweier	zwei	DET	DT	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur|Person=3	6	det	_	_
+5	zweier	zwei	NUM	DT	Case=Gen|Gender=Fem|Number=Plur|NumType=Card	6	nummod	_	_
 6	Legionen	Legion	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
 7	in	in	ADP	IN	_	8	case	_	_
 8	Capua	Capua	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
