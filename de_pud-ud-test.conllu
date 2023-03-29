@@ -1510,7 +1510,7 @@
 3	dieses	dieser	DET	DT	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
 4	Experiments	Experiment	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 5	liefern	liefern	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-6	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Masc|Number=Plur	7	det	_	_
+6	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Masc|Number=Plur	7	amod	_	_
 7	Belege	Beleg	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
 8	dafür	dafür	ADV	RB	PronType=Dem	7	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	16	punct	_	_
@@ -3013,7 +3013,7 @@
 12	dass	dass	SCONJ	CC	_	20	mark	_	_
 13	mindestens	mindestens	ADV	RB	Degree=Pos	14	advmod	_	_
 14	sechs	sechs	NUM	CD	NumType=Card	16	nummod	_	_
-15	weitere	weiterer	ADJ	DT	Case=Nom|Gender=Masc|Number=Plur	16	det	_	_
+15	weitere	weiterer	ADJ	DT	Case=Nom|Gender=Masc|Number=Plur	16	amod	_	_
 16	Journalisten	Journalist	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
 17	in	in	ADP	IN	_	18	case	_	_
 18	Quebec	Quebec	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	_
@@ -17004,7 +17004,7 @@
 1	Disney	Disney	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	erhielt	erhalten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	einen	ein	DET	PDT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	_
-4	weiteren	weiterer	ADJ	DT	Case=Acc|Gender=Masc|Number=Sing	5	det	_	_
+4	weiteren	weiterer	ADJ	DT	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
 5	Ehrenoscar	Ehrenoscar	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|Proper=True
 6	,	,	PUNCT	,	_	18	punct	_	_
 7	der	der	PRON	REL	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	18	nsubj	_	_
@@ -17128,7 +17128,7 @@
 20	Entscheidung	Entscheidung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	_
 21	über	über	ADP	IN	_	24	case	_	_
 22	eine	ein	DET	PDT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	24	det	_	_
-23	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Fem|Number=Sing	24	det	_	_
+23	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Fem|Number=Sing	24	amod	_	_
 24	Erhöhung	Erhöhung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	nmod	_	_
 25	der	der	DET	DT	Case=Gen|Definite=Def|Number=Plur|PronType=Art	26	det	_	_
 26	Benzinpreise	Benzinpreise	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
@@ -17519,7 +17519,7 @@
 11	Polen	Polen	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	_
 12	jedoch	jedoch	ADV	RB	Degree=Pos	2	advmod	_	_
 13	keine	kein	DET	PDT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	16	det	_	_
-14	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Fem|Number=Sing	16	det	_	_
+14	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Fem|Number=Sing	16	amod	_	_
 15	öffentliche	öffentlich	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	InflectionType=Mixed
 16	Anerkennung	Anerkennung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 17	ihres	ihr	DET	DTP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
@@ -17695,7 +17695,7 @@
 1	Wilkes	Wilkes	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 2	wurde	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	aux:pass	_	_
 3	zwei	zwei	NUM	CD	NumType=Card	5	nummod	_	_
-4	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Neut|Number=Plur	5	det	_	_
+4	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Neut|Number=Plur	5	amod	_	_
 5	Male	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	_
 6	wiedergewählt	wiederwählen	VERB	VBN	Tense=Past	0	root	_	_
 7	und	und	CCONJ	CC	_	9	cc	_	_
@@ -18012,7 +18012,7 @@
 4	den	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	1990ern	1990er	NOUN	NN	Case=Dat|Number=Plur	2	obl	_	_
 6	zwei	zwei	NUM	CD	NumType=Card	7	nummod	_	_
-7	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Neut|Number=Plur	8	det	_	_
+7	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Neut|Number=Plur	8	amod	_	_
 8	Alben	Album	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	23	punct	_	_
 10	die	der	PRON	REL	Case=Nom|Number=Plur|PronType=Dem,Rel	23	nsubj	_	_
@@ -18556,7 +18556,7 @@
 25	Segel	Segel	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	24	flat:name	_	_
 26	in	in	ADP	IN	_	29	case	_	_
 27	einer	ein	DET	PDT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	29	det	_	_
-28	weiteren	weiterer	ADJ	DT	Case=Dat|Gender=Fem|Number=Sing	29	det	_	_
+28	weiteren	weiterer	ADJ	DT	Case=Dat|Gender=Fem|Number=Sing	29	amod	_	_
 29	Hauptrolle	Hauptrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -18587,7 +18587,7 @@
 21	-	-	PUNCT	-	_	19	punct	_	SpaceAfter=No
 22	Levitt	Levitt	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	16	conj	_	_
 23	in	in	ADP	IN	_	25	case	_	_
-24	weiteren	weiterer	ADJ	DT	Case=Dat|Gender=Fem|Number=Plur	25	det	_	_
+24	weiteren	weiterer	ADJ	DT	Case=Dat|Gender=Fem|Number=Plur	25	amod	_	_
 25	Hauptrollen	Hauptrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	nmod	_	_
 26	zu	zu	PART	RP	_	27	mark	_	_
 27	drehen	drehen	VERB	VB	_	5	xcomp	_	_
@@ -19879,7 +19879,7 @@
 8	auch	auch	ADV	RB	Degree=Pos	13	advmod	_	_
 9	noch	noch	ADV	RB	Degree=Pos	13	advmod	_	_
 10	gegen	gegen	ADP	IN	_	12	case	_	_
-11	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Masc|Number=Plur	12	det	_	_
+11	weitere	weiterer	ADJ	DT	Case=Acc|Gender=Masc|Number=Plur	12	amod	_	_
 12	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	obl	_	_
 13	ermittelt	ermitteln	VERB	VBN	Tense=Past	5	ccomp	_	_
 14	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	aux:pass	_	SpaceAfter=No
@@ -23242,7 +23242,7 @@
 13	von	von	ADP	IN	_	14	case	_	_
 14	der	der	PRON	REL	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem,Rel	18	obl	_	_
 15	viele	viel	DET	PDT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
-16	weitere	weiterer	ADJ	DT	Case=Nom|Gender=Fem|Number=Plur	17	det	_	_
+16	weitere	weiterer	ADJ	DT	Case=Nom|Gender=Fem|Number=Plur	17	amod	_	_
 17	Fundstätten	Fundstätte	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	_
 18	bekannt	bekennen	ADJ	JJ	Degree=Pos	11	acl:relcl	_	_
 19	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	18	cop	_	SpaceAfter=No
