@@ -36,6 +36,10 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2023-05-15 v2.12
+  * Fixed: nominals cannot have obj and iobj children.
+  * Dative arguments are oblique, hence they are obl:arg and not iobj.
+  * PRON vs. DET annotation made consistent across German UD treebanks.
 * 2021-05-15 v2.8
   * Relation det:predet changed to just det. The subtype is not needed
     and is not used in the other German treebanks.
