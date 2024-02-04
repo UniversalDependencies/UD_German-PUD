@@ -11833,7 +11833,7 @@
 11	Modell	Modell	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	_
 12	als	als	CCONJ	CC	_	14	mark	_	_
 13	eigenständige	eigenständig	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	InflectionType=Strong
-14	Kontinente	Kontinent	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	acl	_	_
+14	Kontinente	Kontinent	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	advcl	_	_
 15	betrachtet	betrachten	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	15	punct	_	_
 
