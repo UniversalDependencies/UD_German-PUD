@@ -11788,9 +11788,9 @@
 7	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 8	möglicherweise	möglicherweise	ADV	RB	Degree=Pos	9	advmod	_	_
 9	schlimmste	schlimm	ADJ	JJ	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	10	amod	_	InflectionType=Weak
-10	Ort	Ort	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	acl	_	_
+10	Ort	Ort	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	advcl	_	_
 11	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	Welt	Welt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	Welt	Welt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
 13	bezeichnet	bezeichnen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	19	punct	_	_
 15	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	19	nsubj	_	_
@@ -11833,7 +11833,7 @@
 11	Modell	Modell	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	_
 12	als	als	CCONJ	CC	_	14	mark	_	_
 13	eigenständige	eigenständig	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	InflectionType=Strong
-14	Kontinente	Kontinent	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	acl	_	_
+14	Kontinente	Kontinent	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	advcl	_	_
 15	betrachtet	betrachten	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	15	punct	_	_
 
