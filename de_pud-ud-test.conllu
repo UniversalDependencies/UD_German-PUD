@@ -2,7 +2,7 @@
 # sent_id = n01001011
 # text = „Ein Großteil des digitalen Übergangs ist für die Vereinigten Staaten neu, ein friedlicher Machtwechsel hingegen nicht“, schrieb Obamas Sonderberaterin Kori Schulman am Montag in einem Blogeintrag.
 # text_en = “While much of the digital transition is unprecedented in the United States, the peaceful transition of power is not,” Obama special assistant Kori Schulman wrote in a blog post Monday.
-1	„	„	PUNCT	``	_	12	punct	_	SpaceAfter=No
+1	„	„	PUN	``	_	12	punct	_	SpaceAfter=No
 2	Ein	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	3	det	_	_
 3	Großteil	Großteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 4	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
