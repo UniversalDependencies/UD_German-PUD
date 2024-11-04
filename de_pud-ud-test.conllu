@@ -89,7 +89,7 @@
 19	als	als	CCONJ	CC	_	20	cc	_	_
 20	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	conj	_	_
 21	„	„	PUNCT	``	_	23	punct	_	SpaceAfter=No
-22	enorm	enorm	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	_
+22	enorm	enorm	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	23	advmod	_	_
 23	viele	viel	DET	DT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	26	det	_	SpaceAfter=No
 24	“	“	PUNCT	``	_	23	punct	_	_
 25	legale	legal	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	26	amod	_	InflectionType=Strong
