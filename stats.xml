@@ -88,8 +88,8 @@
     <dep name="acl">18</dep>
     <dep name="acl:relcl">271</dep>
     <dep name="advcl">223</dep>
-    <dep name="advmod">1120</dep>
-    <dep name="amod">1101</dep>
+    <dep name="advmod">1121</dep>
+    <dep name="amod">1100</dep>
     <dep name="appos">265</dep>
     <dep name="aux">367</dep>
     <dep name="aux:pass">230</dep>
