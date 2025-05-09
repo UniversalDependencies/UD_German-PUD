@@ -8376,7 +8376,7 @@
 4	Futures	Future	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	_
 5	steigen	steigen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 6	um	um	ADP	IN	_	10	case	_	_
-7	mehr	mehr	ADV	RB	Degree=Pos	10	case	_	_
+7	mehr	mehr	ADV	RB	Degree=Pos|ExtPos=ADV	10	case	_	_
 8	als	als	SCONJ	CC	_	7	fixed	_	_
 9	1	1	NUM	CD	NumType=Card	10	nummod	_	_
 10	%	%	SYM	SYM	_	5	obl	_	SpaceAfter=No
@@ -8864,7 +8864,7 @@
 12	in	in	ADP	IN	_	14	case	_	_
 13	seinen	sein	DET	DTP$	Case=Dat|Gender=Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Produkten	Produkt	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	19	obl	_	_
-15	mehr	mehr	ADV	RB	Degree=Pos	18	advmod	_	_
+15	mehr	mehr	ADV	RB	Degree=Pos|ExtPos=ADV	18	advmod	_	_
 16	als	als	CCONJ	CC	_	15	fixed	_	_
 17	nur	nur	ADV	RB	Degree=Pos	18	advmod	_	_
 18	Produktivitätswerkzeuge	Produktivitätswerkzeug	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	19	obj	_	_
@@ -14307,7 +14307,7 @@
 12	an	an	VERB	DC	_	3	compound:prt	_	SpaceAfter=No
 13	;	;	PUNCT	:	_	18	punct	_	_
 14	und	und	CCONJ	CC	_	18	cc	_	_
-15	zwar	zwar	ADV	RB	Degree=Pos	14	fixed	_	_
+15	zwar	zwar	ADV	RB	Degree=Pos	18	advmod	_	_
 16-17	im	_	_	_	_	_	_	_	_
 16	in	in	ADP	APPR	_	18	case	_	_
 17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -15910,7 +15910,7 @@
 12	genannt	nennen	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	18	punct	_	_
 14	und	und	CCONJ	CC	_	18	cc	_	_
-15	zwar	zwar	ADV	RB	Degree=Pos	14	fixed	_	_
+15	zwar	zwar	ADV	RB	Degree=Pos	18	advmod	_	_
 16	sowohl	sowohl	CCONJ	CC	_	18	cc:preconj	_	_
 17	zu	zu	ADP	IN	_	18	case	_	_
 18	Lebzeiten	Lebzeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	conj	_	_
@@ -19732,7 +19732,7 @@
 30	auf	auf	VERB	DC	_	15	compound:prt	_	SpaceAfter=No
 31	,	,	PUNCT	,	_	34	punct	_	_
 32	und	und	CCONJ	CC	_	34	cc	_	_
-33	zwar	zwar	ADV	RB	Degree=Pos	32	fixed	_	_
+33	zwar	zwar	ADV	RB	Degree=Pos	34	advmod	_	_
 34	unabhängig	unabhängig	ADV	RB	Degree=Pos	15	conj	_	_
 35	von	von	ADP	IN	_	38	case	_	_
 36	ihrer	ihr	DET	DTP$	Case=Dat|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	38	det:poss	_	_
@@ -23738,9 +23738,9 @@
 13	öffentlichen	öffentlich	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	InflectionType=Weak
 14	Leben	Leben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	_
 15	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	20	aux	_	_
-16	so	so	ADV	RB	Degree=Pos	20	advmod	_	_
-17	gut	gut	ADV	RB	Degree=Pos	16	fixed	_	_
-18	wie	wie	CCONJ	CC	_	16	fixed	_	_
+16	so	so	ADV	RB	Degree=Pos|ExtPos=ADV	19	advmod	_	_
+17	gut	gut	ADJ	RB	Degree=Pos	16	fixed	_	_
+18	wie	wie	SCONJ	IN	_	16	fixed	_	_
 19	unmöglich	unmöglich	ADJ	JJ	Degree=Pos	20	xcomp	_	_
 20	geworden	werden	VERB	VBN	Tense=Past	3	parataxis	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	3	punct	_	_
