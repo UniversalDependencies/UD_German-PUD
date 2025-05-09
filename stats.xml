@@ -15,11 +15,11 @@
   <fusions unique="9" /><!-- im, am, zum, zur, vom, beim, ins, z., ans -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">1412</tag><!-- neu, groß, erst, letzt, gut, hoch, eigen, britisch, politisch, weiterer -->
+    <tag name="ADJ">1413</tag><!-- neu, groß, erst, letzt, gut, hoch, eigen, britisch, politisch, weiterer -->
     <tag name="ADP">2043</tag><!-- in, von, zu, mit, für, an, auf, nach, bei, über -->
-    <tag name="ADV">1052</tag><!-- auch, so, noch, nur, sehr, mehr, jedoch, wie, davon, immer -->
+    <tag name="ADV">1051</tag><!-- auch, so, noch, nur, sehr, mehr, jedoch, wie, davon, immer -->
     <tag name="AUX">872</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, mögen, dürfen, do -->
-    <tag name="CCONJ">743</tag><!-- und, als, aber, wie, oder, doch, sowie, bis, bzw., sowohl -->
+    <tag name="CCONJ">742</tag><!-- und, als, aber, wie, oder, doch, sowie, bis, bzw., sowohl -->
     <tag name="DET">3106</tag><!-- der, ein, sein, dieser, ihr, viel, alle, kein, anderer, jeder -->
     <tag name="NOUN">4190</tag><!-- Jahr, Zeit, Land, Teil, Mensch, Stadt, Jahrhundert, Geschichte, Film, Regierung -->
     <tag name="NUM">356</tag><!-- zwei, drei, vier, 3, sechs, zehn, 1, 10, 50, 100 -->
@@ -27,13 +27,13 @@
     <tag name="PRON">980</tag><!-- der, er, es, sich, sie, ich, wir, was, man, etwas -->
     <tag name="PROPN">1218</tag><!-- Chr., China, Trump, USA, Frankreich, Albanien, Clinton, Joseph, US, Disney -->
     <tag name="PUNCT">2771</tag><!-- ,, ., -, „, “, (, ), :, –, ; -->
-    <tag name="SCONJ">326</tag><!-- dass, als, um, wenn, nachdem, weil, ob, indem, wie, bevor -->
+    <tag name="SCONJ">327</tag><!-- dass, als, um, wenn, nachdem, weil, ob, wie, indem, bevor -->
     <tag name="SYM">22</tag><!-- %, €, $, ° -->
     <tag name="VERB">1978</tag><!-- haben, sein, sagen, geben, werden, beginnen, finden, führen, an, kommen -->
     <tag name="X">30</tag><!-- E, Multi, Bundes, Demografie, Druck, Einzel, Ex, Fjögur, Handel, Hey -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="48">
+  <feats unique="49">
     <feat name="Abbr" value="Yes" upos="NOUN">3</feat><!-- B. -->
     <feat name="AdpType" value="Prep" upos="ADP">3</feat><!-- zu -->
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">2641</feat><!-- die, sich, den, eine, das, einen, ein, seine, es, ihre -->
@@ -45,6 +45,7 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET">74</feat><!-- mehr, später, mehrere, besser, genauer, größere, höherer, lieber, mehreren, späteren -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">2215</feat><!-- auch, so, noch, nur, sehr, ersten, neue, jedoch, letzten, mehr -->
     <feat name="Degree" value="Sup" upos="ADJ,DET">37</feat><!-- meisten, besten, größten, schlimmsten, höchsten, Oberste, Obersten, bekannteste, beknackteste, erfoglreichste -->
+    <feat name="ExtPos" value="ADV" upos="ADV">3</feat><!-- mehr, so -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">84</feat><!-- the, a, of, El, My, de, n't, you, ', Angeles -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">3700</feat><!-- die, der, eine, sie, einer, seine, diese, Zeit, ihre, seiner -->
     <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">3447</feat><!-- dem, der, er, den, des, ein, einen, einem, Menschen, sie -->
@@ -88,7 +89,7 @@
     <dep name="acl">18</dep>
     <dep name="acl:relcl">271</dep>
     <dep name="advcl">223</dep>
-    <dep name="advmod">1121</dep>
+    <dep name="advmod">1124</dep>
     <dep name="amod">1100</dep>
     <dep name="appos">265</dep>
     <dep name="aux">367</dep>
@@ -109,7 +110,7 @@
     <dep name="discourse">1</dep>
     <dep name="expl">90</dep>
     <dep name="expl:pv">2</dep>
-    <dep name="fixed">7</dep>
+    <dep name="fixed">4</dep>
     <dep name="flat">4</dep>
     <dep name="flat:name">164</dep>
     <dep name="iobj">1</dep>
