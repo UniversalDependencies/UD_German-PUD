@@ -18084,7 +18084,7 @@
 22	man	man	PRON	EX	Case=Nom|Number=Sing|PronType=Ind	25	nsubj	_	_
 23	muss	müssen	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	25	aux	_	_
 24	aufgeschlossen	aufschließen	ADJ	JJ	Degree=Pos	25	xcomp	_	_
-25	bleiben	bleiben	VERB	VB	VerbForm=Fin	17	conj	_	SpaceAfter=No
+25	bleiben	bleiben	VERB	VB	VerbForm=Inf	17	conj	_	SpaceAfter=No
 26	.	.	PUNCT	VB	_	17	punct	_	SpaceAfter=No
 27	“	“	PUNCT	''	_	17	punct	_	_
 
