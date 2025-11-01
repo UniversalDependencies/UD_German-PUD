@@ -4094,7 +4094,7 @@
 1	Und	und	CCONJ	CC	_	3	cc	_	_
 2	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	räumte	räumen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	ein	ein	DET	DC	Definite=Ind|NumType=Card|PronType=Art	3	compound:prt	_	SpaceAfter=No
+4	ein	ein	ADV	DC	Degree=Pos	3	compound:prt	_	SpaceAfter=No
 5	:	:	PUNCT	:	_	7	punct	_	_
 6	„	„	PUNCT	``	_	7	punct	_	SpaceAfter=No
 7	Schauen	schauen	VERB	VBC	Mood=Imp|Number=Plur|Person=3|Tense=Pres	3	ccomp	_	_
@@ -10582,7 +10582,7 @@
 4	marschierte	marschieren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 5	in	in	ADP	IN	_	6	case	_	_
 6	Mähren	Mähren	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
-7	ein	ein	DET	DC	Definite=Ind|NumType=Card|PronType=Art	4	compound:prt	_	_
+7	ein	ein	ADV	DC	Degree=Pos	4	compound:prt	_	_
 8	und	und	CCONJ	CC	_	9	cc	_	_
 9	tauschte	tauschen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	conj	_	_
 10	Mojmír	Mojmír	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
@@ -14751,7 +14751,7 @@
 19	den	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 20	Niederlanden	Niederlande	PROPN	NNP	Case=Dat|Gender=Neut|Number=Plur	17	nmod	_	_
 21	beträchlich	beträchlich	ADV	RB	Degree=Pos	10	advmod	_	_
-22	ein	ein	DET	DC	Definite=Ind|NumType=Card|PronType=Art	10	compound:prt	_	SpaceAfter=No
+22	ein	ein	ADV	DC	Degree=Pos	10	compound:prt	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	10	punct	_	_
 
 # newdoc id = w01070
@@ -15726,7 +15726,7 @@
 21	Zentrum	Zentrum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	obl	_	_
 22	von	von	ADP	IN	_	23	case	_	_
 23	Thrakien	Thrakien	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	_
-24	ein	ein	DET	DC	Definite=Ind|NumType=Card|PronType=Art	18	compound:prt	_	SpaceAfter=No
+24	ein	ein	ADV	DC	Degree=Pos	18	compound:prt	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	32	punct	_	_
 26	um	um	SCONJ	CC	_	32	mark	_	_
 27	dort	dort	ADV	RB	Degree=Pos	32	advmod	_	_
@@ -17575,7 +17575,7 @@
 19	Adademy	Adademy	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	Proper=True
 20	in	in	ADP	IN	_	21	case	_	_
 21	Hammersmith	Hammersmith	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	_
-22	ein	ein	DET	DC	Definite=Ind|NumType=Card|PronType=Art	12	compound:prt	_	SpaceAfter=No
+22	ein	ein	ADV	DC	Degree=Pos	12	compound:prt	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = w01111089
@@ -17870,7 +17870,7 @@
 6	Universität	Universität	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	Proper=True
 7	von	von	ADP	IN	_	8	case	_	Proper=True
 8	Edinburgh	Edinburgh	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
-9	ein	ein	DET	DC	Definite=Ind|NumType=Card|PronType=Art	2	compound:prt	_	SpaceAfter=No
+9	ein	ein	ADV	DC	Degree=Pos	2	compound:prt	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	19	punct	_	_
 11	wo	wo	ADV	WRB	_	19	advmod	_	_
 12	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
@@ -19608,7 +19608,7 @@
 16	Joliot	Joliot	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	18	compound	_	SpaceAfter=No
 17	-	-	PUNCT	-	_	16	punct	_	SpaceAfter=No|Proper=True
 18	Curie	Curie	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
-19	ein	ein	DET	DC	Definite=Ind|NumType=Card|PronType=Art	15	compound:prt	_	SpaceAfter=No
+19	ein	ein	ADV	DC	Degree=Pos	15	compound:prt	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	23	punct	_	_
 21	dass	dass	SCONJ	CC	_	23	mark	_	_
 22	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
@@ -21033,7 +21033,7 @@
 9	ein	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	11	det	_	_
 10	komplettes	komplett	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	InflectionType=Mixed
 11	Feld	Feld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
-12	ein	ein	DET	DC	Definite=Ind|NumType=Card|PronType=Art	8	compound:prt	_	SpaceAfter=No
+12	ein	ein	ADV	DC	Degree=Pos	8	compound:prt	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	8	punct	_	_
 
 # newdoc id = n02041
@@ -22416,7 +22416,7 @@
 18	Textilarbeitern	Textilarbeiter	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	nmod	_	_
 19	und	und	CCONJ	CC	_	20	cc	_	_
 20	Lehrern	Lehrer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	18	conj	_	_
-21	ein	ein	DET	DC	Definite=Ind|NumType=Card|PronType=Art	10	compound:prt	_	SpaceAfter=No
+21	ein	ein	ADV	DC	Degree=Pos	10	compound:prt	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	8	punct	_	_
 
 # newdoc id = n04002
@@ -24729,7 +24729,7 @@
 12	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 13	jüdischen	jüdisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	InflectionType=Weak|Proper=True
 14	Volk	Volk	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	_
-15	ein	ein	DET	DC	Definite=Ind|NumType=Card|PronType=Art	4	compound:prt	_	_
+15	ein	ein	ADV	DC	Degree=Pos	4	compound:prt	_	_
 16	und	und	CCONJ	CC	_	17	cc	_	_
 17	unternahm	unternehmen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	conj	_	_
 18	mehrere	mehr	DET	DT	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	19	det	_	_
@@ -26272,7 +26272,7 @@
 11	Gaudí	Gaudí	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	_
 12	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	13	det	_	_
 13	Reform	Reform	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
-14	ein	ein	DET	DC	Definite=Ind|NumType=Card|PronType=Art	9	compound:prt	_	SpaceAfter=No
+14	ein	ein	ADV	DC	Degree=Pos	9	compound:prt	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	19	punct	_	_
 16	die	der	PRON	REL	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	19	nsubj	_	_
 17	zehn	zehn	NUM	CD	NumType=Card	18	nummod	_	_
