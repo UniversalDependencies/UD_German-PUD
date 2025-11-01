@@ -2093,7 +2093,7 @@
 # text_en = He added: "This has been one step in a long journey of finding the right combination for male hormonal contraception."
 1	Er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	fügte	fügen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	hinzu	hinzu	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
+3	hinzu	hinzu	ADV	DC	Degree=Pos	2	compound:prt	_	SpaceAfter=No
 4	:	:	PUNCT	:	_	9	punct	_	_
 5	„	„	PUNCT	``	_	9	punct	_	SpaceAfter=No
 6	Das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	nsubj	_	_
@@ -3259,7 +3259,7 @@
 2	wies	weisen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	außerdem	außerdem	ADV	RB	Degree=Pos	2	advmod	_	_
 4	darauf	darauf	ADV	RB	PronType=Dem	2	advmod	_	_
-5	hin	hin	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
+5	hin	hin	ADV	DC	Degree=Pos	2	compound:prt	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	13	punct	_	_
 7	dass	dass	SCONJ	CC	_	13	mark	_	_
 8	Rogers	Roger	PROPN	NNP	Case=Nom|Number=Sing	13	nsubj	_	_
@@ -3318,7 +3318,7 @@
 16	Vermietungsmarkt	Vermietungsmarkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
 17	landen	landen	VERB	VB	_	8	acl:relcl	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	19	punct	_	_
-19	überein	überein	VERB	DC	_	3	compound:prt	_	SpaceAfter=No
+19	überein	überein	ADV	DC	Degree=Pos	3	compound:prt	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	39	punct	_	_
 21	was	was	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	39	nsubj	_	_
 22	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
@@ -4318,7 +4318,7 @@
 21	Masse	Masse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
 22	grobkörniger	grobkörnig	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	InflectionType=Strong
 23	Videoschleifen	Videoschleife	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_
-24	hinzu	hinzu	VERB	DC	_	12	compound:prt	_	SpaceAfter=No
+24	hinzu	hinzu	ADV	DC	Degree=Pos	12	compound:prt	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = n01063051
@@ -4776,7 +4776,7 @@
 1	Vega	Vega	PROPN	NNP	Case=Nom|Number=Sing	2	nsubj	_	_
 2	wies	weisen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	darauf	darauf	ADV	RB	PronType=Dem	2	advmod	_	_
-4	hin	hin	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
+4	hin	hin	ADV	DC	Degree=Pos	2	compound:prt	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	14	punct	_	_
 6	dass	dass	SCONJ	CC	_	14	mark	_	_
 7	dessen	der	PRON	DT	Case=Gen|Number=Sing|PronType=Dem,Rel	8	nmod:poss	_	_
@@ -5060,7 +5060,7 @@
 10	drei	drei	NUM	CD	NumType=Card	12	nummod	_	_
 11	umgedrehten	umdrehen	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	InflectionType=Strong
 12	Bechern	Bechern	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	obl	_	_
-13	hin	hin	VERB	DC	_	16	compound:prt	_	_
+13	hin	hin	ADV	DC	Degree=Pos	16	compound:prt	_	_
 14	und	und	CCONJ	CC	_	15	cc	_	_
 15	her	her	VERB	DC	_	13	conj	_	_
 16	bewegen	bewegen	VERB	VB	_	2	advcl	_	SpaceAfter=No
@@ -5164,7 +5164,7 @@
 2	tue	tun	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
 3	mich	ich	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Rcp	2	obj	_	_
 4	auch	auch	ADV	RB	Degree=Pos	2	advmod	_	_
-5	schwer	schwer	VERB	DC	_	2	compound:prt	_	_
+5	schwer	schwer	ADV	DC	Degree=Pos	2	compound:prt	_	_
 6	mit	mit	ADP	IN	_	7	case	_	_
 7	Passwörtern	Passwort	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	_	_
@@ -5676,7 +5676,7 @@
 2	hört	hören	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	dann	dann	ADV	RB	Degree=Pos	2	advmod	_	_
 4	genauer	genau	ADV	RB	Degree=Cmp	2	advmod	_	_
-5	hin	hin	VERB	DC	_	2	compound:prt	_	_
+5	hin	hin	ADV	DC	Degree=Pos	2	compound:prt	_	_
 6	und	und	CCONJ	CC	_	7	cc	_	_
 7	wartet	warten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	conj	_	_
 8	auf	auf	ADP	IN	_	11	case	_	_
@@ -5753,7 +5753,7 @@
 3	in	in	ADP	IN	_	5	case	_	_
 4	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Gegend	Gegend	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
-6	zurück	zurück	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
+6	zurück	zurück	ADV	DC	Degree=Pos	2	compound:prt	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	17	punct	_	_
 8	nachdem	nachdem	SCONJ	CC	_	17	mark	_	_
 9	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
@@ -6283,7 +6283,7 @@
 31	fügt	fügen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 32	Dr.	Dr.	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	Proper=True
 33	Lee	Lee	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	32	appos	_	_
-34	hinzu	hinzu	VERB	DC	_	31	compound:prt	_	SpaceAfter=No
+34	hinzu	hinzu	ADV	DC	Degree=Pos	31	compound:prt	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	31	punct	_	_
 
 # newdoc id = n01095
@@ -6378,7 +6378,7 @@
 25	nötig	nötig	ADJ	JJ	Degree=Pos	18	acl:relcl	_	_
 26	sind	sein	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	25	cop	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	28	punct	_	_
-28	gegenüber	gegenüber	VERB	DC	_	11	compound:prt	_	SpaceAfter=No
+28	gegenüber	gegenüber	ADV	DC	Degree=Pos	11	compound:prt	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = n01096032
@@ -6526,7 +6526,7 @@
 5	zwei	zwei	NUM	CD	NumType=Card	6	nummod	_	_
 6	Minaretten	Minarett	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	3	nmod	_	_
 7	gleitet	gleiten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-8	vorbei	vorbei	VERB	DC	_	7	compound:prt	_	SpaceAfter=No
+8	vorbei	vorbei	ADV	DC	Degree=Pos	7	compound:prt	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = n01098044
@@ -6556,7 +6556,7 @@
 20	an	an	ADP	APPR	_	22	case	_	_
 21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Zug	Zug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	_
-23	entlang	entlang	VERB	DC	_	16	compound:prt	_	_
+23	entlang	entlang	ADV	DC	Degree=Pos	16	compound:prt	_	_
 24	und	und	CCONJ	CC	_	25	cc	_	_
 25	klopft	klopfen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	conj	_	_
 26	vorsichtig	vorsichtig	ADV	RB	Degree=Pos	25	advmod	_	_
@@ -6808,7 +6808,7 @@
 30	auf	auf	ADP	IN	_	32	case	_	_
 31	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	32	det	_	_
 32	Schwäche	Schwäche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	obl	_	_
-33	hin	hin	VERB	DC	_	28	compound:prt	_	SpaceAfter=No
+33	hin	hin	ADV	DC	Degree=Pos	28	compound:prt	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = n01104019
@@ -6942,7 +6942,7 @@
 1	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	Hopley	Hopley	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
 3	fügte	fügen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	hinzu	hinzu	VERB	DC	_	3	compound:prt	_	SpaceAfter=No
+4	hinzu	hinzu	ADV	DC	Degree=Pos	3	compound:prt	_	SpaceAfter=No
 5	:	:	PUNCT	:	_	16	punct	_	_
 6	„	„	PUNCT	``	_	16	punct	_	SpaceAfter=No
 7	Der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -7709,7 +7709,7 @@
 9	die	der	DET	DT	Case=Nom|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	Adern	Ader	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
 11	treten	treten	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	3	parataxis	_	_
-12	hervor	hervor	VERB	DC	_	11	compound:prt	_	SpaceAfter=No
+12	hervor	hervor	ADV	DC	Degree=Pos	11	compound:prt	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	_	_
 14	ihre	ihr	DET	DTP$	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Hände	Hand	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	_
@@ -8074,7 +8074,7 @@
 13	zu	zu	ADP	APPR	_	15	case	_	_
 14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
 15	Töten	Töten	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	_
-16	zurück	zurück	VERB	DC	_	6	compound:prt	_	SpaceAfter=No
+16	zurück	zurück	ADV	DC	Degree=Pos	6	compound:prt	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = n01123012
@@ -8194,7 +8194,7 @@
 4	taktile	taktil	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	InflectionType=Weak
 5	Trend	Trend	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 6	eng	eng	ADV	RB	Degree=Pos	2	advmod	_	_
-7	zusammen	zusammen	VERB	DC	_	2	compound:prt	_	_
+7	zusammen	zusammen	ADV	DC	Degree=Pos	2	compound:prt	_	_
 8	mit	mit	ADP	IN	_	11	case	_	_
 9	unserer	unser	DET	DTP$	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	11	det:poss	_	_
 10	wachsenden	wachsend	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	InflectionType=Mixed
@@ -8885,7 +8885,7 @@
 15	an	an	ADP	IN	_	17	case	_	_
 16	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Geschichte	Geschichte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
-18	teil	teil	VERB	DC	_	8	compound:prt	_	SpaceAfter=No
+18	teil	teil	ADV	DC	Degree=Pos	8	compound:prt	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = n01136010
@@ -9383,7 +9383,7 @@
 15	kehrte	kehren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	conj	_	_
 16	immer	immer	ADV	RB	Degree=Pos	15	advmod	_	_
 17	dorthin	dorthin	ADV	RB	Degree=Pos	15	advmod	_	_
-18	zurück	zurück	VERB	DC	_	15	compound:prt	_	SpaceAfter=No
+18	zurück	zurück	ADV	DC	Degree=Pos	15	compound:prt	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	25	punct	_	_
 20	wo	wo	ADV	WRB	_	25	advmod	_	_
 21	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
@@ -9451,7 +9451,7 @@
 21	,	,	PUNCT	,	_	3	punct	_	_
 22	fügte	fügen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 23	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
-24	hinzu	hinzu	VERB	DC	_	22	compound:prt	_	SpaceAfter=No
+24	hinzu	hinzu	ADV	DC	Degree=Pos	22	compound:prt	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	22	punct	_	_
 
 # sent_id = n01144041
@@ -10934,7 +10934,7 @@
 13	Französisch	Französisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	15	compound	_	SpaceAfter=No|Proper=True
 14	-	-	PUNCT	-	_	13	punct	_	SpaceAfter=No|Proper=True
 15	Kamerun	Kamerun	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
-16	zusammen	zusammen	VERB	DC	_	6	compound:prt	_	SpaceAfter=No
+16	zusammen	zusammen	ADV	DC	Degree=Pos	6	compound:prt	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	23	punct	_	_
 18	um	um	SCONJ	CC	_	23	mark	_	_
 19	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -13173,7 +13173,7 @@
 3	eine	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	_
 4	einfache	einfach	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	InflectionType=Mixed
 5	Infrastruktur	Infrastruktur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
-6	dazu	dazu	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
+6	dazu	dazu	ADV	DC	Degree=Pos	2	compound:prt	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	10	punct	_	_
 8	etwa	etwa	ADV	RB	Degree=Pos	10	advmod	_	_
 9	rustikale	rustikal	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	InflectionType=Strong
@@ -13467,7 +13467,7 @@
 17	kehrte	kehren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 18	nach	nach	ADP	IN	_	19	case	_	_
 19	Ägypten	Ägypten	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	_
-20	zurück	zurück	VERB	DC	_	17	compound:prt	_	SpaceAfter=No
+20	zurück	zurück	ADV	DC	Degree=Pos	17	compound:prt	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	17	punct	_	_
 
 # sent_id = w01052038
@@ -13485,7 +13485,7 @@
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Norden	Norden	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
 10	Amurrus	Amurrus	PROPN	NNP	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
-11	wieder	wieder	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
+11	wieder	wieder	ADV	DC	Degree=Pos	2	compound:prt	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	17	punct	_	_
 13	ein	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	15	det	_	_
 14	gutes	gut	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	InflectionType=Mixed
@@ -14175,7 +14175,7 @@
 9	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 10	täglichen	täglich	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	InflectionType=Weak
 11	Lebens	Leben	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
-12	dar	dar	VERB	DC	_	3	compound:prt	_	SpaceAfter=No
+12	dar	dar	ADV	DC	Degree=Pos	3	compound:prt	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	22	punct	_	_
 14	und	und	CCONJ	CC	_	22	cc	_	_
 15	ihnen	sie	PRON	PRP	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	obl:arg	_	_
@@ -15528,7 +15528,7 @@
 6	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 7	Katholischen	katholisch	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	InflectionType=Weak|Proper=True
 8	Kirche	Kirche	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	Proper=True
-9	entgegen	entgegen	VERB	DC	_	3	compound:prt	_	SpaceAfter=No
+9	entgegen	entgegen	ADV	DC	Degree=Pos	3	compound:prt	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	29	punct	_	_
 11	und	und	CCONJ	CC	_	29	cc	_	_
 12	theoretisch	theoretisch	ADV	RB	Degree=Pos	29	advmod	_	_
@@ -15718,7 +15718,7 @@
 13	große	groß	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	InflectionType=Mixed
 14	mazedonische	mazedonisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	conj	_	InflectionType=Mixed|Proper=True
 15	Armee	Armee	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
-16	zusammen	zusammen	VERB	DC	_	10	compound:prt	_	_
+16	zusammen	zusammen	ADV	DC	Degree=Pos	10	compound:prt	_	_
 17	und	und	CCONJ	CC	_	18	cc	_	_
 18	marschierte	marschieren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	conj	_	_
 19	in	in	ADP	IN	_	21	case	_	_
@@ -17635,7 +17635,7 @@
 1	Außerdem	außerdem	ADV	RB	Degree=Pos	2	advmod	_	_
 2	fand	finden	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	Disney	Disney	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
-4	heraus	heraus	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
+4	heraus	heraus	ADV	DC	Degree=Pos	2	compound:prt	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	16	punct	_	_
 6	dass	dass	SCONJ	CC	_	16	mark	_	_
 7	Universal	Universal	PROPN	NNP	Case=Nom|Number=Sing	16	nsubj	_	_
@@ -17947,7 +17947,7 @@
 1	Dann	dann	ADV	RB	Degree=Pos	2	advmod	_	_
 2	kehrte	kehren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-4	zurück	zurück	VERB	DC	_	2	compound:prt	_	_
+4	zurück	zurück	ADV	DC	Degree=Pos	2	compound:prt	_	_
 5	nach	nach	ADP	IN	_	6	case	_	_
 6	Kirriemuir	Kirriemuir	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	_	_
@@ -18267,7 +18267,7 @@
 7	kehrte	kehren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 8	Geyer	Geyer	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 9	1984	1984	NUM	CD	NumType=Card	7	obl:tmod	_	_
-10	zurück	zurück	VERB	DC	_	7	compound:prt	_	SpaceAfter=No
+10	zurück	zurück	ADV	DC	Degree=Pos	7	compound:prt	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	17	punct	_	_
 12	um	um	SCONJ	CC	_	17	mark	_	_
 13	in	in	ADP	IN	_	15	case	_	_
@@ -18629,7 +18629,7 @@
 8	und	und	CCONJ	CC	_	10	cc	_	_
 9	Kenseth	Kenseth	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 10	ging	gehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	conj	_	_
-11	davon	davon	VERB	DC	_	10	compound:prt	_	SpaceAfter=No
+11	davon	davon	ADV	DC	Degree=Pos	10	compound:prt	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = w01129037
@@ -19973,7 +19973,7 @@
 9	Mal	Mal	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
 10	seit	seit	ADP	IN	_	11	case	_	_
 11	1952	1952	NUM	CD	NumType=Card	3	obl	_	_
-12	wieder	wieder	VERB	DC	_	3	compound:prt	_	_
+12	wieder	wieder	ADV	DC	Degree=Pos	3	compound:prt	_	_
 13	und	und	CCONJ	CC	_	14	cc	_	_
 14	erlangten	erlangen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	3	conj	_	_
 15	34	34	NUM	CD	NumType=Card	16	nummod	_	_
@@ -20178,7 +20178,7 @@
 35	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
 36	erklärte	erklären	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	18	conj	_	_
 37	sich	sich	PRON	PRP	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	36	obj	_	_
-38	bereit	bereit	VERB	DC	_	36	compound:prt	_	SpaceAfter=No
+38	bereit	bereit	ADV	DC	Degree=Pos	36	compound:prt	_	SpaceAfter=No
 39	,	,	PUNCT	,	_	43	punct	_	_
 40	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 41	Song	Song	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	43	obj	_	_
@@ -21440,7 +21440,7 @@
 14	(	(	PUNCT	(	_	15	punct	_	SpaceAfter=No
 15	vorerst	vorerst	ADV	RB	Degree=Pos	8	advmod	_	SpaceAfter=No
 16	)	)	PUNCT	)	_	15	punct	_	_
-17	näher	nah	VERB	DC	_	8	compound:prt	_	SpaceAfter=No
+17	näher	nah	ADV	DC	Degree=Pos	8	compound:prt	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	8	punct	_	_
 
 # newdoc id = n02074
@@ -21858,7 +21858,7 @@
 13	Einiges	einige	DET	NN	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	2	obj	_	_
 14	zu	zu	PART	RP	_	15	mark	_	_
 15	wünschen	wünschen	VERB	VB	VerbForm=Inf	13	xcomp	_	_
-16	übrig	übrig	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
+16	übrig	übrig	ADV	DC	Degree=Pos	2	compound:prt	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n03003
@@ -22722,7 +22722,7 @@
 17	einer	ein	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	18	det	_	_
 18	Totalschließung	Totalschließung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 19	“	“	PUNCT	''	_	15	punct	_	_
-20	zurück	zurück	VERB	DC	_	3	compound:prt	_	SpaceAfter=No
+20	zurück	zurück	ADV	DC	Degree=Pos	3	compound:prt	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n04007015
@@ -24151,7 +24151,7 @@
 1	Der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Fund	Fund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	geht	gehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-4	zurück	zurück	VERB	DC	_	3	compound:prt	_	_
+4	zurück	zurück	ADV	DC	Degree=Pos	3	compound:prt	_	_
 5	auf	auf	ADP	IN	_	10	case	_	_
 6	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 7	frühe	früh	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	InflectionType=Weak
@@ -24747,7 +24747,7 @@
 3	brannte	brennen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	dabei	dabei	ADV	RB	Degree=Pos	3	advmod	_	_
 5	vollständig	vollständig	ADV	RB	Degree=Pos	3	advmod	_	_
-6	nieder	nieder	VERB	DC	_	3	compound:prt	_	SpaceAfter=No
+6	nieder	nieder	ADV	DC	Degree=Pos	3	compound:prt	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = w02019085
@@ -25039,7 +25039,7 @@
 1	Die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Alphabetisierung	Alphabetisierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 3	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	aux	_	_
-4	verloren	verlieren	VERB	DC	_	5	compound:prt	_	_
+4	verloren	verlieren	ADV	DC	Degree=Pos	5	compound:prt	_	_
 5	gegangen	gehen	VERB	VBN	Tense=Past	0	root	_	_
 6	und	und	CCONJ	CC	_	12	cc	_	_
 7	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -25458,7 +25458,7 @@
 9	in	in	ADP	IN	_	11	case	_	_
 10	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Schweiz	Schweiz	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
-12	zurück	zurück	VERB	DC	_	4	compound:prt	_	SpaceAfter=No
+12	zurück	zurück	ADV	DC	Degree=Pos	4	compound:prt	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	_	_
 14	zusammen	zusammen	ADV	RB	Degree=Pos	16	advmod	_	_
 15	mit	mit	ADP	IN	_	16	case	_	_
@@ -25702,7 +25702,7 @@
 19	für	für	ADP	IN	_	21	case	_	_
 20	alle	alle	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	21	det	_	_
 21	Straftaten	Straftat	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obl	_	_
-22	zurück	zurück	VERB	DC	_	17	compound:prt	_	SpaceAfter=No
+22	zurück	zurück	ADV	DC	Degree=Pos	17	compound:prt	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = w04003054
@@ -26166,7 +26166,7 @@
 5	Filmeproduktionen	Filmeproduktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	_
 6	mit	mit	ADP	IN	_	7	case	_	_
 7	Morricone	Morricone	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
-8	zusammen	zusammen	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
+8	zusammen	zusammen	ADV	DC	Degree=Pos	2	compound:prt	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	15	punct	_	_
 10-11	z.	_	_	_	_	_	_	_	_
 10	zu	zu	ADP	APPR	AdpType=Prep|Case=Dat	12	case	_	_
@@ -26208,7 +26208,7 @@
 10	gemeinsamen	gemeinsam	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	InflectionType=Weak
 11	geistigen	geistig	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	conj	_	InflectionType=Weak
 12	Eigentum	Eigentum	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	_
-13	auseinander	auseinander	VERB	DC	_	3	compound:prt	_	_
+13	auseinander	auseinander	ADV	DC	Degree=Pos	3	compound:prt	_	_
 14	und	und	CCONJ	CC	_	15	cc	_	_
 15	endete	enden	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	conj	_	_
 16	in	in	ADP	IN	_	18	case	_	_

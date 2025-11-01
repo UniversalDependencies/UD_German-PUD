@@ -17,7 +17,7 @@
   <tags unique="16">
     <tag name="ADJ">1413</tag><!-- neu, groß, erst, letzt, gut, hoch, eigen, britisch, politisch, weiterer -->
     <tag name="ADP">2107</tag><!-- in, von, zu, an, mit, auf, für, nach, bei, aus -->
-    <tag name="ADV">1062</tag><!-- auch, so, noch, nur, sehr, mehr, jedoch, wie, davon, immer -->
+    <tag name="ADV">1106</tag><!-- auch, so, noch, nur, sehr, mehr, wieder, davon, jedoch, wie -->
     <tag name="AUX">872</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, mögen, dürfen, do -->
     <tag name="CCONJ">742</tag><!-- und, als, aber, wie, oder, doch, sowie, bis, bzw., sowohl -->
     <tag name="DET">3095</tag><!-- der, ein, sein, dieser, ihr, viel, alle, kein, anderer, jeder -->
@@ -29,7 +29,7 @@
     <tag name="PUNCT">2771</tag><!-- ,, ., -, „, “, (, ), :, –, ; -->
     <tag name="SCONJ">327</tag><!-- dass, als, um, wenn, nachdem, weil, ob, wie, indem, bevor -->
     <tag name="SYM">22</tag><!-- %, €, $, ° -->
-    <tag name="VERB">1914</tag><!-- haben, sein, sagen, geben, werden, beginnen, finden, führen, kommen, machen -->
+    <tag name="VERB">1870</tag><!-- haben, sein, sagen, geben, werden, beginnen, finden, führen, kommen, machen -->
     <tag name="X">30</tag><!-- E, Multi, Bundes, Demografie, Druck, Einzel, Ex, Fjögur, Handel, Hey -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -43,7 +43,7 @@
     <feat name="Definite" value="Def" upos="DET">2126</feat><!-- der, die, dem, den, das, des, the, El, Le, Los -->
     <feat name="Definite" value="Ind" upos="DET">436</feat><!-- eine, ein, einer, einem, einen, eines, a, una -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET">74</feat><!-- mehr, später, mehrere, besser, genauer, größere, höherer, lieber, mehreren, späteren -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">2226</feat><!-- auch, so, noch, nur, sehr, ersten, neue, jedoch, letzten, mehr -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">2270</feat><!-- auch, so, noch, nur, sehr, ersten, neue, wieder, jedoch, letzten -->
     <feat name="Degree" value="Sup" upos="ADJ,DET">37</feat><!-- meisten, besten, größten, schlimmsten, höchsten, Oberste, Obersten, bekannteste, beknackteste, erfoglreichste -->
     <feat name="ExtPos" value="ADV" upos="ADV">3</feat><!-- mehr, so -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">84</feat><!-- the, a, of, El, My, de, n't, you, ', Angeles -->
