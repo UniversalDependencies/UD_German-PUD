@@ -16,7 +16,7 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">1413</tag><!-- neu, groß, erst, letzt, gut, hoch, eigen, britisch, politisch, weiterer -->
-    <tag name="ADP">2043</tag><!-- in, von, zu, mit, für, an, auf, nach, bei, über -->
+    <tag name="ADP">2107</tag><!-- in, von, zu, an, mit, auf, für, nach, bei, aus -->
     <tag name="ADV">1062</tag><!-- auch, so, noch, nur, sehr, mehr, jedoch, wie, davon, immer -->
     <tag name="AUX">872</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, mögen, dürfen, do -->
     <tag name="CCONJ">742</tag><!-- und, als, aber, wie, oder, doch, sowie, bis, bzw., sowohl -->
@@ -29,7 +29,7 @@
     <tag name="PUNCT">2771</tag><!-- ,, ., -, „, “, (, ), :, –, ; -->
     <tag name="SCONJ">327</tag><!-- dass, als, um, wenn, nachdem, weil, ob, wie, indem, bevor -->
     <tag name="SYM">22</tag><!-- %, €, $, ° -->
-    <tag name="VERB">1978</tag><!-- haben, sein, sagen, geben, werden, beginnen, finden, führen, an, kommen -->
+    <tag name="VERB">1914</tag><!-- haben, sein, sagen, geben, werden, beginnen, finden, führen, kommen, machen -->
     <tag name="X">30</tag><!-- E, Multi, Bundes, Demografie, Druck, Einzel, Ex, Fjögur, Handel, Hey -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->

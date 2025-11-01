@@ -704,7 +704,7 @@
 5	einer	ein	DET	DT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	_
 6	amerikanischen	amerikanisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	InflectionType=Mixed|Proper=True
 7	Redneragentur	Redneragentur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
-8	an	an	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
+8	an	an	ADP	DC	_	2	compound:prt	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	15	punct	_	_
 10	nachdem	nachdem	SCONJ	CC	_	15	mark	_	_
 11	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj:pass	_	_
@@ -853,7 +853,7 @@
 6	von	von	ADP	IN	_	8	case	_	_
 7	einem	ein	DET	DT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	8	det	_	_
 8	Akkufehler	Akkufehler	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
-9	aus	aus	VERB	DC	_	4	compound:prt	_	_
+9	aus	aus	ADP	DC	_	4	compound:prt	_	_
 10	und	und	CCONJ	CC	_	11	cc	_	_
 11	tauschte	tauschen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	conj	_	_
 12	ihre	ihr	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
@@ -866,7 +866,7 @@
 19	einem	ein	DET	PDT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	21	det	_	_
 20	anderen	anderer	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_
 21	Hersteller	Hersteller	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	_
-22	aus	aus	VERB	DC	_	11	compound:prt	_	SpaceAfter=No
+22	aus	aus	ADP	DC	_	11	compound:prt	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01016019
@@ -980,7 +980,7 @@
 3	teilte	teilen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	BBC	BBC	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	3	obl:arg	_	_
-6	mit	mit	VERB	DC	_	3	compound:prt	_	SpaceAfter=No
+6	mit	mit	ADP	DC	_	3	compound:prt	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	23	punct	_	_
 8	dass	dass	SCONJ	CC	_	10	mark	_	_
 9	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -2135,7 +2135,7 @@
 13	jegliche	jeglicher	DET	DT	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
 14	neue	neu	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	InflectionType=Strong
 15	Gesetzgebung	Gesetzgebung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
-16	ab	ab	VERB	DC	_	12	compound:prt	_	SpaceAfter=No
+16	ab	ab	ADP	DC	_	12	compound:prt	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n01033
@@ -4100,7 +4100,7 @@
 7	Schauen	schauen	VERB	VBC	Mood=Imp|Number=Plur|Person=3|Tense=Pres	3	ccomp	_	_
 8	Sie	Sie	PRON	PRP	Case=Nom|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	_
 9	sich	sich	PRON	PRP	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	7	obl:arg	_	_
-10	an	an	VERB	DC	_	7	compound:prt	_	SpaceAfter=No
+10	an	an	ADP	DC	_	7	compound:prt	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	_	_
 12	wo	wo	ADV	WRB	_	14	advmod	_	_
 13	sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
@@ -5035,7 +5035,7 @@
 14	rennt	rennen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	csubj	_	_
 15	auf	auf	ADP	IN	_	16	case	_	_
 16	mich	ich	PRON	PRP	Case=Acc|Number=Sing|Person=1	14	obl	_	_
-17	zu	zu	VERB	DC	_	14	compound:prt	_	SpaceAfter=No
+17	zu	zu	ADP	DC	_	14	compound:prt	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	21	punct	_	_
 19	als	als	SCONJ	CC	_	21	mark	_	_
 20	um	um	ADP	IN	_	21	case	_	_
@@ -5392,7 +5392,7 @@
 3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 4	nehmen	nehmen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 5	Kredite	Kredit	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
-6	auf	auf	VERB	DC	_	4	compound:prt	_	_
+6	auf	auf	ADP	DC	_	4	compound:prt	_	_
 7	…	…	PUNCT	NFP	_	4	punct	_	OrigForm=...
 8	Während	während	SCONJ	CC	_	15	mark	_	_
 9	das	der	DET	DT	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
@@ -5908,7 +5908,7 @@
 13	tauchte	tauchen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	conj	_	_
 14	immer	immer	ADV	RB	Degree=Pos	15	advmod	_	_
 15	wieder	wieder	ADV	RB	Degree=Pos	13	advmod	_	_
-16	auf	auf	VERB	DC	_	13	compound:prt	_	_
+16	auf	auf	ADP	DC	_	13	compound:prt	_	_
 17	–	–	PUNCT	-	_	19	punct	_	OrigForm=--
 18	in	in	ADP	IN	_	19	case	_	_
 19	Fotografien	Fotografie	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
@@ -6071,7 +6071,7 @@
 1	Nehmen	nehmen	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	_
 2	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	_
 3	mal	mal	ADV	RB	Degree=Pos	1	advmod	_	_
-4	an	an	VERB	DC	_	1	compound:prt	_	SpaceAfter=No
+4	an	an	ADP	DC	_	1	compound:prt	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	_	_
 6	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	irrt	irren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	ccomp	_	_
@@ -6313,7 +6313,7 @@
 20	auf	auf	ADP	IN	_	22	case	_	_
 21	moderne	modern	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	InflectionType=Strong
 22	Erziehung	Erziehung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	nmod	_	_
-23	aus	aus	VERB	DC	_	13	compound:prt	_	SpaceAfter=No
+23	aus	aus	ADP	DC	_	13	compound:prt	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01095009
@@ -6466,7 +6466,7 @@
 23	Bundesstaaten	Bundesstaat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
 24	der	der	DET	DT	Case=Gen|Definite=Def|Number=Plur|PronType=Art	25	det	_	_
 25	USA	USA	PROPN	NNP	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
-26	ab	ab	VERB	DC	_	20	compound:prt	_	SpaceAfter=No
+26	ab	ab	ADP	DC	_	20	compound:prt	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = n01097041
@@ -7539,7 +7539,7 @@
 18	forderte	fordern	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	conj	_	_
 19	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	Öffentlichkeit	Öffentlichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
-21	auf	auf	VERB	DC	_	18	compound:prt	_	SpaceAfter=No
+21	auf	auf	ADP	DC	_	18	compound:prt	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	30	punct	_	_
 23	mehr	mehr	DET	DT	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing|PronType=Ind	24	det	_	_
 24	Verantwortung	Verantwortung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	obj	_	_
@@ -7992,7 +7992,7 @@
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	nahmen	nehmen	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Past	0	root	_	_
 6	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
-7	an	an	VERB	DC	_	5	compound:prt	_	SpaceAfter=No
+7	an	an	ADP	DC	_	5	compound:prt	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	21	punct	_	_
 9	wir	wir	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
 10	hätten	haben	AUX	VBC	Mood=Sub|Number=Plur|Person=1|Tense=Past	21	aux	_	_
@@ -8969,7 +8969,7 @@
 12	Telefon	Telefon	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
 13	nicht	nicht	PART	RB	Polarity=Neg	10	advmod	_	_
 14	mehr	mehr	ADV	RB	Degree=Pos	10	advmod	_	_
-15	auf	auf	VERB	DC	_	10	compound:prt	_	_
+15	auf	auf	ADP	DC	_	10	compound:prt	_	_
 16	zu	zu	PART	RP	_	17	mark	_	_
 17	blinken	blinken	VERB	VB	_	10	xcomp	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	6	punct	_	_
@@ -9037,7 +9037,7 @@
 10	Talking	talking	ADJ	JJ	Foreign=Yes	11	amod	_	Lang=en|Proper=True
 11	Dead	dead	NOUN	NN	Foreign=Yes|Number=Plur	7	appos	_	SpaceAfter=No|Lang=en|Proper=True
 12	“	“	PUNCT	''	_	11	punct	_	_
-13	an	an	VERB	DC	_	4	compound:prt	_	SpaceAfter=No
+13	an	an	ADP	DC	_	4	compound:prt	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = n01139
@@ -9151,7 +9151,7 @@
 12	an	an	ADP	APPR	_	14	case	_	_
 13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Arbeitsplatz	Arbeitsplatz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	_
-15	an	an	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
+15	an	an	ADP	DC	_	2	compound:prt	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	23	punct	_	_
 17	das	der	PRON	REL	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	23	nsubj	_	_
 18	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	expl	_	_
@@ -9405,7 +9405,7 @@
 6	in	in	ADP	IN	_	8	case	_	_
 7	meinem	mein	DET	DTP$	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Stall	Stall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
-9	auf	auf	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
+9	auf	auf	ADP	DC	_	2	compound:prt	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	_	_
 11	und	und	CCONJ	CC	_	13	cc	_	_
 12	ich	ich	PRON	PRP	Case=Nom|Number=Sing|Person=1	13	nsubj	_	_
@@ -10591,7 +10591,7 @@
 13	dessen	der	PRON	DT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem,Rel	14	nmod:poss	_	_
 14	Neffen	Neffe	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 15	Rastiz	Rastiz	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
-16	aus	aus	VERB	DC	_	9	compound:prt	_	SpaceAfter=No
+16	aus	aus	ADP	DC	_	9	compound:prt	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	23	punct	_	_
 18	der	der	PRON	REL	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	23	nsubj	_	_
 19-20	zum	_	_	_	_	_	_	_	_
@@ -10792,7 +10792,7 @@
 11	aus	aus	ADP	IN	_	13	case	_	_
 12	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Umgebungsluft	Umgebungsluft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
-14	aus	aus	VERB	DC	_	7	compound:prt	_	SpaceAfter=No
+14	aus	aus	ADP	DC	_	7	compound:prt	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = w01016070
@@ -11505,7 +11505,7 @@
 16	100	100	NUM	CD	NumType=Card	17	nummod	_	_
 17	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	nmod	_	_
 18	Tonnen	Tonne	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obl	_	_
-19	an	an	VERB	DC	_	9	compound:prt	_	SpaceAfter=No
+19	an	an	ADP	DC	_	9	compound:prt	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = w01026037
@@ -11706,7 +11706,7 @@
 9	Vielfalt	Vielfalt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
 10	an	an	ADP	IN	_	11	case	_	_
 11	Grüntönen	Grünton	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	_
-12	auf	auf	VERB	DC	_	4	compound:prt	_	SpaceAfter=No
+12	auf	auf	ADP	DC	_	4	compound:prt	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	19	punct	_	_
 14	die	der	PRON	REL	Case=Nom|Number=Plur|PronType=Dem,Rel	19	nsubj	_	_
 15	von	von	ADP	IN	_	16	case	_	_
@@ -12773,7 +12773,7 @@
 8	von	von	ADP	IN	_	10	case	_	_
 9	den	der	DET	DT	Case=Dat|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	Kahlina	Kahlina	PROPN	NNP	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
-11	ab	ab	VERB	DC	_	6	compound:prt	_	SpaceAfter=No
+11	ab	ab	ADP	DC	_	6	compound:prt	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	13	punct	_	_
 13	einer	ein	DET	NNA	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	appos	_	InflectionType=Strong
 14	der	der	DET	DT	Case=Gen|Definite=Def|Number=Plur|PronType=Art	28	det	_	_
@@ -13958,7 +13958,7 @@
 8	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Kanal	Kanal	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
 10	erfolgreich	erfolgreich	ADV	RB	Degree=Pos	6	advmod	_	_
-11	aus	aus	VERB	DC	_	6	compound:prt	_	_
+11	aus	aus	ADP	DC	_	6	compound:prt	_	_
 12	und	und	CCONJ	CC	_	13	cc	_	_
 13	demonstrierte	demonstrieren	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	conj	_	_
 14	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -14858,7 +14858,7 @@
 9	Neigung	Neigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
 10	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Vollmondes	Vollmond	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
-12	an	an	VERB	DC	_	3	compound:prt	_	SpaceAfter=No
+12	an	an	ADP	DC	_	3	compound:prt	_	SpaceAfter=No
 13	;	;	PUNCT	:	_	18	punct	_	_
 14	und	und	CCONJ	CC	_	18	cc	_	_
 15	zwar	zwar	ADV	RB	Degree=Pos	18	advmod	_	_
@@ -15150,7 +15150,7 @@
 9	über	über	ADP	IN	_	11	case	_	_
 10	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Zukunft	Zukunft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
-12	nach	nach	VERB	DC	_	4	compound:prt	_	SpaceAfter=No
+12	nach	nach	ADP	DC	_	4	compound:prt	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = w01074
@@ -15224,7 +15224,7 @@
 24	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	_
 25	eines	ein	DET	DT	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	26	det	_	_
 26	Bürgerkrieges	Bürgerkrieg	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
-27	aus	aus	VERB	DC	_	19	compound:prt	_	SpaceAfter=No
+27	aus	aus	ADP	DC	_	19	compound:prt	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = w01075037
@@ -15622,7 +15622,7 @@
 8	in	in	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Süden	Süden	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
-11	vor	vor	VERB	DC	_	3	compound:prt	_	SpaceAfter=No
+11	vor	vor	ADP	DC	_	3	compound:prt	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = w01080130
@@ -15665,7 +15665,7 @@
 8	Pass	Paß	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
 9	von	von	ADP	IN	_	10	case	_	_
 10	Thermopylae	Thermopylae	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
-11	vor	vor	VERB	DC	_	4	compound:prt	_	SpaceAfter=No
+11	vor	vor	ADP	DC	_	4	compound:prt	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	18	punct	_	_
 13	der	der	PRON	REL	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	18	nsubj	_	_
 14	Griechenland	Griechenland	PROPN	NNP	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
@@ -16013,7 +16013,7 @@
 15	ging	gehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 16	von	von	ADP	IN	_	17	case	_	_
 17	Frankreich	Frankreich	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	_
-18	aus	aus	VERB	DC	_	15	compound:prt	_	SpaceAfter=No
+18	aus	aus	ADP	DC	_	15	compound:prt	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = w01086037
@@ -16055,7 +16055,7 @@
 15	herrschte	herrschen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	conj	_	_
 16	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Auffassung	Auffassung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
-18	vor	vor	VERB	DC	_	15	compound:prt	_	SpaceAfter=No
+18	vor	vor	ADP	DC	_	15	compound:prt	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	32	punct	_	_
 20	dass	dass	SCONJ	CC	_	32	mark	_	_
 21	die	der	DET	DT	Case=Nom|Definite=Def|Number=Plur|PronType=Art	22	det	_	_
@@ -16365,7 +16365,7 @@
 10	GM	GM	PROPN	NNP	Case=Acc|Number=Sing	9	obj	_	_
 11	und	und	CCONJ	CC	_	12	cc	_	_
 12	Ford	Ford	PROPN	NNP	Case=Acc|Number=Sing	10	conj	_	_
-13	an	an	VERB	DC	_	9	compound:prt	_	SpaceAfter=No
+13	an	an	ADP	DC	_	9	compound:prt	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	20	punct	_	_
 15	1960	1960	NUM	CD	NumType=Card	20	obl:tmod	_	_
 16	ihre	ihr	DET	DTP$	Case=Acc|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
@@ -16720,7 +16720,7 @@
 6	Musik	Musik	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	_
 7	hängen	hängen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 8	davon	davon	ADV	RB	PronType=Dem	7	advmod	_	_
-9	ab	ab	VERB	DC	_	7	compound:prt	_	SpaceAfter=No
+9	ab	ab	ADP	DC	_	7	compound:prt	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	_	_
 11	wie	wie	ADV	WRB	_	13	advmod	_	_
 12	Musik	Musik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj:pass	_	_
@@ -16811,7 +16811,7 @@
 10	Vertrages	Vertrag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	Proper=True
 11	von	von	ADP	IN	_	12	case	_	Proper=True
 12	Nanking	Nanking	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	_
-13	zu	zu	VERB	DC	_	5	compound:prt	_	SpaceAfter=No
+13	zu	zu	ADP	DC	_	5	compound:prt	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = w01100048
@@ -16851,7 +16851,7 @@
 3	der	der	DET	DT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 4	zweite	zweit	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	InflectionType=Weak
 5	Opiumkrieg	Opiumkrieg	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
-6	aus	aus	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
+6	aus	aus	ADP	DC	_	2	compound:prt	_	SpaceAfter=No
 7	;	;	PUNCT	:	_	12	punct	_	_
 8	die	der	DET	DT	Case=Nom|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	Chinesen	Chinese	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj:pass	_	Proper=True
@@ -17074,7 +17074,7 @@
 23	80er	80er	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	25	compound	_	SpaceAfter=No
 24	-	-	PUNCT	-	_	23	punct	_	SpaceAfter=No
 25	Jahre	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	_
-26	nach	nach	VERB	DC	_	3	compound:prt	_	SpaceAfter=No
+26	nach	nach	ADP	DC	_	3	compound:prt	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	3	punct	_	_
 
 # newdoc id = w01105
@@ -18624,7 +18624,7 @@
 3	ging	gehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	in	in	ADP	IN	_	5	case	_	_
 5	Flammen	Flamme	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	_
-6	auf	auf	VERB	DC	_	3	compound:prt	_	SpaceAfter=No
+6	auf	auf	ADP	DC	_	3	compound:prt	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	10	punct	_	_
 8	und	und	CCONJ	CC	_	10	cc	_	_
 9	Kenseth	Kenseth	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -18648,7 +18648,7 @@
 9	Beerdigung	Beerdigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl:arg	_	_
 10	seines	sein	DET	DTP$	Case=Gen|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Vaters	Vater	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
-12	bei	bei	VERB	DC	_	6	compound:prt	_	SpaceAfter=No
+12	bei	bei	ADP	DC	_	6	compound:prt	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = w01129053
@@ -18824,7 +18824,7 @@
 26	me	I	PRON	PRP	Case=Acc|Foreign=Yes|Number=Sing|Person=1|PronType=Prs	25	obj	_	Lang=en|Proper=True
 27	anyway	anyway	ADV	RB	Foreign=Yes	25	advmod	_	SpaceAfter=No|Lang=en|Proper=True
 28	“	“	PUNCT	''	_	25	punct	_	_
-29	auf	auf	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
+29	auf	auf	ADP	DC	_	2	compound:prt	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = w01130103
@@ -18949,7 +18949,7 @@
 4	Thompson	Thompson	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
 5	geht	gehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 6	davon	davon	ADV	RB	PronType=Dem	5	advmod	_	_
-7	aus	aus	VERB	DC	_	5	compound:prt	_	SpaceAfter=No
+7	aus	aus	ADP	DC	_	5	compound:prt	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	17	punct	_	_
 9	dass	dass	SCONJ	CC	_	17	mark	_	_
 10	die	der	DET	DT	Case=Nom|Definite=Def|Number=Plur|PronType=Art	11	det	_	_
@@ -19023,7 +19023,7 @@
 8	Zeichnen	Zeichnen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
 9	und	und	CCONJ	CC	_	10	cc	_	_
 10	fing	fangen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	conj	_	_
-11	an	an	VERB	DC	_	10	compound:prt	_	SpaceAfter=No
+11	an	an	ADP	DC	_	10	compound:prt	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	17	punct	_	_
 13	einen	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	15	det	_	_
 14	augeklügelten	augeklügelt	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	InflectionType=Mixed
@@ -19561,7 +19561,7 @@
 10	und	und	CCONJ	CC	_	11	cc	_	_
 11	schlug	schlagen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	conj	_	_
 12	ihr	sie	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obl:arg	_	_
-13	vor	vor	VERB	DC	_	11	compound:prt	_	SpaceAfter=No
+13	vor	vor	ADP	DC	_	11	compound:prt	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	19	punct	_	_
 15	dass	dass	SCONJ	CC	_	19	mark	_	_
 16	Rona	Rona	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
@@ -19668,7 +19668,7 @@
 9	nahm	nehmen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	conj	_	_
 10	ihre	ihr	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Fähigkeiten	Fähigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
-12	mit	mit	VERB	DC	_	9	compound:prt	_	_
+12	mit	mit	ADP	DC	_	9	compound:prt	_	_
 13	zurück	zurück	ADV	RB	Degree=Pos	18	advmod	_	_
 14	in	in	ADP	IN	_	18	case	_	_
 15	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
@@ -19954,7 +19954,7 @@
 22	in	in	ADP	APPR	_	24	case	_	_
 23	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Iran	Iran	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	21	nmod	_	Proper=True
-25	statt	statt	VERB	DC	_	13	compound:prt	_	SpaceAfter=No
+25	statt	statt	ADP	DC	_	13	compound:prt	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = w01144063
@@ -20162,7 +20162,7 @@
 19	dann	dann	ADV	RB	Degree=Pos	18	advmod	_	_
 20	David	David	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
 21	Gamson	Gamson	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	20	flat:name	_	_
-22	auf	auf	VERB	DC	_	18	compound:prt	_	SpaceAfter=No
+22	auf	auf	ADP	DC	_	18	compound:prt	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	25	punct	_	_
 24	einen	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	25	det	_	_
 25	Produzenten	Produzent	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	appos	_	SpaceAfter=No
@@ -20261,7 +20261,7 @@
 16	(	(	PUNCT	(	_	17	punct	_	SpaceAfter=No
 17	Somerset	Somerset	PROPN	NNP	Case=Nom|Gender=Neut|Number=Sing	15	appos	_	SpaceAfter=No
 18	)	)	PUNCT	)	_	17	punct	_	_
-19	auf	auf	VERB	DC	_	12	compound:prt	_	SpaceAfter=No
+19	auf	auf	ADP	DC	_	12	compound:prt	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = w01149077
@@ -20378,7 +20378,7 @@
 22	eines	ein	DET	DT	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	24	det	_	_
 23	unabhängigen	unabhängig	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	InflectionType=Mixed
 24	Albaniens	Albanien	PROPN	NNP	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
-25	ab	ab	VERB	DC	_	11	compound:prt	_	SpaceAfter=No
+25	ab	ab	ADP	DC	_	11	compound:prt	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = w01150046
@@ -20479,7 +20479,7 @@
 27	auf	auf	ADP	IN	_	29	case	_	_
 28	die	der	DET	DT	Case=Acc|Definite=Def|Number=Plur|PronType=Art	29	det	_	_
 29	Balkanstaaten	Balkanstaat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	obl	_	_
-30	auf	auf	VERB	DC	_	15	compound:prt	_	SpaceAfter=No
+30	auf	auf	ADP	DC	_	15	compound:prt	_	SpaceAfter=No
 31	,	,	PUNCT	,	_	34	punct	_	_
 32	und	und	CCONJ	CC	_	34	cc	_	_
 33	zwar	zwar	ADV	RB	Degree=Pos	34	advmod	_	_
@@ -21275,7 +21275,7 @@
 7	mich	ich	PRON	PRP	Case=Acc|Number=Sing|Person=1	6	obj	_	_
 8	bald	bald	ADV	RB	Degree=Pos	6	advmod	_	_
 9	Offiziere	Offizier	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
-10	an	an	VERB	DC	_	6	compound:prt	_	SpaceAfter=No
+10	an	an	ADP	DC	_	6	compound:prt	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	_	_
 12	fragten	fragen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	6	conj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	22	punct	_	_
@@ -22184,7 +22184,7 @@
 1	Sie	sie	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	zielt	zielen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	darauf	darauf	ADV	RB	PronType=Dem	2	advmod	_	_
-4	ab	ab	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
+4	ab	ab	ADP	DC	_	2	compound:prt	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	9	punct	_	_
 6	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Fahrtzeit	Fahrtzeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
@@ -22378,7 +22378,7 @@
 19	antifaschistischen	antifaschistisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	InflectionType=Mixed
 20	katholischen	katholisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	19	conj	_	InflectionType=Mixed|Proper=True
 21	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
-22	auf	auf	VERB	DC	_	16	compound:prt	_	SpaceAfter=No
+22	auf	auf	ADP	DC	_	16	compound:prt	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	32	punct	_	_
 24	die	der	PRON	REL	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	32	nsubj	_	_
 25	von	von	ADP	IN	_	27	case	_	_
@@ -22647,7 +22647,7 @@
 18	€	€	SYM	SYM	_	15	nmod	_	_
 19	pro	pro	ADP	IN	_	20	case	_	_
 20	Liter	Liter	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	_
-21	an	an	VERB	DC	_	13	compound:prt	_	SpaceAfter=No
+21	an	an	ADP	DC	_	13	compound:prt	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	25	punct	_	_
 23-24	im	_	_	_	_	_	_	_	_
 23	in	in	ADP	APPR	_	25	case	_	_
@@ -22942,7 +22942,7 @@
 5	mehr	mehr	ADV	RB	Degree=Cmp	3	conj	_	_
 6	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Ton	Ton	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
-8	an	an	VERB	DC	_	2	compound:prt	_	SpaceAfter=No
+8	an	an	ADP	DC	_	2	compound:prt	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	_	_
 10	mehr	mehr	ADV	RB	Degree=Cmp	2	advmod	_	_
 11	als	als	CCONJ	CC	_	12	cc	_	_
@@ -23546,7 +23546,7 @@
 4	legt	legen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 5	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Vermutung	Vermutung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
-7	nahe	nahe	VERB	DC	_	4	compound:prt	_	SpaceAfter=No
+7	nahe	nahe	ADP	DC	_	4	compound:prt	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	18	punct	_	_
 9	dass	dass	SCONJ	CC	_	18	mark	_	_
 10	dieses	dieser	DET	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	det	_	_
@@ -23683,7 +23683,7 @@
 19	ein	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	21	det	_	_
 20	überregionales	überregional	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	InflectionType=Mixed
 21	Publikum	Publikum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
-22	an	an	VERB	DC	_	16	compound:prt	_	SpaceAfter=No
+22	an	an	ADP	DC	_	16	compound:prt	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = w02001069
@@ -23700,7 +23700,7 @@
 7	30.	30.	ADJ	.	Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	InflectionType=Weak
 8	April	April	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl:tmod	_	_
 9	1955	1955	NUM	CD	NumType=Card	8	nummod	_	_
-10	statt	statt	VERB	DC	_	4	compound:prt	_	SpaceAfter=No
+10	statt	statt	ADP	DC	_	4	compound:prt	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = w02002
@@ -24267,7 +24267,7 @@
 17	aufgeladene	aufgeladen	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	InflectionType=Mixed
 18	Stimmung	Stimmung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
 19	weiter	weiter	ADV	RB	Degree=Pos	8	advmod	_	_
-20	an	an	VERB	DC	_	8	compound:prt	_	SpaceAfter=No
+20	an	an	ADP	DC	_	8	compound:prt	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = w02009087
@@ -24367,7 +24367,7 @@
 12	Staat	Staat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	conj	_	_
 13	der	der	DET	DT	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Erde	Erde	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
-15	statt	statt	VERB	DC	_	4	compound:prt	_	SpaceAfter=No
+15	statt	statt	ADP	DC	_	4	compound:prt	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = w02013033
@@ -24628,7 +24628,7 @@
 14	mit	mit	ADP	IN	_	16	case	_	_
 15	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
 16	Ziel	Ziel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
-17	an	an	VERB	DC	_	8	compound:prt	_	SpaceAfter=No
+17	an	an	ADP	DC	_	8	compound:prt	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	23	punct	_	_
 19	seine	sein	DET	DTP$	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 20	zweite	zweit	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	InflectionType=Mixed
@@ -24648,7 +24648,7 @@
 4	alle	alle	DET	DT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	6	det	_	_
 5	unerwünschten	unerwünscht	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	InflectionType=Weak
 6	Meinungsäußerungen	Meinungsäußerung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
-7	aus	aus	VERB	DC	_	3	compound:prt	_	SpaceAfter=No
+7	aus	aus	ADP	DC	_	3	compound:prt	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	20	punct	_	_
 9	eine	ein	DET	DT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	_
 10	Teilnahme	Teilnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
@@ -25695,7 +25695,7 @@
 12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 13	vatikanischen	vatikanisch	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	InflectionType=Weak|Proper=True
 14	Gesetz	Gesetz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
-15	ab	ab	VERB	DC	_	5	compound:prt	_	_
+15	ab	ab	ADP	DC	_	5	compound:prt	_	_
 16	und	und	CCONJ	CC	_	17	cc	_	_
 17	nahm	nehmen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	conj	_	_
 18	sie	sie	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
@@ -25849,7 +25849,7 @@
 3	David	David	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
 4	Crouch	Crouch	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_
 5	deutet	deuten	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-6	an	an	VERB	DC	_	5	compound:prt	_	SpaceAfter=No
+6	an	an	ADP	DC	_	5	compound:prt	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	15	punct	_	_
 8	dass	dass	SCONJ	CC	_	15	mark	_	_
 9	Stephen	Stephen	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
@@ -26029,7 +26029,7 @@
 31	lehnte	lehnen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	parataxis	_	_
 32	jede	jeder	DET	DT	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	33	det	_	_
 33	Einigung	Einigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
-34	ab	ab	VERB	DC	_	31	compound:prt	_	SpaceAfter=No
+34	ab	ab	ADP	DC	_	31	compound:prt	_	SpaceAfter=No
 35	,	,	PUNCT	,	_	37	punct	_	_
 36	ebenso	ebenso	ADV	RB	Degree=Pos	37	advmod	_	_
 37	Zar	Zar	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	conj	_	_
@@ -26587,7 +26587,7 @@
 8	kamen	kommen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 9	aus	aus	ADP	IN	_	10	case	_	_
 10	Kanada	Kanada	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
-11	an	an	VERB	DC	_	8	compound:prt	_	SpaceAfter=No
+11	an	an	ADP	DC	_	8	compound:prt	_	SpaceAfter=No
 12	;	;	PUNCT	:	_	14	punct	_	_
 13	sie	sie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
 14	unterstützten	unterstützen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	8	parataxis	_	_
