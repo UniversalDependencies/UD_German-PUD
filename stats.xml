@@ -16,11 +16,11 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">1413</tag><!-- neu, groß, erst, letzt, gut, hoch, eigen, britisch, politisch, weiterer -->
-    <tag name="ADP">2043</tag><!-- in, von, zu, mit, für, an, auf, nach, bei, über -->
-    <tag name="ADV">1051</tag><!-- auch, so, noch, nur, sehr, mehr, jedoch, wie, davon, immer -->
+    <tag name="ADP">2107</tag><!-- in, von, zu, an, mit, auf, für, nach, bei, aus -->
+    <tag name="ADV">1106</tag><!-- auch, so, noch, nur, sehr, mehr, wieder, davon, jedoch, wie -->
     <tag name="AUX">872</tag><!-- sein, werden, haben, können, müssen, sollen, wollen, mögen, dürfen, do -->
     <tag name="CCONJ">742</tag><!-- und, als, aber, wie, oder, doch, sowie, bis, bzw., sowohl -->
-    <tag name="DET">3106</tag><!-- der, ein, sein, dieser, ihr, viel, alle, kein, anderer, jeder -->
+    <tag name="DET">3095</tag><!-- der, ein, sein, dieser, ihr, viel, alle, kein, anderer, jeder -->
     <tag name="NOUN">4190</tag><!-- Jahr, Zeit, Land, Teil, Mensch, Stadt, Jahrhundert, Geschichte, Film, Regierung -->
     <tag name="NUM">356</tag><!-- zwei, drei, vier, 3, sechs, zehn, 1, 10, 50, 100 -->
     <tag name="PART">233</tag><!-- zu, nicht, not, wohl -->
@@ -29,7 +29,7 @@
     <tag name="PUNCT">2771</tag><!-- ,, ., -, „, “, (, ), :, –, ; -->
     <tag name="SCONJ">327</tag><!-- dass, als, um, wenn, nachdem, weil, ob, wie, indem, bevor -->
     <tag name="SYM">22</tag><!-- %, €, $, ° -->
-    <tag name="VERB">1978</tag><!-- haben, sein, sagen, geben, werden, beginnen, finden, führen, an, kommen -->
+    <tag name="VERB">1870</tag><!-- haben, sein, sagen, geben, werden, beginnen, finden, führen, kommen, machen -->
     <tag name="X">30</tag><!-- E, Multi, Bundes, Demografie, Druck, Einzel, Ex, Fjögur, Handel, Hey -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -41,9 +41,9 @@
     <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">1178</feat><!-- der, des, eines, einer, seiner, dieser, ihrer, seines, ersten, Jahre -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">3724</feat><!-- die, der, er, das, es, sie, ein, eine, ich, wir -->
     <feat name="Definite" value="Def" upos="DET">2126</feat><!-- der, die, dem, den, das, des, the, El, Le, Los -->
-    <feat name="Definite" value="Ind" upos="DET">447</feat><!-- eine, ein, einer, einem, einen, eines, a, una -->
+    <feat name="Definite" value="Ind" upos="DET">436</feat><!-- eine, ein, einer, einem, einen, eines, a, una -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET">74</feat><!-- mehr, später, mehrere, besser, genauer, größere, höherer, lieber, mehreren, späteren -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">2215</feat><!-- auch, so, noch, nur, sehr, ersten, neue, jedoch, letzten, mehr -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">2270</feat><!-- auch, so, noch, nur, sehr, ersten, neue, wieder, jedoch, letzten -->
     <feat name="Degree" value="Sup" upos="ADJ,DET">37</feat><!-- meisten, besten, größten, schlimmsten, höchsten, Oberste, Obersten, bekannteste, beknackteste, erfoglreichste -->
     <feat name="ExtPos" value="ADV" upos="ADV">3</feat><!-- mehr, so -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">84</feat><!-- the, a, of, El, My, de, n't, you, ', Angeles -->
@@ -60,7 +60,7 @@
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">9393</feat><!-- der, dem, die, das, es, ist, eine, des, er, ein -->
     <feat name="Number[psor]" value="Plur" upos="DET">58</feat><!-- ihre, ihrer, ihren, unsere, ihr, ihrem, ihres, unserem, unserer, Nostrum -->
     <feat name="Number[psor]" value="Sing" upos="DET">156</feat><!-- seine, seiner, sein, seinen, ihre, ihr, ihrer, seines, ihren, seinem -->
-    <feat name="NumType" value="Card" upos="DET,NUM">809</feat><!-- eine, ein, einer, einem, einen, zwei, eines, beiden, drei, vier -->
+    <feat name="NumType" value="Card" upos="DET,NUM">798</feat><!-- eine, ein, einer, einem, einen, zwei, eines, beiden, drei, vier -->
     <feat name="NumType" value="Ord" upos="ADJ,NUM">45</feat><!-- ersten, erste, 1., erster, 30., 10., 11., 12., 16, 19. -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">199</feat><!-- ich, wir, mich, uns, habe, unsere, bin, müssen, haben, kenne -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">20</feat><!-- Sie, du, you, Do, Ihrem, Knew, Knuck, Lass, Metti, Schimpfen -->
@@ -68,7 +68,7 @@
     <feat name="Polarity" value="Neg" upos="PART">87</feat><!-- nicht -->
     <feat name="Polite" value="Form" upos="DET,PRON,VERB">4</feat><!-- Sie, Ihrem, Schimpfen -->
     <feat name="Poss" value="Yes" upos="DET,PRON">224</feat><!-- seine, ihre, ihrer, seiner, ihr, sein, ihren, seinen, seines, ihres -->
-    <feat name="PronType" value="Art" upos="DET">2573</feat><!-- der, die, dem, den, das, eine, des, ein, einer, einem -->
+    <feat name="PronType" value="Art" upos="DET">2562</feat><!-- der, die, dem, den, das, eine, des, ein, einer, einem -->
     <feat name="PronType" value="Dem" upos="ADV,DET">194</feat><!-- diese, dieser, davon, dies, dazu, damit, dieses, dafür, darauf, diesem -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">244</feat><!-- die, der, das, denen, dem, dessen, deren, den -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">126</feat><!-- viele, man, einige, mehr, andere, anderen, vielen, etwas, mehrere, meisten -->
@@ -80,8 +80,8 @@
     <feat name="Reflex" value="Yes" upos="PRON">135</feat><!-- sich, dich -->
     <feat name="Tense" value="Past" upos="AUX,VERB">1448</feat><!-- wurde, war, hatte, wurden, waren, sagte, hatten, worden, würde, begann -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">879</feat><!-- ist, hat, wird, sind, kann, werden, haben, gibt, sagt, können -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">2</feat><!-- bleiben, war -->
-    <feat name="VerbForm" value="Inf" upos="VERB">48</feat><!-- finden, Go, abzuschreiben, arbeiten, aufrechtzuerhalten, aufzutreten, begrenzen, behandeln, bekommen, beschäftigen -->
+    <feat name="VerbForm" value="Fin" upos="AUX">1</feat><!-- war -->
+    <feat name="VerbForm" value="Inf" upos="VERB">49</feat><!-- finden, Go, abzuschreiben, arbeiten, aufrechtzuerhalten, aufzutreten, begrenzen, behandeln, bekommen, beschäftigen -->
     <feat name="VerbForm" value="Part" upos="VERB">21</feat><!-- abgesehen, basierend, gefolgt, gesagt, Breaking, Geformt, abgehärtet, angeklagt, begründet, bekannt -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
