@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_German-PUD:
-commit b294fef36453e5650c63cce55a279e1a24fd4274
-Merge: f36f832 e42201a
+commit ff80846ae60a0a70fc4d6251ef73e6a483a620ee
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 19:37:53 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'de_pud'
 Language code (from CoNLL-U file name) = 'de'
@@ -25,20 +25,33 @@ Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang de --max-err=10 UD_German-PUD/de_pud-ud-test.conllu
-[Line 113 Sent n01002032]: [L3 Warning pron-det-without-prontype] The word 'Ich' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 654 Sent n01011017]: [L3 Warning pron-det-without-prontype] The word 'Ich' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 665 Sent n01011017]: [L3 Warning pron-det-without-prontype] The word 'ich' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 1788 Sent n01027041]: [L3 Warning pron-det-without-prontype] The word 'Ich' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 4029 Sent n01059025]: [L3 Warning pron-det-without-prontype] The word 'Ich' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 4159 Sent n01061023]: [L3 Warning pron-det-without-prontype] The word 'ich' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 4164 Sent n01061023]: [L3 Warning pron-det-without-prontype] The word 'ich' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 4382 Sent n01064096]: [L3 Warning pron-det-without-prontype] The word 'ich' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 4386 Sent n01064096]: [L3 Warning pron-det-without-prontype] The word 'ich' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 4510 Sent n01066068]: [L3 Warning pron-det-without-prontype] The word 'ich' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 78
-*** PASSED ***
-Validity: 1
+[Line 113 Sent n01002032]: [L3 WARNING pron-det-without-prontype] The word 'Ich' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 654 Sent n01011017]: [L3 WARNING pron-det-without-prontype] The word 'Ich' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 665 Sent n01011017]: [L3 WARNING pron-det-without-prontype] The word 'ich' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1788 Sent n01027041]: [L3 WARNING pron-det-without-prontype] The word 'Ich' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 4029 Sent n01059025]: [L3 WARNING pron-det-without-prontype] The word 'Ich' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 4159 Sent n01061023]: [L3 WARNING pron-det-without-prontype] The word 'ich' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 4164 Sent n01061023]: [L3 WARNING pron-det-without-prontype] The word 'ich' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 4382 Sent n01064096]: [L3 WARNING pron-det-without-prontype] The word 'ich' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 4386 Sent n01064096]: [L3 WARNING pron-det-without-prontype] The word 'ich' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 4510 Sent n01066068]: [L3 WARNING pron-det-without-prontype] The word 'ich' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 6577 Sent n01099035]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'Morgenmarkt') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 6626 Sent n01101003]: [L3 SYNTAX obl-should-be-nmod] The parent (node [10] 'Entkolonialisierung') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 8091 Sent n01123012]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] '31') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 8688 Sent n01133022]: [L3 SYNTAX obl-should-be-nmod] The parent (node [15] 'Termine') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 10009 Sent w01002075]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'Winteruniversiade') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 10639 Sent w01013083]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'Zeitpunkt') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 10814 Sent w01016070]: [L3 SYNTAX obl-should-be-nmod] The parent (node [12] 'Sommerspiele') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 11032 Sent w01019073]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'Juni') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 12815 Sent w01045003]: [L3 SYNTAX obl-should-be-nmod] The parent (node [10] 'Jahr') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 13055 Sent w01047094]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'Jahres') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 52
+SYNTAX errors: 26
+*** FAILED *** with 26 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
@@ -46,6 +59,6 @@ Validity: 1
 (weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
 (weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
 (weight=0.111111111111111) * (score{udeprels}=0.691891891891892) = 0.0768768768768769
-(TOTAL score=0.562145844016922) * (availability=1) * (validity=1) = 0.562145844016922
-STARS = 3
-UD_German-PUD	0.562145844016922	3
+(TOTAL score=0.562145844016922) * (availability=1) * (validity=0.01) = 0.00562145844016922
+STARS = 0
+UD_German-PUD	0.00562145844016922	0
