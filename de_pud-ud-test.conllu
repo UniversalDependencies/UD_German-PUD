@@ -6574,7 +6574,7 @@
 2	den	der	DET	DT	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Morgenmarkt	Morgenmarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
 4	(	(	PUNCT	(	_	5	punct	_	SpaceAfter=No
-5	6:30	6:30	NUM	CD	NumType=Card	3	obl:tmod	_	_
+5	6:30	6:30	NUM	CD	NumType=Card	3	nmod:tmod	_	_
 6	–	–	PUNCT	SYM	_	7	punct	_	OrigForm=--
 7	10:00	10:00	NUM	CD	NumType=Card	5	conj	_	SpaceAfter=No
 8	)	)	PUNCT	)	_	5	punct	_	_
@@ -6623,7 +6623,7 @@
 10	Entkolonialisierung	Entkolonialisierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
 11	Hong	Hong	PROPN	NNP	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
 12	Kongs	Kong	PROPN	NNP	Case=Gen|Gender=Neut|Number=Sing	11	flat:name	_	_
-13	1997	1997	NUM	CD	NumType=Card	10	obl:tmod	_	_
+13	1997	1997	NUM	CD	NumType=Card	10	nmod:tmod	_	_
 14	durch	durch	ADP	IN	_	17	case	_	_
 15	das	der	DET	DT	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
 16	Vereinigte	vereinigt	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	InflectionType=Weak|Proper=True
@@ -8088,7 +8088,7 @@
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	31	31	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	5	punct	_	_
-7	Oktober	Oktober	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl:tmod	_	_
+7	Oktober	Oktober	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod:tmod	_	_
 8	1832	1832	NUM	CD	NumType=Card	7	nummod	_	_
 9	in	in	ADP	IN	_	11	case	_	_
 10	einem	ein	DET	DT	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	11	det	_	_
@@ -8685,7 +8685,7 @@
 14	kursierenden	kursierend	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	InflectionType=Weak
 15	Termine	Termin	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
 16	–	–	PUNCT	-	_	17	punct	_	OrigForm=--
-17	2017	2017	NUM	CD	NumType=Card	15	obl:tmod	_	_
+17	2017	2017	NUM	CD	NumType=Card	15	nmod:tmod	_	_
 18	bzw.	bzw.	CCONJ	CC	_	19	cc	_	_
 19	2020	2020	NUM	CD	NumType=Card	17	conj	_	_
 20	–	–	PUNCT	-	_	15	punct	_	OrigForm=--
@@ -10006,7 +10006,7 @@
 # text_en = The 2019 Winter Universiade will be hosted by Krasnoyarsk.
 1	Die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Winteruniversiade	Winteruniversiade	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
-3	2019	2019	NUM	CD	NumType=Card	2	obl:tmod	_	Proper=True
+3	2019	2019	NUM	CD	NumType=Card	2	nmod:tmod	_	Proper=True
 4	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:pass	_	_
 5	von	von	ADP	IN	_	6	case	_	_
 6	Krasnojarsk	Krasnojarsk	PROPN	NNP	Case=Dat|Gender=Neut|Number=Sing	7	obl:agent	_	_
@@ -10636,7 +10636,7 @@
 8	späteren	spät	ADJ	JJ	Case=Dat|Degree=Cmp|Gender=Masc|Number=Sing	9	amod	_	InflectionType=Mixed
 9	Zeitpunkt	Zeitpunkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	_
 10	(	(	PUNCT	(	_	11	punct	_	SpaceAfter=No
-11	1918	1918	NUM	CD	NumType=Card	9	obl:tmod	_	SpaceAfter=No
+11	1918	1918	NUM	CD	NumType=Card	9	nmod:tmod	_	SpaceAfter=No
 12	)	)	PUNCT	)	_	11	punct	_	_
 13	unter	unter	ADP	IN	_	16	case	_	_
 14	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -10811,7 +10811,7 @@
 10	die	der	DET	DT	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 11	Olympischen	olympisch	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	12	amod	_	InflectionType=Weak|Proper=True
 12	Sommerspiele	Sommerspiel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	nmod	_	Proper=True
-13	2008	2008	NUM	CD	NumType=Card	12	obl:tmod	_	SpaceAfter=No|Proper=True
+13	2008	2008	NUM	CD	NumType=Card	12	nmod:tmod	_	SpaceAfter=No|Proper=True
 14	.	.	PUNCT	.	_	8	punct	_	_
 
 # newdoc id = w01017
@@ -11029,7 +11029,7 @@
 2	Juni	Juni	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_
 3	bis	bis	CCONJ	CC	_	4	cc	_	_
 4	August	August	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	conj	_	_
-5	2010	2010	NUM	CD	NumType=Card	2	obl:tmod	_	_
+5	2010	2010	NUM	CD	NumType=Card	2	nmod:tmod	_	_
 6	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	14	cop	_	_
 7	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 8	Sahel	Sahel	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	10	compound	_	SpaceAfter=No
@@ -12812,7 +12812,7 @@
 8	in	in	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
-11	1492	1492	NUM	CD	NumType=Card	10	obl:tmod	_	_
+11	1492	1492	NUM	CD	NumType=Card	10	nmod:tmod	_	_
 12	bezog	beziehen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 13	sich	sich	PRON	PRP	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	_
 14	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -13052,7 +13052,7 @@
 4	Mitte	Mitte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
 5	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 6	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
-7	1962	1962	NUM	CD	NumType=Card	6	obl:tmod	_	_
+7	1962	1962	NUM	CD	NumType=Card	6	nmod:tmod	_	_
 8	hatten	haben	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	15	aux	_	_
 9	Brooks	Brooks	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 10	und	und	CCONJ	CC	_	11	cc	_	_
@@ -13252,7 +13252,7 @@
 8	in	in	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
-11	1911	1911	NUM	CD	NumType=Card	10	obl:tmod	_	_
+11	1911	1911	NUM	CD	NumType=Card	10	nmod:tmod	_	_
 12	erklärte	erklären	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 13	die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Mongolei	Mongolei	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -13352,7 +13352,7 @@
 39	Qing	Qing	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	41	compound	_	SpaceAfter=No
 40	-	-	PUNCT	-	_	39	punct	_	SpaceAfter=No|Proper=True
 41	Dynastie	Dynastie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	Proper=True
-42	1911	1911	NUM	CD	NumType=Card	37	obl:tmod	_	_
+42	1911	1911	NUM	CD	NumType=Card	37	nmod:tmod	_	_
 43	ungültig	ungültig	ADJ	JJ	Degree=Pos	44	xcomp	_	_
 44	geworden	werden	VERB	VBN	Tense=Past	20	conj	_	_
 45	sei	sein	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres	44	aux	_	SpaceAfter=No
@@ -14296,7 +14296,7 @@
 20	Mittelbronzezeit	Mittelbronzezeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	23	punct	_	_
 22	ca.	ca.	ADV	RB	Degree=Pos	23	advmod	_	_
-23	1600	1600	NUM	CD	NumType=Card	20	obl:tmod	_	_
+23	1600	1600	NUM	CD	NumType=Card	20	nmod:tmod	_	_
 24	v.	von	ADP	IN	_	25	case	_	_
 25	Chr.	Chr.	PROPN	NNP	Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	17	punct	_	_
@@ -17599,7 +17599,7 @@
 14	in	in	ADP	APPR	_	16	case	_	_
 15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
 16	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	_
-17	1979	1979	NUM	CD	NumType=Card	16	obl:tmod	_	SpaceAfter=No
+17	1979	1979	NUM	CD	NumType=Card	16	nmod:tmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = w01111093
@@ -17620,7 +17620,7 @@
 10	an	an	ADP	APPR	_	13	case	_	_
 11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 12	19.	19.	ADJ	.	Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
-13	März	März	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obl:tmod	_	_
+13	März	März	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod:tmod	_	_
 14	1993	1993	NUM	CD	NumType=Card	13	nummod	_	_
 15	für	für	ADP	IN	_	16	case	_	_
 16	bankrott	bankrott	ADV	RB	Degree=Pos	17	advmod	_	_
@@ -18528,7 +18528,7 @@
 5	aus	aus	ADP	IN	_	7	case	_	_
 6	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_
-8	1981	1981	NUM	CD	NumType=Card	7	obl:tmod	_	_
+8	1981	1981	NUM	CD	NumType=Card	7	nmod:tmod	_	_
 9	war	sein	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	cop	_	_
 10	einer	ein	DET	NN	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	0	root	_	_
 11	ihrer	ihr	DET	DTP$	Case=Gen|Gender=Masc|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
@@ -18737,7 +18737,7 @@
 8	Prayer	prayer	NOUN	NN	Foreign=Yes|Number=Sing	5	conj	_	SpaceAfter=No|Lang=en|Proper=True
 9	“	“	PUNCT	''	_	5	punct	_	_
 10	(	(	PUNCT	(	_	11	punct	_	SpaceAfter=No
-11	1992	1992	NUM	CD	NumType=Card	5	obl:tmod	_	SpaceAfter=No
+11	1992	1992	NUM	CD	NumType=Card	5	nmod:tmod	_	SpaceAfter=No
 12	)	)	PUNCT	)	_	11	punct	_	_
 13	spielte	spielen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 14	er	er	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
@@ -19252,7 +19252,7 @@
 12	aus	aus	ADP	IN	_	14	case	_	_
 13	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 14	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	_
-15	2012	2012	NUM	CD	NumType=Card	14	obl:tmod	_	_
+15	2012	2012	NUM	CD	NumType=Card	14	nmod:tmod	_	_
 16	unter	unter	ADP	IN	_	18	case	_	_
 17	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Regie	Regie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
@@ -19892,7 +19892,7 @@
 14	Sabrina	Sabrina	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 15	“	“	PUNCT	``	_	14	punct	_	_
 16	(	(	PUNCT	(	_	17	punct	_	SpaceAfter=No
-17	1954	1954	NUM	CD	NumType=Card	14	obl:tmod	_	SpaceAfter=No
+17	1954	1954	NUM	CD	NumType=Card	14	nmod:tmod	_	SpaceAfter=No
 18	)	)	PUNCT	)	_	17	punct	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	24	punct	_	_
 20	die	der	PRON	REL	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	24	nsubj:pass	_	_
@@ -20317,7 +20317,7 @@
 16	Filmen	Film	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	_
 17	„	„	PUNCT	``	_	22	punct	_	SpaceAfter=No
 18	Per	per	ADP	IN	_	19	case	_	Proper=True
-19	Anhalter	Anhalter	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	obl	_	Proper=True
+19	Anhalter	Anhalter	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	nmod	_	Proper=True
 20	durch	durch	ADP	IN	_	22	case	_	Proper=True
 21	die	der	DET	DT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	Proper=True
 22	Galaxis	Galaxis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No|Proper=True
@@ -20362,7 +20362,7 @@
 7	in	in	ADP	APPR	_	9	case	_	_
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Dezember	Dezember	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
-10	1912	1912	NUM	CD	NumType=Card	9	obl:tmod	_	_
+10	1912	1912	NUM	CD	NumType=Card	9	nmod:tmod	_	_
 11	lehnten	lehnen	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 12	die	der	DET	DT	Case=Nom|Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	Vertreter	Vertreter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
@@ -22566,7 +22566,7 @@
 2	dem	der	DET	DT	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	1	1	NOUN	NNA	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|InflectionType=Weak
 4	.	.	PUNCT	.	_	3	punct	_	_
-5	Januar	Januar	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl:tmod	_	_
+5	Januar	Januar	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod:tmod	_	_
 6	wird	werden	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	aux	_	_
 7	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
 8	eine	ein	DET	DT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	9	det	_	_
@@ -24376,7 +24376,7 @@
 # text_en = The Suez Crisis showed the limits of the old colonial powers such as Great Britain and France in a changing world.
 1	Die	der	DET	DT	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Sueskrise	Sueskrise	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	1956	1956	NUM	CD	NumType=Card	2	obl:tmod	_	_
+3	1956	1956	NUM	CD	NumType=Card	2	nmod:tmod	_	_
 4	zeigte	zeigen	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 5	die	der	DET	DT	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	Grenzen	Grenze	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
@@ -24402,7 +24402,7 @@
 3	Machtübernahme	Machtübernahme	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
 4	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Nationalsozialismus	Nationalsozialismus	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	Proper=True
-6	1933	1933	NUM	CD	NumType=Card	3	obl:tmod	_	_
+6	1933	1933	NUM	CD	NumType=Card	3	nmod:tmod	_	_
 7	gab	geben	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 8	es	es	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
 9-10	im	_	_	_	_	_	_	_	_
@@ -25269,7 +25269,7 @@
 4	Pluvoise	Pluvoise	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
 5	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 6	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
-7	III	III	NUM	CD	NumType=Card	6	obl:tmod	_	_
+7	III	III	NUM	CD	NumType=Card	6	nmod:tmod	_	_
 8	(	(	PUNCT	(	_	9	punct	_	SpaceAfter=No
 9	Januar	Januar	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
 10	-	-	CCONJ	CC	_	11	cc	_	_
@@ -25368,7 +25368,7 @@
 10	Großteil	Großteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
 11	des	der	DET	DT	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Sommers	Sommer	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
-13	1947	1947	NUM	CD	NumType=Card	12	obl:tmod	_	_
+13	1947	1947	NUM	CD	NumType=Card	12	nmod:tmod	_	_
 14	in	in	ADP	IN	_	16	case	_	_
 15	der	der	DET	DT	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	Schweiz	Schweiz	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
